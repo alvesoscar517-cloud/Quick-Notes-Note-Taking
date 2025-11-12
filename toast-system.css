@@ -1,0 +1,98 @@
+/* toast-system.css - Simple Toast similar to main_app */
+/* Version: 2.0 - Updated with !important to prevent overrides */
+/* Container - not needed as toast manages its own position */
+/* Simple Toast - Similar to main_app */
+.unified-toast {
+    position: fixed !important;
+    bottom: -100px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    background: rgba(44, 44, 46, 0.9) !important;
+    color: #fff !important;
+    padding: 12px 20px !important;
+    border-radius: 15px !important;
+    font-size: 14px !important;
+    font-weight: 500 !important;
+    z-index: 100000 !important;
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    backdrop-filter: blur(30px) !important;
+    -webkit-backdrop-filter: blur(30px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.25) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(255, 255, 255, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+    min-width: 120px !important;
+    max-width: 90vw !important;
+    min-height: 40px !important;
+    max-height: 80px !important;
+    text-align: center !important;
+    white-space: normal !important;
+    word-wrap: break-word !important;
+    word-break: break-word !important;
+    line-height: 1.3 !important;
+    overflow: hidden !important;
+}
+
+/* Show animation */
+.unified-toast.show {
+    bottom: 20px !important;
+    opacity: 1 !important;
+    transform: translateX(-50%) translateY(0) !important;
+}
+
+/* Hide animation */
+.unified-toast.hide {
+    bottom: -100px !important;
+    opacity: 0 !important;
+    transform: translateX(-50%) translateY(20px) !important;
+}
+
+/* No need for icon, close button, or type classification */
+
+/* Light theme */
+body.light-theme .unified-toast {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #000 !important;
+    border: 1px solid rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08),
+        0 0 0 1px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+    .unified-toast {
+        max-width: calc(100vw - 32px) !important;
+        padding: 10px 16px !important;
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .unified-toast {
+        max-width: 80vw !important;
+        padding: 11px 18px !important;
+        font-size: 13px !important;
+    }
+}
+
+@media (min-width: 769px) {
+    .unified-toast {
+        max-width: 400px !important;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .unified-toast {
+        transition: opacity 0.2s ease !important;
+    }
+}
+
+/* Reset any potential overrides from parent containers */
+.note-container .unified-toast,
+body .unified-toast,
+* .unified-toast {
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}

@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Tezkor qaydlarni ochish",
+    "description": "Kengaytma harakat tugmasi uchun standart sarlavha"
+  },
+  "ai_accessDenied": {
+    "message": "Kirish taqiqlandi. Iltimos, ruxsatlaringizni tekshiring.",
+    "description": "Kirish rad etilganda xatolik xabari"
+  },
+  "ai_actionApply": {
+    "message": "Qaydga qo'llash",
+    "description": "AI qo'llash harakati tugmasi sarlavhasi"
+  },
+  "ai_actionCopy": {
+    "message": "Nusxalash",
+    "description": "AI nusxalash harakati tugmasi sarlavhasi"
+  },
+  "ai_actionItems": {
+    "message": "Vazifalar yaratish",
+    "description": "Harakat elementlarini chiqarish va vazifalar ro'yxatini yaratish uchun AI harakati"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API kaliti sozlanmagan",
+    "description": "API kaliti sozlanmaganda xatolik xabari"
+  },
+  "ai_appendToNote": {
+    "message": "Ko'rsatmoq",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Kontentni qaydga qo'llashda xatolik",
+    "description": "AI kontentini qaydga qo'llashda xatolik bo'lganda xatolik xabari"
+  },
+  "ai_applyToNote": {
+    "message": "Qaydga qo'llash",
+    "description": "AI natijasini qaydga qo'llash uchun tugma matni"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Backend server mavjud emas. Iltimos, ulanishingizni tekshiring va qayta urinib ko'ring.",
+    "description": "Backend server mavjud bo'lmaganda xatolik xabari"
+  },
+  "ai_backendNotConfigured": {
+    "message": "Backend URL sozlanmagan",
+    "description": "Backend URL sozlanmaganda xatolik xabari"
+  },
+  "ai_backendNotResponding": {
+    "message": "Backend server javob bermayapti",
+    "description": "Backend server javob bermayotganda xatolik xabari"
+  },
+  "ai_chatWindowFailed": {
+    "message": "AI suhbat oynasini yaratishda xatolik",
+    "description": "AI suhbat oynasini yaratishda xatolik bo'lganda xatolik xabari"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Tanlangan matn haqida AI bilan suhbatlashish",
+    "description": "AI suzuvchi tugmasi va joy egallovchi sarlavhasi"
+  },
+  "ai_contentApplied": {
+    "message": "Kontent qaydingizga qo'llanildi!",
+    "description": "AI kontenti qaydga qo'llanilganda muvaffaqiyat xabari"
+  },
+  "ai_contentCopied": {
+    "message": "Kontent buferga nusxalandi!",
+    "description": "AI kontenti buferga nusxalanganda muvaffaqiyat xabari"
+  },
+  "ai_contentFiltered": {
+    "message": "Filtrlangan",
+    "description": "Kontent filtrlanganida xatolik xabari"
+  },
+  "ai_contentInserted": {
+    "message": "Tarkib solingan va tanlangan matn almashtirildi",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Tarkib yo'q",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Nusxalash",
+    "description": "AI natijasini nusxalash uchun tugma matni"
+  },
+  "ai_copyFailed": {
+    "message": "Buferga nusxalashda xatolik",
+    "description": "AI kontentini buferga nusxalashda xatolik bo'lganda xatolik xabari"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Kunlik limitga yetildi (15/15). Ertaga qayta urinib ko'ring.",
+    "description": "Kunlik AI limitiga yetilganda xatolik xabari"
+  },
+  "ai_downloadImage": {
+    "message": "Rasmni yuklab olish",
+    "description": "Rasmni kompyuterga yuklab olish uchun kontekst menyusi opsiyasi"
+  },
+  "ai_emptyResponse": {
+    "message": "AI bo'sh javob qaytardi. Iltimos, qayta urinib ko'ring.",
+    "description": "AI bo'sh javobi uchun xatolik xabari"
+  },
+  "ai_errorPrefix": {
+    "message": "AI xatosi",
+    "description": "AI xatolik xabarlari uchun prefiks"
+  },
+  "ai_expand": {
+    "message": "Kengaytirish",
+    "description": "Kontentni kengaytirish uchun AI harakati"
+  },
+  "ai_extractText": {
+    "message": "Matnni chiqarish (OCR)",
+    "description": "Rasmdan matnni OCR yordamida chiqarish uchun kontekst menyusi opsiyasi"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Rasmni tahlil qilishda xatolik",
+    "description": "Rasmni tahlil qilishda xatolik bo'lganda xatolik xabari"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Rasm tahlil qilinmoqda...",
+    "description": "AI rasmni tahlil qilayotganda yuklanish xabari"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Kunlik rasm tahlili chegarasiga yetildi. Cheksiz tahlil uchun premiumga o'ting.",
+    "description": "Foydalanuvchi kunlik rasm tahlili chegarasiga yetganda xabar"
+  },
+  "ai_imageDownloadError": {
+    "message": "Rasmni yuklab olishda xatolik",
+    "description": "Rasmni yuklab olishda xatolik bo'lganda xatolik xabari"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Rasm muvaffaqiyatli yuklab olindi",
+    "description": "Rasm yuklab olinganda muvaffaqiyat xabari"
+  },
+  "ai_improve": {
+    "message": "Yaxshilash",
+    "description": "Kontentni yaxshilash uchun AI harakati"
+  },
+  "ai_inputHint": {
+    "message": "Yuborish uchun Enter, yangi qator uchun Shift+Enter tugmalarini bosing",
+    "description": "AI kiritish uchun maslahat matni"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Xabaringizni yozing yoki tezkor harakatni tanlang...",
+    "description": "AI kiritish uchun joy egallovchi matn"
+  },
+  "ai_insertFailed": {
+    "message": "Tarkibni kiritib bo'lmadi",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Qo'shish va almashtirish",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Noto'g'ri API kaliti",
+    "description": "Noto'g'ri API kaliti uchun xatolik xabari"
+  },
+  "ai_invalidCredentials": {
+    "message": "Noto'g'ri kirish",
+    "description": "Noto'g'ri ma'lumotlar uchun xatolik xabari"
+  },
+  "ai_invalidModel": {
+    "message": "Yomon model",
+    "description": "Noto'g'ri model uchun xatolik xabari"
+  },
+  "ai_invalidResponse": {
+    "message": "Backend xizmatidan noto'g'ri javob.",
+    "description": "Backend xizmati noto'g'ri javob qaytarganda xatolik xabari"
+  },
+  "ai_limitReached": {
+    "message": "Siz bugungi {limit} ta AI so'rovining barchasini ishlatdingiz. Cheksiz kirish uchun Premiumga o'ting!",
+    "description": "Kunlik AI limitiga yetilganda xabar"
+  },
+  "ai_meetingNotes": {
+    "message": "Uchrashuv qaydlari",
+    "description": "Matnni uchrashuv qaydlari sifatida formatlash uchun AI harakati"
+  },
+  "ai_minimize": {
+    "message": "Kichraytirish",
+    "description": "Kichraytirish tugmasi matni"
+  },
+  "ai_modelNotFound": {
+    "message": "Model topilmadi",
+    "description": "Model topilmaganda xatolik xabari"
+  },
+  "ai_networkError": {
+    "message": "Tarmoq xatosi",
+    "description": "Tarmoq xatolari uchun xatolik xabari"
+  },
+  "ai_noConnection": {
+    "message": "Ulanish yo'q",
+    "description": "Ulanish bo'lmaganda xatolik xabari"
+  },
+  "ai_noResponse": {
+    "message": "AI dan javob yo'q",
+    "description": "AI javob qaytarmaganda xatolik xabari"
+  },
+  "ai_noSelectedText": {
+    "message": "Tanlangan matn yo'q",
+    "description": "Hech qanday matn tanlanmaganda xatolik xabari"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Bekor qilinadigan AI operatsiyalari yo'q",
+    "description": "Bekor qilinadigan AI operatsiyalari mavjud bo'lmaganda ma'lumot xabari"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR natijasi olingan",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Reja",
+    "description": "Reja yaratish uchun AI harakati"
+  },
+  "ai_premiumActive": {
+    "message": "Premium faol",
+    "description": "Premium faol bo'lganda ko'rsatiladigan matn"
+  },
+  "ai_processing": {
+    "message": "AI ishlamoqda...",
+    "description": "AI ishlayotganda ko'rsatiladigan matn"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kvota to'la",
+    "description": "Kvota oshib ketganda xatolik xabari"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "So'rovlar chegarasi oshib ketdi. Iltimos, keyinroq qayta urinib ko'ring.",
+    "description": "So'rovlar chegarasi oshib ketganda xatolik xabari"
+  },
+  "ai_requestTimeout": {
+    "message": "So'rov muddati tugadi",
+    "description": "So'rov muddati tugaganda xatolik xabari"
+  },
+  "ai_responseReceived": {
+    "message": "AI javobi olingan",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Bloklangan",
+    "description": "Kontent xavfsizlik filtri tomonidan bloklanganda xatolik xabari"
+  },
+  "ai_save": {
+    "message": "Saqlash",
+    "description": "Saqlash uchun AI harakati"
+  },
+  "ai_search": {
+    "message": "Qidirish",
+    "description": "Qidirish uchun AI harakati"
+  },
+  "ai_selectedText": {
+    "message": "Tanlangan matn",
+    "description": "AI kontekstidagi tanlangan matn uchun yorliq"
+  },
+  "ai_serverError": {
+    "message": "Server xatosi - Iltimos, keyinroq qayta urinib ko'ring",
+    "description": "Server xatolari uchun xatolik xabari"
+  },
+  "ai_serviceDown": {
+    "message": "Xizmat ishlamayapti",
+    "description": "Xizmat ishlamayotganda xatolik xabari"
+  },
+  "ai_serviceInitFailed": {
+    "message": "AI xizmatini ishga tushirishda xatolik",
+    "description": "AI xizmatini ishga tushirishda xatolik bo'lganda xatolik xabari"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI xizmati mavjud emas. Iltimos, sahifani yangilang.",
+    "description": "AI xizmati mavjud bo'lmaganda xatolik xabari"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI xizmati to'g'ri sozlanmagan",
+    "description": "AI xizmati sozlanmaganda xatolik xabari"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI xizmati ishga tushirilmagan",
+    "description": "AI xizmati ishga tushirilmaganda xatolik xabari"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI xizmati vaqtincha mavjud emas",
+    "description": "AI xizmati vaqtincha mavjud bo'lmaganda xatolik xabari"
+  },
+  "ai_signInRequired": {
+    "message": "AI xususiyatlaridan foydalanish uchun kiring. Kengaytmadagi kirish tugmasini bosing.",
+    "description": "Foydalanuvchi AI xususiyatlari uchun kirishi kerak bo'lganda xatolik xabari"
+  },
+  "ai_signInToUnlock": {
+    "message": "Ochish uchun kiring",
+    "description": "Foydalanuvchini AI ni ochish uchun kirishga undovchi matn"
+  },
+  "ai_statsFailed": {
+    "message": "Statistika xatosi",
+    "description": "Statistika so'rovi bajarilmaganda xatolik xabari"
+  },
+  "ai_suggestions": {
+    "message": "Takliflar",
+    "description": "Takliflar berish uchun AI harakati"
+  },
+  "ai_summarize": {
+    "message": "Xulosa qilish",
+    "description": "Kontentni xulosa qilish uchun AI harakati"
+  },
+  "ai_timeout": {
+    "message": "Muddati tugadi",
+    "description": "Muddati tugaganligi uchun xatolik xabari"
+  },
+  "ai_title": {
+    "message": "AI yordamchisi",
+    "description": "AI yordamchisi sarlavhasi"
+  },
+  "ai_tone": {
+    "message": "Ohang",
+    "description": "Ohangni sozlash uchun AI harakati"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramatik",
+    "description": "Dramatik ohang nomi"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z ohang nomi"
+  },
+  "ai_toneHumorous": {
+    "message": "Hazil",
+    "description": "Hazil ohang nomi"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "O'zgartirish uchun matnni tanlang yoki kontent qo'shing",
+    "description": "Ohangni o'zgartirish uchun matn tanlanmaganda xatolik xabari"
+  },
+  "ai_tonePoetic": {
+    "message": "She'riy",
+    "description": "She'riy ohang nomi"
+  },
+  "ai_toneProfessional": {
+    "message": "Professional",
+    "description": "Professional ohang nomi"
+  },
+  "ai_toneSimplify": {
+    "message": "Soddalashtirish",
+    "description": "Soddalashtirish ohang nomi"
+  },
+  "ai_translate": {
+    "message": "Tarjima qilish",
+    "description": "Kontentni tarjima qilish uchun AI harakati"
+  },
+  "ai_translateToEnglish": {
+    "message": " ingliz tiliga",
+    "description": "Tarjima harakati uchun qo'shimcha"
+  },
+  "ai_undoSuccess": {
+    "message": "AI operatsiyasi muvaffaqiyatli bekor qilindi!",
+    "description": "AI operatsiyasi bekor qilinganda muvaffaqiyat xabari"
+  },
+  "ai_unknownError": {
+    "message": "Noma'lum AI xatosi",
+    "description": "Noma'lum AI xatolari uchun umumiy xatolik xabari"
+  },
+  "ai_usageLocked": {
+    "message": "QULFLANGAN",
+    "description": "AI dan foydalanish qulflanganda ko'rsatiladigan matn"
+  },
+  "ai_usageUnlimited": {
+    "message": "Cheksiz",
+    "description": "AI dan foydalanish cheksiz bo'lganda ko'rsatiladigan matn"
+  },
+  "ai_userMessage": {
+    "message": "Foydalanuvchi xabari",
+    "description": "AI kontekstidagi foydalanuvchi xabari uchun yorliq"
+  },
+  "ai_userRequest": {
+    "message": "Foydalanuvchi so'rovi",
+    "description": "AI kontekstidagi foydalanuvchi so'rovi uchun yorliq"
+  },
+  "ai_welcome": {
+    "message": "Salom! Men sizning AI yordamchingizman. Men sizga qaydlaringizni umumlashtirish, kengaytirish, yaxshilash yoki tarjima qilishda yordam berishim mumkin. Sizga nima bilan yordam berishimni xohlaysiz?",
+    "description": "AI yordamchisidan salomlashish xabari"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Xush kelibsiz, Premium foydalanuvchi! Sizda cheksiz AI so'rovlari mavjud.",
+    "description": "Premium foydalanuvchilar uchun xush kelibsiz xabari"
+  },
+  "ai_welcomeUser": {
+    "message": "Xush kelibsiz! Bugun sizda {limit} tadan {remaining} ta AI so'rovi qoldi.",
+    "description": "Qolgan AI so'rovlarini ko'rsatuvchi xush kelibsiz xabari"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI tahlili bajarilmadi",
+    "description": "AI tahlili bajarilmaganda standart xatolik xabari"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI tahlili bajarilmadi. Iltimos, qayta urinib ko'ring.",
+    "description": "AI tahlili bajarilmaganda qayta urinish so'rovi bilan xatolik xabari"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Tahlil yakunlandi!",
+    "description": "Tahlil tugaganda xabar"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Tahlil qilindi",
+    "description": "AI ish maydonidagi tahlil qilinganlar soni yorlig'i"
+  },
+  "ai_workspace_close": {
+    "message": "Yopish",
+    "description": "AI ish maydoni yopish tugmasi"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "To'plam tahlili",
+    "description": "To'plam tahlili natijalari sarlavhasi"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "{count} ta qayddan olingan tushunchalar bilan yangi qayd yaratildi.",
+    "description": "AI ish maydoni qayd yaratganda muvaffaqiyat xabari"
+  },
+  "ai_workspace_error": {
+    "message": "To'plamni qayta ishlashda xatolik",
+    "description": "AI ish maydoni uchun xatolik xabari"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Namunalar topish",
+    "description": "To'plamdagi namunalarni topish tugmasi"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Tushunchalar yaratish",
+    "description": "To'plamdan tushunchalar yaratish tugmasi"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "To'plamingiz haqida xohlagan narsani so'rang...",
+    "description": "AI ish maydoni kiritish uchun joy egallovchi matn"
+  },
+  "ai_workspace_intro": {
+    "message": "AI ish maydoni - AI modellarining imkoniyatlarini maksimal darajada oshirish uchun mo'ljallangan kuchli xususiyat bo'lib, u sizga alohida qaydlar o'rniga bir vaqtning o'zida butun qaydlar to'plamlarini tahlil qilish va qayta ishlash imkonini beradi.",
+    "description": "AI ish maydoni uchun kirish matni"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Bu to'plamda tahlil qilinadigan qaydlar yo'q",
+    "description": "To'plam bo'sh bo'lganda xabar"
+  },
+  "ai_workspace_notes_label": {
+    "message": "ta qayd",
+    "description": "Qaydlar soni yorlig'i"
+  },
+  "ai_workspace_processing": {
+    "message": "Ishlanmoqda...",
+    "description": "AI ish maydonida ishlayotganda ko'rsatiladigan matn"
+  },
+  "ai_workspace_prompt": {
+    "message": "AI bu qaydlar bilan nima qilishini xohlaysiz?\n\nMisollar:\n- Barcha qaydlarni xulosa qilish\n- Asosiy mavzular va kalit so'zlarni chiqarish\n- Asosiy vazifalar ro'yxatini yaratish\n- Bu qaydlardan FAQ yaratish\n- Mavzular o'rtasidagi bog'liqliklarni topish",
+    "description": "AI ish maydoni vazifasini kiritish uchun so'rov matni"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "AI javobida xatolik. Iltimos, qayta urinib ko'ring.",
+    "description": "AI javobida xatolik bo'lganda xatolik xabari"
+  },
+  "ai_workspace_send": {
+    "message": "Yuborish",
+    "description": "AI ish maydoni yuborish tugmasi"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "To'plamni xulosa qilish",
+    "description": "Butun to'plamni xulosa qilish tugmasi"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Ushbu qaydlardan tez-tez so'raladigan savollar va javoblar (FAQ) ro'yxatini yarating. Muhim mavzularni aniqlang va batafsil javoblar bilan mos savollar yarating.",
+    "description": "FAQ harakati uchun vazifa tavsifi"
+  },
+  "ai_workspace_task_label": {
+    "message": "Vazifa",
+    "description": "AI ish maydoni tahlilidagi vazifa yorlig'i"
+  },
+  "ai_workspace_task_search": {
+    "message": "Qaydlardagi ma'lumotlar o'rtasidagi bog'liqliklarni toping va tushuntiring. Qaydlarda aytib o'tilgan turli mavzular o'rtasidagi aloqalar, ziddiyatlar yoki munosabatlarni aniqlang.",
+    "description": "Qidiruv harakati uchun vazifa tavsifi"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Ushbu to'plamdagi barcha qaydlardan keng qamrovli xulosa yarating. Eng muhim nuqtalarni ta'kidlang va yagona, izchil xulosa yarating.",
+    "description": "Sintez harakati uchun vazifa tavsifi"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Ushbu tadqiqot qaydlaridan 5 ta asosiy mavzu va tegishli kalit so'zlarni aniqlang. Mavzular va mos keladigan kalit so'zlar bilan tuzilgan ro'yxat yarating.",
+    "description": "Mavzular harakati uchun vazifa tavsifi"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Barcha qaydlarni skanerlang va keng qamrovli vazifalar ro'yxatini yarating. Qaydlarda aytib o'tilgan barcha 'harakat elementlari', vazifalar yoki bajarilishi kerak bo'lgan ishlarni toping va tuzilgan nazorat ro'yxatini yarating.",
+    "description": "Vazifalar harakati uchun vazifa tavsifi"
+  },
+  "ai_workspace_title": {
+    "message": "AI ish maydoni",
+    "description": "AI ish maydoni modal sarlavhasi"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Kunlik foydalanish chegarasiga yetildi. Cheksiz AI ish maydoni uchun premiumga o'ting.",
+    "description": "Kunlik chegaraga yetilganda xabar"
+  },
+  "app_description": {
+    "message": "Glassmorfizm uslubida qaydlar yarating, boshqaring va sinxronlang.",
+    "description": "Ilova tavsifi"
+  },
+  "app_name": {
+    "message": "__Prede_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Referat",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Hamma",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Rojdestvo",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrik",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Tabiat",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Odat",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "O'chirish",
+    "description": "Fon kontekst menyusidagi o'chirish opsiyasi matni"
+  },
+  "background_none": {
+    "message": "Yo'q",
+    "description": "Fonsiz opsiyasi matni"
+  },
+  "background_setAsDefault": {
+    "message": "Standart sifatida o'rnatish",
+    "description": "Fon kontekst menyusidagi standart sifatida o'rnatish opsiyasi matni"
+  },
+  "background_upload": {
+    "message": "Yuklash",
+    "description": "Fonni yuklash opsiyasi matni"
+  },
+  "collections_addNoteHere": {
+    "message": "Qaydni bu yerga qo'shish",
+    "description": "Kesilgan qaydni to'plamga qo'yish uchun tugma matni"
+  },
+  "collections_collection": {
+    "message": "To'plam",
+    "description": "To'plam uchun yorliq"
+  },
+  "collections_collectionCreated": {
+    "message": "Yaratildi",
+    "description": "To'plam yaratilganda muvaffaqiyat xabari"
+  },
+  "collections_collectionDeleted": {
+    "message": "O'chirildi",
+    "description": "To'plam o'chirilganda muvaffaqiyat xabari"
+  },
+  "collections_collectionName": {
+    "message": "To'plam nomi",
+    "description": "To'plam nomi maydoni uchun yorliq"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "To'plam nomini kiriting...",
+    "description": "To'plam nomi kiritish uchun joy egallovchi matn"
+  },
+  "collections_collectionPinned": {
+    "message": "Mahkamlandi",
+    "description": "To'plam mahkamlanganda muvaffaqiyat xabari"
+  },
+  "collections_collectionTheme": {
+    "message": "Mavzu",
+    "description": "To'plam mavzusi uchun yorliq"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Mahkamlanmadi",
+    "description": "To'plam mahkamlanmaganda muvaffaqiyat xabari"
+  },
+  "collections_collectionUpdated": {
+    "message": "Yangilandi",
+    "description": "To'plam yangilanganda muvaffaqiyat xabari"
+  },
+  "collections_create": {
+    "message": "Yaratish",
+    "description": "Yaratish uchun tugma matni"
+  },
+  "collections_createCollection": {
+    "message": "To'plam yaratish",
+    "description": "Yangi to'plam yaratish uchun tugma matni"
+  },
+  "collections_createNoteInCollection": {
+    "message": "To'plamda qayd yaratish",
+    "description": "To'plamda qayd yaratish uchun tugma matni"
+  },
+  "collections_deleteCollection": {
+    "message": "To'plamni o'chirish",
+    "description": "To'plamni o'chirish uchun tugma matni"
+  },
+  "collections_editCollection": {
+    "message": "To'plamni tahrirlash",
+    "description": "To'plamni tahrirlash uchun tugma matni"
+  },
+  "collections_emptyCollection": {
+    "message": "Bu to'plam bo'sh",
+    "description": "To'plam bo'sh bo'lganda ko'rsatiladigan xabar"
+  },
+  "collections_enterCollectionName": {
+    "message": "Iltimos, to'plam nomini kiriting",
+    "description": "To'plam nomi talab qilinganda xatolik xabari"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Qayd yaratishda xatolik",
+    "description": "Qayd yaratishda xatolik bo'lganda xatolik xabari"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "To'plam xatosi",
+    "description": "To'plam yaratish/yangilashda xatolik xabari"
+  },
+  "collections_errorDeleting": {
+    "message": "O'chirishda xatolik",
+    "description": "To'plamni o'chirishda xatolik xabari"
+  },
+  "collections_errorLoading": {
+    "message": "Yuklashda xatolik",
+    "description": "To'plamni yuklashda xatolik xabari"
+  },
+  "collections_errorMovingNote": {
+    "message": "Ko'chirishda xatolik",
+    "description": "Qaydni ko'chirishda xatolik xabari"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Mahkamlashda xatolik",
+    "description": "To'plamni mahkamlashni o'zgartirishda xatolik xabari"
+  },
+  "collections_errorUpdating": {
+    "message": "Yangilashda xatolik",
+    "description": "To'plamni yangilashda xatolik xabari"
+  },
+  "collections_limitReached": {
+    "message": "To'plamlar chegarasiga yetildi",
+    "description": "To'plamlar chegarasiga yetilganda xabar"
+  },
+  "collections_moveToCollection": {
+    "message": "To'plamga ko'chirish",
+    "description": "Qaydni to'plamga ko'chirish uchun tugma matni"
+  },
+  "collections_noteCount": {
+    "message": "ta qayd",
+    "description": "To'plamlardagi qaydlar soni uchun matn"
+  },
+  "collections_noteCreated": {
+    "message": "Qayd to'plamda yaratildi",
+    "description": "Qayd to'plamda yaratilganda muvaffaqiyat xabari"
+  },
+  "collections_notes": {
+    "message": "ta qayd",
+    "description": "To'plamlardagi qaydlar soni uchun matn"
+  },
+  "collections_notesMoved": {
+    "message": "ta qayd to'plamga ko'chirildi",
+    "description": "Qaydlar to'plamga ko'chirilganda xabar"
+  },
+  "collections_pinCollection": {
+    "message": "To'plamni mahkamlash",
+    "description": "To'plamni mahkamlash uchun tugma matni"
+  },
+  "collections_removeFromCollection": {
+    "message": "To'plamdan olib tashlash",
+    "description": "Elementni to'plamdan olib tashlash uchun tugma matni"
+  },
+  "collections_save": {
+    "message": "Saqlash",
+    "description": "O'zgarishlarni saqlash uchun tugma matni"
+  },
+  "collections_unpinCollection": {
+    "message": "To'plamni mahkamlashdan yechish",
+    "description": "To'plamni mahkamlashdan yechish uchun tugma matni"
+  },
+  "command_execute_action": {
+    "message": "Tezkor qaydlarni ochish",
+    "description": "Bajarish harakati buyrug'i uchun tavsif"
+  },
+  "confirmations_cancel": {
+    "message": "Bekor qilish",
+    "description": "Bekor qilish tugmasi matni"
+  },
+  "confirmations_close": {
+    "message": "Yopish",
+    "description": "Yopish tugmasi matni"
+  },
+  "confirmations_continue": {
+    "message": "Davom etish",
+    "description": "Davom etish tugmasi matni"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Chiqindi qutisidagi barcha qaydlar butunlay o'chirilsinmi?",
+    "description": "Chiqindi qutisini butunlay o'chirish uchun tasdiqlash xabari"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Haqiqatan ham bu to'plamni butunlay o'chirmoqchimisiz? Bu harakatni bekor qilib bo'lmaydi.",
+    "description": "To'plamni butunlay o'chirish uchun tasdiqlash xabari"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Qayd butunlay o'chirilsinmi?",
+    "description": "Qaydni butunlay o'chirish uchun tasdiqlash xabari"
+  },
+  "confirmations_overwriteData": {
+    "message": "Bu barcha mavjud ma'lumotlarni qayta yozadi. Davom etasizmi?",
+    "description": "Ma'lumotlarni qayta yozish uchun tasdiqlash xabari"
+  },
+  "contextMenu_addToNote": {
+    "message": "Tezkor qaydga qo'shish",
+    "description": "Tanlangan matnni qaydga qo'shish uchun kontekst menyusi elementi"
+  },
+  "dragDropCreateWindow": {
+    "message": "Yangi oynani yaratish uchun tomchi",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Birlashtirish uchun bu erda Tabni tushiring",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Derazalarni birlashtirish uchun tomchi",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI suhbatda xatolik",
+    "description": "AI suhbatda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI kengaytirishda xatolik",
+    "description": "AI kengaytirishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI yaxshilashda xatolik",
+    "description": "AI yaxshilashda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "AI ni ishga tushirishda xatolik",
+    "description": "AI ni ishga tushirishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI uchrashuv qaydlarida xatolik",
+    "description": "AI uchrashuv qaydlarida xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI rejada xatolik",
+    "description": "AI rejada xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI so'rovi amalga oshmadi",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "AI backend URL ni o'rnatishda xatolik",
+    "description": "AI backend URL ni o'rnatishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI takliflarida xatolik",
+    "description": "AI takliflarida xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI xulosalashda xatolik",
+    "description": "AI xulosalashda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI ohangda xatolik",
+    "description": "AI ohangda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Backend sog'lig'ini tekshirishda xatolik",
+    "description": "Backend sog'lig'ini tekshirishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Backend so'rovida xatolik",
+    "description": "Backend so'rovida xatolik bo'lganda xatolik xabari"
+  },
+  "errors_backendServerError": {
+    "message": "Backend server xatosi",
+    "description": "Backend server xatolari uchun xatolik xabari"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "AI keshini tozalashda xatolik",
+    "description": "AI keshini tozalashda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "AI ochish holatini tekshirishda xatolik",
+    "description": "AI ochish holatini tekshirishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Foydalanish statistikasini olishda xatolik",
+    "description": "Foydalanish statistikasini olishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Xizmat ishchisida foydalanuvchi elektron pochtasini olishda xatolik",
+    "description": "Foydalanuvchi elektron pochtasini olishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Eslatma keltirib chiqara olmadi",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Sarlavha yaratishda xatolik",
+    "description": "AI sarlavha yaratishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "AI xizmatini ishga tushirishda xatolik",
+    "description": "AI xizmatini ishga tushirishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_genericError": {
+    "message": "Xatolik yuz berdi. Iltimos, qayta urinib ko'ring.",
+    "description": "Noma'lum xatolar uchun umumiy xatolik xabari"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Kunlik foydalanish statistikasini olishda xatolik",
+    "description": "Kunlik foydalanish statistikasini olishda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API xatosi",
+    "description": "Google Drive API xatolari uchun xatolik xabari"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Javob formati noto'g'ri",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Eslatma bo'sh. Iltimos, ushbu xususiyatdan foydalanishdan oldin tarkib qo'shing.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Qayd mahalliy xotirada topilmadi",
+    "description": "Qayd mahalliy topilmaganda xatolik xabari"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Server tanlati boshlanmadi",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Sinxronlash jarayoni xato bilan yakunlandi",
+    "description": "Sinxronlash jarayoni bajarilmaganda xatolik xabari"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Cheksiz so'rovda xatolik",
+    "description": "Cheksiz so'rovda xatolik bo'lganda xatolik xabari"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Foydalanuvchi tasdiqlanmagan",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Bajarildi!",
+    "description": "Eksport muvaffaqiyatli modal sarlavhasi"
+  },
+  "export_downloadSuccess": {
+    "message": "Rasm muvaffaqiyatli yuklab olindi",
+    "description": "Eksport muvaffaqiyatli modal uchun xabar"
+  },
+  "export_exportingImages": {
+    "message": "Rasmlar eksport qilinmoqda...",
+    "description": "Eksport yuklash modal sarlavhasi"
+  },
+  "export_pleaseWait": {
+    "message": "Iltimos, bir oz kuting",
+    "description": "Eksport yuklash modal uchun xabar"
+  },
+  "icons_hobby": {
+    "message": "Xobbi",
+    "description": "Xobbi belgisi uchun alt matn"
+  },
+  "icons_ideas": {
+    "message": "G'oyalar",
+    "description": "G'oyalar belgisi uchun alt matn"
+  },
+  "icons_personal": {
+    "message": "Shaxsiy",
+    "description": "Shaxsiy belgisi uchun alt matn"
+  },
+  "icons_study": {
+    "message": "O'qish",
+    "description": "O'qish belgisi uchun alt matn"
+  },
+  "icons_travel": {
+    "message": "Sayohat",
+    "description": "Sayohat belgisi uchun alt matn"
+  },
+  "icons_work": {
+    "message": "Ish",
+    "description": "Ish belgisi uchun alt matn"
+  },
+  "main_createNote": {
+    "message": "Yangi qayd yaratish",
+    "description": "Yangi qayd yaratish uchun tugma matni"
+  },
+  "main_deleteNote": {
+    "message": "Qaydni o'chirish",
+    "description": "Qaydni o'chirish uchun tugma matni"
+  },
+  "main_newNote": {
+    "message": "Yangi qayd",
+    "description": "Yangi qayd uchun yorliq"
+  },
+  "main_noContent": {
+    "message": "Qo'shimcha kontent yo'q",
+    "description": "Qo'shimcha kontent bo'lmaganda ko'rsatiladigan matn"
+  },
+  "main_pinNote": {
+    "message": "Qaydni mahkamlash",
+    "description": "Qaydni mahkamlash uchun tugma matni"
+  },
+  "main_searchPlaceholder": {
+    "message": "Qaydlarni qidirish...",
+    "description": "Qidiruv kiritish uchun joy egallovchi matn"
+  },
+  "main_undoCut": {
+    "message": "Ko'chirishni bekor qilish",
+    "description": "Qaydni kesib olish harakatini bekor qilish uchun tugma matni"
+  },
+  "main_unpinNote": {
+    "message": "Qaydni mahkamlashdan yechish",
+    "description": "Qaydni mahkamlashdan yechish uchun tugma matni"
+  },
+  "messages_allNotesRestored": {
+    "message": "Tiklandi",
+    "description": "Barchasini tiklash muvaffaqiyatli xabari"
+  },
+  "messages_authError": {
+    "message": "Autentifikatsiya xatosi",
+    "description": "Autentifikatsiya muammolari uchun xatolik xabari"
+  },
+  "messages_authErrorDetails": {
+    "message": "Iltimos, tizimdan chiqib, qayta kirib ko'ring.",
+    "description": "Autentifikatsiya xatosi uchun tafsilotlar"
+  },
+  "messages_authenticationFailed": {
+    "message": "Autentifikatsiyada xatolik",
+    "description": "Autentifikatsiyada xatolik xabari"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Zaxirlandi",
+    "description": "Diskka zaxiralash xabari"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Bu fon faqat Premium foydalanuvchilar uchun mavjud. Barcha fonlarni ochish uchun yangilang.",
+    "description": "Qulflangan fonlar uchun premium xususiyat xabari"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Fonni yuklash xususiyati faqat Premium foydalanuvchilar uchun mavjud. Ushbu xususiyatdan foydalanish uchun yangilang.",
+    "description": "Fonni yuklash uchun premium xususiyat xabari"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Ulashish havolasini yaratib bo'lmaydi",
+    "description": "Ulashish havolasini yaratishda xatolik bo'lganda xatolik xabari"
+  },
+  "messages_checkoutFailed": {
+    "message": "To'lov sessiyasini yaratishda xatolik. Iltimos, qayta urinib ko'ring.",
+    "description": "To'lovni yaratishda xatolik bo'lganda xatolik xabari"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Google'ga ulanmoqda...",
+    "description": "Google'ga ulanishda yuklanish xabari"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Elektron pochtani yuklab bo'lmadi.",
+    "description": "Foydalanuvchi elektron pochtasini yuklab bo'lmaganda xatolik xabari"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Kunlik limitga yetildi. Ertaga sinab ko'ring yoki yangilang.",
+    "description": "Kunlik ulashish limitiga yetilganda ogohlantirish xabari"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Standart fon o'rnatildi!",
+    "description": "Standart fon o'rnatilganda muvaffaqiyat xabari"
+  },
+  "messages_done": {
+    "message": "Bajarildi",
+    "description": "Umumiy muvaffaqiyat xabari"
+  },
+  "messages_errorReadingFile": {
+    "message": "O'qishda xatolik",
+    "description": "Faylni o'qishda xatolik xabari"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Eksport qilindi",
+    "description": "Eksport muvaffaqiyatli xabari"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Chiqindi qutisini yuklashda xatolik",
+    "description": "Chiqindi qutisini yuklashda xatolik bo'lganda xatolik xabari"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Chiqindi qutisini yuklashda xatolik. Iltimos, qayta urinib ko'ring.",
+    "description": "Yuklash bajarilmaganda chiqindi qutisi konteynerida ko'rsatiladigan xatolik xabari"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Qaydni ko'chirishda xatolik",
+    "description": "Qaydni ko'chirishda xatolik bo'lganda xatolik xabari"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Import qilindi",
+    "description": "Import muvaffaqiyatli xabari"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Noto'g'ri fayl",
+    "description": "Noto'g'ri fayl formati uchun xatolik xabari"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Hisob ma'lumotlari yuklanmoqda...",
+    "description": "Hisob ma'lumotlarini olishda yuklanish xabari"
+  },
+  "messages_moveCancelled": {
+    "message": "Ko'chirish bekor qilindi",
+    "description": "Ko'chirish operatsiyasi bekor qilinganda xabar"
+  },
+  "messages_movedToCollection": {
+    "message": "To'plamga ko'chirildi",
+    "description": "Qayd to'plamga ko'chirilganda muvaffaqiyat xabari"
+  },
+  "messages_networkError": {
+    "message": "Tarmoq ulanishi yo'q",
+    "description": "Tarmoq muammolari uchun xatolik xabari"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Iltimos, internet ulanishingizni tekshiring va qayta urinib ko'ring.",
+    "description": "Tarmoq xatosi uchun tafsilotlar"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Ushbu to'plamda qaydlar topilmadi",
+    "description": "To'plamda qaydlar bo'lmaganda xabar"
+  },
+  "messages_noteDeleted": {
+    "message": "O'chirildi",
+    "description": "Qaydni o'chirish muvaffaqiyatli xabari"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Ko'chirildi",
+    "description": "Qayd to'plamga ko'chirilganda muvaffaqiyat xabari"
+  },
+  "messages_noteNotFound": {
+    "message": "Serverda qayd topilmadi. Iltimos, qayta urinib ko'ring.",
+    "description": "Serverda qayd topilmaganda xatolik xabari"
+  },
+  "messages_notePinned": {
+    "message": "Mahkamlandi",
+    "description": "Qaydni mahkamlash muvaffaqiyatli xabari"
+  },
+  "messages_noteUnpinned": {
+    "message": "Mahkamlanmadi",
+    "description": "Qaydni mahkamlashdan yechish muvaffaqiyatli xabari"
+  },
+  "messages_notesUpToDate": {
+    "message": "Yangilangan",
+    "description": "Qaydlar yangilangan bo'lganda xabar"
+  },
+  "messages_paymentError": {
+    "message": "To'lov xatosi. Iltimos, qayta urinib ko'ring.",
+    "description": "To'lov xatolari uchun xatolik xabari"
+  },
+  "messages_paymentVerificationError": {
+    "message": "To'lovni tekshirishda xatolik. Iltimos, sahifani yangilang.",
+    "description": "To'lovni tekshirishda xatolik bo'lganda xatolik xabari"
+  },
+  "messages_permissionDenied": {
+    "message": "Ruxsat rad etildi",
+    "description": "Foydalanuvchi ruxsatni rad etganda xatolik xabari"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Sinxronizatsiya xususiyatlaridan foydalanish uchun ilovaga ruxsat bering.",
+    "description": "Ruxsat rad etilgan xatolik uchun tafsilotlar"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Tiklandi",
+    "description": "Diskdan tiklash xabari"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "AI tahlili uchun kamida bitta qayd tanlang",
+    "description": "AI uchun hech qanday qayd tanlanmaganda xatolik xabari"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Iltimos, avval qaydlarni tanlang",
+    "description": "Hech qanday qayd tanlanmaganda xabar"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Ulashish sozlanmagan.",
+    "description": "Ulashish sozlanmaganda xatolik xabari"
+  },
+  "messages_signInFailed": {
+    "message": "Kirishda xatolik",
+    "description": "Kirishda xatolik xabari"
+  },
+  "messages_signInToShare": {
+    "message": "Ulashish uchun kiring",
+    "description": "Foydalanuvchi ulashish uchun kirishi kerak bo'lganda xatolik xabari"
+  },
+  "messages_signInToUpload": {
+    "message": "Yuklash uchun kiring",
+    "description": "Foydalanuvchi yuklash uchun kirishi kerak bo'lganda xatolik xabari"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Muvaffaqiyatli kirildi!",
+    "description": "Kirish muvaffaqiyatli xabari"
+  },
+  "messages_signedOut": {
+    "message": "Chiqildi",
+    "description": "Chiqish xabari"
+  },
+  "messages_syncFailed": {
+    "message": "Sinxronlashda xatolik",
+    "description": "Sinxronlashda xatolik xabari"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Sinxronlandi",
+    "description": "Diskdan sinxronlash xabari"
+  },
+  "messages_syncedToDrive": {
+    "message": "Sinxronlandi",
+    "description": "Diskka sinxronlash xabari"
+  },
+  "messages_syncingData": {
+    "message": "Ma'lumotlar sinxronlanmoqda...",
+    "description": "Ma'lumotlarni sinxronlashda yuklanish xabari"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Disk bilan sinxronlanmoqda...",
+    "description": "Google Drive bilan sinxronlashda ko'rsatiladigan xabar"
+  },
+  "messages_trashEmptied": {
+    "message": "Bo'shatildi",
+    "description": "Chiqindi qutisini bo'shatish muvaffaqiyatli xabari"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "To'lovni boshqarishni ochib bo'lmaydi. Iltimos, keyinroq qayta urinib ko'ring.",
+    "description": "To'lov portalini ochishda xatolik bo'lganda xatolik xabari"
+  },
+  "messages_verifyingPayment": {
+    "message": "To'lov tekshirilmoqda...",
+    "description": "To'lov tekshirilayotganda ko'rsatiladigan xabar"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Tanlanganlarni o'chirish",
+    "description": "Tanlangan elementlarni o'chirish uchun tugma matni"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Butunlay o'chirish",
+    "description": "Tanlangan elementlarni butunlay o'chirish uchun tugma matni"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Tanlanganlarni tiklash",
+    "description": "Tanlangan elementlarni tiklash uchun tugma matni"
+  },
+  "multiSelect_cancel": {
+    "message": "Bekor qilish",
+    "description": "Tanlovni bekor qilish uchun tugma matni"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Tanlangan elementlar butunlay o'chirilsinmi?",
+    "description": "Butunlay ommaviy o'chirish uchun tasdiqlash xabari"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Tanlangan elementlar tiklansinmi?",
+    "description": "Ommaviy tiklash uchun tasdiqlash xabari"
+  },
+  "multiSelect_selectAll": {
+    "message": "Barchasini tanlash",
+    "description": "Barcha elementlarni tanlash uchun tugma matni"
+  },
+  "multiSelect_selected": {
+    "message": "ta tanlandi",
+    "description": "Tanlanganlar soni uchun yorliq"
+  },
+  "note_aiAssistant": {
+    "message": "AI yordamchisi",
+    "description": "AI yordamchisi tugmasi matni"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Xohlagan narsani so'rang",
+    "description": "AI kiritish uchun joy egallovchi matn"
+  },
+  "note_aiToneMagic": {
+    "message": "AI ohang sehri",
+    "description": "AI ohang sehri tugmasi maslahati"
+  },
+  "note_alignCenter": {
+    "message": "Markazga tekislash",
+    "description": "Markazga tekislash tugmasi matni"
+  },
+  "note_alignLeft": {
+    "message": "Chapga tekislash",
+    "description": "Chapga tekislash tugmasi matni"
+  },
+  "note_alignRight": {
+    "message": "O'ngga tekislash",
+    "description": "O'ngga tekislash tugmasi matni"
+  },
+  "note_background": {
+    "message": "Fon",
+    "description": "Fon tugmasi matni"
+  },
+  "note_createNew": {
+    "message": "Yangi qayd yaratish",
+    "description": "Yangi qayd yaratish uchun tugma matni"
+  },
+  "note_defaultTitle": {
+    "message": "Yangi qayd",
+    "description": "Yangi qaydlar uchun standart sarlavha"
+  },
+  "note_deleteNote": {
+    "message": "Qaydni o'chirish",
+    "description": "Qaydni o'chirish tugmasi matni"
+  },
+  "note_download": {
+    "message": "Rasm sifatida yuklab olish",
+    "description": "Rasm sifatida yuklab olish tugmasi matni"
+  },
+  "note_editorNotAvailable": {
+    "message": "Muharrir mavjud emas",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Havola URL'ini kiriting...",
+    "description": "Havola URL'ini kiritish uchun joy egallovchi matn"
+  },
+  "note_enterVideoURL": {
+    "message": "Video URL'ini kiriting...",
+    "description": "Video URL'ini kiritish uchun joy egallovchi matn"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Formatlashni qo'llashda xatolik",
+    "description": "Formatlashda xatolik bo'lganda xatolik xabari"
+  },
+  "note_heading1": {
+    "message": "1-sarlavha",
+    "description": "1-sarlavha tugmasi matni"
+  },
+  "note_heading2": {
+    "message": "2-sarlavha",
+    "description": "2-sarlavha tugmasi matni"
+  },
+  "note_insertButton": {
+    "message": "Qo'shish",
+    "description": "Qo'shish tugmasi matni"
+  },
+  "note_insertImage": {
+    "message": "Rasm qo'shish",
+    "description": "Rasm qo'shish tugmasi matni"
+  },
+  "note_menu": {
+    "message": "Menyu",
+    "description": "Menyu tugmasi matni"
+  },
+  "note_ocrNotAvailable": {
+    "message": "CORS cheklovlari tufayli bu rasm uchun OCR mavjud emas.",
+    "description": "OCR mavjud bo'lmaganda ma'lumot xabari"
+  },
+  "note_removeFormat": {
+    "message": "Formatlashni olib tashlash",
+    "description": "Formatlashni olib tashlash tugmasi matni"
+  },
+  "note_share": {
+    "message": "Ulashish",
+    "description": "Ulashish tugmasi matni"
+  },
+  "note_smartColorsApplied": {
+    "message": "Aqlli ranglar qo'llaniladi!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Stromection Optimallashtirildi!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Barcha qaydlarni ko'rish",
+    "description": "Barcha qaydlarni ko'rish tugmasi matni"
+  },
+  "notification_defaultContent": {
+    "message": "Bildirishnoma kontenti",
+    "description": "Bildirishnoma modal uchun standart kontent"
+  },
+  "payment_checkTimeout": {
+    "message": "To'lovni tekshirish muddati tugadi. Agar to'lov bajarilgan bo'lsa, yangilang.",
+    "description": "To'lovni tekshirish muddati tugaganda xabar"
+  },
+  "payment_invalidPlan": {
+    "message": "Noto'g'ri reja tanlandi",
+    "description": "Noto'g'ri reja tanlanganda xatolik xabari"
+  },
+  "payment_signInRequired": {
+    "message": "To'lovni davom ettirish uchun kiring",
+    "description": "Foydalanuvchi to'lov uchun kirishi kerak bo'lganda xatolik xabari"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Kengaytirilgan xususiyatlarga kirish",
+    "description": "Premium xususiyati: kengaytirilgan xususiyatlarga kirish"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "AI premium belgisi uchun alt matn"
+  },
+  "premium_backgroundPremium": {
+    "message": "Fon Premium",
+    "description": "Fon premium belgisi uchun alt matn"
+  },
+  "premium_collectionsPremium": {
+    "message": "To'plamlar Premium",
+    "description": "To'plamlar premium belgisi uchun alt matn"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Tabriklaymiz!",
+    "description": "Premium muvaffaqiyatli modal sarlavhasi"
+  },
+  "premium_contact_support": {
+    "message": "Kontakt yordam",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Eksklyuziv fonlar",
+    "description": "Eksklyuziv fonlar xususiyati sarlavhasi"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Premium fonlarga kirish",
+    "description": "Eksklyuziv fonlar xususiyati tavsifi"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Eksklyuziv qo'llab-quvvatlash",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Jamoamizning ustuvor-texnik yordami",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Tugaydi",
+    "description": "Tugash sanasi uchun yorliq"
+  },
+  "premium_manage_billing": {
+    "message": "To'lovni boshqarish",
+    "description": "To'lovni boshqarish tugmasi matni"
+  },
+  "premium_next_billing": {
+    "message": "Keyingi to'lov",
+    "description": "Keyingi to'lov sanasi uchun yorliq"
+  },
+  "premium_plan_annual": {
+    "message": "Yillik Premium",
+    "description": "Yillik reja matni"
+  },
+  "premium_plan_monthly": {
+    "message": "Oylik Premium",
+    "description": "Oylik reja matni"
+  },
+  "premium_plan_trial": {
+    "message": "Sinov Premium",
+    "description": "Sinov reja matni"
+  },
+  "premium_plan_type": {
+    "message": "Reja turi",
+    "description": "Reja turi uchun yorliq"
+  },
+  "premium_prioritySupport": {
+    "message": "Ustuvor qo'llab-quvvatlash",
+    "description": "Premium xususiyati: ustuvor qo'llab-quvvatlash"
+  },
+  "premium_shareNotes": {
+    "message": "Qaydlarni ulashish",
+    "description": "Qaydlarni ulashish xususiyati sarlavhasi"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Qaydlarni boshqalar bilan ulashing",
+    "description": "Qaydlarni ulashish xususiyati tavsifi"
+  },
+  "premium_sharePremium": {
+    "message": "Ulashish Premium",
+    "description": "Ulashish premium belgisi uchun alt matn"
+  },
+  "premium_startFreeTrial": {
+    "message": "Bepul sinovni boshlash",
+    "description": "Bepul sinovni boshlash tugmasi matni"
+  },
+  "premium_startUsing": {
+    "message": "Foydalanishni boshlash",
+    "description": "Premium xususiyatlaridan foydalanishni boshlash tugmasi matni"
+  },
+  "premium_status": {
+    "message": "Holat",
+    "description": "Holat uchun yorliq"
+  },
+  "premium_status_active": {
+    "message": "Faol",
+    "description": "Faol obuna holati matni"
+  },
+  "premium_status_cancelled": {
+    "message": "Bekor qilingan",
+    "description": "Bekor qilingan obuna holati matni"
+  },
+  "premium_status_expired": {
+    "message": "Tugagan",
+    "description": "Tugagan obuna holati matni"
+  },
+  "premium_status_inactive": {
+    "message": "Faol emas",
+    "description": "Faol bo'lmagan obuna holati matni"
+  },
+  "premium_subscribeNow": {
+    "message": "Hozir obuna bo'lish",
+    "description": "Premiumga obuna bo'lish tugmasi matni"
+  },
+  "premium_support": {
+    "message": "Qo'llab-quvvatlash",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Cheksiz AI",
+    "description": "Cheksiz AI xususiyati sarlavhasi"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Cheksiz AI suhbati",
+    "description": "Premium xususiyati: cheksiz AI suhbati"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Kuniga cheksiz AI so'rovlari",
+    "description": "Cheksiz AI xususiyati tavsifi"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Cheksiz to'plamlar",
+    "description": "Cheksiz to'plamlar xususiyati sarlavhasi"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Cheksiz to'plamlar yarating",
+    "description": "Cheksiz to'plamlar xususiyati tavsifi"
+  },
+  "premium_unlockTitle": {
+    "message": "Cheksiz AI ni oching",
+    "description": "Premium ochish modal sarlavhasi"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Siz muvaffaqiyatli Premiumga o'tdingiz",
+    "description": "Premiumga muvaffaqiyatli o'tish xabari"
+  },
+  "search_noResults": {
+    "message": "Natijalar topilmadi",
+    "description": "Qidiruv natijalari bo'lmaganda ko'rsatiladigan sarlavha"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Boshqa kalit so'zlar bilan qidirib ko'ring yoki yangi qayd yarating",
+    "description": "Qidiruv natijalari bo'lmaganda ko'rsatiladigan xabar"
+  },
+  "settings_aiUsage": {
+    "message": "AI dan foydalanish",
+    "description": "Sozlamalardagi AI dan foydalanish bo'limi sarlavhasi"
+  },
+  "settings_aiUsageToday": {
+    "message": "Bugungi AI dan foydalanish",
+    "description": "Bugungi AI dan foydalanish yorlig'i"
+  },
+  "settings_appearance": {
+    "message": "Tashqi ko'rinish",
+    "description": "Tashqi ko'rinish sozlamalari bo'limi"
+  },
+  "settings_cloudSync": {
+    "message": "Bulutli sinxronizatsiya",
+    "description": "Bulutli sinxronizatsiya bo'limi yorlig'i"
+  },
+  "settings_configure": {
+    "message": "Sozlamoq",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Ma'lumotlarni boshqarish",
+    "description": "Ma'lumotlarni boshqarish sozlamalari bo'limi"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Standart eslatma hajmi",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Eksport",
+    "description": "Eksport tugmasi matni"
+  },
+  "settings_exportData": {
+    "message": "Ma'lumotlarni eksport qilish",
+    "description": "Ma'lumotlarni eksport qilish tugmasi matni"
+  },
+  "settings_import": {
+    "message": "Import",
+    "description": "Import tugmasi matni"
+  },
+  "settings_importData": {
+    "message": "Ma'lumotlarni import qilish",
+    "description": "Ma'lumotlarni import qilish tugmasi matni"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Noto'g'ri o'lcham. Kengligi: 400-1920, balandlik: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Bekor qilmoq",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Balandlik",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Standartga qaytaring",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Tejash",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Standart o'lchamda saqlangan",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Standart eslatma hajmi",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Kenglik",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Ochish",
+    "description": "Ochish tugmasi matni"
+  },
+  "settings_signInRequired": {
+    "message": "Kirish talab qilinadi",
+    "description": "Kirish talab qilinganda ko'rsatiladigan matn"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Google bilan kirish",
+    "description": "Google bilan kirish tugmasi matni"
+  },
+  "settings_signOut": {
+    "message": "Chiqish",
+    "description": "Chiqish tugmasi matni"
+  },
+  "settings_signedInWith": {
+    "message": "Bilan kirilgan",
+    "description": "Kirilgan holatini ko'rsatuvchi matn"
+  },
+  "settings_sync": {
+    "message": "Sinxronlash",
+    "description": "Sinxronlash tugmasi matni"
+  },
+  "settings_theme": {
+    "message": "Mavzu",
+    "description": "Mavzu sozlamasi yorlig'i"
+  },
+  "settings_title": {
+    "message": "Sozlamalar",
+    "description": "Sozlamalar sahifasi sarlavhasi"
+  },
+  "settings_trash": {
+    "message": "Chiqindi qutisi",
+    "description": "Chiqindi qutisi bo'limi yorlig'i"
+  },
+  "settings_unlimited": {
+    "message": "Cheksiz",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Premium-ni oling",
+    "description": "Premium-ni olish tugmasi matni"
+  },
+  "settings_unlockAIText": {
+    "message": "AI ni ochish",
+    "description": "AI ni ochish matni yorlig'i"
+  },
+  "settings_userAvatar": {
+    "message": "Foydalanuvchi avatari",
+    "description": "Foydalanuvchi avatari rasmi uchun alt matn"
+  },
+  "share_copied": {
+    "message": "Nusxalandi",
+    "description": "Kontent nusxalanganda ko'rsatiladigan matn"
+  },
+  "share_copy": {
+    "message": "Nusxalash",
+    "description": "Ulashish modalidagi nusxalash tugmasi matni"
+  },
+  "share_creatingLink": {
+    "message": "Ulashish havolasi yaratilmoqda...",
+    "description": "Ulashish yuklanish qoplamasi uchun matn"
+  },
+  "share_defaultTitle": {
+    "message": "Tezkor qaydlardan bu qaydni ko'ring",
+    "description": "Ulashilgan qaydlar uchun standart sarlavha"
+  },
+  "share_facebook": {
+    "message": "Facebook'da ulashish",
+    "description": "Facebook ulashish tugmasi sarlavhasi"
+  },
+  "share_linkedin": {
+    "message": "LinkedIn'da ulashish",
+    "description": "LinkedIn ulashish tugmasi sarlavhasi"
+  },
+  "share_reddit": {
+    "message": "Reddit'da ulashish",
+    "description": "Reddit ulashish tugmasi sarlavhasi"
+  },
+  "share_twitter": {
+    "message": "X (Twitter)'da ulashish",
+    "description": "Twitter ulashish tugmasi sarlavhasi"
+  },
+  "share_whatsapp": {
+    "message": "WhatsApp'da ulashish",
+    "description": "WhatsApp ulashish tugmasi sarlavhasi"
+  },
+  "sync_noteFailed": {
+    "message": "Qaydni serverga sinxronlashda xatolik",
+    "description": "Qaydni serverga sinxronlashda xatolik bo'lganda xatolik xabari"
+  },
+  "themes_hobby": {
+    "message": "Xobbi",
+    "description": "Xobbi mavzusi nomi"
+  },
+  "themes_ideas": {
+    "message": "G'oyalar",
+    "description": "G'oyalar mavzusi nomi"
+  },
+  "themes_personal": {
+    "message": "Shaxsiy",
+    "description": "Shaxsiy mavzu nomi"
+  },
+  "themes_study": {
+    "message": "O'qish",
+    "description": "O'qish mavzusi nomi"
+  },
+  "themes_travel": {
+    "message": "Sayohat",
+    "description": "Sayohat mavzusi nomi"
+  },
+  "themes_work": {
+    "message": "Ish",
+    "description": "Ish mavzusi nomi"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Yangi eslatma qo'shildi",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI javobida xatolik",
+    "description": "AI javobida xatolik bo'lganda bildirishnoma xabari"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Fonni o'rnatishda xatolik",
+    "description": "Fonni o'rnatishda xatolik bo'lganda bildirishnoma xabari"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "O'chirib bo'lmaydi",
+    "description": "Standart elementni o'chirib bo'lmaganda bildirishnoma xabari"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Clipboardga ko'chirilgan",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Havolani nusxalashda xatolik. Iltimos, qayta urinib ko'ring.",
+    "description": "Nusxalash operatsiyasi bajarilmaganda bildirishnoma xabari"
+  },
+  "toast_exportFailed": {
+    "message": "Eksportda xatolik",
+    "description": "Eksportda xatolik bo'lganda bildirishnoma xabari"
+  },
+  "toast_failed": {
+    "message": "Xatolik",
+    "description": "Umumiy xatolik bildirishnoma xabari"
+  },
+  "toast_failedToAddToNote": {
+    "message": "④ Eslatmaga qo'shilmadi",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ nusxa olmadi",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Rasm fayli talab qilinadi",
+    "description": "Rasm fayli talab qilinganda bildirishnoma xabari"
+  },
+  "toast_imageTooLarge": {
+    "message": "Rasm juda katta",
+    "description": "Rasm fayli juda katta bo'lganda bildirishnoma xabari"
+  },
+  "toast_libraryError": {
+    "message": "Kutubxona xatosi",
+    "description": "Kutubxona xatolari uchun bildirishnoma xabari"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Kutubxona yuklanmoqda",
+    "description": "Kutubxona yuklanmaganda bildirishnoma xabari"
+  },
+  "toast_moveFailed": {
+    "message": "Ko'chirishda xatolik",
+    "description": "Ko'chirish operatsiyasida xatolik bo'lganda bildirishnoma xabari"
+  },
+  "toast_moved": {
+    "message": "Ko'chib o'tdi",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Tanlov yo'q",
+    "description": "Hech qanday element tanlanmaganda bildirishnoma xabari"
+  },
+  "toast_operationFailed": {
+    "message": "Operatsiya bajarilmadi",
+    "description": "Umumiy operatsiya xatolari uchun bildirishnoma xabari"
+  },
+  "toast_restartExtension": {
+    "message": "Joy bo'shatish uchun kengaytmani qayta ishga tushiring.",
+    "description": "Foydalanuvchidan kengaytmani qayta ishga tushirishni so'raydigan bildirishnoma xabari"
+  },
+  "toast_storageError": {
+    "message": "Xotira xatosi. Iltimos, kengaytmani qayta ishga tushiring.",
+    "description": "Xotira xatolari uchun bildirishnoma xabari"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Xotira to'la, kesh tozalanmoqda...",
+    "description": "Xotira to'la va kesh tozalanayotganda bildirishnoma xabari"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI yordamchisi",
+    "description": "AI yordamchisi belgisi uchun alt matn"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Markazga tekislash",
+    "description": "Markazga tekislash belgisi uchun alt matn"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Chapga tekislash",
+    "description": "Chapga tekislash belgisi uchun alt matn"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "O'ngga tekislash",
+    "description": "O'ngga tekislash belgisi uchun alt matn"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Fon rangi",
+    "description": "Asboblar panelidagi fon rangi tugmasi sarlavhasi"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Fon rangi",
+    "description": "Fon rangi belgisi uchun alt matn"
+  },
+  "toolbar_blockquote": {
+    "message": "Iqtibos bloki",
+    "description": "Asboblar panelidagi iqtibos bloki tugmasi sarlavhasi"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Iqtibos bloki",
+    "description": "Iqtibos bloki belgisi uchun alt matn"
+  },
+  "toolbar_bold": {
+    "message": "Qalin",
+    "description": "Asboblar panelidagi qalin tugmasi sarlavhasi"
+  },
+  "toolbar_boldIcon": {
+    "message": "Qalin",
+    "description": "Qalin belgisi uchun alt matn"
+  },
+  "toolbar_bulletList": {
+    "message": "Belgili ro'yxat",
+    "description": "Asboblar panelidagi belgili ro'yxat tugmasi sarlavhasi"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Belgili ro'yxat",
+    "description": "Belgili ro'yxat belgisi uchun alt matn"
+  },
+  "toolbar_checklist": {
+    "message": "Nazorat ro'yxati",
+    "description": "Asboblar panelidagi nazorat ro'yxati tugmasi sarlavhasi"
+  },
+  "toolbar_codeBlock": {
+    "message": "Kod bloki",
+    "description": "Asboblar panelidagi kod bloki tugmasi sarlavhasi"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Kod bloki",
+    "description": "Kod bloki belgisi uchun alt matn"
+  },
+  "toolbar_fontSize": {
+    "message": "Shrift o'lchami",
+    "description": "Asboblar panelidagi shrift o'lchami tugmasi sarlavhasi"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Shrift o'lchami",
+    "description": "Shrift o'lchami belgisi uchun alt matn"
+  },
+  "toolbar_heading3": {
+    "message": "3-sarlavha",
+    "description": "Asboblar panelidagi 3-sarlavha tugmasi sarlavhasi"
+  },
+  "toolbar_heading3Icon": {
+    "message": "3-sarlavha",
+    "description": "3-sarlavha belgisi uchun alt matn"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Rasm qo'shish",
+    "description": "Rasm qo'shish belgisi uchun alt matn"
+  },
+  "toolbar_insertLink": {
+    "message": "Havola qo'shish",
+    "description": "Asboblar panelidagi havola qo'shish tugmasi sarlavhasi"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Havola qo'shish",
+    "description": "Havola qo'shish belgisi uchun alt matn"
+  },
+  "toolbar_insertVideo": {
+    "message": "Video qo'shish",
+    "description": "Asboblar panelidagi video qo'shish tugmasi sarlavhasi"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Video qo'shish",
+    "description": "Video qo'shish belgisi uchun alt matn"
+  },
+  "toolbar_italic": {
+    "message": "Kursiv",
+    "description": "Asboblar panelidagi kursiv tugmasi sarlavhasi"
+  },
+  "toolbar_italicIcon": {
+    "message": "Kursiv",
+    "description": "Kursiv belgisi uchun alt matn"
+  },
+  "toolbar_justify": {
+    "message": "Ikki tomonga tekislash",
+    "description": "Asboblar panelidagi matnni ikki tomonga tekislash tugmasi sarlavhasi"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Ikki tomonga tekislash",
+    "description": "Ikki tomonga tekislash belgisi uchun alt matn"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Raqamli ro'yxat",
+    "description": "Raqamli ro'yxat belgisi uchun alt matn"
+  },
+  "toolbar_orderedList": {
+    "message": "Raqamli ro'yxat",
+    "description": "Asboblar panelidagi raqamli ro'yxat tugmasi sarlavhasi"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Formatni olib tashlash",
+    "description": "Formatni olib tashlash belgisi uchun alt matn"
+  },
+  "toolbar_strikethrough": {
+    "message": "Ustidan chizilgan",
+    "description": "Asboblar panelidagi ustidan chizilgan tugmasi sarlavhasi"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Ustidan chizilgan",
+    "description": "Ustidan chizilgan belgisi uchun alt matn"
+  },
+  "toolbar_textColor": {
+    "message": "Matn rangi",
+    "description": "Asboblar panelidagi matn rangi tugmasi sarlavhasi"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Matn rangi",
+    "description": "Matn rangi belgisi uchun alt matn"
+  },
+  "toolbar_underline": {
+    "message": "Tagchiziq",
+    "description": "Asboblar panelidagi tagchiziq tugmasi sarlavhasi"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Tagchiziq",
+    "description": "Tagchiziq belgisi uchun alt matn"
+  },
+  "trash_deleteForever": {
+    "message": "Butunlay o'chirish",
+    "description": "Elementni butunlay o'chirish uchun tugma matni"
+  },
+  "trash_empty": {
+    "message": "Chiqindi qutisi bo'sh.",
+    "description": "Chiqindi qutisi bo'sh bo'lganda xabar"
+  },
+  "trash_emptyTrash": {
+    "message": "Chiqindi qutisini bo'shatish",
+    "description": "Chiqindi qutisini bo'shatish uchun tugma matni"
+  },
+  "trash_restore": {
+    "message": "Tiklash",
+    "description": "Elementni tiklash uchun tugma matni"
+  },
+  "trash_restoreAll": {
+    "message": "Barchasini tiklash",
+    "description": "Barcha elementlarni tiklash uchun tugma matni"
+  },
+  "trash_title": {
+    "message": "Chiqindi qutisi",
+    "description": "Chiqindi qutisi sahifasi sarlavhasi"
+  },
+  "welcome_collection_description": {
+    "message": "Yangi foydalanuvchilar uchun xush kelibsiz to'plami",
+    "description": "Standart xush kelibsiz to'plami tavsifi"
+  },
+  "welcome_collection_name": {
+    "message": "Xush kelibsiz",
+    "description": "Standart xush kelibsiz to'plami nomi"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Yangi qayd yaratish uchun <strong>+</strong> tugmasini bosing<br>• Kontentni umumlashtirish, tarjima qilish yoki yaxshilash uchun AI dan foydalaning<br>• AI sizga qaydlaringizni tartibga solish va optimallashtirishga yordam beradi",
+    "description": "Xush kelibsiz qaydidagi AI dan foydalanish bo'yicha ko'rsatmalar"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ AI dan qanday foydalanish kerak",
+    "description": "Xush kelibsiz qaydidagi AI dan foydalanish bo'limi sarlavhasi"
+  },
+  "welcome_note_collections_content": {
+    "message": "• To'plam yaratish uchun bo'sh joyga sichqonchaning o'ng tugmasini bosing<br>• Qaydlarni tartibga solish uchun ularni to'plamlarga sudrab olib boring<br>• Har bir to'plam o'z mavzusiga ega bo'lishi mumkin (ish, shaxsiy, g'oyalar...)",
+    "description": "Xush kelibsiz qaydidagi to'plamlardan foydalanish bo'yicha ko'rsatmalar"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 To'plamlarni qanday yaratish kerak",
+    "description": "Xush kelibsiz qaydidagi to'plamlar bo'limi sarlavhasi"
+  },
+  "welcome_note_footer": {
+    "message": "Tezkor qaydlardan foydalanishdan zavqlaning! 🎉",
+    "description": "Xush kelibsiz qaydidagi quyi qism xabari"
+  },
+  "welcome_note_intro": {
+    "message": "Bu sizning birinchi qaydingiz. Tezkor qaydlar sizga tez va samarali qaydlar olishga yordam beradi.",
+    "description": "Xush kelibsiz qaydidagi kirish matni"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Qaydlarni tasniflash uchun ranglardan foydalaning<br>• Muhim qaydlarni ro'yxatning yuqorisiga mahkamlang<br>• Yuqoridagi qidiruv paneli bilan tezda qidiring<br>• Xavfsiz zaxiralash uchun Google Drive bilan sinxronlang",
+    "description": "Xush kelibsiz qaydidagi foydalanish bo'yicha maslahatlar"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Foydalanish bo'yicha maslahatlar",
+    "description": "Xush kelibsiz qaydidagi maslahatlar bo'limi sarlavhasi"
+  },
+  "welcome_note_title": {
+    "message": "Tezkor qaydlarga xush kelibsiz! 👋",
+    "description": "Xush kelibsiz qaydi sarlavhasi"
+  }
+}

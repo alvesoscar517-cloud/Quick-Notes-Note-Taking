@@ -1,0 +1,284 @@
+/* virtual-scroll.css - Optimized CSS for Virtual Scrolling */
+/* Version: 1.0 - Performance optimized styles */
+
+/* Virtual scroll container optimizations */
+.notes-list,
+.search-results,
+.collection-notes-container {
+    /* Enable GPU acceleration */
+    transform: translateZ(0);
+    will-change: scroll-position;
+    
+    /* Smooth scrolling */
+    scroll-behavior: smooth;
+    
+    /* Optimize rendering */
+    contain: layout style paint;
+}
+
+/* Virtual scroll items */
+.virtual-note-item,
+.virtual-collection-item,
+.virtual-search-item {
+    /* GPU acceleration */
+    transform: translateZ(0);
+    backface-visibility: hidden;
+    
+    /* Optimize rendering */
+    contain: layout style paint;
+    
+    /* Prevent layout shift */
+    box-sizing: border-box;
+    
+    /* Smooth transitions */
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+/* Optimize note cards for virtual scrolling */
+.note-tab.virtual-note-item {
+    min-height: 96px;
+    max-height: 144px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+/* Optimize collection cards for virtual scrolling */
+.collection-card.virtual-collection-item {
+    min-height: 96px;
+    max-height: 120px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+/* Optimize search results for virtual scrolling */
+.search-result.virtual-search-item {
+    min-height: 100px;
+    max-height: 140px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+/* Placeholder for loading items */
+.virtual-scroll-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #9aa0a6;
+    font-size: 14px;
+}
+
+/* Skeleton loading animation */
+.virtual-scroll-skeleton {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.05) 0%,
+        rgba(255, 255, 255, 0.1) 50%,
+        rgba(255, 255, 255, 0.05) 100%
+    );
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s ease-in-out infinite;
+    border-radius: 12px;
+    height: 96px;
+    margin-bottom: 12px;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-position: 200% 0;
+    }
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Optimize hover effects for virtual items */
+.virtual-note-item:hover,
+.virtual-collection-item:hover,
+.virtual-search-item:hover {
+    transform: translateY(-2px) translateZ(0);
+    opacity: 0.95;
+}
+
+/* Prevent text selection during fast scrolling */
+.notes-list.scrolling *,
+.search-results.scrolling *,
+.collection-notes-container.scrolling * {
+    user-select: none;
+    pointer-events: none;
+}
+
+/* Virtual scroll viewport */
+.virtual-scroll-viewport {
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+}
+
+/* Virtual scroll spacer */
+.virtual-scroll-spacer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    visibility: hidden;
+}
+
+/* Optimize for mobile devices */
+@media (max-width: 768px) {
+    .virtual-note-item,
+    .virtual-collection-item,
+    .virtual-search-item {
+        /* Reduce complexity on mobile */
+        transition: none;
+    }
+    
+    .notes-list,
+    .search-results,
+    .collection-notes-container {
+        /* Optimize scrolling on mobile */
+        -webkit-overflow-scrolling: touch;
+        overscroll-behavior: contain;
+    }
+}
+
+/* Optimize for large screens - Grid layout support */
+@media (min-width: 1024px) {
+    .notes-list,
+    #collection-page .collection-notes-container,
+    #trash-page .trash-content {
+        /* Reset transform for grid layout */
+        transform: none;
+    }
+}
+
+/* Performance optimizations for large lists */
+.virtual-scroll-container {
+    /* Enable layout containment */
+    contain: strict;
+    
+    /* Prevent unnecessary repaints */
+    isolation: isolate;
+}
+
+/* Optimize images in virtual items */
+.virtual-note-item img,
+.virtual-collection-item img,
+.virtual-search-item img {
+    /* Lazy load images */
+    loading: lazy;
+    
+    /* Prevent layout shift */
+    content-visibility: auto;
+    contain-intrinsic-size: 28px 28px;
+}
+
+/* Fade-in animation for items entering viewport */
+.virtual-item-enter {
+    animation: virtual-item-fade-in 0.2s ease-out;
+}
+
+@keyframes virtual-item-fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Optimize pinned items */
+.virtual-note-item[data-pinned="true"],
+.virtual-collection-item[data-pinned="true"] {
+    /* Ensure pinned items render first */
+    z-index: 1;
+}
+
+/* Reduce motion for accessibility */
+@media (prefers-reduced-motion: reduce) {
+    .virtual-note-item,
+    .virtual-collection-item,
+    .virtual-search-item,
+    .notes-list,
+    .search-results,
+    .collection-notes-container {
+        animation: none;
+        transition: none;
+        scroll-behavior: auto;
+    }
+}
+
+/* Dark theme optimizations */
+body.dark-theme .virtual-scroll-skeleton {
+    background: linear-gradient(
+        90deg,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(255, 255, 255, 0.08) 50%,
+        rgba(255, 255, 255, 0.03) 100%
+    );
+}
+
+/* Light theme optimizations */
+body.light-theme .virtual-scroll-skeleton {
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.03) 0%,
+        rgba(0, 0, 0, 0.08) 50%,
+        rgba(0, 0, 0, 0.03) 100%
+    );
+}
+
+/* Optimize drag and drop in virtual scroll */
+.virtual-note-item.dragging,
+.virtual-collection-item.dragging {
+    opacity: 0.5;
+    cursor: move;
+}
+
+.virtual-collection-item.drag-over {
+    border-color: #4285f4;
+    background: rgba(66, 133, 244, 0.1);
+}
+
+/* Optimize multi-select in virtual scroll */
+.virtual-note-item.item-selected,
+.virtual-collection-item.item-selected {
+    background: rgba(66, 133, 244, 0.15);
+    border-color: #4285f4;
+}
+
+/* Selection checkbox in virtual items */
+.virtual-note-item .selection-checkbox,
+.virtual-collection-item .selection-checkbox {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #9aa0a6;
+    border-radius: 4px;
+    background: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.virtual-note-item.item-selected .selection-checkbox,
+.virtual-collection-item.item-selected .selection-checkbox {
+    background: #4285f4;
+    border-color: #4285f4;
+}
+
+.virtual-note-item.item-selected .selection-checkbox::after,
+.virtual-collection-item.item-selected .selection-checkbox::after {
+    content: '✓';
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+

@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Odpri Hitre zapiske",
+    "description": "Privzeti naslov za gumb dejanja razširitve"
+  },
+  "ai_accessDenied": {
+    "message": "Dostop zavrnjen. Prosimo, preverite svoja dovoljenja.",
+    "description": "Sporočilo o napaki, ko je dostop zavrnjen"
+  },
+  "ai_actionApply": {
+    "message": "Uporabi na zapisu",
+    "description": "Naslov za gumb dejanja uporabe AI"
+  },
+  "ai_actionCopy": {
+    "message": "Kopiraj",
+    "description": "Naslov za gumb dejanja kopiranja AI"
+  },
+  "ai_actionItems": {
+    "message": "Ustvari naloge",
+    "description": "Dejanje AI za izvlečenje akcijskih točk in ustvarjanje seznama opravil"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "Ključ API ni nastavljen",
+    "description": "Sporočilo o napaki, ko ključ API ni nastavljen"
+  },
+  "ai_appendToNote": {
+    "message": "Pripni",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Uporaba vsebine na zapisu ni uspela",
+    "description": "Sporočilo o napaki pri neuspešni uporabi vsebine AI na zapisu"
+  },
+  "ai_applyToNote": {
+    "message": "Uporabi na zapisu",
+    "description": "Besedilo gumba za uporabo rezultata AI na zapisu"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Zaledni strežnik ni na voljo. Prosimo, preverite povezavo in poskusite znova.",
+    "description": "Sporočilo o napaki, ko zaledni strežnik ni na voljo"
+  },
+  "ai_backendNotConfigured": {
+    "message": "URL zaledja ni nastavljen",
+    "description": "Sporočilo o napaki, ko URL zaledja ni nastavljen"
+  },
+  "ai_backendNotResponding": {
+    "message": "Zaledni strežnik se ne odziva",
+    "description": "Sporočilo o napaki, ko se zaledni strežnik ne odziva"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Ustvarjanje okna za klepet AI ni uspelo",
+    "description": "Sporočilo o napaki, ko ustvarjanje okna za klepet AI ne uspe"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Klepetajte z AI o izbranem besedilu",
+    "description": "Naslov za lebdeči gumb AI in nadomestno besedilo"
+  },
+  "ai_contentApplied": {
+    "message": "Vsebina uporabljena na vašem zapisu!",
+    "description": "Sporočilo o uspehu, ko je vsebina AI uporabljena na zapisu"
+  },
+  "ai_contentCopied": {
+    "message": "Vsebina kopirana v odložišče!",
+    "description": "Sporočilo o uspehu, ko je vsebina AI kopirana v odložišče"
+  },
+  "ai_contentFiltered": {
+    "message": "Filtrirano",
+    "description": "Sporočilo o napaki, ko je vsebina filtrirana"
+  },
+  "ai_contentInserted": {
+    "message": "Vsebina je vstavljena in zamenjana izbrano besedilo",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Vsebina ni na voljo",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopiraj",
+    "description": "Besedilo gumba za kopiranje rezultata AI"
+  },
+  "ai_copyFailed": {
+    "message": "Kopiranje v odložišče ni uspelo",
+    "description": "Sporočilo o napaki pri neuspešnem kopiranju vsebine AI v odložišče"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Dnevna omejitev dosežena (15/15). Poskusite znova jutri.",
+    "description": "Sporočilo o napaki, ko je dosežena dnevna omejitev AI"
+  },
+  "ai_downloadImage": {
+    "message": "Prenesi sliko",
+    "description": "Možnost kontekstnega menija za prenos slike na računalnik"
+  },
+  "ai_emptyResponse": {
+    "message": "AI je vrnil prazen odgovor. Prosimo, poskusite znova.",
+    "description": "Sporočilo o napaki za prazen odgovor AI"
+  },
+  "ai_errorPrefix": {
+    "message": "Napaka AI",
+    "description": "Predpona za sporočila o napakah AI"
+  },
+  "ai_expand": {
+    "message": "Razširi",
+    "description": "Dejanje AI za razširitev vsebine"
+  },
+  "ai_extractText": {
+    "message": "Izvleci besedilo (OCR)",
+    "description": "Možnost kontekstnega menija za izvlečenje besedila iz slike z uporabo OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Analiza slike ni uspela",
+    "description": "Sporočilo o napaki, ko analiza slike ne uspe"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Analiziranje slike...",
+    "description": "Sporočilo o nalaganju med analiziranjem slike s strani AI"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Dnevna omejitev analize slik dosežena. Nadgradite na premium za neomejeno analizo.",
+    "description": "Sporočilo, ko uporabnik doseže dnevno omejitev za analizo slik"
+  },
+  "ai_imageDownloadError": {
+    "message": "Prenos slike ni uspel",
+    "description": "Sporočilo o napaki, ko prenos slike ne uspe"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Slika uspešno prenesena",
+    "description": "Sporočilo o uspešnem prenosu slike"
+  },
+  "ai_improve": {
+    "message": "Izboljšaj",
+    "description": "Dejanje AI za izboljšanje vsebine"
+  },
+  "ai_inputHint": {
+    "message": "Pritisnite Enter za pošiljanje, Shift+Enter za novo vrstico",
+    "description": "Namig za vnos AI"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Vnesite svoje sporočilo ali izberite hitro dejanje...",
+    "description": "Nadomestno besedilo za vnos AI"
+  },
+  "ai_insertFailed": {
+    "message": "Vstavljanje vsebine ni uspelo",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Vstavi in ​​zamenjaj",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Neveljaven ključ API",
+    "description": "Sporočilo o napaki za neveljaven ključ API"
+  },
+  "ai_invalidCredentials": {
+    "message": "Neveljavna prijava",
+    "description": "Sporočilo o napaki za neveljavne poverilnice"
+  },
+  "ai_invalidModel": {
+    "message": "Slab model",
+    "description": "Sporočilo o napaki za neveljaven model"
+  },
+  "ai_invalidResponse": {
+    "message": "Neveljaven odgovor zaledne storitve.",
+    "description": "Sporočilo o napaki, ko zaledna storitev vrne neveljaven odgovor"
+  },
+  "ai_limitReached": {
+    "message": "Porabili ste vseh {limit} AI zahtevkov za danes. Nadgradite na Premium za neomejen dostop!",
+    "description": "Sporočilo, ko je dosežena dnevna omejitev AI"
+  },
+  "ai_meetingNotes": {
+    "message": "Zapiski sestanka",
+    "description": "Dejanje AI za oblikovanje besedila kot zapiske sestanka"
+  },
+  "ai_minimize": {
+    "message": "Pomanjšaj",
+    "description": "Besedilo gumba Pomanjšaj"
+  },
+  "ai_modelNotFound": {
+    "message": "Ni modela",
+    "description": "Sporočilo o napaki, ko model ni najden"
+  },
+  "ai_networkError": {
+    "message": "Napaka v omrežju",
+    "description": "Sporočilo o napaki za napake v omrežju"
+  },
+  "ai_noConnection": {
+    "message": "Ni povezave",
+    "description": "Sporočilo o napaki, ko ni povezave"
+  },
+  "ai_noResponse": {
+    "message": "Ni odgovora od AI",
+    "description": "Sporočilo o napaki, ko AI ne vrne odgovora"
+  },
+  "ai_noSelectedText": {
+    "message": "Ni izbranega besedila",
+    "description": "Sporočilo o napaki, ko ni izbranega besedila"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Ni operacij AI za razveljavitev",
+    "description": "Informativno sporočilo, ko ni na voljo operacij AI za razveljavitev"
+  },
+  "ai_ocrResultReceived": {
+    "message": "Prejet rezultat OCR",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Oris",
+    "description": "Dejanje AI za ustvarjanje orisa"
+  },
+  "ai_premiumActive": {
+    "message": "Premium aktiven",
+    "description": "Besedilo, prikazano, ko je premium aktiven"
+  },
+  "ai_processing": {
+    "message": "AI obdeluje...",
+    "description": "Besedilo, prikazano med obdelavo AI"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kvota polna",
+    "description": "Sporočilo o napaki, ko je kvota presežena"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Omejitev zahtevkov presežena. Prosimo, poskusite znova kasneje.",
+    "description": "Sporočilo o napaki, ko je presežena omejitev zahtevkov"
+  },
+  "ai_requestTimeout": {
+    "message": "Zahteva je potekla",
+    "description": "Sporočilo o napaki, ko zahteva poteče"
+  },
+  "ai_responseReceived": {
+    "message": "Prejet odgovor AI",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Blokirano",
+    "description": "Sporočilo o napaki, ko je vsebina blokirana s strani varnostnega filtra"
+  },
+  "ai_save": {
+    "message": "Shrani",
+    "description": "Dejanje AI za shranjevanje"
+  },
+  "ai_search": {
+    "message": "Išči",
+    "description": "Dejanje AI za iskanje"
+  },
+  "ai_selectedText": {
+    "message": "Izbrano besedilo",
+    "description": "Oznaka za izbrano besedilo v kontekstu AI"
+  },
+  "ai_serverError": {
+    "message": "Napaka strežnika - Prosimo, poskusite znova kasneje",
+    "description": "Sporočilo o napaki za napake strežnika"
+  },
+  "ai_serviceDown": {
+    "message": "Storitev ne deluje",
+    "description": "Sporočilo o napaki, ko storitev ne deluje"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Inicializacija storitve AI ni uspela",
+    "description": "Sporočilo o napaki, ko inicializacija storitve AI ne uspe"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "Storitev AI ni na voljo. Prosimo, osvežite stran.",
+    "description": "Sporočilo o napaki, ko storitev AI ni na voljo"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "Storitev AI ni pravilno nastavljena",
+    "description": "Sporočilo o napaki, ko storitev AI ni nastavljena"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "Storitev AI ni inicializirana",
+    "description": "Sporočilo o napaki, ko storitev AI ni inicializirana"
+  },
+  "ai_serviceUnavailable": {
+    "message": "Storitev AI je začasno nedosegljiva",
+    "description": "Sporočilo o napaki, ko je storitev AI začasno nedosegljiva"
+  },
+  "ai_signInRequired": {
+    "message": "Prosimo, prijavite se za uporabo funkcij AI. Kliknite gumb za prijavo v razširitvi.",
+    "description": "Sporočilo o napaki, ko se mora uporabnik prijaviti za funkcije AI"
+  },
+  "ai_signInToUnlock": {
+    "message": "Prijavite se za odklepanje",
+    "description": "Besedilo, ki poziva uporabnika, da se prijavi za odklepanje AI"
+  },
+  "ai_statsFailed": {
+    "message": "Statistika ni uspela",
+    "description": "Sporočilo o napaki, ko zahteva za statistiko ne uspe"
+  },
+  "ai_suggestions": {
+    "message": "Predlogi",
+    "description": "Dejanje AI za podajanje predlogov"
+  },
+  "ai_summarize": {
+    "message": "Povzemi",
+    "description": "Dejanje AI za povzemanje vsebine"
+  },
+  "ai_timeout": {
+    "message": "Časovna omejitev",
+    "description": "Sporočilo o napaki za časovno omejitev"
+  },
+  "ai_title": {
+    "message": "AI pomočnik",
+    "description": "Naslov AI pomočnika"
+  },
+  "ai_tone": {
+    "message": "Ton",
+    "description": "Dejanje AI za prilagajanje tona"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramatično",
+    "description": "Ime dramatičnega tona"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Ime tona Gen Z"
+  },
+  "ai_toneHumorous": {
+    "message": "Humorno",
+    "description": "Ime humornega tona"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Prosimo, izberite besedilo ali dodajte vsebino za preoblikovanje",
+    "description": "Sporočilo o napaki, ko ni izbranega besedila za preoblikovanje tona"
+  },
+  "ai_tonePoetic": {
+    "message": "Poetično",
+    "description": "Ime poetičnega tona"
+  },
+  "ai_toneProfessional": {
+    "message": "Profesionalno",
+    "description": "Ime profesionalnega tona"
+  },
+  "ai_toneSimplify": {
+    "message": "Poenostavi",
+    "description": "Ime tona za poenostavitev"
+  },
+  "ai_translate": {
+    "message": "Prevedi",
+    "description": "Dejanje AI za prevajanje vsebine"
+  },
+  "ai_translateToEnglish": {
+    "message": " v angleščino",
+    "description": "Pripis za dejanje prevajanja"
+  },
+  "ai_undoSuccess": {
+    "message": "Operacija AI uspešno razveljavljena!",
+    "description": "Sporočilo o uspehu, ko je operacija AI razveljavljena"
+  },
+  "ai_unknownError": {
+    "message": "Neznana napaka AI",
+    "description": "Splošno sporočilo o napaki za neznane napake AI"
+  },
+  "ai_usageLocked": {
+    "message": "ZAKLENJENO",
+    "description": "Besedilo, prikazano, ko je uporaba AI zaklenjena"
+  },
+  "ai_usageUnlimited": {
+    "message": "Neomejeno",
+    "description": "Besedilo, prikazano, ko je uporaba AI neomejena"
+  },
+  "ai_userMessage": {
+    "message": "Sporočilo uporabnika",
+    "description": "Oznaka za sporočilo uporabnika v kontekstu AI"
+  },
+  "ai_userRequest": {
+    "message": "Zahteva uporabnika",
+    "description": "Oznaka za zahtevo uporabnika v kontekstu AI"
+  },
+  "ai_welcome": {
+    "message": "Pozdravljeni! Sem vaš AI pomočnik. Lahko vam pomagam povzeti, razširiti, izboljšati ali prevesti vaše zapiske. Kako vam lahko pomagam?",
+    "description": "Pozdravno sporočilo AI pomočnika"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Dobrodošli, Premium uporabnik! Imate neomejeno število AI zahtevkov.",
+    "description": "Pozdravno sporočilo za premium uporabnike"
+  },
+  "ai_welcomeUser": {
+    "message": "Dobrodošli! Danes vam je na voljo še {remaining} od {limit} AI zahtevkov.",
+    "description": "Pozdravno sporočilo, ki prikazuje preostale AI zahtevke"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "Analiza AI ni uspela",
+    "description": "Privzeto sporočilo o napaki, ko analiza AI ne uspe"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "Analiza AI ni uspela. Prosimo, poskusite znova.",
+    "description": "Sporočilo o napaki, ko analiza AI ne uspe, s pozivom za ponovni poskus"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analiza končana!",
+    "description": "Sporočilo, ko je analiza končana"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analizirano",
+    "description": "Oznaka za število analiziranih v delovnem prostoru AI"
+  },
+  "ai_workspace_close": {
+    "message": "Zapri",
+    "description": "Gumb za zapiranje Delovnega prostora AI"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Analiza zbirke",
+    "description": "Naslov za rezultate analize zbirke"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Ustvarjen nov zapis z vpogledi iz {count} zapiskov.",
+    "description": "Sporočilo o uspehu, ko delovni prostor AI ustvari zapis"
+  },
+  "ai_workspace_error": {
+    "message": "Napaka pri obdelavi zbirke",
+    "description": "Sporočilo o napaki za Delovni prostor AI"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Poišči vzorce",
+    "description": "Gumb za iskanje vzorcev v zbirki"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Ustvari vpoglede",
+    "description": "Gumb za ustvarjanje vpogledov iz zbirke"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Vprašajte karkoli o vaši zbirki...",
+    "description": "Nadomestno besedilo za vnos v Delovni prostor AI"
+  },
+  "ai_workspace_intro": {
+    "message": "Delovni prostor AI je zmogljiva funkcija, zasnovana za maksimiziranje potenciala modelov AI, ki vam omogoča ustvarjanje analiz in obdelavo celotnih zbirk zapiskov naenkrat, namesto posameznih zapiskov.",
+    "description": "Uvodno besedilo za Delovni prostor AI"
+  },
+  "ai_workspace_no_notes": {
+    "message": "V tej zbirki ni zapiskov za analizo",
+    "description": "Sporočilo, ko je zbirka prazna"
+  },
+  "ai_workspace_notes_label": {
+    "message": "zapiskov",
+    "description": "Oznaka za število zapiskov"
+  },
+  "ai_workspace_processing": {
+    "message": "Obdelovanje...",
+    "description": "Besedilo, prikazano med obdelavo AI v delovnem prostoru"
+  },
+  "ai_workspace_prompt": {
+    "message": "Kaj želite, da AI naredi s temi zapiski?\n\nPrimeri:\n- Povzemi vse zapiske\n- Izvleci glavne teme in ključne besede\n- Ustvari glavni seznam opravil\n- Ustvari pogosta vprašanja iz teh zapiskov\n- Poišči povezave med temami",
+    "description": "Besedilo poziva za vnos naloge v Delovnem prostoru AI"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "Odziv AI ni uspel. Prosimo, poskusite znova.",
+    "description": "Sporočilo o napaki, ko odziv AI ne uspe"
+  },
+  "ai_workspace_send": {
+    "message": "Pošlji",
+    "description": "Gumb za pošiljanje v Delovnem prostoru AI"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Povzemi zbirko",
+    "description": "Gumb za povzemanje celotne zbirke"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Iz teh zapiskov ustvarite seznam pogosto zastavljenih vprašanj in odgovorov (FAQ). Identificirajte pomembne teme in ustvarite ustrezna vprašanja s podrobnimi odgovori.",
+    "description": "Opis naloge za dejanje FAQ"
+  },
+  "ai_workspace_task_label": {
+    "message": "Naloga",
+    "description": "Oznaka za nalogo v analizi delovnega prostora AI"
+  },
+  "ai_workspace_task_search": {
+    "message": "Poiščite in pojasnite povezave med informacijami v zapiskih. Identificirajte povezave, protislovja ali odnose med različnimi temami, omenjenimi v zapiskih.",
+    "description": "Opis naloge za dejanje iskanja"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Ustvarite celovit povzetek iz vseh zapiskov v tej zbirki. Poudarite najpomembnejše točke in ustvarite enoten, skladen povzetek.",
+    "description": "Opis naloge za dejanje sinteze"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Identificirajte 5 glavnih tem in povezanih ključnih besed iz teh raziskovalnih zapiskov. Ustvarite strukturiran seznam s temami in ustreznimi ključnimi besedami.",
+    "description": "Opis naloge za dejanje tem"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Preglejte vse zapiske in ustvarite celovit seznam opravil. Poiščite vse 'akcijske točke', naloge ali delo, ki ga je treba opraviti, omenjeno v zapiskih, in ustvarite strukturiran kontrolni seznam.",
+    "description": "Opis naloge za dejanje seznama opravil"
+  },
+  "ai_workspace_title": {
+    "message": "Delovni prostor AI",
+    "description": "Naslov za modalno okno Delovni prostor AI"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Dnevna omejitev uporabe dosežena. Nadgradite na premium za neomejen dostop do Delovnega prostora AI.",
+    "description": "Sporočilo, ko je dosežena dnevna omejitev"
+  },
+  "app_description": {
+    "message": "Ustvarjajte, upravljajte in sinhronizirajte zapiske v stilu steklomorfizma.",
+    "description": "Opis aplikacije"
+  },
+  "app_name": {
+    "message": "__ZAŠČITENO_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Povzetek",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Vse",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Božič",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrijski",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Narava",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Po meri",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Izbriši",
+    "description": "Besedilo za možnost brisanja v kontekstnem meniju ozadja"
+  },
+  "background_none": {
+    "message": "Brez",
+    "description": "Besedilo za možnost brez ozadja"
+  },
+  "background_setAsDefault": {
+    "message": "Nastavi kot privzeto",
+    "description": "Besedilo za možnost nastavitve kot privzeto v kontekstnem meniju ozadja"
+  },
+  "background_upload": {
+    "message": "Naloži",
+    "description": "Besedilo za možnost nalaganja ozadja"
+  },
+  "collections_addNoteHere": {
+    "message": "Dodaj zapis tukaj",
+    "description": "Besedilo gumba za lepljenje izrezanega zapisa v zbirko"
+  },
+  "collections_collection": {
+    "message": "Zbirka",
+    "description": "Oznaka za zbirko"
+  },
+  "collections_collectionCreated": {
+    "message": "Ustvarjeno",
+    "description": "Sporočilo o uspehu, ko je zbirka ustvarjena"
+  },
+  "collections_collectionDeleted": {
+    "message": "Izbrisano",
+    "description": "Sporočilo o uspehu, ko je zbirka izbrisana"
+  },
+  "collections_collectionName": {
+    "message": "Ime zbirke",
+    "description": "Oznaka za polje z imenom zbirke"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Vnesite ime zbirke...",
+    "description": "Nadomestno besedilo za vnos imena zbirke"
+  },
+  "collections_collectionPinned": {
+    "message": "Pripeto",
+    "description": "Sporočilo o uspehu, ko je zbirka pripeta"
+  },
+  "collections_collectionTheme": {
+    "message": "Tema",
+    "description": "Oznaka za temo zbirke"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Odpeto",
+    "description": "Sporočilo o uspehu, ko je zbirka odpeta"
+  },
+  "collections_collectionUpdated": {
+    "message": "Posodobljeno",
+    "description": "Sporočilo o uspehu, ko je zbirka posodobljena"
+  },
+  "collections_create": {
+    "message": "Ustvari",
+    "description": "Besedilo gumba za ustvarjanje"
+  },
+  "collections_createCollection": {
+    "message": "Ustvari zbirko",
+    "description": "Besedilo gumba za ustvarjanje nove zbirke"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Ustvari zapis v zbirki",
+    "description": "Besedilo gumba za ustvarjanje zapisa v zbirki"
+  },
+  "collections_deleteCollection": {
+    "message": "Izbriši zbirko",
+    "description": "Besedilo gumba za brisanje zbirke"
+  },
+  "collections_editCollection": {
+    "message": "Uredi zbirko",
+    "description": "Besedilo gumba za urejanje zbirke"
+  },
+  "collections_emptyCollection": {
+    "message": "Ta zbirka je prazna",
+    "description": "Sporočilo, prikazano, ko je zbirka prazna"
+  },
+  "collections_enterCollectionName": {
+    "message": "Prosimo, vnesite ime zbirke",
+    "description": "Sporočilo o napaki, ko je ime zbirke obvezno"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Napaka pri ustvarjanju zapisa",
+    "description": "Sporočilo o napaki, ko ustvarjanje zapisa ne uspe"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Napaka pri zbirki",
+    "description": "Sporočilo o napaki pri neuspešnem ustvarjanju/posodabljanju zbirke"
+  },
+  "collections_errorDeleting": {
+    "message": "Brisanje ni uspelo",
+    "description": "Sporočilo o napaki pri neuspešnem brisanju zbirke"
+  },
+  "collections_errorLoading": {
+    "message": "Nalaganje ni uspelo",
+    "description": "Sporočilo o napaki pri neuspešnem nalaganju zbirke"
+  },
+  "collections_errorMovingNote": {
+    "message": "Premik ni uspel",
+    "description": "Sporočilo o napaki pri neuspešnem premikanju zapisa"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Pripenjanje ni uspelo",
+    "description": "Sporočilo o napaki pri neuspešnem preklopu pripenjanja zbirke"
+  },
+  "collections_errorUpdating": {
+    "message": "Posodobitev ni uspela",
+    "description": "Sporočilo o napaki pri neuspešni posodobitvi zbirke"
+  },
+  "collections_limitReached": {
+    "message": "Omejitev zbirk dosežena",
+    "description": "Sporočilo, ko je dosežena omejitev zbirk"
+  },
+  "collections_moveToCollection": {
+    "message": "Premakni v zbirko",
+    "description": "Besedilo gumba za premikanje zapisa v zbirko"
+  },
+  "collections_noteCount": {
+    "message": "zapiskov",
+    "description": "Besedilo za število zapiskov v zbirki"
+  },
+  "collections_noteCreated": {
+    "message": "Zapis ustvarjen v zbirki",
+    "description": "Sporočilo o uspehu, ko je zapis ustvarjen v zbirki"
+  },
+  "collections_notes": {
+    "message": "zapiskov",
+    "description": "Besedilo za število zapiskov v zbirki"
+  },
+  "collections_notesMoved": {
+    "message": "zapiskov premaknjenih v zbirko",
+    "description": "Sporočilo, ko so zapiski premaknjeni v zbirko"
+  },
+  "collections_pinCollection": {
+    "message": "Pripni zbirko",
+    "description": "Besedilo gumba za pripenjanje zbirke"
+  },
+  "collections_removeFromCollection": {
+    "message": "Odstrani iz zbirke",
+    "description": "Besedilo gumba za odstranitev elementa iz zbirke"
+  },
+  "collections_save": {
+    "message": "Shrani",
+    "description": "Besedilo gumba za shranjevanje sprememb"
+  },
+  "collections_unpinCollection": {
+    "message": "Odpni zbirko",
+    "description": "Besedilo gumba za odpenjanje zbirke"
+  },
+  "command_execute_action": {
+    "message": "Odpri Hitre zapiske",
+    "description": "Opis za ukaz za izvedbo dejanja"
+  },
+  "confirmations_cancel": {
+    "message": "Prekliči",
+    "description": "Besedilo gumba Prekliči"
+  },
+  "confirmations_close": {
+    "message": "Zapri",
+    "description": "Besedilo za gumb za zapiranje"
+  },
+  "confirmations_continue": {
+    "message": "Nadaljuj",
+    "description": "Besedilo gumba Nadaljuj"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Trajno izbrišem vse zapiske v smeteh?",
+    "description": "Potrditveno sporočilo za trajno brisanje smeti"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Ali ste prepričani, da želite trajno izbrisati to zbirko? Tega dejanja ni mogoče razveljaviti.",
+    "description": "Potrditveno sporočilo za trajno brisanje zbirke"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Trajno izbrišem zapis?",
+    "description": "Potrditveno sporočilo za trajno brisanje zapisa"
+  },
+  "confirmations_overwriteData": {
+    "message": "To bo prepisalo vse trenutne podatke. Nadaljujem?",
+    "description": "Potrditveno sporočilo za prepis podatkov"
+  },
+  "contextMenu_addToNote": {
+    "message": "Dodaj v Hiter zapis",
+    "description": "Element kontekstnega menija za dodajanje izbranega besedila v zapis"
+  },
+  "dragDropCreateWindow": {
+    "message": "Spustite, da ustvarite novo okno",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Za združitev spustite zavihek sem",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Spustite, da združite okna",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "Klepet AI ni uspel",
+    "description": "Sporočilo o napaki, ko klepet AI ne uspe"
+  },
+  "errors_aiExpandFailed": {
+    "message": "Razširitev AI ni uspela",
+    "description": "Sporočilo o napaki, ko razširitev AI ne uspe"
+  },
+  "errors_aiImproveFailed": {
+    "message": "Izboljšanje AI ni uspelo",
+    "description": "Sporočilo o napaki, ko izboljšanje AI ne uspe"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "Inicializacija AI ni uspela",
+    "description": "Sporočilo o napaki, ko inicializacija AI ne uspe"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "Zapiski sestanka AI niso uspeli",
+    "description": "Sporočilo o napaki, ko zapiski sestanka AI ne uspejo"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "Oris AI ni uspel",
+    "description": "Sporočilo o napaki, ko oris AI ne uspe"
+  },
+  "errors_aiRequestFailed": {
+    "message": "Zahteva AI ni uspela",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Nastavitev URL-ja zaledja AI ni uspela",
+    "description": "Sporočilo o napaki, ko nastavitev URL-ja zaledja AI ne uspe"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "Predlogi AI niso uspeli",
+    "description": "Sporočilo o napaki, ko predlogi AI ne uspejo"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "Povzemanje AI ni uspelo",
+    "description": "Sporočilo o napaki, ko povzemanje AI ne uspe"
+  },
+  "errors_aiToneFailed": {
+    "message": "Ton AI ni uspel",
+    "description": "Sporočilo o napaki, ko ton AI ne uspe"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Preverjanje stanja zaledja ni uspelo",
+    "description": "Sporočilo o napaki, ko preverjanje stanja zaledja ne uspe"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Zahteva zaledja ni uspela",
+    "description": "Sporočilo o napaki, ko zahteva zaledja ne uspe"
+  },
+  "errors_backendServerError": {
+    "message": "Napaka zalednega strežnika",
+    "description": "Sporočilo o napaki za napake zalednega strežnika"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Čiščenje predpomnilnika AI ni uspelo",
+    "description": "Sporočilo o napaki, ko čiščenje predpomnilnika AI ne uspe"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Napaka pri preverjanju stanja odklepanja AI",
+    "description": "Sporočilo o napaki, ko preverjanje stanja odklepanja AI ne uspe"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Napaka pri pridobivanju statistike uporabe",
+    "description": "Sporočilo o napaki, ko pridobivanje statistike uporabe ne uspe"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Napaka pri pridobivanju e-pošte uporabnika v servisnem delavcu",
+    "description": "Sporočilo o napaki, ko pridobivanje e-pošte uporabnika ne uspe"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Opombe ni bilo mogoče ustvariti",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Generiranje naslova ni uspelo",
+    "description": "Sporočilo o napaki, ko generiranje naslova s strani AI ne uspe"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Inicializacija storitve AI ni uspela",
+    "description": "Sporočilo o napaki, ko inicializacija storitve AI ne uspe"
+  },
+  "errors_genericError": {
+    "message": "Prišlo je do napake. Prosimo, poskusite znova.",
+    "description": "Splošno sporočilo o napaki za neznane napake"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Pridobivanje dnevne statistike uporabe ni uspelo",
+    "description": "Sporočilo o napaki, ko pridobivanje dnevne statistike uporabe ne uspe"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Napaka API-ja Google Diska",
+    "description": "Sporočilo o napaki za napake API-ja Google Diska"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Neveljavna oblika odgovora",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Opomba je prazna. Pred uporabo te funkcije dodajte vsebino.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Zapis ni bil najden v lokalnem pomnilniku",
+    "description": "Sporočilo o napaki, ko zapis ni lokalno najden"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Izbirnik strežnika ni inicializiran",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Postopek sinhronizacije ni uspel z napako",
+    "description": "Sporočilo o napaki, ko postopek sinhronizacije ne uspe"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Neomejena zahteva ni uspela",
+    "description": "Sporočilo o napaki, ko neomejena zahteva ne uspe"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Uporabnik ni preverjen",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Končano!",
+    "description": "Naslov za modalno okno uspešnega izvoza"
+  },
+  "export_downloadSuccess": {
+    "message": "Slika uspešno prenesena",
+    "description": "Sporočilo za modalno okno uspešnega izvoza"
+  },
+  "export_exportingImages": {
+    "message": "Izvažanje slik...",
+    "description": "Naslov za modalno okno nalaganja izvoza"
+  },
+  "export_pleaseWait": {
+    "message": "Prosimo, počakajte trenutek",
+    "description": "Sporočilo za modalno okno nalaganja izvoza"
+  },
+  "icons_hobby": {
+    "message": "Hobi",
+    "description": "Nadomestno besedilo za ikono Hobi"
+  },
+  "icons_ideas": {
+    "message": "Ideje",
+    "description": "Nadomestno besedilo za ikono Ideje"
+  },
+  "icons_personal": {
+    "message": "Osebno",
+    "description": "Nadomestno besedilo za ikono Osebno"
+  },
+  "icons_study": {
+    "message": "Študij",
+    "description": "Nadomestno besedilo za ikono Študij"
+  },
+  "icons_travel": {
+    "message": "Potovanje",
+    "description": "Nadomestno besedilo za ikono Potovanje"
+  },
+  "icons_work": {
+    "message": "Služba",
+    "description": "Nadomestno besedilo za ikono Služba"
+  },
+  "main_createNote": {
+    "message": "Ustvari nov zapis",
+    "description": "Besedilo gumba za ustvarjanje novega zapisa"
+  },
+  "main_deleteNote": {
+    "message": "Izbriši zapis",
+    "description": "Besedilo gumba za brisanje zapisa"
+  },
+  "main_newNote": {
+    "message": "Nov zapis",
+    "description": "Oznaka za nov zapis"
+  },
+  "main_noContent": {
+    "message": "Ni dodatne vsebine",
+    "description": "Besedilo, prikazano, ko ni dodatne vsebine"
+  },
+  "main_pinNote": {
+    "message": "Pripni zapis",
+    "description": "Besedilo gumba za pripenjanje zapisa"
+  },
+  "main_searchPlaceholder": {
+    "message": "Išči zapiske...",
+    "description": "Nadomestno besedilo za vnos iskanja"
+  },
+  "main_undoCut": {
+    "message": "Razveljavi premik",
+    "description": "Besedilo gumba za razveljavitev dejanja izrezovanja zapisa"
+  },
+  "main_unpinNote": {
+    "message": "Odpni zapis",
+    "description": "Besedilo gumba za odpenjanje zapisa"
+  },
+  "messages_allNotesRestored": {
+    "message": "Obnovljeno",
+    "description": "Sporočilo o uspešni obnovitvi vseh elementov"
+  },
+  "messages_authError": {
+    "message": "Napaka pri preverjanju pristnosti",
+    "description": "Sporočilo o napaki za težave s preverjanjem pristnosti"
+  },
+  "messages_authErrorDetails": {
+    "message": "Prosimo, poskusite se odjaviti in ponovno prijaviti.",
+    "description": "Podrobnosti za napako pri preverjanju pristnosti"
+  },
+  "messages_authenticationFailed": {
+    "message": "Preverjanje pristnosti ni uspelo",
+    "description": "Sporočilo o napaki pri neuspešnem preverjanju pristnosti"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Varnostno kopirano",
+    "description": "Sporočilo za varnostno kopiranje v Disk"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "To ozadje je na voljo samo za Premium uporabnike. Prosimo, nadgradite za odklepanje vseh ozadij.",
+    "description": "Sporočilo o premium funkciji za zaklenjena ozadja"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Funkcija nalaganja ozadja je na voljo samo za Premium uporabnike. Prosimo, nadgradite za uporabo te funkcije.",
+    "description": "Sporočilo o premium funkciji za nalaganje ozadja"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Povezave za deljenje ni mogoče ustvariti",
+    "description": "Sporočilo o napaki, ko ustvarjanje povezave za deljenje ne uspe"
+  },
+  "messages_checkoutFailed": {
+    "message": "Ustvarjanje seje za plačilo ni uspelo. Prosimo, poskusite znova.",
+    "description": "Sporočilo o napaki, ko ustvarjanje plačila ne uspe"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Povezovanje z Googlom...",
+    "description": "Sporočilo o nalaganju med povezovanjem z Googlom"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "E-pošte ni bilo mogoče naložiti.",
+    "description": "Sporočilo o napaki, ko e-pošte uporabnika ni mogoče naložiti"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Dnevna omejitev dosežena. Poskusite jutri ali nadgradite.",
+    "description": "Opozorilno sporočilo, ko je dosežena dnevna omejitev deljenja"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Privzeto ozadje nastavljeno!",
+    "description": "Sporočilo o uspehu, ko je privzeto ozadje nastavljeno"
+  },
+  "messages_done": {
+    "message": "Končano",
+    "description": "Splošno sporočilo o uspehu"
+  },
+  "messages_errorReadingFile": {
+    "message": "Napaka pri branju",
+    "description": "Sporočilo o napaki pri neuspešnem branju datoteke"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Izvoženo",
+    "description": "Sporočilo o uspešnem izvozu"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Nalaganje smeti ni uspelo",
+    "description": "Sporočilo o napaki, ko nalaganje smeti ne uspe"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Nalaganje smeti ni uspelo. Prosimo, poskusite znova.",
+    "description": "Sporočilo o napaki, prikazano v vsebniku za smeti, ko nalaganje ne uspe"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Premik zapisa ni uspel",
+    "description": "Sporočilo o napaki, ko premikanje zapisa ne uspe"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Uvoženo",
+    "description": "Sporočilo o uspešnem uvozu"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Neveljavna datoteka",
+    "description": "Sporočilo o napaki za neveljavno obliko datoteke"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Nalaganje podatkov o računu...",
+    "description": "Sporočilo o nalaganju med pridobivanjem podatkov o računu"
+  },
+  "messages_moveCancelled": {
+    "message": "Premik preklican",
+    "description": "Sporočilo, ko je operacija premika preklicana"
+  },
+  "messages_movedToCollection": {
+    "message": "Premaknjeno v zbirko",
+    "description": "Sporočilo o uspehu, ko je zapis premaknjen v zbirko"
+  },
+  "messages_networkError": {
+    "message": "Ni omrežne povezave",
+    "description": "Sporočilo o napaki za težave z omrežjem"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Prosimo, preverite internetno povezavo in poskusite znova.",
+    "description": "Podrobnosti za omrežno napako"
+  },
+  "messages_noNotesInCollection": {
+    "message": "V tej zbirki ni najdenih zapiskov",
+    "description": "Sporočilo, ko zbirka nima zapiskov"
+  },
+  "messages_noteDeleted": {
+    "message": "Izbrisano",
+    "description": "Sporočilo o uspešnem brisanju zapisa"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Premaknjeno",
+    "description": "Sporočilo o uspešnem premiku zapisa v zbirko"
+  },
+  "messages_noteNotFound": {
+    "message": "Zapis ni bil najden na strežniku. Prosimo, poskusite znova.",
+    "description": "Sporočilo o napaki, ko zapis ni najden na strežniku"
+  },
+  "messages_notePinned": {
+    "message": "Pripeto",
+    "description": "Sporočilo o uspešnem pripenjanju zapisa"
+  },
+  "messages_noteUnpinned": {
+    "message": "Odpeto",
+    "description": "Sporočilo o uspešnem odpenjanju zapisa"
+  },
+  "messages_notesUpToDate": {
+    "message": "Posodobljeno",
+    "description": "Sporočilo, ko so zapiski posodobljeni"
+  },
+  "messages_paymentError": {
+    "message": "Napaka pri plačilu. Prosimo, poskusite znova.",
+    "description": "Sporočilo o napaki pri napakah pri plačilu"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Napaka pri preverjanju plačila. Prosimo, osvežite stran.",
+    "description": "Sporočilo o napaki, ko preverjanje plačila ne uspe"
+  },
+  "messages_permissionDenied": {
+    "message": "Dovoljenje zavrnjeno",
+    "description": "Sporočilo o napaki, ko uporabnik zavrne dovoljenje"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Za uporabo funkcij sinhronizacije prosimo, da aplikaciji dodelite dovoljenja.",
+    "description": "Podrobnosti za napako zavrnjenega dovoljenja"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Obnovljeno",
+    "description": "Sporočilo za obnovitev iz Diska"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Prosimo, izberite vsaj en zapis za analizo AI",
+    "description": "Sporočilo o napaki, ko za AI ni izbran noben zapis"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Prosimo, najprej izberite zapiske",
+    "description": "Sporočilo, ko niso izbrani nobeni zapiski"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Deljenje ni nastavljeno.",
+    "description": "Sporočilo o napaki, ko deljenje ni nastavljeno"
+  },
+  "messages_signInFailed": {
+    "message": "Prijava ni uspela",
+    "description": "Sporočilo o napaki pri neuspešni prijavi"
+  },
+  "messages_signInToShare": {
+    "message": "Za deljenje se prijavite",
+    "description": "Sporočilo o napaki, ko se mora uporabnik prijaviti za deljenje"
+  },
+  "messages_signInToUpload": {
+    "message": "Za nalaganje se prijavite",
+    "description": "Sporočilo o napaki, ko se mora uporabnik prijaviti za nalaganje"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Uspešno prijavljeni!",
+    "description": "Sporočilo o uspešni prijavi"
+  },
+  "messages_signedOut": {
+    "message": "Odjavljeni",
+    "description": "Sporočilo ob odjavi"
+  },
+  "messages_syncFailed": {
+    "message": "Sinhronizacija ni uspela",
+    "description": "Sporočilo o napaki pri neuspešni sinhronizaciji"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Sinhronizirano",
+    "description": "Sporočilo za sinhronizacijo iz Diska"
+  },
+  "messages_syncedToDrive": {
+    "message": "Sinhronizirano",
+    "description": "Sporočilo za sinhronizacijo v Disk"
+  },
+  "messages_syncingData": {
+    "message": "Sinhroniziranje podatkov...",
+    "description": "Sporočilo o nalaganju med sinhronizacijo podatkov"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Sinhroniziranje z Diskom...",
+    "description": "Sporočilo, prikazano med sinhronizacijo z Google Diskom"
+  },
+  "messages_trashEmptied": {
+    "message": "Izpraznjeno",
+    "description": "Sporočilo o uspešnem praznjenju smeti"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Upravljanja plačil ni mogoče odpreti. Prosimo, poskusite znova kasneje.",
+    "description": "Sporočilo o napaki, ko odpiranje portala za plačila ne uspe"
+  },
+  "messages_verifyingPayment": {
+    "message": "Preverjanje plačila...",
+    "description": "Sporočilo, prikazano med preverjanjem plačila"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Izbriši izbrano",
+    "description": "Besedilo gumba za brisanje izbranih elementov"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Trajno izbriši",
+    "description": "Besedilo gumba za trajno brisanje izbranih elementov"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Obnovi izbrano",
+    "description": "Besedilo gumba za obnovitev izbranih elementov"
+  },
+  "multiSelect_cancel": {
+    "message": "Prekliči",
+    "description": "Besedilo gumba za preklic izbire"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Trajno izbrišem izbrane elemente?",
+    "description": "Potrditveno sporočilo za trajno množično brisanje"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Obnovim izbrane elemente?",
+    "description": "Potrditveno sporočilo za množično obnovitev"
+  },
+  "multiSelect_selectAll": {
+    "message": "Izberi vse",
+    "description": "Besedilo gumba za izbiro vseh elementov"
+  },
+  "multiSelect_selected": {
+    "message": "izbrano",
+    "description": "Oznaka za število izbranih"
+  },
+  "note_aiAssistant": {
+    "message": "AI pomočnik",
+    "description": "Besedilo gumba AI pomočnik"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Vprašajte karkoli",
+    "description": "Nadomestno besedilo za vnos AI"
+  },
+  "note_aiToneMagic": {
+    "message": "Čarovnija tona AI",
+    "description": "Namig za orodje gumba Čarovnija tona AI"
+  },
+  "note_alignCenter": {
+    "message": "Poravnaj na sredino",
+    "description": "Besedilo gumba za poravnavo na sredino"
+  },
+  "note_alignLeft": {
+    "message": "Poravnaj levo",
+    "description": "Besedilo gumba za poravnavo levo"
+  },
+  "note_alignRight": {
+    "message": "Poravnaj desno",
+    "description": "Besedilo gumba za poravnavo desno"
+  },
+  "note_background": {
+    "message": "Ozadje",
+    "description": "Besedilo gumba Ozadje"
+  },
+  "note_createNew": {
+    "message": "Ustvari nov zapis",
+    "description": "Besedilo gumba za ustvarjanje novega zapisa"
+  },
+  "note_defaultTitle": {
+    "message": "Nov zapis",
+    "description": "Privzeti naslov za nove zapiske"
+  },
+  "note_deleteNote": {
+    "message": "Izbriši zapis",
+    "description": "Besedilo gumba za brisanje zapisa"
+  },
+  "note_download": {
+    "message": "Prenesi kot sliko",
+    "description": "Besedilo gumba za prenos kot sliko"
+  },
+  "note_editorNotAvailable": {
+    "message": "Urejevalnik ni na voljo",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Vnesite URL povezave...",
+    "description": "Nadomestno besedilo za vnos URL-ja povezave"
+  },
+  "note_enterVideoURL": {
+    "message": "Vnesite URL videa...",
+    "description": "Nadomestno besedilo za vnos URL-ja videa"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Napaka pri uporabi oblikovanja",
+    "description": "Sporočilo o napaki, ko oblikovanje ne uspe"
+  },
+  "note_heading1": {
+    "message": "Naslov 1",
+    "description": "Besedilo gumba Naslov 1"
+  },
+  "note_heading2": {
+    "message": "Naslov 2",
+    "description": "Besedilo gumba Naslov 2"
+  },
+  "note_insertButton": {
+    "message": "Vstavi",
+    "description": "Besedilo za gumb za vstavljanje"
+  },
+  "note_insertImage": {
+    "message": "Vstavi sliko",
+    "description": "Besedilo gumba za vstavljanje slike"
+  },
+  "note_menu": {
+    "message": "Meni",
+    "description": "Besedilo gumba Meni"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR ni na voljo za to sliko zaradi omejitev CORS.",
+    "description": "Informativno sporočilo, ko OCR ni na voljo"
+  },
+  "note_removeFormat": {
+    "message": "Odstrani oblikovanje",
+    "description": "Besedilo gumba za odstranjevanje oblikovanja"
+  },
+  "note_share": {
+    "message": "Deli",
+    "description": "Besedilo gumba Deli"
+  },
+  "note_smartColorsApplied": {
+    "message": "Uporabljene pametne barve!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Struktura optimizirana!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Ogled vseh zapiskov",
+    "description": "Besedilo gumba za ogled vseh zapiskov"
+  },
+  "notification_defaultContent": {
+    "message": "Vsebina obvestila",
+    "description": "Privzeta vsebina za modalno okno obvestila"
+  },
+  "payment_checkTimeout": {
+    "message": "Časovna omejitev preverjanja plačila. Prosimo, osvežite stran, če je bilo plačilo zaključeno.",
+    "description": "Sporočilo, ko preverjanje plačila poteče"
+  },
+  "payment_invalidPlan": {
+    "message": "Izbran je neveljaven načrt",
+    "description": "Sporočilo o napaki, ko je izbran neveljaven načrt"
+  },
+  "payment_signInRequired": {
+    "message": "Prosimo, prijavite se za nadaljevanje s plačilom",
+    "description": "Sporočilo o napaki, ko se mora uporabnik prijaviti za plačilo"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Dostop do naprednih funkcij",
+    "description": "Premium funkcija: dostop do naprednih funkcij"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "Nadomestno besedilo za ikono AI Premium"
+  },
+  "premium_backgroundPremium": {
+    "message": "Ozadje Premium",
+    "description": "Nadomestno besedilo za ikono Ozadje Premium"
+  },
+  "premium_collectionsPremium": {
+    "message": "Zbirke Premium",
+    "description": "Nadomestno besedilo za ikono Zbirke Premium"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Čestitke!",
+    "description": "Naslov za modalno okno uspešnega premium"
+  },
+  "premium_contact_support": {
+    "message": "Obrnite se na podporo",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Ekskluzivna ozadja",
+    "description": "Naslov funkcije za ekskluzivna ozadja"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Dostop do premium ozadij",
+    "description": "Opis funkcije ekskluzivnih ozadij"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Ekskluzivna podpora",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Prednostna podpora naše ekipe",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Poteče",
+    "description": "Oznaka za datum poteka"
+  },
+  "premium_manage_billing": {
+    "message": "Upravljaj plačila",
+    "description": "Besedilo gumba za upravljanje plačil"
+  },
+  "premium_next_billing": {
+    "message": "Naslednje plačilo",
+    "description": "Oznaka za datum naslednjega plačila"
+  },
+  "premium_plan_annual": {
+    "message": "Premium letno",
+    "description": "Besedilo za letni načrt"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium mesečno",
+    "description": "Besedilo za mesečni načrt"
+  },
+  "premium_plan_trial": {
+    "message": "Premium preizkus",
+    "description": "Besedilo za preizkusni načrt"
+  },
+  "premium_plan_type": {
+    "message": "Vrsta načrta",
+    "description": "Oznaka za vrsto načrta"
+  },
+  "premium_prioritySupport": {
+    "message": "Prednostna podpora",
+    "description": "Premium funkcija: prednostna podpora"
+  },
+  "premium_shareNotes": {
+    "message": "Deljenje zapiskov",
+    "description": "Naslov funkcije za deljenje zapiskov"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Delite zapiske z drugimi",
+    "description": "Opis funkcije za deljenje zapiskov"
+  },
+  "premium_sharePremium": {
+    "message": "Deljenje Premium",
+    "description": "Nadomestno besedilo za ikono Deljenje Premium"
+  },
+  "premium_startFreeTrial": {
+    "message": "Začni brezplačni preizkus",
+    "description": "Besedilo gumba za začetek brezplačnega preizkusa"
+  },
+  "premium_startUsing": {
+    "message": "Začnite z uporabo",
+    "description": "Besedilo gumba za začetek uporabe premium funkcij"
+  },
+  "premium_status": {
+    "message": "Stanje",
+    "description": "Oznaka za stanje"
+  },
+  "premium_status_active": {
+    "message": "Aktivno",
+    "description": "Besedilo stanja za aktivno naročnino"
+  },
+  "premium_status_cancelled": {
+    "message": "Preklicano",
+    "description": "Besedilo stanja za preklicano naročnino"
+  },
+  "premium_status_expired": {
+    "message": "Poteklo",
+    "description": "Besedilo stanja za poteklo naročnino"
+  },
+  "premium_status_inactive": {
+    "message": "Neaktivno",
+    "description": "Besedilo stanja za neaktivno naročnino"
+  },
+  "premium_subscribeNow": {
+    "message": "Naroči se zdaj",
+    "description": "Besedilo gumba za naročnino na premium"
+  },
+  "premium_support": {
+    "message": "Podpora",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Neomejena AI",
+    "description": "Naslov funkcije za neomejeno AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Neomejen AI klepet",
+    "description": "Premium funkcija: neomejen AI klepet"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Neomejeno število AI zahtevkov na dan",
+    "description": "Opis funkcije neomejene AI"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Neomejene zbirke",
+    "description": "Naslov funkcije za neomejene zbirke"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Ustvarite neomejeno število zbirk",
+    "description": "Opis funkcije neomejenih zbirk"
+  },
+  "premium_unlockTitle": {
+    "message": "Odkleni neomejeno uporabo AI",
+    "description": "Naslov za modalno okno odklepanja premium"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Uspešno ste nadgradili na Premium",
+    "description": "Sporočilo za uspešno nadgradnjo na premium"
+  },
+  "search_noResults": {
+    "message": "Ni najdenih rezultatov",
+    "description": "Naslov, prikazan, ko iskanje ne vrne rezultatov"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Poskusite iskati z drugačnimi ključnimi besedami ali ustvarite nov zapis",
+    "description": "Sporočilo, prikazano, ko iskanje ne vrne rezultatov"
+  },
+  "settings_aiUsage": {
+    "message": "Uporaba AI",
+    "description": "Naslov oddelka Uporaba AI v nastavitvah"
+  },
+  "settings_aiUsageToday": {
+    "message": "Današnja uporaba AI",
+    "description": "Oznaka uporabe AI za danes"
+  },
+  "settings_appearance": {
+    "message": "Videz",
+    "description": "Oddelek z nastavitvami videza"
+  },
+  "settings_cloudSync": {
+    "message": "Sinhronizacija v oblaku",
+    "description": "Oznaka oddelka za sinhronizacijo v oblaku"
+  },
+  "settings_configure": {
+    "message": "Konfiguriraj",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Upravljanje podatkov",
+    "description": "Oddelek z nastavitvami upravljanja podatkov"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Privzeta velikost opombe",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Izvozi",
+    "description": "Besedilo gumba Izvozi"
+  },
+  "settings_exportData": {
+    "message": "Izvozi podatke",
+    "description": "Besedilo gumba za izvoz podatkov"
+  },
+  "settings_import": {
+    "message": "Uvozi",
+    "description": "Besedilo gumba Uvozi"
+  },
+  "settings_importData": {
+    "message": "Uvozi podatke",
+    "description": "Besedilo gumba za uvoz podatkov"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Neveljavna velikost. Širina: 400-1920, Višina: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Prekliči",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Višina",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Ponastavi na privzeto",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Shrani",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Privzeta velikost je shranjena",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Privzeta velikost opombe",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "širina",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Odpri",
+    "description": "Besedilo gumba Odpri"
+  },
+  "settings_signInRequired": {
+    "message": "Potrebna je prijava",
+    "description": "Besedilo, prikazano, ko je potrebna prijava"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Prijavite se z Googlom",
+    "description": "Besedilo gumba za prijavo z Googlom"
+  },
+  "settings_signOut": {
+    "message": "Odjava",
+    "description": "Besedilo gumba za odjavo"
+  },
+  "settings_signedInWith": {
+    "message": "Prijavljeni z",
+    "description": "Besedilo, ki prikazuje stanje prijave"
+  },
+  "settings_sync": {
+    "message": "Sinhroniziraj",
+    "description": "Besedilo gumba za sinhronizacijo"
+  },
+  "settings_theme": {
+    "message": "Tema",
+    "description": "Oznaka nastavitve teme"
+  },
+  "settings_title": {
+    "message": "Nastavitve",
+    "description": "Naslov strani z nastavitvami"
+  },
+  "settings_trash": {
+    "message": "Smeti",
+    "description": "Oznaka oddelka Smeti"
+  },
+  "settings_unlimited": {
+    "message": "Neomejeno",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Pridobi Premium",
+    "description": "Besedilo gumba Pridobi Premium"
+  },
+  "settings_unlockAIText": {
+    "message": "Odkleni AI",
+    "description": "Oznaka besedila Odkleni AI"
+  },
+  "settings_userAvatar": {
+    "message": "Avatar uporabnika",
+    "description": "Nadomestno besedilo za sliko avatarja uporabnika"
+  },
+  "share_copied": {
+    "message": "Kopirano",
+    "description": "Besedilo, prikazano, ko je vsebina kopirana"
+  },
+  "share_copy": {
+    "message": "Kopiraj",
+    "description": "Besedilo za gumb za kopiranje v modalnem oknu za deljenje"
+  },
+  "share_creatingLink": {
+    "message": "Ustvarjanje povezave za deljenje...",
+    "description": "Besedilo za prekrivno plast nalaganja deljenja"
+  },
+  "share_defaultTitle": {
+    "message": "Oglejte si ta zapis iz Hitrih zapiskov",
+    "description": "Privzeti naslov za deljene zapiske"
+  },
+  "share_facebook": {
+    "message": "Deli na Facebooku",
+    "description": "Naslov za gumb za deljenje na Facebooku"
+  },
+  "share_linkedin": {
+    "message": "Deli na LinkedInu",
+    "description": "Naslov za gumb za deljenje na LinkedInu"
+  },
+  "share_reddit": {
+    "message": "Deli na Redditu",
+    "description": "Naslov za gumb za deljenje na Redditu"
+  },
+  "share_twitter": {
+    "message": "Deli na X (Twitter)",
+    "description": "Naslov za gumb za deljenje na Twitterju"
+  },
+  "share_whatsapp": {
+    "message": "Deli na WhatsAppu",
+    "description": "Naslov za gumb za deljenje na WhatsAppu"
+  },
+  "sync_noteFailed": {
+    "message": "Sinhronizacija zapisa s strežnikom ni uspela",
+    "description": "Sporočilo o napaki, ko sinhronizacija zapisa s strežnikom ne uspe"
+  },
+  "themes_hobby": {
+    "message": "Hobi",
+    "description": "Ime teme Hobi"
+  },
+  "themes_ideas": {
+    "message": "Ideje",
+    "description": "Ime teme Ideje"
+  },
+  "themes_personal": {
+    "message": "Osebno",
+    "description": "Ime teme Osebno"
+  },
+  "themes_study": {
+    "message": "Študij",
+    "description": "Ime teme Študij"
+  },
+  "themes_travel": {
+    "message": "Potovanje",
+    "description": "Ime teme Potovanje"
+  },
+  "themes_work": {
+    "message": "Služba",
+    "description": "Ime teme Služba"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Dodano v novo opombo",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "Odziv AI ni uspel",
+    "description": "Toast sporočilo, ko odziv AI ne uspe"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Nastavitev ozadja ni uspela",
+    "description": "Toast sporočilo, ko nastavitev ozadja ne uspe"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Ni mogoče izbrisati",
+    "description": "Toast sporočilo, ko ni mogoče izbrisati privzetega elementa"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Kopirano v odložišče",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Kopiranje povezave ni uspelo. Prosimo, poskusite znova.",
+    "description": "Toast sporočilo, ko operacija kopiranja ne uspe"
+  },
+  "toast_exportFailed": {
+    "message": "Izvoz ni uspel",
+    "description": "Toast sporočilo, ko izvoz ne uspe"
+  },
+  "toast_failed": {
+    "message": "Neuspešno",
+    "description": "Splošno sporočilo o neuspehu"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Dodajanje v opombo ni uspelo",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kopiranje ni uspelo",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Potrebna je slikovna datoteka",
+    "description": "Toast sporočilo, ko je potrebna slikovna datoteka"
+  },
+  "toast_imageTooLarge": {
+    "message": "Slika je prevelika",
+    "description": "Toast sporočilo, ko je slikovna datoteka prevelika"
+  },
+  "toast_libraryError": {
+    "message": "Napaka knjižnice",
+    "description": "Toast sporočilo za napake knjižnice"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Knjižnica se nalaga",
+    "description": "Toast sporočilo, ko knjižnica ni naložena"
+  },
+  "toast_moveFailed": {
+    "message": "Premik ni uspel",
+    "description": "Toast sporočilo, ko operacija premika ne uspe"
+  },
+  "toast_moved": {
+    "message": "Premaknjen",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Ni izbire",
+    "description": "Toast sporočilo, ko ni izbranih nobenih elementov"
+  },
+  "toast_operationFailed": {
+    "message": "Operacija ni uspela",
+    "description": "Toast sporočilo za splošne napake pri operacijah"
+  },
+  "toast_restartExtension": {
+    "message": "Prosimo, ponovno zaženite razširitev, da sprostite prostor.",
+    "description": "Toast sporočilo, ki uporabnika prosi, da ponovno zažene razširitev"
+  },
+  "toast_storageError": {
+    "message": "Napaka pri shranjevanju. Prosimo, ponovno zaženite razširitev.",
+    "description": "Toast sporočilo za napake pri shranjevanju"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Pomnilnik je poln, čiščenje predpomnilnika...",
+    "description": "Toast sporočilo, ko je pomnilnik poln in se čisti predpomnilnik"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI pomočnik",
+    "description": "Nadomestno besedilo za ikono AI pomočnika"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Poravnaj na sredino",
+    "description": "Nadomestno besedilo za ikono Poravnaj na sredino"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Poravnaj levo",
+    "description": "Nadomestno besedilo za ikono Poravnaj levo"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Poravnaj desno",
+    "description": "Nadomestno besedilo za ikono Poravnaj desno"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Barva ozadja",
+    "description": "Naslov za gumb za barvo ozadja v orodni vrstici"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Barva ozadja",
+    "description": "Nadomestno besedilo za ikono barve ozadja"
+  },
+  "toolbar_blockquote": {
+    "message": "Blok citata",
+    "description": "Naslov za gumb za blok citata v orodni vrstici"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Blok citata",
+    "description": "Nadomestno besedilo za ikono bloka citata"
+  },
+  "toolbar_bold": {
+    "message": "Krepko",
+    "description": "Naslov za gumb za krepko pisavo v orodni vrstici"
+  },
+  "toolbar_boldIcon": {
+    "message": "Krepko",
+    "description": "Nadomestno besedilo za ikono Krepko"
+  },
+  "toolbar_bulletList": {
+    "message": "Označen seznam",
+    "description": "Naslov za gumb za označen seznam v orodni vrstici"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Označen seznam",
+    "description": "Nadomestno besedilo za ikono Označen seznam"
+  },
+  "toolbar_checklist": {
+    "message": "Kontrolni seznam",
+    "description": "Naslov za gumb za kontrolni seznam v orodni vrstici"
+  },
+  "toolbar_codeBlock": {
+    "message": "Blok kode",
+    "description": "Naslov za gumb za blok kode v orodni vrstici"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Blok kode",
+    "description": "Nadomestno besedilo za ikono bloka kode"
+  },
+  "toolbar_fontSize": {
+    "message": "Velikost pisave",
+    "description": "Naslov za gumb za velikost pisave v orodni vrstici"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Velikost pisave",
+    "description": "Nadomestno besedilo za ikono velikosti pisave"
+  },
+  "toolbar_heading3": {
+    "message": "Naslov 3",
+    "description": "Naslov za gumb za naslov 3 v orodni vrstici"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Naslov 3",
+    "description": "Nadomestno besedilo za ikono naslova 3"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Vstavi sliko",
+    "description": "Nadomestno besedilo za ikono Vstavi sliko"
+  },
+  "toolbar_insertLink": {
+    "message": "Vstavi povezavo",
+    "description": "Naslov za gumb za vstavljanje povezave v orodni vrstici"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Vstavi povezavo",
+    "description": "Nadomestno besedilo za ikono za vstavljanje povezave"
+  },
+  "toolbar_insertVideo": {
+    "message": "Vstavi video",
+    "description": "Naslov za gumb za vstavljanje videa v orodni vrstici"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Vstavi video",
+    "description": "Nadomestno besedilo za ikono za vstavljanje videa"
+  },
+  "toolbar_italic": {
+    "message": "Ležeče",
+    "description": "Naslov za gumb za ležečo pisavo v orodni vrstici"
+  },
+  "toolbar_italicIcon": {
+    "message": "Ležeče",
+    "description": "Nadomestno besedilo za ikono Ležeče"
+  },
+  "toolbar_justify": {
+    "message": "Poravnaj obojestransko",
+    "description": "Naslov za gumb za obojestransko poravnavo besedila v orodni vrstici"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Poravnaj obojestransko",
+    "description": "Nadomestno besedilo za ikono za obojestransko poravnavo"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Oštevilčen seznam",
+    "description": "Nadomestno besedilo za ikono Oštevilčen seznam"
+  },
+  "toolbar_orderedList": {
+    "message": "Oštevilčen seznam",
+    "description": "Naslov za gumb za oštevilčen seznam v orodni vrstici"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Odstrani format",
+    "description": "Nadomestno besedilo za ikono Odstrani format"
+  },
+  "toolbar_strikethrough": {
+    "message": "Prečrtano",
+    "description": "Naslov za gumb za prečrtano pisavo v orodni vrstici"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Prečrtano",
+    "description": "Nadomestno besedilo za ikono Prečrtano"
+  },
+  "toolbar_textColor": {
+    "message": "Barva besedila",
+    "description": "Naslov za gumb za barvo besedila v orodni vrstici"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Barva besedila",
+    "description": "Nadomestno besedilo za ikono barve besedila"
+  },
+  "toolbar_underline": {
+    "message": "Podčrtano",
+    "description": "Naslov za gumb za podčrtano pisavo v orodni vrstici"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Podčrtano",
+    "description": "Nadomestno besedilo za ikono Podčrtano"
+  },
+  "trash_deleteForever": {
+    "message": "Trajno izbriši",
+    "description": "Besedilo gumba za trajno brisanje elementa"
+  },
+  "trash_empty": {
+    "message": "Smeti so prazne.",
+    "description": "Sporočilo, ko so smeti prazne"
+  },
+  "trash_emptyTrash": {
+    "message": "Izprazni smeti",
+    "description": "Besedilo gumba za praznjenje smeti"
+  },
+  "trash_restore": {
+    "message": "Obnovi",
+    "description": "Besedilo gumba za obnovitev elementa"
+  },
+  "trash_restoreAll": {
+    "message": "Obnovi vse",
+    "description": "Besedilo gumba za obnovitev vseh elementov"
+  },
+  "trash_title": {
+    "message": "Smeti",
+    "description": "Naslov strani Smeti"
+  },
+  "welcome_collection_description": {
+    "message": "Pozdravna zbirka za nove uporabnike",
+    "description": "Opis privzete pozdravne zbirke"
+  },
+  "welcome_collection_name": {
+    "message": "Dobrodošli",
+    "description": "Ime privzete pozdravne zbirke"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Kliknite gumb <strong>+</strong>, da ustvarite nov zapis<br>• Uporabite AI za povzemanje, prevajanje ali izboljšanje vsebine<br>• AI vam lahko pomaga organizirati in optimizirati vaše zapiske",
+    "description": "Navodila za uporabo AI v pozdravnem zapisu"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Kako uporabljati AI",
+    "description": "Naslov oddelka o uporabi AI v pozdravnem zapisu"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Z desnim klikom na prazen prostor ustvarite zbirko<br>• Povlecite in spustite zapiske v zbirke za organizacijo<br>• Vsaka zbirka ima lahko svojo temo (služba, osebno, ideje...)",
+    "description": "Navodila za uporabo zbirk v pozdravnem zapisu"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Kako ustvariti zbirke",
+    "description": "Naslov oddelka o zbirkah v pozdravnem zapisu"
+  },
+  "welcome_note_footer": {
+    "message": "Uživajte v uporabi Hitrih zapiskov! 🎉",
+    "description": "Sporočilo v nogi pozdravnega zapisa"
+  },
+  "welcome_note_intro": {
+    "message": "To je vaš prvi zapis. Hitri zapiski vam pomagajo hitro in učinkovito zapisovati.",
+    "description": "Uvodno besedilo v pozdravnem zapisu"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Uporabite barve za kategorizacijo zapiskov<br>• Pripnite pomembne zapiske na vrh seznama<br>• Hitro iščite z iskalno vrstico zgoraj<br>• Sinhronizirajte z Google Diskom za varno varnostno kopiranje",
+    "description": "Nasveti za uporabo v pozdravnem zapisu"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Nasveti za uporabo",
+    "description": "Naslov oddelka z nasveti v pozdravnem zapisu"
+  },
+  "welcome_note_title": {
+    "message": "Dobrodošli v Hitrih zapiskih! 👋",
+    "description": "Naslov pozdravnega zapisa"
+  }
+}

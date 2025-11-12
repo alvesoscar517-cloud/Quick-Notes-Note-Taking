@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Avaa Quick Notes",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Pääsy kielletty. Tarkista käyttöoikeutesi.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Sovella muistiinpanoon",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kopioi",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Luo tehtäviä",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API-avainta ei ole määritetty",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Liitä",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Sisällön lisääminen muistiinpanoon epäonnistui",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Sovella muistiinpanoon",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Taustapalvelin ei ole käytettävissä. Tarkista yhteytesi ja yritä uudelleen.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "Taustajärjestelmän URL-osoitetta ei ole määritetty",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Taustapalvelin ei vastaa",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Tekoäly-chat-ikkunan luominen epäonnistui",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Keskustele tekoälyn kanssa valitusta tekstistä",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Sisältö lisätty muistiinpanoosi!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Sisältö kopioitu leikepöydälle!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Suodatettu",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Sisältö lisätty ja korvattu valittu teksti",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Sisältöä ei ole saatavilla",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopioi",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Kopiointi leikepöydälle epäonnistui",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Päivittäinen raja saavutettu (15/15). Yritä uudelleen huomenna.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Lataa kuva",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "Tekoäly palautti tyhjän vastauksen. Yritä uudelleen.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "Tekoälyvirhe",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Laajenna",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Pura teksti (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Kuvan analysointi epäonnistui",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Analysoidaan kuvaa...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Päivittäinen kuva-analyysiraja saavutettu. Päivitä premium-versioon rajoittamatonta analysointia varten.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Kuvan lataaminen epäonnistui",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Kuva ladattu onnistuneesti",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Paranna",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Lähetä painamalla Enter, uusi rivi Shift+Enter",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Kirjoita viestisi tai valitse pikatoiminto...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Sisällön lisääminen epäonnistui",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Lisää & Vaihda",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Virheellinen API-avain",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Virheellinen kirjautuminen",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Huono malli",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Virheellinen vastaus taustapalvelusta.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Olet käyttänyt kaikki {limit} tekoälypyyntöäsi tälle päivälle. Päivitä Premiumiin saadaksesi rajoittamattoman pääsyn!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Kokousmuistiinpanot",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Pienennä",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Mallia ei löytynyt",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Verkkovirhe",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Ei yhteyttä",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Ei vastausta tekoälyltä",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Ei valittua tekstiä",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Ei kumottavia tekoälytoimintoja",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR-tulos vastaanotettu",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Jäsennys",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium aktiivinen",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "Tekoäly käsittelee...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kiintiö täynnä",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Käyttöraja ylitetty. Yritä myöhemmin uudelleen.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Pyyntö aikakatkaistiin",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI-vastaus saatu",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Estetty",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Tallenna",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Hae",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Valittu teksti",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Palvelinvirhe - Yritä myöhemmin uudelleen",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Palvelu ei ole käytössä",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Tekoälypalvelun alustaminen epäonnistui",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "Tekoälypalvelu ei ole saatavilla. Päivitä sivu.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "Tekoälypalvelua ei ole määritetty oikein",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "Tekoälypalvelua ei ole alustettu",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "Tekoälypalvelu tilapäisesti poissa käytöstä",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Kirjaudu sisään käyttääksesi tekoälyominaisuuksia. Napsauta kirjautumispainiketta laajennuksessa.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Kirjaudu sisään avataksesi",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Tilastojen haku epäonnistui",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Ehdotukset",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Tiivistä",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Aikakatkaisu",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "Tekoälyavustaja",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Sävy",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramaattinen",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Humoristinen",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Valitse teksti tai lisää sisältöä muunnettavaksi",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Runollinen",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Ammattimainen",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Yksinkertaista",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Käännä",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " englanniksi",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "Tekoälytoiminto kumottu onnistuneesti!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Tuntematon tekoälyvirhe",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "LUKITTU",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Rajoittamaton",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Käyttäjän viesti",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Käyttäjän pyyntö",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Hei! Olen tekoälyavustajasi. Voin auttaa sinua tiivistämään, laajentamaan, parantamaan tai kääntämään muistiinpanojasi. Miten voin auttaa sinua?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Tervetuloa Premium-käyttäjä! Sinulla on rajattomasti tekoälypyyntöjä.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Tervetuloa! Sinulla on tänään jäljellä {remaining} / {limit} tekoälypyyntöä.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "Tekoälyanalyysi epäonnistui",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "Tekoälyanalyysi epäonnistui. Yritä uudelleen.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analyysi valmis!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analysoitu",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Sulje",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Kokoelman analyysi",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Luotu uusi muistiinpano, jossa on oivalluksia {count} muistiinpanosta.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Virhe kokoelman käsittelyssä",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Etsi kaavoja",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Luo oivalluksia",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Kysy mitä vain kokoelmastasi...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "Tekoälytyötila on tehokas ominaisuus, joka on suunniteltu maksimoimaan tekoälymallien potentiaali, mahdollistaen analyysien luomisen ja kokonaisten muistiinpanokokoelmien käsittelyn kerralla yksittäisten muistiinpanojen sijaan.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Tässä kokoelmassa ei ole analysoitavia muistiinpanoja",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "muistiinpano(a)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Käsitellään...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Mitä haluaisit tekoälyn tekevän näillä muistiinpanoilla?\n\nEsimerkkejä:\n- Tee yhteenveto kaikista muistiinpanoista\n- Pura pääteemat ja avainsanat\n- Luo kattava tehtävälista\n- Luo UKK näistä muistiinpanoista\n- Etsi yhteyksiä aiheiden välillä",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "Tekoälyn vastaus epäonnistui. Yritä uudelleen.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Lähetä",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Tee yhteenveto kokoelmasta",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Luo näistä muistiinpanoista usein kysyttyjen kysymysten ja vastausten (UKK) luettelo. Tunnista tärkeät aiheet ja luo sopivia kysymyksiä yksityiskohtaisilla vastauksilla.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Tehtävä",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Etsi ja selitä yhteyksiä muistiinpanojen tietojen välillä. Tunnista linkkejä, ristiriitoja tai suhteita eri muistiinpanoissa mainittujen aiheiden välillä.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Luo kattava yhteenveto kaikista tämän kokoelman muistiinpanoista. Korosta tärkeimmät kohdat ja luo yhtenäinen yhteenveto.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Tunnista 5 pääteemaa ja niihin liittyvät avainsanat näistä tutkimusmuistiinpanoista. Luo jäsennelty luettelo teemoista ja vastaavista avainsanoista.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Skannaa kaikki muistiinpanot ja luo kattava tehtävälista. Etsi kaikki muistiinpanoissa mainitut 'toimintokohteet', tehtävät tai tehtävät työt ja luo jäsennelty tarkistuslista.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "Tekoälytyötila",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Päivittäinen käyttöraja saavutettu. Päivitä premium-versioon rajoittamatonta Tekoälytyötilan käyttöä varten.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Luo, hallitse ja synkronoi muistiinpanoja lasimorfisella tyylillä.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__SUOJATTU_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Abstrakti",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Kaikki",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "joulu",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrinen",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Luonto",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Mukautettu",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Poista",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Ei mitään",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Aseta oletukseksi",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Lataa",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Lisää muistiinpano tähän",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Kokoelma",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Luotu",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Poistettu",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Kokoelman nimi",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Syötä kokoelman nimi...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Kiinnitetty",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Teema",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Irrotettu",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Päivitetty",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Luo",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Luo kokoelma",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Luo muistiinpano kokoelmaan",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Poista kokoelma",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Muokkaa kokoelmaa",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Tämä kokoelma on tyhjä",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Syötä kokoelman nimi",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Virhe luotaessa muistiinpanoa",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Kokoelmavirhe",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Poisto epäonnistui",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Lataus epäonnistui",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Siirto epäonnistui",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Kiinnitys epäonnistui",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Päivitys epäonnistui",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Kokoelmaraja saavutettu",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Siirrä kokoelmaan",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "muistiinpanoa",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "Muistiinpano luotu kokoelmaan",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "muistiinpanoa",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "muistiinpanoa siirretty kokoelmaan",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Kiinnitä kokoelma",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Poista kokoelmasta",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Tallenna",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Irrota kokoelma",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Avaa Quick Notes",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Peruuta",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Sulje",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Jatka",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Poistetaanko kaikki roskakorin muistiinpanot pysyvästi?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Haluatko varmasti poistaa tämän kokoelman pysyvästi? Tätä toimintoa ei voi kumota.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Poistetaanko muistiinpano pysyvästi?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Tämä korvaa kaikki nykyiset tiedot. Jatketaanko?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Lisää Quick Notesen",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Luo uusi ikkuna pudottamalla",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Yhdistä pudottamalla välilehti tähän",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Yhdistä ikkunat pudottamalla",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "Tekoäly-chat epäonnistui",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "Tekoälyn laajennus epäonnistui",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "Tekoälyn parannus epäonnistui",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "Tekoälyn alustus epäonnistui",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "Tekoälyn kokousmuistiinpanot epäonnistuivat",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "Tekoälyn jäsennys epäonnistui",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI-pyyntö epäonnistui",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Tekoälyn taustajärjestelmän URL-osoitteen asettaminen epäonnistui",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "Tekoälyn ehdotukset epäonnistuivat",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "Tekoälyn tiivistys epäonnistui",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "Tekoälyn sävyn muutos epäonnistui",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Taustajärjestelmän kuntotarkistus epäonnistui",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Taustajärjestelmän pyyntö epäonnistui",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Taustapalvelinvirhe",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Tekoälyn välimuistin tyhjennys epäonnistui",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Virhe tarkistettaessa tekoälyn lukituksen tilaa",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Virhe haettaessa käyttötilastoja",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Virhe haettaessa käyttäjän sähköpostia palvelutyöntekijässä",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Muistiinpanon luominen epäonnistui",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Otsikon luominen epäonnistui",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Tekoälypalvelun alustaminen epäonnistui",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "Tapahtui virhe. Yritä uudelleen.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Päivittäisten käyttötilastojen haku epäonnistui",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API -virhe",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Virheellinen vastausmuoto",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Huomautus on tyhjä. Lisää sisältöä ennen tämän ominaisuuden käyttöä.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Muistiinpanoa ei löytynyt paikallisesta tallennustilasta",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Palvelimen valitsinta ei ole alustettu",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Synkronointiprosessi epäonnistui virheeseen",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Rajoittamaton pyyntö epäonnistui",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Käyttäjää ei ole todennettu",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Valmis!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Kuva ladattu onnistuneesti",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Viedään kuvia...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Odota hetki",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Harrastus",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Ideat",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Henkilökohtainen",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Opiskelu",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Matkailu",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Työ",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Luo uusi muistiinpano",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Poista muistiinpano",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Uusi muistiinpano",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Ei lisäsisältöä",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Kiinnitä muistiinpano",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Hae muistiinpanoja...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Kumoa siirto",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Irrota muistiinpano",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Palautettu",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Todennusvirhe",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Yritä kirjautua ulos ja uudelleen sisään.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Todennus epäonnistui",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Varmuuskopioitu",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Tämä taustakuva on saatavilla vain Premium-käyttäjille. Päivitä avataksesi kaikki taustakuvat.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Taustakuvan latausominaisuus on saatavilla vain Premium-käyttäjille. Päivitä käyttääksesi tätä ominaisuutta.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Jakolinkkiä ei voi luoda",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Kassasession luominen epäonnistui. Yritä uudelleen.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Yhdistetään Googleen...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Sähköpostia ei voitu ladata.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Päivittäinen raja saavutettu. Yritä huomenna tai päivitä.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Oletustaustakuva asetettu!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Valmis",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Lukuvirhe",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Viety",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Roskakorin lataaminen epäonnistui",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Roskakorin lataaminen epäonnistui. Yritä uudelleen.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Muistiinpanon siirtäminen epäonnistui",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Tuotu",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Virheellinen tiedosto",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Ladataan tilitietoja...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Siirto peruutettu",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "Siirretty kokoelmaan",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Ei verkkoyhteyttä",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Tarkista internetyhteytesi ja yritä uudelleen.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Tässä kokoelmassa ei ole muistiinpanoja",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Poistettu",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Siirretty",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Muistiinpanoa ei löytynyt palvelimelta. Yritä uudelleen.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Kiinnitetty",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Irrotettu",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Ajantasalla",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Maksuvirhe. Yritä uudelleen.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Maksun vahvistusvirhe. Päivitä sivu.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Käyttöoikeus evätty",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Synkronointiominaisuuksien käyttämiseksi anna sovellukselle käyttöoikeudet.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Palautettu",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Valitse vähintään yksi muistiinpano tekoälyanalyysia varten",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Valitse ensin muistiinpanot",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Jakoa ei ole määritetty.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Kirjautuminen epäonnistui",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Kirjaudu sisään jakaaksesi",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Kirjaudu sisään ladataksesi",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Kirjautuminen onnistui!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Kirjauduttu ulos",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Synkronointi epäonnistui",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Synkronoitu",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Synkronoitu",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Synkronoidaan tietoja...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Synkronoidaan Driven kanssa...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Tyhjennetty",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Laskutuksen hallintaa ei voi avata. Yritä myöhemmin uudelleen.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Vahvistetaan maksua...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Poista valitut",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Poista pysyvästi",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Palauta valitut",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Peruuta",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Poistetaanko valitut kohteet pysyvästi?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Palautetaanko valitut kohteet?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Valitse kaikki",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "valittu",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "Tekoälyavustaja",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Kysy mitä vain",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "Tekoälyn sävytaika",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Tasaa keskelle",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Tasaa vasemmalle",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Tasaa oikealle",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Tausta",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Luo uusi muistiinpano",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Uusi muistiinpano",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Poista muistiinpano",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Lataa kuvana",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Editor ei saatavilla",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Syötä linkin URL...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Syötä videon URL...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Virhe muotoilun soveltamisessa",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Otsikko 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Otsikko 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Lisää",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Lisää kuva",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Valikko",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR ei ole käytettävissä tälle kuvalle CORS-rajoitusten vuoksi.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Poista muotoilu",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Jaa",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Älykkäät värit käytössä!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Rakenne optimoitu!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Näytä kaikki muistiinpanot",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Ilmoituksen sisältö",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Maksun tarkistus aikakatkaistiin. Päivitä sivu, jos maksu on suoritettu.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Virheellinen sopimus valittu",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Kirjaudu sisään jatkaaksesi maksua",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Pääsy edistyneisiin ominaisuuksiin",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "Tekoäly Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Taustakuva Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Kokoelmat Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Onnittelut!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Ota yhteyttä tukeen",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Yksinoikeudella taustakuvia",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Pääsy premium-taustakuviin",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Eksklusiivinen tuki",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Ensisijainen tuki tiimiltämme",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Vanhenee",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Hallitse laskutusta",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Seuraava laskutus",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium vuosittain",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium kuukausittain",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Premium-kokeilu",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Sopimustyyppi",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Ensisijainen tuki",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Jaa muistiinpanoja",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Jaa muistiinpanoja muiden kanssa",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Jaa Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Aloita ilmainen kokeilu",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Aloita käyttö",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Tila",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Aktiivinen",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Peruutettu",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Vanhentunut",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Ei-aktiivinen",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Tilaa nyt",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Tukea",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Rajoittamaton tekoäly",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Rajoittamaton tekoäly-chat",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Rajoittamaton määrä tekoälypyyntöjä päivässä",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Rajoittamattomat kokoelmat",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Luo rajoittamaton määrä kokoelmia",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Avaa rajoittamaton tekoäly",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Olet onnistuneesti päivittänyt Premiumiin",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Ei tuloksia",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Kokeile hakea eri avainsanoilla tai luo uusi muistiinpano",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "Tekoälyn käyttö",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "Tekoälyn käyttö tänään",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Ulkoasu",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Pilvisynkronointi",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Määritä",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Tietojen hallinta",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Huomautuksen oletuskoko",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Vie",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Vie tiedot",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Tuo",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Tuo tiedot",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Virheellinen koko. Leveys: 400-1920, Korkeus: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Peruuttaa",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Korkeus",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Palauta oletusarvo",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Tallentaa",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Oletuskoko tallennettu",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Huomautuksen oletuskoko",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Leveys",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Avaa",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Kirjautuminen vaaditaan",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Kirjaudu sisään Googlella",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Kirjaudu ulos",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Kirjautuneena käyttäjällä",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Synkronoi",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Teema",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Asetukset",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Roskakori",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Rajoittamaton",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Hanki Premium",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "Avaa tekoäly",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Käyttäjän avatar",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Kopioitu",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kopioi",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Luodaan jakolinkkiä...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Katso tämä muistiinpano Quick Notesista",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Jaa Facebookissa",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Jaa LinkedInissä",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Jaa Redditissä",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Jaa X:ssä (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Jaa WhatsAppissa",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Muistiinpanon synkronointi palvelimelle epäonnistui",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Harrastus",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Ideat",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Henkilökohtainen",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Opiskelu",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Matkailu",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Työ",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Lisätty uuteen muistiinpanoon",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "Tekoäly epäonnistui",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Taustan asetus epäonnistui",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Ei voi poistaa",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Kopioitu leikepöydälle",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Linkin kopiointi epäonnistui. Yritä uudelleen.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Vienti epäonnistui",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Epäonnistui",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Muistiinpanoon lisääminen epäonnistui",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kopiointi epäonnistui",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Kuvatiedosto vaaditaan",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Kuva liian suuri",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Kirjastovirhe",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Kirjastoa ladataan",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Siirto epäonnistui",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Siirretty",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Ei valintaa",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Toiminto epäonnistui",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Käynnistä laajennus uudelleen vapauttaaksesi tilaa.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Tallennusvirhe. Käynnistä laajennus uudelleen.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Tallennustila täynnä, tyhjennetään välimuistia...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "Tekoälyavustaja",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Tasaa keskelle",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Tasaa vasemmalle",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Tasaa oikealle",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Taustaväri",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Taustaväri",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Lainauslohko",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Lainauslohko",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Lihavoitu",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Lihavoitu",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Luettelomerkit",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Luettelomerkit",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Tarkistuslista",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Koodilohko",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Koodilohko",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Fonttikoko",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Fonttikoko",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Otsikko 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Otsikko 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Lisää kuva",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Lisää linkki",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Lisää linkki",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Lisää video",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Lisää video",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Kursivoitu",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Kursivoitu",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Tasaus",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Tasaus",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Numeroitu luettelo",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Numeroitu luettelo",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Poista muotoilu",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Yliviivattu",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Yliviivattu",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Tekstin väri",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Tekstin väri",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Alleviivattu",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Alleviivattu",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Poista pysyvästi",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Roskakori on tyhjä.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Tyhjennä roskakori",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Palauta",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Palauta kaikki",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Roskakori",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Tervetuliaiskokoelma uusille käyttäjille",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Tervetuloa",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Luo uusi muistiinpano napsauttamalla <strong>+</strong>-painiketta<br>• Käytä tekoälyä sisällön tiivistämiseen, kääntämiseen tai parantamiseen<br>• Tekoäly voi auttaa sinua järjestämään ja optimoimaan muistiinpanojasi",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Miten tekoälyä käytetään",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Napsauta hiiren kakkospainikkeella tyhjää tilaa luodaksesi kokoelman<br>• Järjestä muistiinpanot vetämällä ja pudottamalla ne kokoelmiin<br>• Jokaisella kokoelmalla voi olla oma teema (työ, henkilökohtainen, ideat...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Miten luodaan kokoelmia",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Nauti Quick Notesin käytöstä! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Tämä on ensimmäinen muistiinpanosi. Quick Notes auttaa sinua tekemään muistiinpanoja nopeasti ja tehokkaasti.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Käytä värejä muistiinpanojen luokitteluun<br>• Kiinnitä tärkeät muistiinpanot luettelon alkuun<br>• Hae nopeasti yläpuolella olevalla hakupalkilla<br>• Synkronoi Google Driven kanssa turvallista varmuuskopiointia varten",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Käyttövinkkejä",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Tervetuloa Quick Notesiin! 👋",
+    "description": "Title of the welcome note"
+  }
+}

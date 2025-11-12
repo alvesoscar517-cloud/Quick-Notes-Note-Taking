@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Ava Quick Notes",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Juurdepääs keelatud. Palun kontrollige oma lube.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Rakenda märkmele",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kopeeri",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Loo ülesanded",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API võti pole seadistatud",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Lisa",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Sisu rakendamine märkmele ebaõnnestus",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Rakenda märkmele",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Taustaprogrammi server pole saadaval. Palun kontrollige oma ühendust ja proovige uuesti.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "Taustaprogrammi URL pole seadistatud",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Taustaprogrammi server ei vasta",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "AI vestlusakna loomine ebaõnnestus",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Vestle AI-ga valitud teksti kohta",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Sisu on teie märkmele rakendatud!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Sisu on lõikelauale kopeeritud!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Filtreeritud",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Sisu sisestati ja valitud tekst asendati",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Content not available",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopeeri",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Lõikelauale kopeerimine ebaõnnestus",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Päevane limiit on täis (15/15). Proovige homme uuesti.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Laadi pilt alla",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI tagastas tühja vastuse. Palun proovige uuesti.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI viga",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Laienda",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Eralda tekst (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Pildi analüüsimine ebaõnnestus",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Pildi analüüsimine...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Päevane pildianalüüsi limiit on täis. Piiramatu analüüsi jaoks uuendage Premium-paketile.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Pildi allalaadimine ebaõnnestus",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Pilt on edukalt alla laaditud",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Paranda",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Saatke Enteriga, uue rea jaoks Shift+Enter",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Sisestage oma sõnum või valige kiirtoiming...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Sisu sisestamine ebaõnnestus",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Sisesta ja asenda",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Vigane API võti",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Vigane sisselogimine",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Halb mudel",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Vigane vastus taustaprogrammi teenuselt.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Olete täna kasutanud ära kõik {limit} AI-päringut. Piiramatu juurdepääsu saamiseks uuendage Premium-paketile!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Koosoleku märkmed",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Minimeeri",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Mudelit pole",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Võrguviga",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Ühendus puudub",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "AI-lt ei tulnud vastust",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Valitud teksti pole",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Tagasivõtmiseks pole AI toiminguid",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR-i tulemus vastu võetud",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Kavand",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium aktiivne",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI töötlemine...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kvoot on täis",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Päringute limiit on ületatud. Palun proovige hiljem uuesti.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Päringu ajalõpp",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI vastus saadi",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Blokeeritud",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Salvesta",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Otsi",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Valitud tekst",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Serveri viga - palun proovige hiljem uuesti",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Teenus on maas",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "AI teenuse lähtestamine ebaõnnestus",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI teenus pole saadaval. Palun värskendage lehte.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI teenus pole õigesti seadistatud",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI teenust pole lähtestatud",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI teenus on ajutiselt kättesaamatu",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "AI funktsioonide kasutamiseks logige sisse. Klõpsake laienduses sisselogimisnupul.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Avamiseks logi sisse",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Statistika ebaõnnestus",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Soovitused",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Tee kokkuvõte",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Ajalõpp",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI assistent",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Toon",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramaatiline",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Humoorikas",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Palun valige tekst või lisage sisu teisendamiseks",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Poeetiline",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Professionaalne",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Lihtusta",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Tõlgi",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " inglise keelde",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "AI toiming on edukalt tagasi võetud!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Tundmatu AI viga",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "LUKUS",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Piiramatu",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Kasutaja sõnum",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Kasutaja päring",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Tere! Olen teie AI assistent. Ma saan aidata teil oma märkmeid kokku võtta, laiendada, parandada või tõlkida. Millega saan teid aidata?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Tere tulemast, Premiumi kasutaja! Teil on piiramatult AI-päringuid.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Tere tulemast! Teil on täna jäänud {remaining} AI-päringut {limit}-st.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI analüüs ebaõnnestus",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI analüüs ebaõnnestus. Palun proovige uuesti.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analüüs on lõpetatud!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analüüsitud",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Sulge",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Kogu analüüs",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Loodud uus märge {count} märkme teadmistega.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Viga kogu töötlemisel",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Leia mustreid",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Genereeri teadmisi",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Küsi oma kogu kohta midagi...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI tööruum on võimas funktsioon, mis on loodud AI mudelite potentsiaali maksimeerimiseks, võimaldades teil luua analüüse ja töödelda terveid märkmete kogusid korraga, mitte üksikuid märkmeid.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Selles kogus pole analüüsimiseks märkmeid",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "märge(t)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Töötlemine...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Mida soovite, et AI nende märkmetega teeks?\n\nNäited:\n- Tehke kokkuvõte kõigist märkmetest\n- Eraldage peamised teemad ja märksõnad\n- Looge ülesannete koondnimekiri\n- Genereerige nendest märkmetest KKK\n- Leidke seoseid teemade vahel",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "AI vastus ebaõnnestus. Palun proovige uuesti.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Saada",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Tee kogust kokkuvõte",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Looge nendest märkmetest korduma kippuvate küsimuste ja vastuste (KKK) loend. Tuvastage olulised teemad ja looge sobivad küsimused üksikasjalike vastustega.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Ülesanne",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Leidke ja selgitage seoseid märkmetes oleva teabe vahel. Tuvastage märkmetes mainitud erinevate teemade vahelised seosed, vastuolud või suhted.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Looge kõikehõlmav kokkuvõte kõigist selle kogu märkmetest. Tõstke esile kõige olulisemad punktid ja looge ühtne, sidus kokkuvõte.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Tuvastage nendest uurimismärkmetest 5 peamist teemat ja seotud märksõna. Looge struktureeritud loend teemade ja vastavate märksõnadega.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Skaneerige kõik märkmed ja looge kõikehõlmav ülesannete loend. Leidke kõik märkmetes mainitud 'tegevusüksused', ülesanded või tehtav töö ja looge struktureeritud kontrollnimekiri.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI tööruum",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Päevane kasutuslimiit on täis. Piiramatu AI tööruumi juurdepääsu saamiseks uuendage Premium-paketile.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Looge, hallake ja sünkroonige märkmeid klaasmorfismi stiilis.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "Quick Notes",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Abstraktne",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Kõik",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "jõulud",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geomeetriline",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Loodus",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Kohandatud",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Kustuta",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Puudub",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Määra vaikimisi",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Laadi üles",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Lisa märge siia",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Kogu",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Loodud",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Kustutatud",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Kogu nimi",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Sisesta kogu nimi...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Kinnitatud",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Teema",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Kinnitus eemaldatud",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Uuendatud",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Loo",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Loo kogu",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Loo märge kogus",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Kustuta kogu",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Muuda kogu",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "See kogu on tühi",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Palun sisesta kogu nimi",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Viga märkme loomisel",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Kogu viga",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Kustutamine ebaõnnestus",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Laadimine ebaõnnestus",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Teisaldamine ebaõnnestus",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Kinnitamine ebaõnnestus",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Uuendamine ebaõnnestus",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Kogude limiit on täis",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Teisalda kogusse",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "märkmed",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "Märge loodud kogus",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "märkmed",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "märkmed teisaldatud kogusse",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Kinnita kogu",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Eemalda kogust",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Salvesta",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Eemalda kogu kinnitus",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Ava Quick Notes",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Tühista",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Sulge",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Jätka",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Kas kustutada kõik prügikastis olevad märkmed jäädavalt?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Kas olete kindel, et soovite selle kogu jäädavalt kustutada? Seda toimingut ei saa tagasi võtta.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Kas kustutada märge jäädavalt?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "See kirjutab üle kõik praegused andmed. Kas jätkata?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Lisa Quick Notes'i",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Uue akna loomiseks pukseerige",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Ühendamiseks pukseerige vahekaart siia",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Akende liitmiseks kukutage",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI vestlus ebaõnnestus",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI laiendamine ebaõnnestus",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI parandamine ebaõnnestus",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "AI lähtestamine ebaõnnestus",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI koosolekumärkmed ebaõnnestusid",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI kavand ebaõnnestus",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI taotlus ebaõnnestus",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "AI taustaprogrammi URL-i seadistamine ebaõnnestus",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI soovitused ebaõnnestusid",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI kokkuvõte ebaõnnestus",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI toon ebaõnnestus",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Taustaprogrammi seisundikontroll ebaõnnestus",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Taustaprogrammi päring ebaõnnestus",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Taustaprogrammi serveri viga",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "AI vahemälu tühjendamine ebaõnnestus",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Viga AI avamise oleku kontrollimisel",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Viga kasutusstatistika hankimisel",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Viga kasutaja e-posti hankimisel teenindustöötajas",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Märkme loomine ebaõnnestus",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Pealkirja genereerimine ebaõnnestus",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "AI teenuse lähtestamine ebaõnnestus",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "Ilmnes viga. Palun proovige uuesti.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Päevase kasutusstatistika hankimine ebaõnnestus",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API viga",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Invalid response format",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Märkus on tühi. Enne selle funktsiooni kasutamist lisage sisu.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Märget ei leitud kohalikust mälust",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Serveri valijat pole lähtestatud",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Sünkroonimisprotsess ebaõnnestus veaga",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Piiramatu päring ebaõnnestus",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Kasutajat pole autentitud",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Lõpetatud!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Pilt on edukalt alla laaditud",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Piltide eksportimine...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Palun oodake hetk",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Hobi",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Ideed",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Isiklik",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Õppimine",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Reisimine",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Töö",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Loo uus märge",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Kustuta märge",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Uus märge",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Lisateavet pole",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Kinnita märge",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Otsi märkmeid...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Võta teisaldamine tagasi",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Eemalda kinnitus",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Taastatud",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Autentimisviga",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Palun proovige välja ja uuesti sisse logida.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Autentimine ebaõnnestus",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Varundatud",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "See taust on saadaval ainult Premiumi kasutajatele. Kõigi taustade avamiseks uuendage.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Tausta üleslaadimise funktsioon on saadaval ainult Premiumi kasutajatele. Selle funktsiooni kasutamiseks uuendage.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Jagamislinki ei saa luua",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Kassaseansi loomine ebaõnnestus. Palun proovige uuesti.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Ühendamine Google'iga...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "E-posti ei saanud laadida.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Päevane limiit on täis. Proovige homme uuesti või uuendage.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Vaiketaust on määratud!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Valmis",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Lugemisviga",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Eksporditud",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Prügikasti laadimine ebaõnnestus",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Prügikasti laadimine ebaõnnestus. Palun proovige uuesti.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Märkme teisaldamine ebaõnnestus",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Imporditud",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Vigane fail",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Konto teabe laadimine...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Teisaldamine tühistatud",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "Teisaldatud kogusse",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Võrguühendus puudub",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Palun kontrollige oma internetiühendust ja proovige uuesti.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Selles kogus ei leitud märkmeid",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Kustutatud",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Teisaldatud",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Märget ei leitud serverist. Palun proovige uuesti.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Kinnitatud",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Kinnitus eemaldatud",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Ajakohane",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Makseviga. Palun proovige uuesti.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Makse kontrollimise viga. Palun värskendage lehte.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Luba keelatud",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Sünkroonimisfunktsioonide kasutamiseks andke rakendusele load.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Taastatud",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Palun valige AI analüüsiks vähemalt üks märge",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Palun valige kõigepealt märkmed",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Jagamine pole seadistatud.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Sisselogimine ebaõnnestus",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Jagamiseks logige sisse",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Üleslaadimiseks logige sisse",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Sisselogimine õnnestus!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Välja logitud",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Sünkroonimine ebaõnnestus",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Sünkroonitud",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Sünkroonitud",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Andmete sünkroonimine...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Sünkroonimine Drive'iga...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Tühjendatud",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Arvelduse haldamise avamine ebaõnnestus. Palun proovige hiljem uuesti.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Makse kontrollimine...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Kustuta valitud",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Kustuta jäädavalt",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Taasta valitud",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Tühista",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Kas kustutada valitud üksused jäädavalt?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Kas taastada valitud üksused?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Vali kõik",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "valitud",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI assistent",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Küsi midagi",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "AI toonimaagia",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Joonda keskele",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Joonda vasakule",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Joonda paremale",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Taust",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Loo uus märge",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Uus märge",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Kustuta märge",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Laadi alla pildina",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Toimetaja pole saadaval",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Sisestage lingi URL...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Sisestage video URL...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Viga vorminduse rakendamisel",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Pealkiri 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Pealkiri 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Lisa",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Lisa pilt",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Menüü",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR pole selle pildi jaoks CORS-i piirangute tõttu saadaval.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Eemalda vormindus",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Jaga",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Rakendatud nutikad värvid!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Struktuur optimeeritud!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Vaata kõiki märkmeid",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Teavituse sisu",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Makse kontrollimise ajalõpp. Värskendage, kui makse on sooritatud.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Valitud on vigane pakett",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Maksega jätkamiseks logige sisse",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Juurdepääs täiustatud funktsioonidele",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Tausta Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Kogude Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Palju õnne!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Võtke ühendust tugiteenusega",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Eksklusiivsed taustad",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Juurdepääs premium-taustadele",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Eksklusiivne tugi",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Meie meeskonna esmatähtis tugi",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Aegub",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Halda arveldust",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Järgmine arve",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium aastapakett",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium kuupakett",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Premium prooviversioon",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Paketi tüüp",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Prioriteetne tugi",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Jaga märkmeid",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Jaga märkmeid teistega",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Jagamise Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Alusta tasuta prooviperioodi",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Alusta kasutamist",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Olek",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Aktiivne",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Tühistatud",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Aegunud",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Mitteaktiivne",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Telli kohe",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Toetus",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Piiramatu AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Piiramatu AI vestlus",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Piiramatu arv AI-päringuid päevas",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Piiramatult kogusid",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Loo piiramatult kogusid",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Ava piiramatu AI",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Olete edukalt üle läinud Premium-paketile",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Tulemusi ei leitud",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Proovige otsida erinevate märksõnadega või looge uus märge",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "AI kasutus",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "Tänane AI kasutus",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Välimus",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Pilvesünkroonimine",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Seadistage",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Andmehaldus",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Märkme vaikesuurus",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Eksport",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Ekspordi andmed",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Import",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Impordi andmed",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Sobimatu suurus. Laius: 400-1920, Kõrgus: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Tühista",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Kõrgus",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Lähtestage vaikeseadetele",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Salvesta",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Vaikimisi suurus on salvestatud",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Märkme vaikesuurus",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Laius",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Ava",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Sisselogimine on vajalik",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Logi sisse Google'iga",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Logi välja",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Sisse logitud kasutajaga",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Sünkrooni",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Teema",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Seaded",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Prügikast",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Unlimited",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Hangi Premium",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "Ava AI",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Kasutaja avatar",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Kopeeritud",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kopeeri",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Jagamislingi loomine...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Vaadake seda märkust Quick Notes'ist",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Jaga Facebookis",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Jaga LinkedInis",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Jaga Redditis",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Jaga X-is (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Jaga WhatsAppis",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Märkme sünkroonimine serveriga ebaõnnestus",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Hobi",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Ideed",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Isiklik",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Õppimine",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Reisimine",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Töö",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Lisatud uuele märkusele",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI ebaõnnestus",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Tausta seadistamine ebaõnnestus",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Ei saa kustutada",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Kopeeritud lõikelauale",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Lingi kopeerimine ebaõnnestus. Palun proovige uuesti.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Eksport ebaõnnestus",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Ebaõnnestus",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Märkusele lisamine ebaõnnestus",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kopeerimine ebaõnnestus",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Pildifail on nõutav",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Pilt on liiga suur",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Teegi viga",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Teegi laadimine",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Teisaldamine ebaõnnestus",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Liigutatud",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Valik puudub",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Toiming ebaõnnestus",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Ruumi vabastamiseks taaskäivitage laiendus.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Mälu viga. Taaskäivitage laiendus.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Mälu on täis, vahemälu tühjendamine...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI assistent",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Joonda keskele",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Joonda vasakule",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Joonda paremale",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Taustavärv",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Taustavärv",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Plokktsitaat",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Plokktsitaat",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Rasvane",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Rasvane",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Täpploend",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Täpploend",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Kontrollnimekiri",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Koodiplokk",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Koodiplokk",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Fondi suurus",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Fondi suurus",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Pealkiri 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Pealkiri 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Lisa pilt",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Lisa link",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Lisa link",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Lisa video",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Lisa video",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Kursiiv",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Kursiiv",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Rööpjoondus",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Rööpjoondus",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Nummerdatud loend",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Nummerdatud loend",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Eemalda vormindus",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Läbikriipsutatud",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Läbikriipsutatud",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Teksti värv",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Teksti värv",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Allajoonitud",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Allajoonitud",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Kustuta jäädavalt",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Prügikast on tühi.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Tühjenda prügikast",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Taasta",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Taasta kõik",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Prügikast",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Tervituskogu uutele kasutajatele",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Tere tulemast",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Uue märkme loomiseks klõpsake nuppu <strong>+</strong><br>• Kasutage AI-d sisu kokkuvõtmiseks, tõlkimiseks või parandamiseks<br>• AI aitab teil märkmeid korrastada ja optimeerida",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Kuidas kasutada AI-d",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Kogu loomiseks paremklõpsake tühjal alal<br>• Lohistage märkmed korrastamiseks kogudesse<br>• Igal kogul võib olla oma teema (töö, isiklik, ideed...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Kuidas luua kogusid",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Nautige Quick Notes'i kasutamist! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "See on teie esimene märge. Quick Notes aitab teil märkmeid teha kiiresti ja tõhusalt.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Kasutage märkmete kategoriseerimiseks värve<br>• Kinnitage olulised märkmed loendi ülaossa<br>• Otsige kiiresti ülaloleva otsinguriba abil<br>• Turvaliseks varundamiseks sünkroonige Google Drive'iga",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Kasutusnipid",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Tere tulemast Quick Notes'i! 👋",
+    "description": "Title of the welcome note"
+  }
+}

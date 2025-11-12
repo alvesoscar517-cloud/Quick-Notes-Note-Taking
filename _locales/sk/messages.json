@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Otvoriť Rýchle poznámky",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Prístup zamietnutý. Skontrolujte svoje povolenia.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Aplikovať na poznámku",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kopírovať",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Vytvoriť úlohy",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "Kľúč API nie je nakonfigurovaný",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Pripojiť",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Nepodarilo sa aplikovať obsah na poznámku",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Aplikovať na poznámku",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Backendový server nie je dostupný. Skontrolujte pripojenie a skúste to znova.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "URL adresa backendu nie je nakonfigurovaná",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Backendový server neodpovedá",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Nepodarilo sa vytvoriť okno chatu AI",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Chatovať s AI o vybranom texte",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Obsah bol aplikovaný na vašu poznámku!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Obsah skopírovaný do schránky!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Filtrované",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Obsah bol vložený a nahradený vybratým textom",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Obsah nie je k dispozícii",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopírovať",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Nepodarilo sa skopírovať do schránky",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Dosiahnutý denný limit (15/15). Skúste to zajtra znova.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Stiahnuť obrázok",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI vrátila prázdnu odpoveď. Skúste to znova.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "Chyba AI",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Rozšíriť",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Extrahovať text (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Nepodarilo sa analyzovať obrázok",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Analyzuje sa obrázok...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Dosiahnutý denný limit analýzy obrázkov. Inovujte na premium pre neobmedzenú analýzu.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Nepodarilo sa stiahnuť obrázok",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Obrázok úspešne stiahnutý",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Vylepšiť",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Stlačte Enter na odoslanie, Shift+Enter pre nový riadok",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Napíšte svoju správu alebo vyberte rýchlu akciu...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Obsah sa nepodarilo vložiť",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Vložiť a nahradiť",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Neplatný kľúč API",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Neplatné prihlásenie",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Zlý model",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Neplatná odpoveď od backendovej služby.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Využili ste všetkých {limit} AI požiadaviek na dnes. Inovujte na Premium pre neobmedzený prístup!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Poznámky zo schôdze",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Minimalizovať",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Žiadny model",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Chyba siete",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Žiadne pripojenie",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Žiadna odpoveď od AI",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Žiadny vybraný text",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Žiadne operácie AI na vrátenie späť",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "Bol prijatý výsledok OCR",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Osnova",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium aktívne",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "Spracúva AI...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kvóta je plná",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Prekročený limit požiadaviek. Skúste to neskôr znova.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Časový limit požiadavky vypršal",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "Prijatá odpoveď AI",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Zablokované",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Uložiť",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Hľadať",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Vybraný text",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Chyba servera - skúste to neskôr znova",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Služba je mimo prevádzky",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Nepodarilo sa inicializovať službu AI",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "Služba AI nie je dostupná. Obnovte stránku.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "Služba AI nie je správne nakonfigurovaná",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "Služba AI nie je inicializovaná",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "Služba AI je dočasne nedostupná",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Pre používanie funkcií AI sa prihláste. Kliknite na tlačidlo prihlásenia v rozšírení.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Pre odomknutie sa prihláste",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Štatistiky zlyhali",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Návrhy",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Zhrnúť",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Časový limit vypršal",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI asistent",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Tón",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramatický",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Humorný",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Prosím, vyberte text alebo pridajte obsah na transformáciu",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Básnický",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Profesionálny",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Zjednodušiť",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Preložiť",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " do angličtiny",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "Operácia AI bola úspešne vrátená späť!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Neznáma chyba AI",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "ZAMKNUTÉ",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Neobmedzené",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Správa používateľa",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Požiadavka používateľa",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Ahoj! Som tvoj AI asistent. Môžem ti pomôcť zhrnúť, rozšíriť, vylepšiť alebo preložiť tvoje poznámky. S čím ti môžem pomôcť?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Vitajte, používateľ Premium! Máte neobmedzené požiadavky AI.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Vitajte! Dnes vám zostáva {remaining} z {limit} AI požiadaviek.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "Analýza AI zlyhala",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "Analýza AI zlyhala. Skúste to znova.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analýza dokončená!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analyzované",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Zatvoriť",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Analýza zbierky",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Vytvorená nová poznámka s postrehmi z {count} poznámok.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Chyba pri spracovaní zbierky",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Nájsť vzory",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Generovať postrehy",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Opýtajte sa čokoľvek o vašej zbierke...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI Pracovný priestor je výkonná funkcia navrhnutá na maximalizáciu potenciálu modelov AI, ktorá vám umožňuje vytvárať analýzy a spracovávať celé zbierky poznámok naraz namiesto jednotlivých poznámok.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "V tejto zbierke nie sú žiadne poznámky na analýzu",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "poznámka(y)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Spracúva sa...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Čo by ste chceli, aby AI urobila s týmito poznámkami?\n\nPríklady:\n- Zhrnúť všetky poznámky\n- Extrahovať hlavné témy a kľúčové slová\n- Vytvoriť hlavný zoznam úloh\n- Generovať Často kladené otázky z týchto poznámok\n- Nájsť spojenia medzi témami",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "Odpoveď AI zlyhala. Skúste to znova.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Odoslať",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Zhrnúť zbierku",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Z týchto poznámok vytvorte zoznam často kladených otázok a odpovedí (FAQ). Identifikujte dôležité témy a vytvorte vhodné otázky s podrobnými odpoveďami.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Úloha",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Nájdite a vysvetlite spojenia medzi informáciami v poznámkach. Identifikujte prepojenia, rozpory alebo vzťahy medzi rôznymi témami spomenutými v poznámkach.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Vytvorte komplexné zhrnutie zo všetkých poznámok v tejto zbierke. Zvýraznite najdôležitejšie body a vytvorte jeden súvislý súhrn.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Identifikujte 5 hlavných tém a súvisiacich kľúčových slov z týchto výskumných poznámok. Vytvorte štruktúrovaný zoznam s témami a zodpovedajúcimi kľúčovými slovami.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Preskenujte všetky poznámky a vytvorte komplexný zoznam úloh. Nájdite všetky 'akčné položky', úlohy alebo prácu, ktorá sa má vykonať, spomenutú v poznámkach, a vytvorte štruktúrovaný kontrolný zoznam.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI Pracovný priestor",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Dosiahnutý denný limit používania. Inovujte na premium pre neobmedzený prístup k AI Pracovnému priestoru.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Vytvárajte, spravujte a synchronizujte poznámky v štýle glassmorphism.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "Quick Notes",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Abstraktné",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Všetky",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Vianoce",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrické",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Príroda",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Vlastné",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Odstrániť",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Žiadne",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Nastaviť ako predvolené",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Nahrať",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Pridať poznámku sem",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Zbierka",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Vytvorené",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Odstránené",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Názov zbierky",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Zadajte názov zbierky...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Pripnuté",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Téma",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Odopnuté",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Aktualizované",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Vytvoriť",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Vytvoriť zbierku",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Vytvoriť poznámku v zbierke",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Odstrániť zbierku",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Upraviť zbierku",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Táto zbierka je prázdna",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Prosím, zadajte názov zbierky",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Chyba pri vytváraní poznámky",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Chyba zbierky",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Odstránenie zlyhalo",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Načítanie zlyhalo",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Presun zlyhal",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Pripnutie zlyhalo",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Aktualizácia zlyhala",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Dosiahnutý limit zbierok",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Presunúť do zbierky",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "poznámok",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "Poznámka vytvorená v zbierke",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "poznámok",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "poznámok presunutých do zbierky",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Pripnúť zbierku",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Odstrániť zo zbierky",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Uložiť",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Odopnúť zbierku",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Otvoriť Rýchle poznámky",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Zrušiť",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Zatvoriť",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Pokračovať",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Trvalo odstrániť všetky poznámky v koši?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Naozaj chcete trvalo odstrániť túto zbierku? Túto akciu nie je možné vrátiť späť.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Trvalo odstrániť poznámku?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Týmto sa prepíšu všetky aktuálne údaje. Pokračovať?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Pridať do Rýchlej poznámky",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Presunutím vytvoríte nové okno",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Presuňte kartu sem, aby ste sa zlúčili",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Presunutím zlúčite okná",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "Chat AI zlyhal",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "Rozšírenie AI zlyhalo",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "Vylepšenie AI zlyhalo",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "Inicializácia AI zlyhala",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "Poznámky zo schôdze AI zlyhali",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "Osnova AI zlyhala",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "Žiadosť AI zlyhala",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Nastavenie URL adresy backendu AI zlyhalo",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "Návrhy AI zlyhali",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "Zhrnutie AI zlyhalo",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "Tón AI zlyhal",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Kontrola stavu backendu zlyhala",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Požiadavka na backend zlyhala",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Chyba backendového servera",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Vymazanie vyrovnávacej pamäte AI zlyhalo",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Chyba pri kontrole stavu odomknutia AI",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Chyba pri získavaní štatistík používania",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Chyba pri získavaní e-mailu používateľa v service workeri",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Poznámku sa nepodarilo vytvoriť",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Nepodarilo sa vygenerovať názov",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Nepodarilo sa inicializovať službu AI",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "Vyskytla sa chyba. Skúste to znova.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Získanie denných štatistík používania zlyhalo",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Chyba API Disku Google",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Neplatný formát odpovede",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Poznámka je prázdna. Pred použitím tejto funkcie pridajte obsah.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Poznámka sa v lokálnom úložisku nenašla",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Selektor servera nie je inicializovaný",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Proces synchronizácie zlyhal s chybou",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Neobmedzená požiadavka zlyhala",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Používateľ nie je overený",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Hotovo!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Obrázok úspešne stiahnutý",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Exportujú sa obrázky...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Chvíľu počkajte, prosím",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Záľuby",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Nápady",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Osobné",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Štúdium",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Cestovanie",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Práca",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Vytvoriť novú poznámku",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Odstrániť poznámku",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Nová poznámka",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Žiadny ďalší obsah",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Pripnúť poznámku",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Hľadať poznámky...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Vrátiť presun",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Odopnúť poznámku",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Obnovené",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Chyba autentifikácie",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Skúste sa odhlásiť a znova prihlásiť.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Autentifikácia zlyhala",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Zálohované",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Toto pozadie je dostupné len pre používateľov Premium. Inovujte, aby ste odomkli všetky pozadia.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Funkcia nahrávania pozadia je dostupná len pre používateľov Premium. Inovujte, aby ste mohli túto funkciu používať.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Nie je možné vytvoriť odkaz na zdieľanie",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Nepodarilo sa vytvoriť reláciu pokladne. Skúste to znova.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Pripája sa k Google...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Nepodarilo sa načítať e-mail.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Dosiahnutý denný limit. Skúste to zajtra alebo inovujte.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Predvolené pozadie nastavené!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Hotovo",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Chyba čítania",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Exportované",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Nepodarilo sa načítať kôš",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Nepodarilo sa načítať kôš. Skúste to znova.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Nepodarilo sa presunúť poznámku",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Importované",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Neplatný súbor",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Načítavajú sa informácie o účte...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Presun zrušený",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "Presunuté do zbierky",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Žiadne sieťové pripojenie",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Skontrolujte pripojenie na internet a skúste to znova.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "V tejto zbierke sa nenašli žiadne poznámky",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Odstránené",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Presunuté",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Poznámka sa na serveri nenašla. Skúste to znova.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Pripnuté",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Odopnuté",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Aktuálne",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Chyba platby. Skúste to znova.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Chyba overenia platby. Obnovte stránku.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Povolenie zamietnuté",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Ak chcete používať funkcie synchronizácie, udeľte aplikácii povolenia.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Obnovené",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Prosím, vyberte aspoň jednu poznámku pre analýzu AI",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Prosím, najprv vyberte poznámky",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Zdieľanie nie je nakonfigurované.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Prihlásenie zlyhalo",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Pre zdieľanie sa prihláste",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Pre nahranie sa prihláste",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Prihlásenie úspešné!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Odhlásený",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Synchronizácia zlyhala",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Synchronizované",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Synchronizované",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Synchronizujú sa údaje...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Synchronizuje sa s Diskom Google...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Vysypané",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Nepodarilo sa otvoriť správu fakturácie. Skúste to neskôr znova.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Overuje sa platba...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Odstrániť vybrané",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Odstrániť navždy",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Obnoviť vybrané",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Zrušiť",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Trvalo odstrániť vybrané položky?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Obnoviť vybrané položky?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Vybrať všetko",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "vybraných",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI asistent",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Opýtajte sa čokoľvek",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "Mágia tónu AI",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Zarovnať na stred",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Zarovnať vľavo",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Zarovnať vpravo",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Pozadie",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Vytvoriť novú poznámku",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Nová poznámka",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Odstrániť poznámku",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Stiahnuť ako obrázok",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Editor nie je k dispozícii",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Zadajte URL odkazu...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Zadajte URL videa...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Chyba pri aplikovaní formátovania",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Nadpis 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Nadpis 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Vložiť",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Vložiť obrázok",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Menu",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR nie je pre tento obrázok k dispozícii z dôvodu obmedzení CORS.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Odstrániť formátovanie",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Zdieľať",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Použili sa inteligentné farby!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Štruktúra optimalizovaná!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Zobraziť všetky poznámky",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Obsah upozornenia",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Časový limit kontroly platby vypršal. Ak bola platba dokončená, obnovte stránku.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Vybraný neplatný plán",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Pre pokračovanie s platbou sa prihláste",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Prístup k pokročilým funkciám",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Pozadie Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Zbierky Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Gratulujeme!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Kontaktujte podporu",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Exkluzívne pozadia",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Prístup k prémiovým pozadiam",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Exkluzívna podpora",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Prioritná podpora od nášho tímu",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Platnosť do",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Spravovať fakturáciu",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Nasledujúca fakturácia",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium ročne",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium mesačne",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Premium skúšobná verzia",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Typ plánu",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Prioritná podpora",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Zdieľať poznámky",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Zdieľajte poznámky s ostatnými",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Zdieľanie Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Začať bezplatnú skúšobnú verziu",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Začať používať",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Stav",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Aktívny",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Zrušený",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Neplatný",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Neaktívny",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Predplatiť teraz",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Podpora",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Neobmedzená AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Neobmedzený AI chat",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Neobmedzené požiadavky AI denne",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Neobmedzené zbierky",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Vytvárajte neobmedzené zbierky",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Odomknúť neobmedzenú AI",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Úspešne ste inovovali na Premium",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Nenašli sa žiadne výsledky",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Skúste hľadať s inými kľúčovými slovami alebo vytvorte novú poznámku",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "Využitie AI",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "Dnešné využitie AI",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Vzhľad",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Synchronizácia s cloudom",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Konfigurovať",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Správa údajov",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Predvolená veľkosť poznámky",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Exportovať",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Exportovať údaje",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Importovať",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Importovať údaje",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Neplatná veľkosť. Šírka: 400-1920, Výška: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Zrušiť",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Výška",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Obnoviť predvolené",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Uložiť",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Predvolená veľkosť bola uložená",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Predvolená veľkosť poznámky",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "šírka",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Otvoriť",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Vyžaduje sa prihlásenie",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Prihlásiť sa cez Google",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Odhlásiť sa",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Prihlásený ako",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Synchronizovať",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Téma",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Nastavenia",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Kôš",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Neobmedzené",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Získať Premium",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "Odomknúť AI",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Avatar používateľa",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Skopírované",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kopírovať",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Vytvára sa odkaz na zdieľanie...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Pozrite si túto poznámku z Rýchlych poznámok",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Zdieľať na Facebooku",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Zdieľať na LinkedIn",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Zdieľať na Reddite",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Zdieľať na X (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Zdieľať na WhatsApp",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Nepodarilo sa synchronizovať poznámku so serverom",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Záľuby",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Nápady",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Osobné",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Štúdium",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Cestovanie",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Práca",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Pridané do novej poznámky",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI zlyhala",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Nastavenie pozadia zlyhalo",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Nie je možné odstrániť",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Skopírované do schránky",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Nepodarilo sa skopírovať odkaz. Skúste to znova.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Export zlyhal",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Zlyhalo",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Nepodarilo sa pridať do poznámky",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kopírovanie zlyhalo",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Vyžaduje sa súbor s obrázkom",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Obrázok je príliš veľký",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Chyba knižnice",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Knižnica sa načítava",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Presun zlyhal",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Presunuté",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Žiadny výber",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Operácia zlyhala",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Reštartujte rozšírenie, aby ste uvoľnili miesto.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Chyba úložiska. Reštartujte rozšírenie.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Úložisko je plné, čistí sa vyrovnávacia pamäť...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI asistent",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Zarovnať na stred",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Zarovnať vľavo",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Zarovnať vpravo",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Farba pozadia",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Farba pozadia",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Bloková citácia",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Bloková citácia",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Tučné",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Tučné",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Zoznam s odrážkami",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Zoznam s odrážkami",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Kontrolný zoznam",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Blok kódu",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Blok kódu",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Veľkosť písma",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Veľkosť písma",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Nadpis 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Nadpis 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Vložiť obrázok",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Vložiť odkaz",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Vložiť odkaz",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Vložiť video",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Vložiť video",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Kurzíva",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Kurzíva",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Zarovnať do bloku",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Zarovnať do bloku",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Číslovaný zoznam",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Číslovaný zoznam",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Odstrániť formátovanie",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Prečiarknuté",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Prečiarknuté",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Farba textu",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Farba textu",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Podčiarknuté",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Podčiarknuté",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Odstrániť navždy",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Kôš je prázdny.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Vysypať kôš",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Obnoviť",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Obnoviť všetko",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Kôš",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Uvítacia zbierka pre nových používateľov",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Vitajte",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Kliknite na tlačidlo <strong>+</strong> a vytvorte novú poznámku<br>• Použite AI na zhrnutie, preklad alebo vylepšenie obsahu<br>• AI vám môže pomôcť organizovať a optimalizovať vaše poznámky",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Ako používať AI",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Kliknite pravým tlačidlom myši na prázdne miesto a vytvorte zbierku<br>• Presuňte poznámky do zbierok, aby ste ich usporiadali<br>• Každá zbierka môže mať vlastnú tému (práca, osobné, nápady...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Ako vytvárať zbierky",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Užite si používanie Rýchlych poznámok! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Toto je vaša prvá poznámka. Rýchle poznámky vám pomôžu robiť si poznámky rýchlo a efektívne.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Používajte farby na kategorizáciu poznámok<br>• Pripnite dôležité poznámky na začiatok zoznamu<br>• Rýchlo hľadajte pomocou vyhľadávacieho panela vyššie<br>• Synchronizujte s Diskom Google pre bezpečné zálohovanie",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Tipy na použitie",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Vitajte v Rýchlych poznámkach! 👋",
+    "description": "Title of the welcome note"
+  }
+}

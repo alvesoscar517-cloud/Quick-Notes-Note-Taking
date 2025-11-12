@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en" id="html-root">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Quick Notes</title>
+    <!-- Load theme preload script FIRST - before any CSS -->
+    <script src="theme-preload.js"></script>
+    <!-- Inline CSS to prevent flash - applies immediately after theme class is set -->
+    <style>
+        /* Default dark theme */
+        html {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        html body {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        /* Light theme override */
+        html.light-theme {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+        html.light-theme body {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+        /* Loading screen theme support */
+        .loading-screen {
+            background: #202124 !important;
+        }
+        html.light-theme .loading-screen,
+        body.light-theme .loading-screen {
+            background: #f1f3f4 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="main_app.css">
+    <link rel="stylesheet" href="../virtual-scroll.css">
+    <link rel="stylesheet" href="../toast-system.css">
+    <link rel="stylesheet" href="premium-success-modal.css">
+</head>
+
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="app-icon">
+                <img src="../icons/icon128.png" alt="Quick Notes" width="64" height="64">
+            </div>
+            <h1 class="app-title">Quick Notes</h1>
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
+        </div>
+    </div>
+
+    <div id="main-page" class="page">
+        <header class="header">
+            <h1>Quick Notes</h1>
+            <div class="header-actions">
+                <button id="create-note-btn" title="__MSG_main_createNote__">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button id="create-collection-btn" title="__MSG_collections_createCollection__">
+                    <img src="../note img/add-collection.svg" alt="__MSG_collections_createCollection__" width="20"
+                        height="20">
+                </button>
+                <button id="settings-btn" title="__MSG_settings_title__">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </header>
+
+        <div class="search-bar">
+            <div class="search-gradient-wrapper" id="search-gradient-wrapper">
+                <input type="text" id="search-input" placeholder="__MSG_main_searchPlaceholder__">
+            </div>
+        </div>
+
+        <div id="notes-list" class="notes-list">
+        </div>
+
+        <!-- Empty Search State with Cat Animation -->
+        <div id="empty-search-state" class="empty-search-state" style="display: none;">
+            <div class="empty-search-animation" id="cat-animation-container"></div>
+            <div class="empty-search-text">
+                <h3 id="empty-search-title">__MSG_search_noResults__</h3>
+                <p id="empty-search-message">__MSG_search_tryDifferentKeywords__</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Note Context Menu -->
+    <div id="note-context-menu" class="note-context-menu" style="display: none;">
+        <div class="context-menu-item" data-action="select-multiple">
+            <img src="../note img/select.svg" alt="__MSG_multiSelect_selectAll__" width="16" height="16">
+            <span>__MSG_multiSelect_selectAll__</span>
+        </div>
+        <div class="context-menu-separator"></div>
+        <div class="context-menu-item" data-action="pin">
+            <img src="../note img/pin.svg" alt="__MSG_main_pinNote__" width="16" height="16">
+            <span>__MSG_main_pinNote__</span>
+        </div>
+        <div class="context-menu-item" data-action="unpin" style="display: none;">
+            <img src="../note img/unpin.svg" alt="__MSG_main_unpinNote__" width="16" height="16">
+            <span>__MSG_main_unpinNote__</span>
+        </div>
+        <div class="context-menu-item" data-action="move-to-collection">
+            <img src="../note img/move-note-to-collection.svg" alt="__MSG_collections_moveToCollection__" width="16"
+                height="16">
+            <span>__MSG_collections_moveToCollection__</span>
+        </div>
+        <div class="context-menu-item" data-action="undo-cut" style="display: none;">
+            <img src="../note img/undo.svg" alt="__MSG_main_undoCut__" width="16" height="16">
+            <span>__MSG_main_undoCut__</span>
+        </div>
+        <div class="context-menu-item" data-action="remove-from-collection" style="display: none;">
+            <img src="../note img/remove-note-from-collection.svg" alt="__MSG_collections_removeFromCollection__"
+                width="16" height="16">
+            <span>__MSG_collections_removeFromCollection__</span>
+        </div>
+        <div class="context-menu-item" data-action="delete">
+            <img src="../note img/recycle-bin.svg" alt="__MSG_main_deleteNote__" width="16" height="16">
+            <span>__MSG_main_deleteNote__</span>
+        </div>
+    </div>
+
+    <!-- Collection Context Menu -->
+    <div id="collection-context-menu" class="collection-context-menu" style="display: none;">
+        <div class="context-menu-item" data-action="create-collection">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            <span>__MSG_collections_createCollection__</span>
+        </div>
+        <div class="context-menu-item" data-action="add-note-here" style="display: none;">
+            <img src="../note img/add-note-here.svg" alt="__MSG_collections_addNoteHere__" width="16" height="16">
+            <span>__MSG_collections_addNoteHere__</span>
+        </div>
+    </div>
+
+    <!-- Individual Collection Context Menu -->
+    <div id="individual-collection-context-menu" class="collection-context-menu" style="display: none;">
+        <div class="context-menu-item" data-action="select-multiple">
+            <img src="../note img/select.svg" alt="__MSG_multiSelect_selectAll__" width="16" height="16">
+            <span>__MSG_multiSelect_selectAll__</span>
+        </div>
+        <div class="context-menu-separator"></div>
+        <div class="context-menu-item" data-action="pin-collection">
+            <img src="../note img/pin.svg" alt="__MSG_collections_pinCollection__" width="16" height="16">
+            <span>__MSG_collections_pinCollection__</span>
+        </div>
+        <div class="context-menu-item" data-action="unpin-collection" style="display: none;">
+            <img src="../note img/unpin.svg" alt="__MSG_collections_unpinCollection__" width="16" height="16">
+            <span>__MSG_collections_unpinCollection__</span>
+        </div>
+        <div class="context-menu-item" data-action="edit-collection">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="m18.5 2.5 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>__MSG_collections_editCollection__</span>
+        </div>
+        <div class="context-menu-item" data-action="delete-collection">
+            <img src="../note img/recycle-bin.svg" alt="__MSG_collections_deleteCollection__" width="16" height="16">
+            <span>__MSG_collections_deleteCollection__</span>
+        </div>
+    </div>
+
+    <!-- Trash Context Menu -->
+    <div id="trash-context-menu" class="trash-context-menu" style="display: none;">
+        <div class="context-menu-item" data-action="restore">
+            <img src="../note img/restore.svg" alt="__MSG_trash_restore__" width="16" height="16">
+            <span>__MSG_trash_restore__</span>
+        </div>
+        <div class="context-menu-item" data-action="delete-forever">
+            <img src="../note img/recycle-bin.svg" alt="__MSG_trash_deleteForever__" width="16" height="16">
+            <span>__MSG_trash_deleteForever__</span>
+        </div>
+    </div>
+
+    <div id="settings-page" class="page">
+        <div class="settings-header">
+            <button id="back-to-main-btn" class="back-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+            <h2>__MSG_settings_title__</h2>
+        </div>
+        <div class="settings-content">
+            <div class="settings-group">
+                <h3 class="settings-group-title">__MSG_settings_appearance__</h3>
+                <div class="setting-item">
+                    <span>__MSG_settings_theme__</span>
+                    <div id="toggle-theme-btn" class="theme-toggle">
+                        <svg class="icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75ZM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0Zm12.75 0a.75.75 0 0 1-.75.75h-2.25a.75.75 0 0 1 0-1.5h2.25a.75.75 0 0 1 .75.75ZM12 21.75a.75.75 0 0 1-.75-.75v-2.25a.75.75 0 0 1 1.5 0v2.25a.75.75 0 0 1-.75-.75ZM4.5 12a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H5.25a.75.75 0 0 1-.75-.75ZM17.664 6.336a.75.75 0 0 1 1.06 1.06l-1.591 1.591a.75.75 0 1 1-1.06-1.06l1.591-1.591ZM6.336 17.664a.75.75 0 0 1 1.06-1.06l-1.591-1.591a.75.75 0 0 1-1.06 1.06l1.591 1.591ZM18.724 17.664a.75.75 0 1 1-1.06-1.06l-1.591 1.591a.75.75 0 0 1 1.06 1.06l1.591-1.591ZM7.397 7.397a.75.75 0 0 1-1.06 1.06l-1.591-1.591a.75.75 0 1 1 1.06-1.06l1.591 1.591Z">
+                            </path>
+                        </svg>
+                        <svg class="icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M11.25 3.375c-4.237 0-7.68 3.522-7.68 7.875 0 4.353 3.443 7.875 7.68 7.875 1.144 0 2.22-.255 3.195-.721a.75.75 0 0 1 .585 1.352 9.42 9.42 0 0 1-3.78.969c-5.063 0-9.18-4.195-9.18-9.375C2.07 6.095 6.187 1.9 11.25 1.9c1.94 0 3.753.615 5.261 1.666a.75.75 0 0 1-.93 1.157 7.82 7.82 0 0 0-4.331-1.348Z">
+                            </path>
+                        </svg>
+                    </div>
+                </div>
+                <div class="setting-item button-item">
+                    <span>__MSG_settings_defaultNoteSize__</span>
+                    <button id="configure-note-size-btn" class="action-btn">__MSG_settings_configure__</button>
+                </div>
+            </div>
+            <div class="settings-group">
+                <h3 class="settings-group-title">__MSG_settings_aiUsage__</h3>
+                <div class="setting-item">
+                    <div class="ai-usage-info">
+                        <span>__MSG_settings_aiUsageToday__</span>
+                        <span id="ai-usage-count" class="usage-count">0/15</span>
+                    </div>
+                </div>
+                <div class="setting-item">
+                    <div class="ai-usage-progress-container">
+                        <div class="usage-progress-track">
+                            <div id="ai-usage-progress" class="usage-progress-fill"></div>
+                        </div>
+                        <div class="usage-progress-text">
+                            <span id="ai-usage-percentage">0%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-item button-item">
+                    <span>__MSG_settings_unlockAIText__</span>
+                    <button id="unlock-ai-btn" class="action-btn unlock-btn"
+                        style="display: none;">__MSG_settings_unlockAI__</button>
+                    <button id="premium-unlocked-btn" class="action-btn premium-unlocked-btn" style="display: none;">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L15.09 8.26L22 9L17 14L18.18 21L12 17.77L5.82 21L7 14L2 9L8.91 8.26L12 2Z"
+                                fill="currentColor" />
+                        </svg>
+                        Premium
+                    </button>
+                </div>
+            </div>
+            <div class="settings-group">
+                <h3 class="settings-group-title">__MSG_settings_dataManagement__</h3>
+                <div class="setting-item button-item">
+                    <span>__MSG_settings_trash__</span>
+                    <button id="open-trash-btn" class="action-btn">__MSG_settings_open__</button>
+                </div>
+                <div class="setting-item button-item">
+                    <span>__MSG_settings_exportData__</span>
+                    <button id="export-notes-btn" class="action-btn">__MSG_settings_export__</button>
+                </div>
+                <div class="setting-item button-item">
+                    <span>__MSG_settings_importData__</span>
+                    <button id="import-notes-btn" class="action-btn">__MSG_settings_import__</button>
+                </div>
+            </div>
+            <div class="settings-group">
+                <h3 class="settings-group-title">__MSG_settings_cloudSync__</h3>
+                <div id="user-info" class="setting-item user-info-container" style="display: none;">
+                    <div class="user-email-display">
+                        <img id="user-avatar" class="user-icon" src="" alt="__MSG_settings_userAvatar__"
+                            style="border-radius: 50%;" />
+                        <div class="user-details">
+                            <span class="user-label">__MSG_settings_signedInWith__</span>
+                            <span id="user-email" class="user-email-text"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="setting-item full-width">
+                    <button id="google-sync-btn" class="google-signin-btn">
+                        <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"
+                                fill="#4285F4" />
+                            <path
+                                d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"
+                                fill="#34A853" />
+                            <path
+                                d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"
+                                fill="#FBBC05" />
+                            <path
+                                d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
+                                fill="#EA4335" />
+                        </svg>
+                        <span>__MSG_settings_signInWithGoogle__</span>
+                    </button>
+                    <div id="sync-controls" class="sync-controls" style="display: none;">
+                        <button id="manual-sync-btn" class="action-btn sync-btn" title="__MSG_settings_sync__">
+                            <svg class="btn-icon sync-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+                                fill="currentColor" style="width: 20px; height: 20px;">
+                                <path fill-rule="evenodd"
+                                    d="M4.755 10.059a7.5 7.5 0 0 1 12.548-3.364l1.903 1.903h-3.183a.75.75 0 1 0 0 1.5h4.992a.75.75 0 0 0 .75-.75V4.356a.75.75 0 0 0-1.5 0v3.18l-1.9-1.9A9 9 0 0 0 3.306 9.67a.75.75 0 1 0 1.45.388Zm15.408 3.352a.75.75 0 0 0-.919.53 7.5 7.5 0 0 1-12.548 3.364l-1.902-1.903h3.183a.75.75 0 0 0 0-1.5H2.984a.75.75 0 0 0-.75.75v4.992a.75.75 0 0 0 1.5 0v-3.18l1.9 1.9a9 9 0 0 0 15.059-4.035.75.75 0 0 0-.53-.918Z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                            <span>__MSG_settings_sync__</span>
+                        </button>
+                        <button id="google-signout-btn" class="action-btn delete-btn" title="__MSG_settings_signOut__">
+                            <img src="../note img/logout.svg" alt="__MSG_settings_signOut__" width="18" height="18">
+                            <span>__MSG_settings_signOut__</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="trash-page" class="page">
+        <div class="trash-header">
+            <button id="back-from-trash-btn" class="back-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+            <h2>__MSG_trash_title__</h2>
+            <div id="trash-stats" class="trash-stats">
+                <span id="trash-count">0 items</span>
+            </div>
+        </div>
+        <div id="trash-container" class="trash-content">
+        </div>
+        <div class="trash-footer">
+            <button id="restore-all-btn" class="trash-action-btn restore-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M9.53 2.47a.75.75 0 0 1 0 1.06L4.81 8.25H15a6.75 6.75 0 0 1 0 13.5h-3a.75.75 0 0 1 0-1.5h3a5.25 5.25 0 1 0 0-10.5H4.81l4.72 4.72a.75.75 0 1 1-1.06 1.06l-6-6a.75.75 0 0 1 0-1.06l6-6a.75.75 0 0 1 1.06 0Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <span>__MSG_trash_restoreAll__</span>
+            </button>
+            <button id="clear-trash-btn" class="trash-action-btn delete-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M16.5 4.478v.227a48.816 48.816 0 0 1 3.878.512.75.75 0 1 1-.256 1.478l-.209-.035-1.005 13.07a3 3 0 0 1-2.991 2.77H8.084a3 3 0 0 1-2.991-2.77L4.087 6.66l-.209.035a.75.75 0 0 1-.256-1.478A48.567 48.567 0 0 1 7.5 4.705v-.227c0-1.564 1.213-2.9 2.816-2.951a52.662 52.662 0 0 1 3.369 0c1.603.051 2.815 1.387 2.815 2.951Zm-6.136-1.452a51.196 51.196 0 0 1 3.273 0C14.39 3.05 15 3.684 15 4.478v.113a49.488 49.488 0 0 0-6 0v-.113c0-.794.609-1.428 1.364-1.452Zm-.355 5.945a.75.75 0 1 0-1.5.058l.347 9a.75.75 0 1 0 1.499-.058l-.346-9Zm5.48.058a.75.75 0 1 0-1.498-.058l-.347 9a.75.75 0 0 0 1.5.058l.345-9Z"
+                        clip-rule="evenodd" />
+                </svg>
+                <span>__MSG_trash_emptyTrash__</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Collection Page -->
+    <div id="collection-page" class="page">
+        <div class="settings-header">
+            <button id="back-from-collection-btn" class="back-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path fill-rule="evenodd"
+                        d="M11.03 3.97a.75.75 0 0 1 0 1.06l-6.22 6.22H21a.75.75 0 0 1 0 1.5H4.81l6.22 6.22a.75.75 0 1 1-1.06 1.06l-7.5-7.5a.75.75 0 0 1 0-1.06l7.5-7.5a.75.75 0 0 1 1.06 0Z"
+                        clip-rule="evenodd" />
+                </svg>
+            </button>
+            <div class="header-center">
+                <h2 id="collection-page-title">__MSG_collections_collection__</h2>
+            </div>
+            <button id="ai-workspace-collection-btn" class="ai-workspace-header-btn" title="__MSG_ai_workspace_title__">
+                <img src="../note img/google-gemini-icon.svg" alt="__MSG_ai_workspace_title__" width="26" height="26">
+            </button>
+        </div>
+        <div class="collection-header">
+            <div class="collection-info">
+                <div class="collection-color-indicator" id="collection-color-indicator"></div>
+                <div class="collection-details">
+                    <h3 id="collection-name-display"></h3>
+                    <span id="collection-note-count" class="collection-note-count"></span>
+                </div>
+            </div>
+            <div class="collection-actions">
+                <button id="create-note-in-collection-btn" class="action-btn"
+                    title="__MSG_collections_createNoteInCollection__">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button id="edit-collection-btn" class="action-btn" title="__MSG_collections_editCollection__">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="m18.5 2.5 3 3L12 15l-4 1 1-4 9.5-9.5z" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button id="delete-collection-btn" class="action-btn delete"
+                    title="__MSG_collections_deleteCollection__">
+                    <img src="../note img/recycle-bin.svg" alt="__MSG_collections_deleteCollection__" width="16"
+                        height="16">
+                </button>
+            </div>
+        </div>
+        <div id="collection-notes-container" class="collection-notes-container">
+        </div>
+    </div>
+
+    <input type="file" id="import-file-input" accept=".json" style="display:none;">
+
+    <div id="toast-notification" class="toast">
+        <p id="toast-message"></p>
+    </div>
+
+    <div id="sync-toast" class="toast">
+        <div class="sync-toast-content">
+            <svg class="sync-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path fill-rule="evenodd"
+                    d="M4.755 10.059a7.5 7.5 0 0 1 12.548-3.364l1.903 1.903h-3.183a.75.75 0 1 0 0 1.5h4.992a.75.75 0 0 0 .75-.75V4.356a.75.75 0 0 0-1.5 0v3.18l-1.9-1.9A9 9 0 0 0 3.306 9.67a.75.75 0 1 0 1.45.388Zm15.408 3.352a.75.75 0 0 0-.919.53 7.5 7.5 0 0 1-12.548 3.364l-1.902-1.903h3.183a.75.75 0 0 0 0-1.5H2.984a.75.75 0 0 0-.75.75v4.992a.75.75 0 0 0 1.5 0v-3.18l1.9 1.9a9 9 0 0 0 15.059-4.035.75.75 0 0 0-.53-.918Z"
+                    clip-rule="evenodd" />
+            </svg>
+            <span id="sync-message"></span>
+        </div>
+    </div>
+
+    <!-- Multi-Select Selection Bar -->
+    <div id="selection-bar" class="selection-bar">
+        <button id="cancel-selection-btn" class="selection-cancel-btn" title="__MSG_multiSelect_cancel__">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+        </button>
+        <div class="selection-info">
+            <div class="selection-count-wrapper">
+                <span id="selection-count" class="selection-count-number">0</span>
+                <span class="selection-count-label">__MSG_multiSelect_selected__</span>
+            </div>
+            <div id="selection-breakdown" class="selection-breakdown"></div>
+        </div>
+        <div class="selection-actions">
+            <button id="select-all-btn" class="selection-action-btn" title="__MSG_multiSelect_selectAll__">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9 11L12 14L22 4M21 12V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V5C3 4.46957 3.21071 3.96086 3.58579 3.58579C3.96086 3.21071 4.46957 3 5 3H16"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <button id="bulk-delete-btn" class="selection-action-btn danger" title="__MSG_multiSelect_bulkDelete__">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3 6H5H21M8 6V4C8 3.46957 8.21071 2.96086 8.58579 2.58579C8.96086 2.21071 9.46957 2 10 2H14C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V6M19 6V20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22H7C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20V6H19Z"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <button id="bulk-restore-btn" class="selection-action-btn success" style="display: none;"
+                title="__MSG_multiSelect_bulkRestore__">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3 9L12 2L21 9V20C21 20.5304 20.7893 21.0391 20.4142 21.4142C20.0391 21.7893 19.5304 22 19 22H5C4.46957 22 3.96086 21.7893 3.58579 21.4142C3.21071 21.0391 3 20.5304 3 20V9Z"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </button>
+            <button id="bulk-delete-forever-btn" class="selection-action-btn danger" style="display: none;"
+                title="__MSG_multiSelect_bulkDeleteForever__">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3 6H5H21M8 6V4C8 3.46957 8.21071 2.96086 8.58579 2.58579C8.96086 2.21071 9.46957 2 10 2H14C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V6M19 6V20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22H7C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20V6H19Z"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M10 11V17M14 11V17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <div id="custom-confirm-overlay" class="custom-dialog-overlay">
+        <div class="custom-dialog-box">
+            <p id="custom-confirm-message"></p>
+            <div class="custom-dialog-actions">
+                <button id="custom-confirm-yes" class="action-btn restore">__MSG_confirmations_continue__</button>
+                <button id="custom-confirm-no" class="action-btn delete">__MSG_confirmations_cancel__</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Note Size Configuration Modal -->
+    <div id="note-size-modal" class="minimal-modal-overlay" style="display: none;">
+        <div class="minimal-modal-box">
+            <div class="minimal-modal-content">
+                <h3>__MSG_settings_noteSizeModal_title__</h3>
+                <div class="size-input-group">
+                    <div class="size-input-item">
+                        <label>__MSG_settings_noteSizeModal_width__</label>
+                        <input type="number" id="note-width-input" min="400" max="1920" value="584" />
+                    </div>
+                    <div class="size-input-item">
+                        <label>__MSG_settings_noteSizeModal_height__</label>
+                        <input type="number" id="note-height-input" min="400" max="1080" value="792" />
+                    </div>
+                </div>
+                <button id="reset-note-size-btn" class="minimal-reset-btn">__MSG_settings_noteSizeModal_reset__</button>
+                <div class="minimal-modal-actions">
+                    <button id="save-note-size-btn" class="minimal-action-btn primary">__MSG_settings_noteSizeModal_save__</button>
+                    <button id="cancel-note-size-btn" class="minimal-action-btn">__MSG_settings_noteSizeModal_cancel__</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Collection Creation Dialog -->
+    <div id="collection-dialog-overlay" class="custom-dialog-overlay">
+        <div class="collection-dialog-box">
+            <h3>__MSG_collections_createCollection__</h3>
+            <div class="collection-form">
+                <div class="form-group">
+                    <label>__MSG_collections_collectionName__</label>
+                    <input type="text" id="collection-name-input"
+                        placeholder="__MSG_collections_collectionNamePlaceholder__" maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label>__MSG_collections_collectionTheme__</label>
+                    <div class="theme-picker">
+                        <div class="theme-option" data-theme="work" data-color="#ff6b6b">
+                            <div class="theme-icon">
+                                <img src="../note img/work.svg" alt="__MSG_themes_work__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_work__</span>
+                        </div>
+                        <div class="theme-option" data-theme="personal" data-color="#4ecdc4">
+                            <div class="theme-icon">
+                                <img src="../note img/personal.svg" alt="__MSG_themes_personal__" width="24"
+                                    height="24">
+                            </div>
+                            <span>__MSG_themes_personal__</span>
+                        </div>
+                        <div class="theme-option" data-theme="ideas" data-color="#45b7d1">
+                            <div class="theme-icon">
+                                <img src="../note img/ideas.svg" alt="__MSG_themes_ideas__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_ideas__</span>
+                        </div>
+                        <div class="theme-option" data-theme="study" data-color="#96ceb4">
+                            <div class="theme-icon">
+                                <img src="../note img/study.svg" alt="__MSG_themes_study__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_study__</span>
+                        </div>
+                        <div class="theme-option" data-theme="travel" data-color="#feca57">
+                            <div class="theme-icon">
+                                <img src="../note img/travel.svg" alt="__MSG_themes_travel__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_travel__</span>
+                        </div>
+                        <div class="theme-option" data-theme="hobby" data-color="#ff9ff3">
+                            <div class="theme-icon">
+                                <img src="../note img/hobby.svg" alt="__MSG_themes_hobby__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_hobby__</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-dialog-actions">
+                <button id="collection-create-btn" class="action-btn restore">__MSG_collections_create__</button>
+                <button id="collection-cancel-btn" class="action-btn delete">__MSG_confirmations_cancel__</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Collection Edit Dialog -->
+    <div id="collection-edit-dialog-overlay" class="custom-dialog-overlay">
+        <div class="collection-dialog-box">
+            <h3>__MSG_collections_editCollection__</h3>
+            <div class="collection-form">
+                <div class="form-group">
+                    <label>__MSG_collections_collectionName__</label>
+                    <input type="text" id="collection-edit-name-input"
+                        placeholder="__MSG_collections_collectionNamePlaceholder__" maxlength="50">
+                </div>
+                <div class="form-group">
+                    <label>__MSG_collections_collectionTheme__</label>
+                    <div class="theme-picker">
+                        <div class="theme-option" data-theme="work" data-color="#ff6b6b">
+                            <div class="theme-icon">
+                                <img src="../note img/work.svg" alt="__MSG_themes_work__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_work__</span>
+                        </div>
+                        <div class="theme-option" data-theme="personal" data-color="#4ecdc4">
+                            <div class="theme-icon">
+                                <img src="../note img/personal.svg" alt="__MSG_themes_personal__" width="24"
+                                    height="24">
+                            </div>
+                            <span>__MSG_themes_personal__</span>
+                        </div>
+                        <div class="theme-option" data-theme="ideas" data-color="#45b7d1">
+                            <div class="theme-icon">
+                                <img src="../note img/ideas.svg" alt="__MSG_themes_ideas__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_ideas__</span>
+                        </div>
+                        <div class="theme-option" data-theme="study" data-color="#96ceb4">
+                            <div class="theme-icon">
+                                <img src="../note img/study.svg" alt="__MSG_themes_study__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_study__</span>
+                        </div>
+                        <div class="theme-option" data-theme="travel" data-color="#feca57">
+                            <div class="theme-icon">
+                                <img src="../note img/travel.svg" alt="__MSG_themes_travel__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_travel__</span>
+                        </div>
+                        <div class="theme-option" data-theme="hobby" data-color="#ff9ff3">
+                            <div class="theme-icon">
+                                <img src="../note img/hobby.svg" alt="__MSG_themes_hobby__" width="24" height="24">
+                            </div>
+                            <span>__MSG_themes_hobby__</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="custom-dialog-actions">
+                <button id="collection-save-btn" class="action-btn restore">__MSG_collections_save__</button>
+                <button id="collection-edit-cancel-btn" class="action-btn delete">__MSG_confirmations_cancel__</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Modal -->
+    <div id="premium-modal-overlay" class="premium-modal-overlay">
+        <div class="premium-modal">
+            <div class="premium-modal-content">
+                <h2 class="premium-title">__MSG_premium_unlockTitle__</h2>
+
+                <div class="premium-features">
+                    <div class="premium-feature">
+                        <div class="feature-icon">
+                            <img src="../note img/Gemini.svg" alt="__MSG_premium_aiPremium__" width="18" height="18">
+                        </div>
+                        <div class="feature-text">
+                            <span class="feature-title">__MSG_premium_unlimitedAI__</span>
+                            <span class="feature-desc">__MSG_premium_unlimitedAIDesc__</span>
+                        </div>
+                    </div>
+
+                    <div class="premium-feature">
+                        <div class="feature-icon">
+                            <img src="../note img/collection-premium.svg" alt="__MSG_premium_collectionsPremium__"
+                                width="18" height="18">
+                        </div>
+                        <div class="feature-text">
+                            <span class="feature-title">__MSG_premium_unlimitedCollections__</span>
+                            <span class="feature-desc">__MSG_premium_unlimitedCollectionsDesc__</span>
+                        </div>
+                    </div>
+
+                    <div class="premium-feature">
+                        <div class="feature-icon">
+                            <img src="../note img/background-premium.svg" alt="__MSG_premium_backgroundPremium__"
+                                width="18" height="18">
+                        </div>
+                        <div class="feature-text">
+                            <span class="feature-title">__MSG_premium_exclusiveBackgrounds__</span>
+                            <span class="feature-desc">__MSG_premium_exclusiveBackgroundsDesc__</span>
+                        </div>
+                    </div>
+
+                    <div class="premium-feature">
+                        <div class="feature-icon">
+                            <img src="../note img/share-premium.svg" alt="__MSG_premium_sharePremium__" width="18"
+                                height="18">
+                        </div>
+                        <div class="feature-text">
+                            <span class="feature-title">__MSG_premium_shareNotes__</span>
+                            <span class="feature-desc">__MSG_premium_shareNotesDesc__</span>
+                        </div>
+                    </div>
+
+                    <div class="premium-feature">
+                        <div class="feature-icon">
+                            <img src="../note img/support.svg" alt="Support">
+                        </div>
+                        <div class="feature-text">
+                            <span class="feature-title">__MSG_premium_exclusiveSupport__</span>
+                            <span class="feature-desc">__MSG_premium_exclusiveSupportDesc__</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="premium-modal-footer">
+                <button id="premium-upgrade-btn" class="premium-upgrade-btn">
+                    <span>__MSG_premium_startFreeTrial__</span>
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5 12H19M12 5L19 12L12 19" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Premium Info Modal -->
+    <div id="premium-info-modal-overlay" class="premium-info-modal-overlay">
+        <div class="premium-info-modal">
+            <div class="premium-info-header">
+                <div id="premium-info-lottie-animation" class="premium-info-lottie"></div>
+            </div>
+            <div class="premium-info-content">
+                <div class="info-list">
+                    <div class="info-row">
+                        <span class="info-label">__MSG_premium_plan_type__</span>
+                        <span id="premium-plan-type" class="info-value">__MSG_premium_plan_monthly__</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">__MSG_premium_status__</span>
+                        <span id="premium-status" class="info-value status-active">__MSG_premium_status_active__</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">__MSG_premium_next_billing__</span>
+                        <span id="premium-next-billing" class="info-value">January 15, 2024</span>
+                    </div>
+                    <div class="info-row">
+                        <span class="info-label">__MSG_premium_support__</span>
+                        <button id="premium-contact-support-btn" class="premium-support-btn">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            __MSG_premium_contact_support__
+                        </button>
+                    </div>
+                </div>
+                <button id="premium-manage-billing-btn" class="premium-manage-btn">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                    __MSG_premium_manage_billing__
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI Workspace Page -->
+    <div id="ai-workspace-modal" class="ai-workspace-page">
+        <!-- AI Workspace Header -->
+        <div class="ai-workspace-header">
+            <h2 id="ai-workspace-collection-name">__MSG_ai_workspace_title__</h2>
+            <button id="back-from-ai-workspace-btn" class="ai-close-btn" title="__MSG_ai_workspace_close__">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 6L6 18M6 6L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Scrollable Content Area -->
+        <div class="ai-workspace-scrollable">
+            <!-- AI Introduction Area -->
+            <div class="ai-intro-area" id="ai-intro-area">
+                <div class="ai-intro-bubble">
+                    <p>__MSG_ai_workspace_intro__</p>
+                </div>
+            </div>
+
+            <!-- AI Options Buttons -->
+            <div class="ai-options-container" id="ai-workspace-options">
+                <div class="ai-option-button" data-action="synthesis">
+                    __MSG_ai_workspace_summarize_collection__
+                </div>
+
+                <div class="ai-option-button" data-action="todo">
+                    __MSG_ai_actionItems__
+                </div>
+
+                <div class="ai-option-button" data-action="faq">
+                    __MSG_ai_workspace_generate_insights__
+                </div>
+
+                <div class="ai-option-button" data-action="search">
+                    __MSG_ai_workspace_find_patterns__
+                </div>
+            </div>
+
+            <!-- AI Result Area -->
+            <div class="ai-result-area" id="ai-workspace-result" style="display: none;">
+                <div class="ai-result-content" id="ai-result-content">
+                    <!-- AI result will be displayed here -->
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Separator Line -->
+        <div class="ai-separator-line"></div>
+
+        <!-- AI Input Container - Completely independent -->
+        <div class="ai-workspace-input-container">
+            <div class="ai-input-wrapper">
+                <input type="text" id="ai-workspace-input" placeholder="__MSG_ai_workspace_input_placeholder__"
+                    class="ai-input-field">
+                <button id="ai-workspace-send-btn" class="ai-send-btn" title="__MSG_ai_workspace_send__">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../libs/dexie.min.js"></script>
+    <script src="../indexeddb-manager.js"></script>
+    <script src="../server-config.js"></script>
+    <!-- Other Scripts -->
+    <script src="../toast-system.js"></script>
+    <script src="../i18n-helper.js"></script>
+    <script src="../libs/anime.min.js"></script>
+    <script src="../animation-helpers.js"></script>
+    <script src="../libs/lottie-web.min.js"></script>
+    <!-- Marked.js - Markdown Parser -->
+    <script src="../libs/marked.min.js"></script>
+    <!-- Markdown Processor - Unified markdown handling -->
+    <script src="../markdown-processor.js"></script>
+    <script src="../virtual-scroll-manager.js"></script>
+    <script src="search-highlight-helper.js"></script>
+    <script src="settings-performance-optimizer.js"></script>
+    <script src="note-card-drag-to-window.js"></script>
+    <script src="main_app.js"></script>
+
+    <!-- Welcome Overlay -->
+    <div id="welcome-overlay" class="welcome-overlay" style="display: none;">
+        <div id="welcome-animation" class="welcome-animation"></div>
+    </div>
+
+    <!-- Premium Success Overlay -->
+    <div id="premium-success-overlay" class="premium-success-overlay">
+        <div class="premium-sparkles" id="premium-sparkles"></div>
+        <div class="premium-success-content">
+            <div class="premium-success-animation" id="premium-success-animation"></div>
+            <h1 class="premium-success-title">__MSG_premium_congratulations__</h1>
+            <p class="premium-success-message">__MSG_premium_upgradedSuccessfully__</p>
+            <div class="premium-success-features">
+                <div class="premium-feature-item">
+                    <div class="premium-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456zM16.894 20.567L16.5 22.5l-.394-1.933a2.25 2.25 0 00-1.423-1.423L12.75 18.75l1.933-.394a2.25 2.25 0 001.423-1.423l.394-1.933.394 1.933a2.25 2.25 0 001.423 1.423l1.933.394-1.933.394a2.25 2.25 0 00-1.423 1.423z" />
+                        </svg>
+                    </div>
+                    <span class="premium-feature-text">__MSG_premium_unlimitedAIChat__</span>
+                </div>
+                <div class="premium-feature-item">
+                    <div class="premium-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+                        </svg>
+                    </div>
+                    <span class="premium-feature-text">__MSG_premium_accessAdvancedFeatures__</span>
+                </div>
+                <div class="premium-feature-item">
+                    <div class="premium-feature-icon">
+                        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M12 1.5a5.25 5.25 0 00-5.25 5.25v3a3 3 0 00-3 3v6.75a3 3 0 003 3h10.5a3 3 0 003-3v-6.75a3 3 0 00-3-3v-3c0-2.9-2.35-5.25-5.25-5.25zm3.75 8.25v-3a3.75 3.75 0 10-7.5 0v3h7.5z"
+                                clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <span class="premium-feature-text">__MSG_premium_prioritySupport__</span>
+                </div>
+            </div>
+            <button class="premium-success-button" id="premium-success-close-btn">__MSG_premium_startUsing__</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

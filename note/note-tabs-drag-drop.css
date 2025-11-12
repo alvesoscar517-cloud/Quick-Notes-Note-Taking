@@ -1,0 +1,468 @@
+/* Tab Drag & Drop Styles */
+
+/* Dragging state */
+.note-tab.dragging {
+    opacity: 0.9;
+    cursor: grabbing !important;
+    transition: none !important;
+}
+
+.note-tab.dragging.reorder-mode {
+    transform: scale(1.05) rotate(2deg);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.note-tab.dragging.detach-mode {
+    opacity: 0.5 !important;
+    transform: scale(0.95);
+}
+
+/* Placeholder for reordering */
+.tab-placeholder {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 20%, transparent);
+    border: 2px dashed color-mix(in srgb, var(--note-accent-color, #8b9dc3) 50%, transparent);
+    border-radius: 8px 8px 0 0;
+    opacity: 0.6;
+    transition: all 0.2s ease;
+}
+
+/* Ghost window preview when dragging out */
+.ghost-window {
+    position: fixed;
+    background: rgba(32, 33, 36, 0.98);
+    border: 2px solid rgba(139, 157, 195, 0.6);
+    border-radius: 12px;
+    box-shadow: 0 16px 64px rgba(0, 0, 0, 0.7);
+    pointer-events: none;
+    z-index: 100000;
+    overflow: hidden;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    transition: opacity 0.15s ease, transform 0.15s ease;
+    width: 400px;
+    height: 300px;
+    opacity: 0.5;
+    transform: scale(0.95);
+}
+
+.ghost-window-header {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 15%, transparent);
+    padding: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ghost-window-tab {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 25%, transparent);
+    padding: 6px 12px;
+    border-radius: 6px 6px 0 0;
+    color: #e8eaed;
+    font-size: 12px;
+    max-width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.ghost-window-body {
+    background: rgba(32, 33, 36, 0.9);
+    height: calc(100% - 40px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(232, 234, 237, 0.5);
+    font-size: 14px;
+}
+
+.ghost-window-preview {
+    font-size: 64px;
+    opacity: 0.3;
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* Ready to create new window state */
+.ghost-window.ready-to-create {
+    border-color: rgba(139, 157, 195, 1);
+    border-width: 3px;
+    box-shadow: 0 16px 64px rgba(139, 157, 195, 0.5), 0 0 0 4px rgba(139, 157, 195, 0.2);
+}
+
+.ghost-window-create-hint {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, rgba(139, 157, 195, 1) 0%, rgba(139, 157, 195, 0.9) 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 24px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 4px 16px rgba(139, 157, 195, 0.5);
+    animation: createIndicatorPulse 1.5s ease-in-out infinite;
+    white-space: nowrap;
+    display: none;
+}
+
+.ghost-window.ready-to-create .ghost-window-create-hint {
+    display: block;
+}
+
+@keyframes createIndicatorPulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: translateX(-50%) scale(1.05);
+    }
+}
+
+/* Merge ready state */
+.ghost-window.merge-ready {
+    border-color: #4CAF50;
+    border-width: 3px;
+    box-shadow: 0 16px 64px rgba(76, 175, 80, 0.6), 0 0 0 4px rgba(76, 175, 80, 0.2);
+    transform: scale(1) !important;
+    opacity: 1 !important;
+}
+
+.ghost-window.merge-ready .ghost-window-header {
+    background: color-mix(in srgb, #4CAF50 25%, rgba(32, 33, 36, 0.95));
+}
+
+.ghost-window-merge-hint {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(135deg, #4CAF50 0%, #45a049 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 24px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 0 4px 16px rgba(76, 175, 80, 0.5);
+    animation: mergeIndicatorPulse 1.5s ease-in-out infinite;
+    white-space: nowrap;
+    display: none;
+}
+
+.ghost-window.merge-ready .ghost-window-merge-hint {
+    display: block;
+}
+
+@keyframes mergeIndicatorPulse {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+
+    50% {
+        opacity: 0.9;
+        transform: translateX(-50%) scale(1.08);
+    }
+}
+
+/* Window merge indicator overlay */
+.window-merge-indicator {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(76, 175, 80, 0.08);
+    border: 6px solid #4CAF50;
+    border-radius: 12px;
+    pointer-events: none;
+    z-index: 99999;
+    animation: mergeGlow 1.5s ease-in-out infinite;
+    box-shadow: inset 0 0 100px rgba(76, 175, 80, 0.2);
+    display: none;
+}
+
+.window-merge-indicator-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(76, 175, 80, 0.95);
+    color: white;
+    padding: 16px 32px;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+    animation: indicatorBounce 2s ease-in-out infinite;
+}
+
+@keyframes mergeGlow {
+
+    0%,
+    100% {
+        opacity: 0.7;
+        border-color: #4CAF50;
+    }
+
+    50% {
+        opacity: 1;
+        border-color: #66BB6A;
+    }
+}
+
+@keyframes indicatorBounce {
+
+    0%,
+    100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    50% {
+        transform: translate(-50%, -50%) scale(1.05);
+    }
+}
+
+/* Cursor styles */
+.note-tab {
+    cursor: pointer;
+}
+
+.note-tab.drag-mode-enabled {
+    cursor: grab;
+    outline: 2px solid var(--note-accent-color, #8b9dc3);
+    outline-offset: 2px;
+    animation: dragModeGlow 1.5s ease-in-out infinite;
+}
+
+@keyframes dragModeGlow {
+
+    0%,
+    100% {
+        outline-color: var(--note-accent-color, #8b9dc3);
+    }
+
+    50% {
+        outline-color: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 60%, transparent);
+    }
+}
+
+.note-tab.drag-mode-enabled:active {
+    cursor: grabbing;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+/* Light theme adjustments */
+body.light-theme .ghost-window {
+    background: rgba(255, 255, 255, 0.95);
+    border-color: rgba(139, 157, 195, 0.5);
+}
+
+body.light-theme .ghost-window-header {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 12%, white);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .ghost-window-tab {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 20%, white);
+    color: #202124;
+}
+
+body.light-theme .ghost-window-body {
+    background: rgba(241, 243, 244, 0.8);
+    color: rgba(32, 33, 36, 0.5);
+}
+
+body.light-theme .tab-placeholder {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 15%, white);
+    border-color: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 40%, white);
+}
+
+/* Drag feedback animations */
+@keyframes tabLift {
+    from {
+        transform: scale(1);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    to {
+        transform: scale(1.05);
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.note-tab.dragging {
+    animation: tabLift 0.2s ease forwards;
+}
+
+/* Drop zone highlight */
+.tab-list.drag-over {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 10%, transparent);
+    border-radius: 8px;
+}
+
+/* Detach indicator */
+.note-tab.detaching {
+    opacity: 0.5;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+}
+
+/* Window snap zones (visual feedback for merge areas) */
+.window-snap-zone {
+    position: fixed;
+    background: rgba(76, 175, 80, 0.2);
+    border: 2px dashed #4CAF50;
+    border-radius: 8px;
+    pointer-events: none;
+    z-index: 99998;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.window-snap-zone.active {
+    opacity: 1;
+}
+
+/* Tab reorder animation */
+.note-tab.reordering {
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Prevent text selection during drag */
+.tab-bar.dragging-active {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Mobile/touch support */
+@media (pointer: coarse) {
+    .note-tab {
+        cursor: default;
+    }
+
+    .note-tab.dragging {
+        transform: scale(1.1);
+    }
+
+    .ghost-window {
+        transform: scale(0.9);
+    }
+}
+
+/* Accessibility - keyboard drag mode */
+.note-tab.keyboard-drag {
+    outline: 3px solid var(--note-accent-color, #8b9dc3);
+    outline-offset: 2px;
+}
+
+.note-tab.keyboard-drag::after {
+    content: 'Use arrow keys to move, Enter to drop, Esc to cancel';
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(32, 33, 36, 0.95);
+    color: #e8eaed;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 11px;
+    white-space: nowrap;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 10001;
+}
+
+body.light-theme .note-tab.keyboard-drag::after {
+    background: rgba(255, 255, 255, 0.95);
+    color: #202124;
+}
+
+
+/* ========== WINDOW-TO-WINDOW DRAG & DROP ========== */
+
+/* Window drag indicator removed - no longer needed */
+
+/* Window merge target indicator (shown on target window) */
+.window-merge-target-indicator {
+    position: fixed;
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    background: transparent;
+    border: 3px solid var(--note-accent-color, #8b9dc3);
+    border-radius: 12px;
+    pointer-events: none;
+    z-index: 100000;
+    display: none;
+    animation: targetPulse 1s ease-in-out infinite;
+    box-shadow:
+        inset 0 0 60px color-mix(in srgb, var(--note-accent-color, #8b9dc3) 10%, transparent),
+        0 0 30px color-mix(in srgb, var(--note-accent-color, #8b9dc3) 30%, transparent);
+}
+
+@keyframes targetPulse {
+
+    0%,
+    100% {
+        opacity: 0.7;
+        border-width: 3px;
+    }
+
+    50% {
+        opacity: 1;
+        border-width: 3px;
+    }
+}
+
+/* Light theme for window drag indicators */
+body.light-theme .window-merge-target-indicator {
+    border-color: var(--note-accent-color, #8b9dc3);
+    box-shadow:
+        inset 0 0 60px color-mix(in srgb, var(--note-accent-color, #8b9dc3) 15%, transparent),
+        0 0 30px color-mix(in srgb, var(--note-accent-color, #8b9dc3) 40%, transparent);
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-5px);
+    }
+}

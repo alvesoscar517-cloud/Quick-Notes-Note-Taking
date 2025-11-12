@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Quick Notes öffnen",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Zugriff verboten. Bitte überprüfen Sie Ihre Berechtigungen.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Auf Notiz anwenden",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kopieren",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Aufgaben erstellen",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API-Schlüssel nicht konfiguriert",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Anhängen",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Inhalt konnte nicht auf die Notiz angewendet werden",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Auf Notiz anwenden",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Backend-Server ist nicht verfügbar. Bitte überprüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "Backend-URL nicht konfiguriert",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Backend-Server antwortet nicht",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "KI-Chatfenster konnte nicht erstellt werden",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Mit KI über ausgewählten Text chatten",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Inhalt auf Ihre Notiz angewendet!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Inhalt in die Zwischenablage kopiert!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Gefiltert",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Der Inhalt wurde eingefügt und der ausgewählte Text wurde ersetzt",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Inhalt nicht verfügbar",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopieren",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Kopieren in die Zwischenablage fehlgeschlagen",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Tageslimit erreicht (15/15). Versuchen Sie es morgen erneut.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Bild herunterladen",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "Die KI hat eine leere Antwort zurückgegeben. Bitte versuchen Sie es erneut.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "KI-Fehler",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Erweitern",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Text extrahieren (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Bildanalyse fehlgeschlagen",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Bild wird analysiert...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Tägliches Bildanalyselimit erreicht. Führen Sie ein Upgrade auf Premium für unbegrenzte Analysen durch.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Bild konnte nicht heruntergeladen werden",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Bild erfolgreich heruntergeladen",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Verbessern",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Drücken Sie Enter zum Senden, Shift+Enter für eine neue Zeile",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Geben Sie Ihre Nachricht ein oder wählen Sie eine schnelle Aktion...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Inhalt konnte nicht eingefügt werden",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Einfügen und Ersetzen",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Ungültiger API-Schlüssel",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Ungültige Anmeldung",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Schlechtes Modell",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Ungültige Antwort vom Backend-Dienst.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Sie haben alle {limit} KI-Anfragen für heute verbraucht. Führen Sie ein Upgrade auf Premium für unbegrenzten Zugang durch!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Besprechungsnotizen",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Minimieren",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Kein Modell",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Netzwerkfehler",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Keine Verbindung",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Keine Antwort von der KI",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Kein Text ausgewählt",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Keine KI-Operationen zum Rückgängigmachen vorhanden",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR-Ergebnis erhalten",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Gliederung",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium aktiv",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "KI verarbeitet...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kontingent voll",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Ratenlimit überschritten. Bitte versuchen Sie es später erneut.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Anfrage-Zeitüberschreitung",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "KI-Antwort erhalten",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Blockiert",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Speichern",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Suchen",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Ausgewählter Text",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Serverfehler - Bitte versuchen Sie es später erneut",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Dienst ausgefallen",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Initialisierung des KI-Dienstes fehlgeschlagen",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "KI-Dienst nicht verfügbar. Bitte aktualisieren Sie die Seite.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "KI-Dienst nicht ordnungsgemäß konfiguriert",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "KI-Dienst nicht initialisiert",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "KI-Dienst vorübergehend nicht verfügbar",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Bitte melden Sie sich an, um die KI-Funktionen zu nutzen. Klicken Sie auf die Anmeldeschaltfläche in der Erweiterung.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Zum Entsperren anmelden",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Statistiken fehlgeschlagen",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Vorschläge",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Zusammenfassen",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Zeitüberschreitung",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "KI-Assistent",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Ton",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramatisch",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Humorvoll",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Bitte wählen Sie Text aus oder fügen Sie Inhalt hinzu, der transformiert werden soll",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Poetisch",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Professionell",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Vereinfachen",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Übersetzen",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " ins Englische",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "KI-Operation erfolgreich rückgängig gemacht!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Unbekannter KI-Fehler",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "SPERREN",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Unbegrenzt",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Benutzernachricht",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Benutzeranfrage",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Hallo! Ich bin Ihr KI-Assistent. Ich kann Ihnen helfen, Ihre Notizen zusammenzufassen, zu erweitern, zu verbessern oder zu übersetzen. Womit kann ich Ihnen helfen?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Willkommen Premium-Benutzer! Sie haben unbegrenzte KI-Anfragen.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Willkommen! Sie haben heute noch {remaining} von {limit} KI-Anfragen übrig.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "KI-Analyse fehlgeschlagen",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "KI-Analyse fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analyse abgeschlossen!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analysiert",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Schließen",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Sammlungsanalyse",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Neue Notiz mit Einblicken aus {count} Notizen erstellt.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Fehler beim Verarbeiten der Sammlung",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Muster finden",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Einblicke generieren",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Fragen Sie irgendetwas über Ihre Sammlung...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "Der KI-Arbeitsbereich ist eine leistungsstarke Funktion, die entwickelt wurde, um das Potenzial von KI-Modellen zu maximieren und Ihnen zu ermöglichen, Analysen zu erstellen und ganze Notizsammlungen auf einmal zu verarbeiten, anstatt einzelner Notizen.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Keine Notizen in dieser Sammlung zum Analysieren",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "Notiz(en)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Wird verarbeitet...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Was soll die KI mit diesen Notizen tun?\n\nBeispiele:\n- Alle Notizen zusammenfassen\n- Hauptthemen und Schlüsselwörter extrahieren\n- Eine Master-To-Do-Liste erstellen\n- FAQ aus diesen Notizen generieren\n- Verbindungen zwischen Themen finden",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "KI-Antwort fehlgeschlagen. Bitte versuchen Sie es erneut.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Senden",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Sammlung zusammenfassen",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Erstellen Sie aus diesen Notizen eine Liste mit häufig gestellten Fragen und Antworten (FAQ). Identifizieren Sie wichtige Themen und erstellen Sie passende Fragen mit detaillierten Antworten.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Aufgabe",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Finden und erklären Sie Verbindungen zwischen Informationen in den Notizen. Identifizieren Sie Verknüpfungen, Widersprüche oder Beziehungen zwischen verschiedenen in den Notizen erwähnten Themen.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Erstellen Sie eine umfassende Zusammenfassung aus allen Notizen in dieser Sammlung. Heben Sie die wichtigsten Punkte hervor und erstellen Sie eine einzige, zusammenhängende Zusammenfassung.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Identifizieren Sie 5 Hauptthemen und verwandte Schlüsselwörter aus diesen Forschungsnotizen. Erstellen Sie eine strukturierte Liste mit Themen und entsprechenden Schlüsselwörtern.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Scannen Sie alle Notizen und erstellen Sie eine umfassende To-Do-Liste. Finden Sie alle in den Notizen erwähnten 'Aktionselemente', Aufgaben oder zu erledigende Arbeiten und erstellen Sie eine strukturierte Checkliste.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "KI-Arbeitsbereich",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Tägliches Nutzungslimit erreicht. Führen Sie ein Upgrade auf Premium für unbegrenzten Zugang zum KI-Arbeitsbereich durch.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Erstellen, verwalten und synchronisieren Sie Notizen im Glassmorphismus-Stil.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "Quick Notes",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Abstrakt",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Alle",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Weihnachten",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrisch",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Natur",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Brauch",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Löschen",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Keine",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Als Standard festlegen",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Hochladen",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Notiz hier hinzufügen",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Sammlung",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Erstellt",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Gelöscht",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Name der Sammlung",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Name der Sammlung eingeben...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Angeheftet",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Thema",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Anheftung aufgehoben",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Aktualisiert",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Erstellen",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Sammlung erstellen",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Notiz in Sammlung erstellen",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Sammlung löschen",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Sammlung bearbeiten",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Diese Sammlung ist leer",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Bitte geben Sie den Namen der Sammlung ein",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Fehler beim Erstellen der Notiz",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Fehler bei der Sammlung",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Löschen fehlgeschlagen",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Laden fehlgeschlagen",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Verschieben fehlgeschlagen",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Anheften fehlgeschlagen",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Aktualisierung fehlgeschlagen",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Sammlungslimit erreicht",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "In Sammlung verschieben",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "Notizen",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "Notiz in Sammlung erstellt",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "Notizen",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "Notizen in Sammlung verschoben",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Sammlung anheften",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Aus der Sammlung entfernen",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Speichern",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Anheftung der Sammlung aufheben",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Quick Notes öffnen",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Abbrechen",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Schließen",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Fortfahren",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Alle Notizen im Papierkorb endgültig löschen?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Sind Sie sicher, dass Sie diese Sammlung endgültig löschen möchten? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Notiz endgültig löschen?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Dadurch werden alle aktuellen Daten überschrieben. Fortfahren?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Zu Quick Notes hinzufügen",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Ablegen, um ein neues Fenster zu erstellen",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Zum Zusammenführen die Registerkarte hier ablegen",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Zum Zusammenführen von Fenstern ablegen",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "KI-Chat fehlgeschlagen",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "KI-Erweiterung fehlgeschlagen",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "KI-Verbesserung fehlgeschlagen",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "KI-Initialisierung fehlgeschlagen",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "KI-Besprechungsnotizen fehlgeschlagen",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "KI-Gliederung fehlgeschlagen",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI-Anfrage ist fehlgeschlagen",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Festlegen der KI-Backend-URL fehlgeschlagen",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "KI-Vorschläge fehlgeschlagen",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "KI-Zusammenfassung fehlgeschlagen",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "KI-Ton fehlgeschlagen",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Backend-Integritätsprüfung fehlgeschlagen",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Backend-Anfrage fehlgeschlagen",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Backend-Serverfehler",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Löschen des KI-Cache fehlgeschlagen",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Fehler beim Überprüfen des KI-Freischaltstatus",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Fehler beim Abrufen der Nutzungsstatistiken",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Fehler beim Abrufen der Benutzer-E-Mail im Service Worker",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Notiz konnte nicht erstellt werden",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Titel konnte nicht generiert werden",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Initialisierung des KI-Dienstes fehlgeschlagen",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "Ein Fehler ist aufgetreten. Bitte versuchen Sie es erneut.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Abrufen der täglichen Nutzungsstatistiken fehlgeschlagen",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API-Fehler",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Ungültiges Antwortformat",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Notiz ist leer. Bitte fügen Sie Inhalte hinzu, bevor Sie diese Funktion verwenden.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Notiz nicht im lokalen Speicher gefunden",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Serverauswahl nicht initialisiert",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Synchronisierungsprozess mit Fehler fehlgeschlagen",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Unbegrenzte Anfrage fehlgeschlagen",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Benutzer nicht authentifiziert",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Abgeschlossen!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Bild erfolgreich heruntergeladen",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Bilder werden exportiert...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Bitte warten Sie einen Moment",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Hobby",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Ideen",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Persönlich",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Studium",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Reisen",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Arbeit",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Eine neue Notiz erstellen",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Notiz löschen",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Neue Notiz",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Kein zusätzlicher Inhalt",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Notiz anheften",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Notizen durchsuchen...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Verschieben rückgängig machen",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Anheftung aufheben",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Wiederhergestellt",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Authentifizierungsfehler",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Bitte versuchen Sie, sich ab- und wieder anzumelden.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Authentifizierung fehlgeschlagen",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Gesichert",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Dieser Hintergrund ist nur für Premium-Benutzer verfügbar. Bitte führen Sie ein Upgrade durch, um alle Hintergründe freizuschalten.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Die Funktion zum Hochladen von Hintergründen ist nur für Premium-Benutzer verfügbar. Bitte führen Sie ein Upgrade durch, um diese Funktion zu nutzen.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Freigabelink kann nicht erstellt werden",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Kassensitzung konnte nicht erstellt werden. Bitte versuchen Sie es erneut.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Verbindung mit Google wird hergestellt...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "E-Mail konnte nicht geladen werden.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Tageslimit erreicht. Versuchen Sie es morgen erneut oder führen Sie ein Upgrade durch.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Standardhintergrund festgelegt!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Fertig",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Lesefehler",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Exportiert",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Papierkorb konnte nicht geladen werden",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Papierkorb konnte nicht geladen werden. Bitte versuchen Sie es erneut.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Notiz konnte nicht verschoben werden",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Importiert",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Ungültige Datei",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Kontoinformationen werden geladen...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Verschieben abgebrochen",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "In Sammlung verschoben",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Keine Netzwerkverbindung",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Bitte überprüfen Sie Ihre Internetverbindung und versuchen Sie es erneut.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Keine Notizen in dieser Sammlung gefunden",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Gelöscht",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Verschoben",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Notiz auf dem Server nicht gefunden. Bitte versuchen Sie es erneut.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Angeheftet",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Anheftung aufgehoben",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Auf dem neuesten Stand",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Zahlungsfehler. Bitte versuchen Sie es erneut.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Zahlungsüberprüfungsfehler. Bitte aktualisieren Sie die Seite.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Berechtigung verweigert",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Um die Synchronisierungsfunktionen zu nutzen, gewähren Sie der App bitte die entsprechenden Berechtigungen.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Wiederhergestellt",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Bitte wählen Sie mindestens eine Notiz für die KI-Analyse aus",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Bitte wählen Sie zuerst Notizen aus",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Teilen nicht konfiguriert.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Anmeldung fehlgeschlagen",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Zum Teilen anmelden",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Zum Hochladen anmelden",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Erfolgreich angemeldet!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Abgemeldet",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Synchronisierung fehlgeschlagen",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Synchronisiert",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Synchronisiert",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Daten werden synchronisiert...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Synchronisiere mit Drive...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Geleert",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Abrechnungsverwaltung kann nicht geöffnet werden. Bitte versuchen Sie es später erneut.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Zahlung wird überprüft...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Ausgewählte löschen",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Endgültig löschen",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Ausgewählte wiederherstellen",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Abbrechen",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Ausgewählte Elemente endgültig löschen?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Ausgewählte Elemente wiederherstellen?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Alle auswählen",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "ausgewählt",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "KI-Assistent",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Fragen Sie irgendetwas",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "KI-Tonmagie",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Zentriert ausrichten",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Linksbündig ausrichten",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Rechtsbündig ausrichten",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Hintergrund",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Eine neue Notiz erstellen",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Neue Notiz",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Notiz löschen",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Als Bild herunterladen",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Editor nicht verfügbar",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Link-URL eingeben...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Video-URL eingeben...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Fehler beim Anwenden der Formatierung",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Überschrift 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Überschrift 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Einfügen",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Bild einfügen",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Menü",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR ist für dieses Bild aufgrund von CORS-Einschränkungen nicht verfügbar.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Formatierung entfernen",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Teilen",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Intelligente Farben angewendet!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Strukturoptimiert!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Alle Notizen anzeigen",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Benachrichtigungsinhalt",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Zahlungsprüfung Zeitüberschreitung. Bitte aktualisieren Sie, wenn die Zahlung abgeschlossen wurde.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Ungültiger Plan ausgewählt",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Bitte melden Sie sich an, um mit der Zahlung fortzufahren",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Zugriff auf erweiterte Funktionen",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "KI Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Hintergrund Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Sammlungen Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Herzlichen Glückwunsch!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Kontaktieren Sie den Support",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Exklusive Hintergründe",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Zugriff auf Premium-Hintergründe",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Exklusiver Support",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Vorrangige Unterstützung durch unser Team",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Läuft ab",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Abrechnung verwalten",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Nächste Abrechnung",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium Jährlich",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium Monatlich",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Premium-Testversion",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Plantyp",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Priorisierter Support",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Notizen teilen",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Notizen mit anderen teilen",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Teilen Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Kostenlosen Testzeitraum starten",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Jetzt nutzen",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Status",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Aktiv",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Gekündigt",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Abgelaufen",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Inaktiv",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Jetzt abonnieren",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Unterstützung",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Unbegrenzte KI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Unbegrenzter KI-Chat",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Unbegrenzte KI-Anfragen pro Tag",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Unbegrenzte Sammlungen",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Unbegrenzt viele Sammlungen erstellen",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Unbegrenzte KI freischalten",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Sie haben erfolgreich auf Premium aufgerüstet",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Keine Ergebnisse gefunden",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Versuchen Sie, mit anderen Schlüsselwörtern zu suchen oder erstellen Sie eine neue Notiz",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "KI-Nutzung",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "KI-Nutzung heute",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Erscheinungsbild",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Cloud-Synchronisierung",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Konfigurieren",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Datenverwaltung",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Standardnotengröße",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Exportieren",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Daten exportieren",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Importieren",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Daten importieren",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Ungültige Größe. Breite: 400-1920, Höhe: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Stornieren",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Höhe",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Auf Standard zurücksetzen",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Speichern",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Standardgröße gespeichert",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Standardnotengröße",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Breite",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Öffnen",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Anmeldung erforderlich",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Mit Google anmelden",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Abmelden",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Angemeldet mit",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Synchronisieren",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Thema",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Einstellungen",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Papierkorb",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Unbegrenzt",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Premium holen",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "KI freischalten",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Benutzer-Avatar",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Kopiert",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kopieren",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Freigabelink wird erstellt...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Schau dir diese Notiz von Quick Notes an",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Auf Facebook teilen",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Auf LinkedIn teilen",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Auf Reddit teilen",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Auf X (Twitter) teilen",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Auf WhatsApp teilen",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Notiz konnte nicht mit dem Server synchronisiert werden",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Hobby",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Ideen",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Persönlich",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Studium",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Reisen",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Arbeit",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Zur neuen Notiz hinzugefügt",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "KI fehlgeschlagen",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Hintergrund fehlgeschlagen",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Kann nicht gelöscht werden",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ In die Zwischenablage kopiert",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Link konnte nicht kopiert werden. Bitte versuchen Sie es erneut.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Export fehlgeschlagen",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Fehlgeschlagen",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Das Hinzufügen zur Notiz ist fehlgeschlagen",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kopieren fehlgeschlagen",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Bilddatei erforderlich",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Bild zu groß",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Bibliotheksfehler",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Bibliothek wird geladen",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Verschieben fehlgeschlagen",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Verschoben",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Keine Auswahl",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Vorgang fehlgeschlagen",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Bitte starten Sie die Erweiterung neu, um Speicherplatz freizugeben.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Speicherfehler. Bitte starten Sie die Erweiterung neu.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Speicher voll, Cache wird geleert...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "KI-Assistent",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Zentriert ausrichten",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Linksbündig ausrichten",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Rechtsbündig ausrichten",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Hintergrundfarbe",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Hintergrundfarbe",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Blockzitat",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Blockzitat",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Fett",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Fett",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Aufzählung",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Aufzählung",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Checkliste",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Code-Block",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Code-Block",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Schriftgröße",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Schriftgröße",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Überschrift 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Überschrift 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Bild einfügen",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Link einfügen",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Link einfügen",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Video einfügen",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Video einfügen",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Kursiv",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Kursiv",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Blocksatz",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Blocksatz",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Nummerierte Liste",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Nummerierte Liste",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Format entfernen",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Durchgestrichen",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Durchgestrichen",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Textfarbe",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Textfarbe",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Unterstrichen",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Unterstrichen",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Endgültig löschen",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Der Papierkorb ist leer.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Papierkorb leeren",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Wiederherstellen",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Alle wiederherstellen",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Papierkorb",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Willkommenssammlung für neue Benutzer",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Willkommen",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Klicken Sie auf die Schaltfläche <strong>+</strong>, um eine neue Notiz zu erstellen<br>• Nutzen Sie die KI, um Inhalte zusammenzufassen, zu übersetzen oder zu verbessern<br>• Die KI kann Ihnen helfen, Ihre Notizen zu organisieren und zu optimieren",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Wie man die KI benutzt",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Klicken Sie mit der rechten Maustaste auf einen leeren Bereich, um eine Sammlung zu erstellen<br>• Ziehen Sie Notizen per Drag & Drop in Sammlungen, um sie zu organisieren<br>• Jede Sammlung kann ihr eigenes Thema haben (Arbeit, Persönlich, Ideen...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Wie man Sammlungen erstellt",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Viel Spaß mit Quick Notes! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Dies ist Ihre erste Notiz. Quick Notes hilft Ihnen, schnell und effizient Notizen zu machen.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Verwenden Sie Farben, um Notizen zu kategorisieren<br>• Heften Sie wichtige Notizen an den Anfang der Liste<br>• Suchen Sie schnell mit der Suchleiste oben<br>• Synchronisieren Sie mit Google Drive für eine sichere Sicherung",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Nutzungstipps",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Willkommen bei Quick Notes! 👋",
+    "description": "Title of the welcome note"
+  }
+}

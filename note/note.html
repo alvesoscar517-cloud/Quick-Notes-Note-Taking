@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Note</title>
+    <!-- Load theme preload script FIRST - before any CSS -->
+    <script src="theme-preload.js"></script>
+    <!-- Inline CSS to prevent flash - applies immediately after theme class is set -->
+    <style>
+        /* Default dark theme */
+        html {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        html body {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        /* Light theme override */
+        html.light-theme {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+        html.light-theme body {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="../libs/quill/quill.snow.css">
+    <link rel="stylesheet" href="note.css">
+    <link rel="stylesheet" href="note-tabs.css">
+    <link rel="stylesheet" href="note-tabs-drag-drop.css">
+    <link rel="stylesheet" href="../toast-system.css">
+    <script src="../libs/anime.min.js"></script>
+</head>
+
+<body>
+    <div class="note-container">
+        <!-- Tab Bar -->
+        <div class="tab-bar" id="tab-bar" style="display: none;">
+            <div class="tab-list" id="tab-list">
+                <!-- Tabs will be added dynamically -->
+            </div>
+            <div class="tab-bar-controls">
+                <button id="add-tab-btn" class="add-tab-btn" title="Add new tab (Ctrl+T)">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <button id="tab-menu-btn" class="tab-menu-btn" title="__MSG_note_menu__" style="display: none;">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <div class="top-bar">
+            <div class="top-bar-left">
+                <button id="add-new-btn" title="__MSG_note_createNew__" class="top-bar-btn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 5V19M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </div>
+            <div class="top-bar-right">
+                <div class="dropdown">
+                    <button id="menu-btn" title="__MSG_note_menu__" class="top-bar-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M4 6H20M4 12H20M4 18H20" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="dropdown-content">
+                        <div id="color-palette" class="color-palette"></div>
+                        <a href="#" id="background-btn" class="dropdown-item">
+                            <span>__MSG_note_background__</span>
+                        </a>
+                        <a href="#" id="share-note-btn">__MSG_note_share__</a>
+                        <a href="#" id="download-note-btn">
+                            <span>__MSG_note_download__</span>
+                        </a>
+                        <a href="#" id="delete-note-btn">__MSG_note_deleteNote__</a>
+                        <a href="#" id="view-all-notes-btn">__MSG_note_viewAllNotes__</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="editor" class="editor"></div>
+
+        <!-- AI Overlay - Blur screen behind animations -->
+        <div id="ai-overlay" class="ai-overlay" style="display: none;"></div>
+
+        <!-- AI Lottie Loading Animation - Star Loader for general AI features -->
+        <div id="ai-lottie-container" class="ai-lottie-container" style="display: none;">
+            <div id="ai-lottie-animation"></div>
+        </div>
+
+        <!-- AI Tone Lottie Loading Animation - Star Loader -->
+        <div id="ai-tone-lottie-container" class="ai-tone-lottie-container" style="display: none;">
+            <div id="ai-tone-lottie-animation"></div>
+        </div>
+
+        <!-- AI Input Bar -->
+        <div id="ai-input-bar" class="ai-input-bar">
+            <div class="ai-input-container">
+                <!-- AI Result Area -->
+                <div id="ai-result-area" class="ai-result-area" style="display: none;">
+                    <!-- AI response message with inline buttons at bottom -->
+                    <div id="ai-ai-message" class="ai-ai-message" style="display: none;">
+                        <div class="message-content"></div>
+
+                        <!-- Inline action buttons at end of AI message (inside scrollable area) -->
+                        <div class="ai-inline-actions">
+                            <button id="ai-copy-result" class="ai-inline-btn" title="__MSG_ai_actionCopy__">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M16 4H18C19.1046 4 20 4.89543 20 6V18C20 19.1046 19.1046 20 18 20H6C4.89543 20 4 19.1046 4 18V6C4 4.89543 4.89543 4 6 4H8M16 4C16 2.89543 15.1046 2 14 2H10C8.89543 2 8 2.89543 8 4M16 4C16 5.10457 15.1046 6 14 6H10C8.89543 6 8 5.10457 8 4"
+                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                            <button id="ai-apply-result" class="ai-inline-btn" title="__MSG_ai_actionApply__">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M20 6L9 17L4 12" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Hidden close button for backward compatibility -->
+                    <button id="ai-close-result" style="display: none;"></button>
+                </div>
+
+                <!-- AI Input Area with Separated Input and Button -->
+                <div id="ai-input-area" class="ai-input-area">
+                    <div class="ai-input-wrapper">
+                        <input type="text" id="ai-input" class="ai-input-field"
+                            placeholder="__MSG_note_aiInputPlaceholder__">
+                        <button id="ai-submit-btn" class="ai-send-btn" disabled>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Text Color Picker -->
+        <div id="text-color-picker" class="formatting-modal text-color-picker">
+            <div class="text-color-grid" id="text-color-grid"></div>
+        </div>
+
+        <!-- Highlight Color Picker -->
+        <div id="highlight-color-picker" class="formatting-modal highlight-color-picker">
+            <div class="highlight-color-grid" id="highlight-color-grid"></div>
+        </div>
+
+        <!-- Font Size Picker -->
+        <div id="font-size-picker" class="formatting-modal font-size-picker">
+            <div class="font-size-controls">
+                <button id="font-size-decrease" class="font-size-btn">−</button>
+                <div id="font-size-display" class="font-size-display">16px</div>
+                <button id="font-size-increase" class="font-size-btn">+</button>
+            </div>
+        </div>
+
+        <!-- Background Picker Modal -->
+        <div id="background-picker-modal" class="background-picker-modal" style="display: none;">
+            <div class="background-picker-content">
+                <div class="background-picker-tabs">
+                    <button class="bg-tab active" data-category="all">__MSG_background_categoryAll__</button>
+                    <button class="bg-tab" data-category="christmas">__MSG_background_categoryChristmas__</button>
+                    <button class="bg-tab" data-category="geometric">__MSG_background_categoryGeometric__</button>
+                    <button class="bg-tab" data-category="nature">__MSG_background_categoryNature__</button>
+                    <button class="bg-tab" data-category="abstract">__MSG_background_categoryAbstract__</button>
+                </div>
+                <div class="background-picker-body">
+                    <div class="background-grid" id="all-backgrounds">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Hidden file input for background upload -->
+        <input type="file" id="background-upload-input" accept="image/*" style="display: none;">
+
+        <!-- Background Context Menu -->
+        <div id="background-context-menu" class="background-context-menu" style="display: none;">
+            <div class="context-menu-item" id="set-default-option">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>__MSG_background_setAsDefault__</span>
+            </div>
+            <div class="context-menu-item" id="delete-custom-option" style="display: none;">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M3 6H5H21M8 6V4C8 3.46957 8.21071 2.96086 8.58579 2.58579C8.96086 2.21071 9.46957 2 10 2H14C14.5304 2 15.0391 2.21071 15.4142 2.58579C15.7893 2.96086 16 3.46957 16 4V6M19 6V20C19 20.5304 18.7893 21.0391 18.4142 21.4142C18.0391 21.7893 17.5304 22 17 22H7C6.46957 22 5.96086 21.7893 5.58579 21.4142C5.21071 21.0391 5 20.5304 5 20V6H19Z"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <span>__MSG_background_delete__</span>
+            </div>
+        </div>
+
+        <!-- AI Context Menu -->
+        <div id="ai-context-menu" class="ai-context-menu" style="display: none;">
+            <div class="ai-context-menu-item" data-action="summarize">
+                <img src="../note img/summary.svg" width="16" height="16" alt="__MSG_ai_summarize__">
+                <span>__MSG_ai_summarize__</span>
+            </div>
+            <div class="ai-context-menu-item" data-action="expand">
+                <img src="../note img/expand.svg" width="16" height="16" alt="__MSG_ai_expand__">
+                <span>__MSG_ai_expand__</span>
+            </div>
+            <div class="ai-context-menu-item" data-action="improve">
+                <img src="../note img/improve.svg" width="16" height="16" alt="__MSG_ai_improve__">
+                <span>__MSG_ai_improve__</span>
+            </div>
+            <div class="ai-context-menu-item" data-action="suggestions">
+                <img src="../note img/suggest.svg" width="16" height="16" alt="__MSG_ai_suggestions__">
+                <span>__MSG_ai_suggestions__</span>
+            </div>
+            <div class="ai-context-menu-item" data-action="outline">
+                <img src="../note img/outline.svg" width="16" height="16" alt="__MSG_ai_outline__">
+                <span>__MSG_ai_outline__</span>
+            </div>
+            <div class="ai-context-menu-item" data-action="meeting-notes">
+                <img src="../note img/meeting.svg" width="16" height="16" alt="__MSG_ai_meetingNotes__">
+                <span>__MSG_ai_meetingNotes__</span>
+            </div>
+            <div class="ai-context-menu-item" data-action="action-items">
+                <img src="../note img/doto list.svg" width="16" height="16" alt="__MSG_ai_actionItems__">
+                <span>__MSG_ai_actionItems__</span>
+            </div>
+        </div>
+
+        <!-- AI Tone Magic Menu - Compact Design -->
+        <div id="ai-tone-menu" class="ai-tone-menu-compact">
+            <div class="ai-tone-options-compact">
+                <div class="ai-tone-option-compact" data-tone="humorous">
+                    <img src="../note img/funny-AI-Tone.svg" width="28" height="28" alt="Humorous" class="ai-tone-icon"
+                        loading="eager">
+                    <span class="ai-tone-name">__MSG_ai_toneHumorous__</span>
+                </div>
+                <div class="ai-tone-option-compact" data-tone="poetic">
+                    <img src="../note img/poetic-AI-Tone.svg" width="28" height="28" alt="Poetic" class="ai-tone-icon"
+                        loading="eager">
+                    <span class="ai-tone-name">__MSG_ai_tonePoetic__</span>
+                </div>
+                <div class="ai-tone-option-compact" data-tone="dramatic">
+                    <img src="../note img/drama-AI-tone.svg" width="28" height="28" alt="Dramatic" class="ai-tone-icon"
+                        loading="eager">
+                    <span class="ai-tone-name">__MSG_ai_toneDramatic__</span>
+                </div>
+                <div class="ai-tone-option-compact" data-tone="genz">
+                    <img src="../note img/genz-AI-Tone.svg" width="28" height="28" alt="Gen Z" class="ai-tone-icon"
+                        loading="eager">
+                    <span class="ai-tone-name">__MSG_ai_toneGenZ__</span>
+                </div>
+                <div class="ai-tone-option-compact" data-tone="professional">
+                    <img src="../note img/pro-AI-tone.svg" width="28" height="28" alt="Professional"
+                        class="ai-tone-icon" loading="eager">
+                    <span class="ai-tone-name">__MSG_ai_toneProfessional__</span>
+                </div>
+                <div class="ai-tone-option-compact" data-tone="simplify">
+                    <img src="../note img/simple-AI-Tone.svg" width="28" height="28" alt="Simplify" class="ai-tone-icon"
+                        loading="eager">
+                    <span class="ai-tone-name">__MSG_ai_toneSimplify__</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Tone Loading Animation - Now using unified Lottie animation -->
+
+        <!-- AI Formatting Menu - Compact Design -->
+        <div id="ai-formatting-menu" class="ai-formatting-menu-compact">
+            <div class="ai-formatting-options-compact">
+                <div class="ai-formatting-option-compact" data-action="color-suggestion">
+                    <div class="ai-formatting-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="10" stroke="url(#colorGradient)" stroke-width="2"/>
+                            <circle cx="12" cy="12" r="6" fill="url(#colorGradient2)"/>
+                            <defs>
+                                <linearGradient id="colorGradient" x1="2" y1="2" x2="22" y2="22">
+                                    <stop offset="0%" stop-color="#FF6B6B"/>
+                                    <stop offset="50%" stop-color="#4ECDC4"/>
+                                    <stop offset="100%" stop-color="#45B7D1"/>
+                                </linearGradient>
+                                <linearGradient id="colorGradient2" x1="6" y1="6" x2="18" y2="18">
+                                    <stop offset="0%" stop-color="#FFD93D"/>
+                                    <stop offset="100%" stop-color="#FF6B6B"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="ai-formatting-name">Smart Colors</span>
+                </div>
+                <div class="ai-formatting-option-compact" data-action="structure-optimization">
+                    <div class="ai-formatting-icon">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="3" y="3" width="18" height="18" stroke="url(#structureGradient)" stroke-width="2" rx="2"/>
+                            <line x1="3" y1="9" x2="21" y2="9" stroke="url(#structureGradient)" stroke-width="2"/>
+                            <line x1="3" y1="15" x2="21" y2="15" stroke="url(#structureGradient)" stroke-width="2"/>
+                            <line x1="9" y1="3" x2="9" y2="21" stroke="url(#structureGradient)" stroke-width="2"/>
+                            <line x1="15" y1="3" x2="15" y2="21" stroke="url(#structureGradient)" stroke-width="2"/>
+                            <defs>
+                                <linearGradient id="structureGradient" x1="3" y1="3" x2="21" y2="21">
+                                    <stop offset="0%" stop-color="#667EEA"/>
+                                    <stop offset="100%" stop-color="#764BA2"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                    <span class="ai-formatting-name">Optimize Structure</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Image Context Menu -->
+        <div id="image-context-menu" class="image-context-menu" style="display: none;">
+            <div class="image-context-menu-item" data-action="extract-text">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M14 2H6C4.89543 2 4 2.89543 4 4V20C4 21.1046 4.89543 22 6 22H18C19.1046 22 20 21.1046 20 20V8L14 2Z"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M14 2V8H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M16 13H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M16 17H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M10 9H8" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <span>__MSG_ai_extractText__</span>
+            </div>
+            <div class="image-context-menu-item" data-action="download-image">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M7 10L12 15L17 10" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                    <path d="M12 15V3" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
+                <span>__MSG_ai_downloadImage__</span>
+            </div>
+        </div>
+
+
+        <!-- Floating AI Button for Text Selection -->
+        <div id="ai-floating-button" class="ai-floating-button" style="display: none;"
+            title="__MSG_ai_chatWithSelectedText__">
+            <img src="../note img/Gemini.svg" width="15" height="15" alt="__MSG_toolbar_aiAssistant__">
+        </div>
+
+        <div class="toolbar-container">
+            <div class="toolbar" id="toolbar">
+                <!-- AI Assistant Button - Keep at top position -->
+                <button id="ai-assistant-btn" title="__MSG_note_aiAssistant__" class="toolbar-btn">
+                    <img src="../note img/Gemini.svg" width="15" height="15" alt="__MSG_toolbar_aiAssistant__">
+                </button>
+
+                <!-- AI Tone Magic Button -->
+                <button id="ai-tone-btn" title="__MSG_note_aiToneMagic__" class="toolbar-btn">
+                    <img src="../note img/emoji.svg" width="16" height="16" alt="__MSG_note_aiToneMagic__">
+                </button>
+
+                <!-- AI Formatting Button -->
+                <button id="ai-formatting-btn" title="AI Formatting" class="toolbar-btn">
+                    <img src="../note img/banana.svg" width="16" height="16" alt="AI Formatting">
+                </button>
+
+                <!-- Divider Line -->
+                <div class="toolbar-divider"></div>
+
+                <!-- Most Used Formatting - Basic Text -->
+                <!-- Bold -->
+                <button data-command="bold" title="__MSG_toolbar_bold__" class="toolbar-btn">
+                    <img src="../note img/bold.svg" width="15" height="15" alt="__MSG_toolbar_boldIcon__">
+                </button>
+
+                <!-- Italic -->
+                <button data-command="italic" title="__MSG_toolbar_italic__" class="toolbar-btn">
+                    <img src="../note img/italic.svg" width="15" height="15" alt="__MSG_toolbar_italicIcon__">
+                </button>
+
+                <!-- Underline -->
+                <button data-command="underline" title="__MSG_toolbar_underline__" class="toolbar-btn">
+                    <img src="../note img/underline.svg" width="15" height="15" alt="__MSG_toolbar_underlineIcon__">
+                </button>
+
+                <!-- Strikethrough -->
+                <button data-command="strike" title="__MSG_toolbar_strikethrough__" class="toolbar-btn">
+                    <img src="../note img/strikethrough.svg" width="15" height="15"
+                        alt="__MSG_toolbar_strikethroughIcon__">
+                </button>
+
+                <!-- Font Size -->
+                <button data-command="fontSize" title="__MSG_toolbar_fontSize__" class="toolbar-btn">
+                    <img src="../note img/resize-text.svg" width="20" height="20" alt="__MSG_toolbar_fontSizeIcon__">
+                </button>
+
+                <!-- Lists - Very Common -->
+                <!-- Bullet List -->
+                <button data-command="bulletList" title="__MSG_toolbar_bulletList__" class="toolbar-btn">
+                    <img src="../note img/list.svg" width="15" height="15" alt="__MSG_toolbar_bulletListIcon__">
+                </button>
+
+                <!-- Numbered List -->
+                <button data-command="orderedList" title="__MSG_toolbar_orderedList__" class="toolbar-btn">
+                    <img src="../note img/list-ordered.svg" width="15" height="15"
+                        alt="__MSG_toolbar_numberedListIcon__">
+                </button>
+
+                <!-- Checklist -->
+                <button data-command="checklist" title="__MSG_toolbar_checklist__" class="toolbar-btn">
+                    <img src="../note img/circle-check-big.svg" width="15" height="15" alt="__MSG_toolbar_checklist__">
+                </button>
+
+                <!-- Headers - Common -->
+                <!-- H1 -->
+                <button data-command="header" data-value="1" title="__MSG_note_heading1__" class="toolbar-btn">
+                    <img src="../note img/heading-1-new-formatting.svg" width="15" height="15" alt="__MSG_note_heading1__">
+                </button>
+
+                <!-- H2 -->
+                <button data-command="header" data-value="2" title="__MSG_note_heading2__" class="toolbar-btn">
+                    <img src="../note img/heading-2-new-formatting.svg" width="15" height="15" alt="__MSG_note_heading2__">
+                </button>
+
+                <!-- H3 -->
+                <button data-command="header" data-value="3" title="__MSG_toolbar_heading3__" class="toolbar-btn">
+                    <img src="../note img/heading-3-new-formatting.svg" width="15" height="15" alt="__MSG_toolbar_heading3Icon__">
+                </button>
+
+                <!-- Text Alignment - Common -->
+                <!-- Align Left -->
+                <button data-command="textAlign" data-value="left" title="__MSG_note_alignLeft__" class="toolbar-btn">
+                    <img src="../note img/text-align-start.svg" width="15" height="15"
+                        alt="__MSG_toolbar_alignLeftIcon__">
+                </button>
+
+                <!-- Align Center -->
+                <button data-command="textAlign" data-value="center" title="__MSG_note_alignCenter__"
+                    class="toolbar-btn">
+                    <img src="../note img/text-align-center.svg" width="15" height="15"
+                        alt="__MSG_toolbar_alignCenterIcon__">
+                </button>
+
+                <!-- Align Right -->
+                <button data-command="textAlign" data-value="right" title="__MSG_note_alignRight__" class="toolbar-btn">
+                    <img src="../note img/text-align-end.svg" width="15" height="15"
+                        alt="__MSG_toolbar_alignRightIcon__">
+                </button>
+
+                <!-- Justify -->
+                <button data-command="textAlign" data-value="justify" title="__MSG_toolbar_justify__" class="toolbar-btn">
+                    <img src="../note img/text-align-justify-new-formatting.svg" width="15" height="15" alt="__MSG_toolbar_justifyIcon__">
+                </button>
+
+                <!-- Colors - Less Common -->
+                <!-- Text Color -->
+                <button data-command="color" title="__MSG_toolbar_textColor__" class="toolbar-btn">
+                    <img src="../note img/text-color-new-formatting.svg" width="15" height="15" alt="__MSG_toolbar_textColorIcon__">
+                </button>
+
+                <!-- Background Color -->
+                <button data-command="background" title="__MSG_toolbar_backgroundColor__" class="toolbar-btn">
+                    <img src="../note img/text-background-color-new-formatting.svg" width="15" height="15"
+                        alt="__MSG_toolbar_backgroundColorIcon__">
+                </button>
+
+                <!-- Block Elements - Less Common -->
+                <!-- Blockquote -->
+                <button data-command="blockquote" title="__MSG_toolbar_blockquote__" class="toolbar-btn">
+                    <img src="../note img/quote-new-formatting.svg" width="15" height="15" alt="__MSG_toolbar_blockquoteIcon__">
+                </button>
+
+                <!-- Code Block -->
+                <button data-command="code-block" title="__MSG_toolbar_codeBlock__" class="toolbar-btn">
+                    <img src="../note img/code-new-formatting.svg" width="15" height="15" alt="__MSG_toolbar_codeBlockIcon__">
+                </button>
+
+                <!-- Media - Least Common -->
+                <!-- Insert Image -->
+                <button data-command="image" title="__MSG_note_insertImage__" class="toolbar-btn">
+                    <img src="../note img/image.svg" width="15" height="15" alt="__MSG_toolbar_insertImageIcon__">
+                </button>
+
+                <!-- Link -->
+                <button data-command="link" title="__MSG_toolbar_insertLink__" class="toolbar-btn">
+                    <img src="../note img/link-new-formatting.svg" width="15" height="15" alt="__MSG_toolbar_insertLinkIcon__">
+                </button>
+
+                <!-- Video -->
+                <button data-command="video" title="__MSG_toolbar_insertVideo__" class="toolbar-btn">
+                    <img src="../note img/youtube-new-formatting.svg" width="15" height="15" alt="__MSG_toolbar_insertVideoIcon__">
+                </button>
+
+                <!-- Remove Format - Utility -->
+                <button data-command="removeFormat" title="__MSG_note_removeFormat__" class="toolbar-btn">
+                    <img src="../note img/remove-formatting.svg" width="15" height="15"
+                        alt="__MSG_toolbar_removeFormatIcon__">
+                </button>
+            </div>
+        </div>
+
+        <!-- Link Input Overlay -->
+        <div id="link-input-overlay" class="formatting-modal input-overlay">
+            <div class="input-overlay-content">
+                <input type="url" id="link-url-input" placeholder="__MSG_note_enterLinkURL__" />
+                <button id="link-insert-btn" class="input-insert-btn">__MSG_note_insertButton__</button>
+            </div>
+        </div>
+
+        <!-- Video Input Overlay -->
+        <div id="video-input-overlay" class="formatting-modal input-overlay">
+            <div class="input-overlay-content">
+                <input type="url" id="video-url-input" placeholder="__MSG_note_enterVideoURL__" />
+                <button id="video-insert-btn" class="input-insert-btn">__MSG_note_insertButton__</button>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- Export Loading Modal -->
+    <div id="export-loading-modal" class="export-loading-modal">
+        <div class="export-loading-content">
+            <div class="export-loading-icon">
+                <div id="export-loading-spinner" class="export-loading-spinner"></div>
+                <div id="export-success-icon" class="export-success-icon" style="display: none;">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="export-loading-text">
+                <h3 id="export-loading-title">__MSG_export_exportingImages__</h3>
+                <p id="export-loading-message">__MSG_export_pleaseWait__</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hidden input for image file selection -->
+    <input type="file" id="image-input" accept="image/*" style="display:none;">
+
+    <!-- Welcome Overlay -->
+    <div id="welcome-overlay" class="welcome-overlay" style="display: none;">
+        <div id="welcome-animation" class="welcome-animation"></div>
+    </div>
+
+
+    <!-- Share Modal -->
+    <div id="share-modal" class="share-modal">
+        <div class="share-modal-content">
+            <div class="share-modal-header">
+                <h3>Quick Notes</h3>
+                <button id="share-modal-close" class="share-modal-close">×</button>
+            </div>
+            <div class="share-modal-body">
+                <div class="share-social-icons">
+                    <button class="share-social-btn linkedin" data-platform="linkedin" title="__MSG_share_linkedin__">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                        </svg>
+                    </button>
+                    <button class="share-social-btn facebook" data-platform="facebook" title="__MSG_share_facebook__">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                        </svg>
+                    </button>
+                    <button class="share-social-btn reddit" data-platform="reddit" title="__MSG_share_reddit__">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.88-7.012 4.88-3.882 0-7.012-2.186-7.012-4.88 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.25 12C8.561 12 8 12.562 8 13.25c0 .687.561 1.248 1.25 1.248.687 0 1.248-.561 1.248-1.249 0-.688-.561-1.249-1.249-1.249zm5.5 0c-.687 0-1.248.561-1.248 1.25 0 .687.561 1.248 1.249 1.248.688 0 1.249-.561 1.249-1.249 0-.687-.562-1.249-1.25-1.249zm-5.466 3.99a.327.327 0 0 0-.231.094.33.33 0 0 0 0 .463c.842.842 2.484.913 2.961.913.477 0 2.105-.07 2.961-.913a.361.361 0 0 0 .029-.463.33.33 0 0 0-.464 0c-.547.533-1.684.73-2.512.73-.828 0-1.979-.196-2.512-.73a.326.326 0 0 0-.232-.095z" />
+                        </svg>
+                    </button>
+                    <button class="share-social-btn twitter" data-platform="twitter" title="__MSG_share_twitter__">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+                        </svg>
+                    </button>
+                    <button class="share-social-btn whatsapp" data-platform="whatsapp" title="__MSG_share_whatsapp__">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.885 3.488" />
+                        </svg>
+                    </button>
+                </div>
+                <div class="share-link-container">
+                    <div class="share-link-input">
+                        <input type="text" id="share-link-input" readonly>
+                        <button id="share-copy-btn" class="share-copy-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                                <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                            </svg>
+                            __MSG_share_copy__
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Share Loading Overlay -->
+    <div id="share-loading-overlay" class="share-loading-overlay">
+        <div class="share-loading-content">
+            <div class="share-loading-spinner"></div>
+            <p class="share-loading-text">__MSG_share_creatingLink__</p>
+        </div>
+    </div>
+
+    <!-- Notification Modal for Long Messages -->
+    <div id="notification-modal-overlay" class="notification-modal-overlay">
+        <div class="notification-modal-content">
+            <div class="notification-modal-icon" id="notification-modal-icon">
+                <!-- Icon will be inserted here dynamically -->
+            </div>
+            <div class="notification-modal-body">
+                <p class="notification-modal-message" id="notification-modal-message">
+                    __MSG_notification_defaultContent__</p>
+            </div>
+            <div class="notification-modal-actions" id="notification-modal-actions">
+                <button class="notification-modal-btn notification-modal-btn-primary"
+                    id="notification-modal-close">__MSG_confirmations_close__</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../libs/dexie.min.js"></script>
+    <script src="../indexeddb-manager.js"></script>
+    <script src="../server-config.js"></script>
+    <script src="../toast-system.js"></script>
+    <script src="../i18n-helper.js"></script>
+    <script src="html2canvas.min.js"></script>
+    <script src="../libs/quill/quill.js"></script>
+    <script src="../libs/lottie-web.min.js"></script>
+    <!-- Marked.js - Markdown Parser -->
+    <script src="../libs/marked.min.js"></script>
+    <!-- Markdown Processor - Unified markdown handling -->
+    <script src="../markdown-processor.js"></script>
+    <script src="note-tabs.js"></script>
+    <script src="note-tabs-drag-drop.js"></script>
+    <script src="note.js"></script>
+    <!-- Performance Optimizer -->
+    <script src="performance-optimizer.js"></script>
+</body>
+
+</html>

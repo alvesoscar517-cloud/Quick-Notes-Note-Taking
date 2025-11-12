@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "فتح الملاحظات السريعة",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "الوصول محظور. يرجى التحقق من أذوناتك.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "تطبيق على الملاحظة",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "نسخ",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "إنشاء مهام",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "مفتاح API غير مهيأ",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "إلحاق",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "فشل في تطبيق المحتوى على الملاحظة",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "تطبيق على الملاحظة",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "خادم الواجهة الخلفية غير متاح. يرجى التحقق من اتصالك والمحاولة مرة أخرى.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "لم يتم تكوين عنوان URL للواجهة الخلفية",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "خادم الواجهة الخلفية لا يستجيب",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "فشل في إنشاء نافذة دردشة الذكاء الاصطناعي",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "الدردشة مع الذكاء الاصطناعي حول النص المحدد",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "تم تطبيق المحتوى على ملاحظتك!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "تم نسخ المحتوى إلى الحافظة!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "تمت التصفية",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "تم إدراج المحتوى واستبدال النص المحدد",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "المحتوى غير متوفر",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "نسخ",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "فشل في النسخ إلى الحافظة",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "تم الوصول إلى الحد اليومي (15/15). حاول مرة أخرى غداً.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "تنزيل الصورة",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "أعاد الذكاء الاصطناعي استجابة فارغة. يرجى المحاولة مرة أخرى.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "خطأ في الذكاء الاصطناعي",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "توسيع",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "استخراج النص (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "فشل في تحليل الصورة",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "جارٍ تحليل الصورة...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "تم الوصول إلى الحد اليومي لتحليل الصور. قم بالترقية إلى بريميوم لتحليل غير محدود.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "فشل في تنزيل الصورة",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "تم تنزيل الصورة بنجاح",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "تحسين",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "اضغط على Enter للإرسال، Shift+Enter لسطر جديد",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "اكتب رسالتك أو اختر إجراءً سريعاً...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "فشل في إدراج المحتوى",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "إدراج واستبدال",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "مفتاح API غير صالح",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "تسجيل دخول غير صالح",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "نموذج سيئ",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "استجابة غير صالحة من خدمة الواجهة الخلفية.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "لقد استخدمت جميع طلبات الذكاء الاصطناعي {limit} لهذا اليوم. قم بالترقية إلى بريميوم للحصول على وصول غير محدود!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "ملاحظات اجتماع",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "تصغير",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "لا يوجد نموذج",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "خطأ في الشبكة",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "لا يوجد اتصال",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "لا يوجد رد من الذكاء الاصطناعي",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "لا يوجد نص محدد",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "لا توجد عمليات ذكاء اصطناعي للتراجع عنها",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "تم استلام نتيجة التعرف الضوئي على الحروف",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "مخطط تفصيلي",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "بريميوم نشط",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "معالجة الذكاء الاصطناعي...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "الحصة ممتلئة",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "تم تجاوز حد المعدل. يرجى المحاولة مرة أخرى لاحقاً.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "انتهت مهلة الطلب",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "تم تلقي استجابة منظمة العفو الدولية",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "محظور",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "حفظ",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "بحث",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "النص المحدد",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "خطأ في الخادم - يرجى المحاولة مرة أخرى لاحقاً",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "الخدمة معطلة",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "فشل في تهيئة خدمة الذكاء الاصطناعي",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "خدمة الذكاء الاصطناعي غير متاحة. يرجى تحديث الصفحة.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "خدمة الذكاء الاصطناعي غير مهيأة بشكل صحيح",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "لم تتم تهيئة خدمة الذكاء الاصطناعي",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "خدمة الذكاء الاصطناعي غير متاحة مؤقتاً",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "يرجى تسجيل الدخول لاستخدام ميزات الذكاء الاصطناعي. انقر فوق زر تسجيل الدخول في الامتداد.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "سجل الدخول للفتح",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "فشلت الإحصائيات",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "اقتراحات",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "تلخيص",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "انتهت المهلة",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "مساعد الذكاء الاصطناعي",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "نبرة",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "درامي",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "جيل Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "فكاهي",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "يرجى تحديد نص أو إضافة محتوى لتحويله",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "شعري",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "احترافي",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "تبسيط",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "ترجمة",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " إلى الإنجليزية",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "تم التراجع عن عملية الذكاء الاصطناعي بنجاح!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "خطأ غير معروف في الذكاء الاصطناعي",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "مغلق",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "غير محدود",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "رسالة المستخدم",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "طلب المستخدم",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "مرحباً! أنا مساعدك الذكي. يمكنني مساعدتك في تلخيص ملاحظاتك، أو توسيعها، أو تحسينها، أو ترجمتها. بماذا تود أن أساعدك؟",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "مرحباً بمستخدم بريميوم! لديك طلبات ذكاء اصطناعي غير محدودة.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "مرحباً! لديك {remaining} من {limit} طلبات ذكاء اصطناعي متبقية اليوم.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "فشل تحليل الذكاء الاصطناعي",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "فشل تحليل الذكاء الاصطناعي. يرجى المحاولة مرة أخرى.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "اكتمل التحليل!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "تم تحليل",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "إغلاق",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "تحليل المجموعة",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "تم إنشاء ملاحظة جديدة مع رؤى من {count} ملاحظات.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "خطأ في معالجة المجموعة",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "إيجاد الأنماط",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "توليد رؤى",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "اسأل أي شيء عن مجموعتك...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "مساحة عمل الذكاء الاصطناعي هي ميزة قوية مصممة لتحقيق أقصى استفادة من نماذج الذكاء الاصطناعي، مما يسمح لك بإنشاء تحليلات ومعالجة مجموعات الملاحظات بأكملها مرة واحدة بدلاً من الملاحظات الفردية.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "لا توجد ملاحظات في هذه المجموعة لتحليلها",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "ملاحظة (ملاحظات)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "جارٍ المعالجة...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "ماذا تريد أن يفعل الذكاء الاصطناعي بهذه الملاحظات؟\n\nأمثلة:\n- تلخيص جميع الملاحظات\n- استخراج الموضوعات الرئيسية والكلمات المفتاحية\n- إنشاء قائمة مهام رئيسية\n- إنشاء أسئلة وأجوبة من هذه الملاحظات\n- إيجاد روابط بين المواضيع",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "فشل استجابة الذكاء الاصطناعي. يرجى المحاولة مرة أخرى.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "إرسال",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "تلخيص المجموعة",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "من هذه الملاحظات، أنشئ قائمة بالأسئلة والأجوبة المتداولة (FAQ). حدد الموضوعات المهمة وأنشئ أسئلة مناسبة مع إجابات مفصلة.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "المهمة",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "ابحث عن الروابط بين المعلومات في الملاحظات واشرحها. حدد الروابط أو التناقضات أو العلاقات بين الموضوعات المختلفة المذكورة في الملاحظات.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "أنشئ ملخصاً شاملاً من جميع الملاحظات في هذه المجموعة. سلط الضوء على أهم النقاط وأنشئ ملخصاً واحداً متماسكاً.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "حدد 5 موضوعات رئيسية وكلمات مفتاحية ذات صلة من ملاحظات البحث هذه. أنشئ قائمة منظمة بالموضوعات والكلمات المفتاحية المقابلة.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "امسح جميع الملاحظات وأنشئ قائمة مهام شاملة. ابحث عن جميع 'بنود العمل' أو المهام أو الأعمال التي يجب القيام بها المذكورة في الملاحظات وأنشئ قائمة تحقق منظمة.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "مساحة عمل الذكاء الاصطناعي",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "تم الوصول إلى حد الاستخدام اليومي. قم بالترقية إلى بريميوم للوصول غير المحدود إلى مساحة عمل الذكاء الاصطناعي.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "أنشئ الملاحظات وأدرها وقم بمزامنتها بأسلوب الزجاج المصنفر.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__محمي_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "خلاصة",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "الجميع",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "عيد الميلاد",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "هندسي",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "طبيعة",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "مخصص",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "حذف",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "لا شيء",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "تعيين كافتراضي",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "تحميل",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "إضافة ملاحظة هنا",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "مجموعة",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "تم الإنشاء",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "تم الحذف",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "اسم المجموعة",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "أدخل اسم المجموعة...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "تم التثبيت",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "السمة",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "تم إلغاء التثبيت",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "تم التحديث",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "إنشاء",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "إنشاء مجموعة",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "إنشاء ملاحظة في المجموعة",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "حذف المجموعة",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "تعديل المجموعة",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "هذه المجموعة فارغة",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "يرجى إدخال اسم المجموعة",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "خطأ في إنشاء الملاحظة",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "خطأ في المجموعة",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "فشل الحذف",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "فشل التحميل",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "فشل النقل",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "فشل التثبيت",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "فشل التحديث",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "تم الوصول إلى حد المجموعات",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "نقل إلى مجموعة",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "ملاحظات",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "تم إنشاء الملاحظة في المجموعة",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "ملاحظات",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "تم نقل الملاحظات إلى المجموعة",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "تثبيت المجموعة",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "إزالة من المجموعة",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "حفظ",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "إلغاء تثبيت المجموعة",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "فتح الملاحظات السريعة",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "إلغاء",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "إغلاق",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "متابعة",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "هل تريد حذف جميع الملاحظات في سلة المهملات نهائياً؟",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "هل أنت متأكد أنك تريد حذف هذه المجموعة نهائياً؟ لا يمكن التراجع عن هذا الإجراء.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "هل تريد حذف الملاحظة نهائياً؟",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "سيؤدي هذا إلى الكتابة فوق جميع البيانات الحالية. هل تريد المتابعة؟",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "إضافة إلى ملاحظة سريعة",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "أسقط لإنشاء نافذة جديدة",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "أسقط علامة التبويب هنا للدمج",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "أسقط لدمج النوافذ",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "فشلت دردشة الذكاء الاصطناعي",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "فشل توسيع الذكاء الاصطناعي",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "فشل تحسين الذكاء الاصطناعي",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "فشلت تهيئة الذكاء الاصطناعي",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "فشلت ملاحظات اجتماع الذكاء الاصطناعي",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "فشل مخطط الذكاء الاصطناعي",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "فشل طلب الذكاء الاصطناعي",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "فشل تعيين عنوان URL للواجهة الخلفية للذكاء الاصطناعي",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "فشلت اقتراحات الذكاء الاصطناعي",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "فشل تلخيص الذكاء الاصطناعي",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "فشلت نبرة الذكاء الاصطناعي",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "فشل فحص سلامة الواجهة الخلفية",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "فشل طلب الواجهة الخلفية",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "خطأ في خادم الواجهة الخلفية",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "فشل مسح ذاكرة التخزين المؤقت للذكاء الاصطناعي",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "خطأ في التحقق من حالة فتح الذكاء الاصطناعي",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "خطأ في جلب إحصائيات الاستخدام",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "خطأ في الحصول على البريد الإلكتروني للمستخدم في عامل الخدمة",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "فشل في إنشاء ملاحظة",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "فشل في توليد العنوان",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "فشل في تهيئة خدمة الذكاء الاصطناعي",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "حدث خطأ. يرجى المحاولة مرة أخرى.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "فشل الحصول على إحصائيات الاستخدام اليومية",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "خطأ في Google Drive API",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "تنسيق الاستجابة غير صالح",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "الملاحظة فارغة. الرجاء إضافة المحتوى قبل استخدام هذه الميزة.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "لم يتم العثور على الملاحظة في التخزين المحلي",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "لم تتم تهيئة محدد الخادم",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "فشلت عملية المزامنة مع خطأ",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "فشل الطلب غير المحدود",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "لم تتم مصادقة المستخدم",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "اكتمل!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "تم تنزيل الصورة بنجاح",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "جارٍ تصدير الصور...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "يرجى الانتظار لحظة",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "هواية",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "أفكار",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "شخصي",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "دراسة",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "سفر",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "عمل",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "إنشاء ملاحظة جديدة",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "حذف الملاحظة",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "ملاحظة جديدة",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "لا يوجد محتوى إضافي",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "تثبيت الملاحظة",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "ابحث في الملاحظات...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "تراجع عن النقل",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "إلغاء تثبيت الملاحظة",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "تمت الاستعادة",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "خطأ في المصادقة",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "يرجى محاولة تسجيل الخروج ثم تسجيل الدخول مرة أخرى.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "فشلت المصادقة",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "تم النسخ الاحتياطي",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "هذه الخلفية متاحة فقط لمستخدمي بريميوم. يرجى الترقية لفتح جميع الخلفيات.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "ميزة تحميل الخلفية متاحة فقط لمستخدمي بريميوم. يرجى الترقية لاستخدام هذه الميزة.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "لا يمكن إنشاء رابط المشاركة",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "فشل في إنشاء جلسة الدفع. يرجى المحاولة مرة أخرى.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "جارٍ الاتصال بجوجل...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "لا يمكن تحميل البريد الإلكتروني.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "تم الوصول إلى الحد اليومي. حاول غداً أو قم بالترقية.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "تم تعيين الخلفية الافتراضية!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "تم",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "خطأ في القراءة",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "تم التصدير",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "فشل في تحميل سلة المهملات",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "فشل في تحميل سلة المهملات. يرجى المحاولة مرة أخرى.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "فشل في نقل الملاحظة",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "تم الاستيراد",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "ملف غير صالح",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "جارٍ تحميل معلومات الحساب...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "تم إلغاء النقل",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "تم النقل إلى المجموعة",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "لا يوجد اتصال بالشبكة",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "يرجى التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "لم يتم العثور على ملاحظات في هذه المجموعة",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "تم الحذف",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "تم النقل",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "لم يتم العثور على الملاحظة على الخادم. يرجى المحاولة مرة أخرى.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "تم التثبيت",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "تم إلغاء التثبيت",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "محدث",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "خطأ في الدفع. يرجى المحاولة مرة أخرى.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "خطأ في التحقق من الدفع. يرجى تحديث الصفحة.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "تم رفض الإذن",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "لاستخدام ميزات المزامنة، يرجى منح الأذونات للتطبيق.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "تمت الاستعادة",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "يرجى تحديد ملاحظة واحدة على الأقل لتحليلها بالذكاء الاصطناعي",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "يرجى تحديد الملاحظات أولاً",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "المشاركة غير مهيأة.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "فشل تسجيل الدخول",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "سجل الدخول للمشاركة",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "سجل الدخول للتحميل",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ تم تسجيل الدخول بنجاح!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "تم تسجيل الخروج",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "فشلت المزامنة",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "تمت المزامنة",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "تمت المزامنة",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "جارٍ مزامنة البيانات...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "تتم المزامنة مع Drive...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "تم الإفراغ",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "تعذر فتح إدارة الفوترة. يرجى المحاولة مرة أخرى لاحقاً.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "جارٍ التحقق من الدفع...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "حذف المحدد",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "حذف نهائي",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "استعادة المحدد",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "إلغاء",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "هل تريد حذف العناصر المحددة نهائياً؟",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "هل تريد استعادة العناصر المحددة؟",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "تحديد الكل",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "محددة",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "مساعد الذكاء الاصطناعي",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "اسأل أي شيء",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "سحر نبرة الذكاء الاصطناعي",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "محاذاة للوسط",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "محاذاة لليسار",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "محاذاة لليمين",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "الخلفية",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "إنشاء ملاحظة جديدة",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "ملاحظة جديدة",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "حذف الملاحظة",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "تنزيل كصورة",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "المحرر غير متوفر",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "أدخل رابط URL...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "أدخل رابط الفيديو...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "خطأ في تطبيق التنسيق",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "عنوان 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "عنوان 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "إدراج",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "إدراج صورة",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "القائمة",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "التعرف الضوئي على الحروف غير متاح لهذه الصورة بسبب قيود CORS.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "إزالة التنسيق",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "مشاركة",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "الألوان الذكية المطبقة!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "الهيكل الأمثل!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "عرض كل الملاحظات",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "محتوى الإشعار",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "انتهت مهلة التحقق من الدفع. يرجى التحديث إذا تم الدفع.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "تم تحديد خطة غير صالحة",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "يرجى تسجيل الدخول للمتابعة في الدفع",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "الوصول إلى الميزات المتقدمة",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI بريميوم",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "خلفية بريميوم",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "مجموعات بريميوم",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 تهانينا!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "اتصل بالدعم",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "خلفيات حصرية",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "الوصول إلى خلفيات بريميوم",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "الدعم الحصري",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "الدعم ذو الأولوية من فريقنا",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "تنتهي صلاحيته",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "إدارة الفوترة",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "الفوترة التالية",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "بريميوم سنوي",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "بريميوم شهري",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "تجربة بريميوم",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "نوع الخطة",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "دعم ذو أولوية",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "مشاركة الملاحظات",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "مشاركة الملاحظات مع الآخرين",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "مشاركة بريميوم",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "بدء تجربة مجانية",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "ابدأ الاستخدام",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "الحالة",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "نشط",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "ملغى",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "منتهي الصلاحية",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "غير نشط",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "اشترك الآن",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "يدعم",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "ذكاء اصطناعي غير محدود",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "دردشة ذكاء اصطناعي غير محدودة",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "طلبات ذكاء اصطناعي غير محدودة يومياً",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "مجموعات غير محدودة",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "إنشاء مجموعات غير محدودة",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "فتح الاستخدام غير المحدود للذكاء الاصطناعي",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "لقد قمت بالترقية بنجاح إلى بريميوم",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "لم يتم العثور على نتائج",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "حاول البحث بكلمات مفتاحية مختلفة أو أنشئ ملاحظة جديدة",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "استخدام الذكاء الاصطناعي",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "استخدام الذكاء الاصطناعي اليوم",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "المظهر",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "مزامنة سحابية",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "تكوين",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "إدارة البيانات",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "حجم الملاحظة الافتراضي",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "تصدير",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "تصدير البيانات",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "استيراد",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "استيراد البيانات",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "الحجم غير صالح. العرض: 400-1920، الارتفاع: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "يلغي",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "ارتفاع",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "إعادة التعيين إلى الافتراضي",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "يحفظ",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "تم حفظ الحجم الافتراضي",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "حجم الملاحظة الافتراضي",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "عرض",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "فتح",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "تسجيل الدخول مطلوب",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "تسجيل الدخول باستخدام جوجل",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "تسجيل الخروج",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "تم تسجيل الدخول باستخدام",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "مزامنة",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "السمة",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "الإعدادات",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "سلة المهملات",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "غير محدود",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "الحصول على بريميوم",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "فتح قفل الذكاء الاصطناعي",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "الصورة الرمزية للمستخدم",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "تم النسخ",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "نسخ",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "جارٍ إنشاء رابط المشاركة...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "اطلع على هذه الملاحظة من الملاحظات السريعة",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "مشاركة على Facebook",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "مشاركة على LinkedIn",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "مشاركة على Reddit",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "مشاركة على X (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "مشاركة على WhatsApp",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "فشل في مزامنة الملاحظة مع الخادم",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "هواية",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "أفكار",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "شخصي",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "دراسة",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "سفر",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "عمل",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ يضاف إلى الملاحظة الجديدة",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "فشل الذكاء الاصطناعي",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "فشل تعيين الخلفية",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "لا يمكن الحذف",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ نسخ إلى الحافظة",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "فشل نسخ الرابط. يرجى المحاولة مرة أخرى.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "فشل التصدير",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "فشل",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌فشلت الإضافة إلى الملاحظة",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ فشل النسخ",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "ملف الصورة مطلوب",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "الصورة كبيرة جداً",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "خطأ في المكتبة",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "تحميل المكتبة",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "فشل النقل",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "انتقل",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "لا يوجد تحديد",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "فشلت العملية",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "يرجى إعادة تشغيل الامتداد لتحرير مساحة.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "خطأ في التخزين. يرجى إعادة تشغيل الامتداد.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "التخزين ممتلئ، جارٍ تنظيف ذاكرة التخزين المؤقت...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "مساعد الذكاء الاصطناعي",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "محاذاة للوسط",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "محاذاة لليسار",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "محاذاة لليمين",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "لون الخلفية",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "لون الخلفية",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "اقتباس",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "اقتباس",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "عريض",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "عريض",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "قائمة نقطية",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "قائمة نقطية",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "قائمة تحقق",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "كتلة برمجية",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "كتلة برمجية",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "حجم الخط",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "حجم الخط",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "عنوان 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "عنوان 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "إدراج صورة",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "إدراج رابط",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "إدراج رابط",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "إدراج فيديو",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "إدراج فيديو",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "مائل",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "مائل",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "ضبط",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "ضبط",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "قائمة مرقمة",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "قائمة مرقمة",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "إزالة التنسيق",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "يتوسطه خط",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "يتوسطه خط",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "لون النص",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "لون النص",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "تسطير",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "تسطير",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "حذف نهائي",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "سلة المهملات فارغة.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "إفراغ سلة المهملات",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "استعادة",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "استعادة الكل",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "سلة المهملات",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "مجموعة ترحيبية للمستخدمين الجدد",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "مرحباً",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• انقر فوق الزر <strong>+</strong> لإنشاء ملاحظة جديدة<br>• استخدم الذكاء الاصطناعي لتلخيص المحتوى أو ترجمته أو تحسينه<br>• يمكن للذكاء الاصطناعي مساعدتك في تنظيم وتحسين ملاحظاتك",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ كيفية استخدام الذكاء الاصطناعي",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• انقر بزر الماوس الأيمن على مساحة فارغة لإنشاء مجموعة<br>• اسحب الملاحظات وأفلتها في المجموعات لتنظيمها<br>• يمكن أن يكون لكل مجموعة سمة خاصة بها (عمل، شخصي، أفكار...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 كيفية إنشاء المجموعات",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "استمتع باستخدام الملاحظات السريعة! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "هذه هي ملاحظتك الأولى. تساعدك الملاحظات السريعة على تدوين الملاحظات بسرعة وكفاءة.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• استخدم الألوان لتصنيف الملاحظات<br>• ثبّت الملاحظات المهمة في أعلى القائمة<br>• ابحث بسرعة باستخدام شريط البحث أعلاه<br>• قم بالمزامنة مع Google Drive للحصول على نسخة احتياطية آمنة",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 نصائح للاستخدام",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "مرحباً بك في الملاحظات السريعة! 👋",
+    "description": "Title of the welcome note"
+  }
+}

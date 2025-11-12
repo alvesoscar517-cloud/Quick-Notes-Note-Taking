@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "ਤਤਕਾਲ ਨੋਟਸ ਖੋਲ੍ਹੋ",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "ਪਹੁੰਚ ਮਨ੍ਹਾ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣੀਆਂ ਇਜਾਜ਼ਤਾਂ ਦੀ ਜਾਂਚ ਕਰੋ।",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "ਨੋਟ 'ਤੇ ਲਾਗੂ ਕਰੋ",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "ਕਾਪੀ",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "ਕਾਰਜ ਬਣਾਓ",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API ਕੁੰਜੀ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੀ ਗਈ",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "ਜੋੜੋ",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "ਨੋਟ 'ਤੇ ਸਮੱਗਰੀ ਲਾਗੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "ਨੋਟ 'ਤੇ ਲਾਗੂ ਕਰੋ",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "ਬੈਕਐਂਡ ਸਰਵਰ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਕਨੈਕਸ਼ਨ ਚੈੱਕ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "ਬੈਕਐਂਡ URL ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤਾ ਗਿਆ",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "ਬੈਕਐਂਡ ਸਰਵਰ ਜਵਾਬ ਨਹੀਂ ਦੇ ਰਿਹਾ ਹੈ",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "AI ਚੈਟ ਵਿੰਡੋ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "ਚੁਣੇ ਹੋਏ ਟੈਕਸਟ ਬਾਰੇ AI ਨਾਲ ਗੱਲਬਾਤ ਕਰੋ",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "ਸਮੱਗਰੀ ਤੁਹਾਡੇ ਨੋਟ 'ਤੇ ਲਾਗੂ ਕੀਤੀ ਗਈ!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "ਸਮੱਗਰੀ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤੀ ਗਈ!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "ਫਿਲਟਰ ਕੀਤਾ ਗਿਆ",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "ਸਮੱਗਰੀ ਸ਼ਾਮਲ ਕੀਤੀ ਗਈ ਅਤੇ ਚੁਣੇ ਗਏ ਟੈਕਸਟ ਨੂੰ ਬਦਲਿਆ ਗਿਆ",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "ਸਮੱਗਰੀ ਉਪਲਬਧ ਨਹੀਂ ਹੈ",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "ਕਾਪੀ",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "ਰੋਜ਼ਾਨਾ ਸੀਮਾ (15/15) ਪੂਰੀ ਹੋ ਗਈ ਹੈ। ਕੱਲ੍ਹ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "ਚਿੱਤਰ ਡਾਊਨਲੋਡ ਕਰੋ",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI ਨੇ ਖਾਲੀ ਜਵਾਬ ਦਿੱਤਾ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI ਗਲਤੀ",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "ਵਿਸਤਾਰ",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "ਟੈਕਸਟ ਐਕਸਟਰੈਕਟ ਕਰੋ (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "ਚਿੱਤਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "ਚਿੱਤਰ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "ਰੋਜ਼ਾਨਾ ਚਿੱਤਰ ਵਿਸ਼ਲੇਸ਼ਣ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ ਹੈ। ਅਸੀਮਤ ਵਿਸ਼ਲੇਸ਼ਣ ਲਈ ਪ੍ਰੀਮੀਅਮ ਵਿੱਚ ਅਪਗ੍ਰੇਡ ਕਰੋ।",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "ਚਿੱਤਰ ਡਾਊਨਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "ਚਿੱਤਰ ਸਫਲਤਾਪੂਰਵਕ ਡਾਊਨਲੋਡ ਹੋਇਆ",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "ਸੁਧਾਰ",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "ਭੇਜਣ ਲਈ Enter ਦਬਾਓ, ਨਵੀਂ ਲਾਈਨ ਲਈ Shift+Enter ਦਬਾਓ",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "ਆਪਣਾ ਸੁਨੇਹਾ ਟਾਈਪ ਕਰੋ ਜਾਂ ਇੱਕ ਤੇਜ਼ ਕਾਰਵਾਈ ਚੁਣੋ...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "ਸਮੱਗਰੀ ਸ਼ਾਮਲ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "ਪਾਓ ਅਤੇ ਬਦਲੋ",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "ਅਵੈਧ API ਕੁੰਜੀ",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "ਅਵੈਧ ਲੌਗਇਨ",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "ਖਰਾਬ ਮਾਡਲ",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "ਬੈਕਐਂਡ ਸੇਵਾ ਤੋਂ ਅਵੈਧ ਜਵਾਬ।",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "ਤੁਸੀਂ ਅੱਜ ਲਈ ਸਾਰੀਆਂ {limit} AI ਬੇਨਤੀਆਂ ਦੀ ਵਰਤੋਂ ਕਰ ਲਈ ਹੈ। ਅਸੀਮਤ ਪਹੁੰਚ ਲਈ ਪ੍ਰੀਮੀਅਮ ਵਿੱਚ ਅਪਗ੍ਰੇਡ ਕਰੋ!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "ਮੀਟਿੰਗ ਨੋਟਸ",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "ਛੋਟਾ ਕਰੋ",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "ਕੋਈ ਮਾਡਲ ਨਹੀਂ",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "ਨੈੱਟਵਰਕ ਗਲਤੀ",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "ਕੋਈ ਕਨੈਕਸ਼ਨ ਨਹੀਂ",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "AI ਤੋਂ ਕੋਈ ਜਵਾਬ ਨਹੀਂ",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "ਕੋਈ ਟੈਕਸਟ ਨਹੀਂ ਚੁਣਿਆ ਗਿਆ",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "ਅਨਡੂ ਕਰਨ ਲਈ ਕੋਈ AI ਕਾਰਵਾਈ ਨਹੀਂ",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR ਨਤੀਜਾ ਪ੍ਰਾਪਤ ਹੋਇਆ",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "ਰੂਪਰੇਖਾ",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਐਕਟਿਵ",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI ਪ੍ਰੋਸੈਸਿੰਗ...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "ਕੋਟਾ ਪੂਰਾ ਹੋ ਗਿਆ",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "ਰੇਟ ਸੀਮਾ ਵੱਧ ਗਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "ਬੇਨਤੀ ਦਾ ਸਮਾਂ ਸਮਾਪਤ",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI ਜਵਾਬ ਪ੍ਰਾਪਤ ਹੋਇਆ",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "ਬਲੌਕ ਕੀਤਾ ਗਿਆ",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "ਸੇਵ ਕਰੋ",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "ਖੋਜ",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "ਚੁਣਿਆ ਹੋਇਆ ਟੈਕਸਟ",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "ਸਰਵਰ ਗਲਤੀ - ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "ਸੇਵਾ ਬੰਦ ਹੈ",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "AI ਸੇਵਾ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI ਸੇਵਾ ਉਪਲਬਧ ਨਹੀਂ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਪੰਨਾ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ।",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI ਸੇਵਾ ਸਹੀ ਢੰਗ ਨਾਲ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤੀ ਗਈ",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI ਸੇਵਾ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤੀ ਗਈ",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI ਸੇਵਾ ਅਸਥਾਈ ਤੌਰ 'ਤੇ ਉਪਲਬਧ ਨਹੀਂ ਹੈ",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "AI ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ। ਐਕਸਟੈਂਸ਼ਨ ਵਿੱਚ ਸਾਈਨ-ਇਨ ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ।",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "ਅਨਲੌਕ ਕਰਨ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "ਅੰਕੜੇ ਅਸਫਲ",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "ਸੁਝਾਅ",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "ਸਾਰ",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "ਸਮਾਂ ਸਮਾਪਤ",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI ਸਹਾਇਕ",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "ਟੋਨ",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "ਨਾਟਕੀ",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "ਜਨਰਲ Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "ਹਾਸਰਸ",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਬਦਲਣ ਲਈ ਟੈਕਸਟ ਚੁਣੋ ਜਾਂ ਸਮੱਗਰੀ ਸ਼ਾਮਲ ਕਰੋ",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "ਕਾਵਿਕ",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "ਪੇਸ਼ੇਵਰ",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "ਸਰਲ ਬਣਾਓ",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "ਅਨੁਵਾਦ",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " ਦਾ ਅੰਗਰੇਜ਼ੀ ਵਿੱਚ",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "AI ਕਾਰਵਾਈ ਸਫਲਤਾਪੂਰਵਕ ਅਨਡੂ ਕੀਤੀ ਗਈ!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "ਅਣਜਾਣ AI ਗਲਤੀ",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "ਲੌਕ",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "ਅਸੀਮਤ",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "ਉਪਭੋਗਤਾ ਸੁਨੇਹਾ",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "ਉਪਭੋਗਤਾ ਬੇਨਤੀ",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ! ਮੈਂ ਤੁਹਾਡਾ AI ਸਹਾਇਕ ਹਾਂ। ਮੈਂ ਤੁਹਾਡੇ ਨੋਟਸ ਦਾ ਸਾਰ, ਵਿਸਤਾਰ, ਸੁਧਾਰ, ਜਾਂ ਅਨੁਵਾਦ ਕਰਨ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰ ਸਕਦਾ ਹਾਂ। ਤੁਸੀਂ ਮੇਰੇ ਤੋਂ ਕੀ ਮਦਦ ਚਾਹੁੰਦੇ ਹੋ?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਉਪਭੋਗਤਾ ਦਾ ਸੁਆਗਤ ਹੈ! ਤੁਹਾਡੇ ਕੋਲ ਅਸੀਮਤ AI ਬੇਨਤੀਆਂ ਹਨ।",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "ਸੁਆਗਤ ਹੈ! ਤੁਹਾਡੇ ਕੋਲ ਅੱਜ {limit} AI ਬੇਨਤੀਆਂ ਵਿੱਚੋਂ {remaining} ਬਾਕੀ ਹਨ।",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI ਵਿਸ਼ਲੇਸ਼ਣ ਅਸਫਲ",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI ਵਿਸ਼ਲੇਸ਼ਣ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "ਵਿਸ਼ਲੇਸ਼ਣ ਪੂਰਾ ਹੋਇਆ!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "ਵਿਸ਼ਲੇਸ਼ਣ ਕੀਤਾ ਗਿਆ",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "ਬੰਦ ਕਰੋ",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "ਕਲੈਕਸ਼ਨ ਵਿਸ਼ਲੇਸ਼ਣ",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "{count} ਨੋਟਸ ਤੋਂ ਸਮਝ ਨਾਲ ਨਵਾਂ ਨੋਟ ਬਣਾਇਆ ਗਿਆ।",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "ਕਲੈਕਸ਼ਨ ਪ੍ਰੋਸੈਸ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "ਪੈਟਰਨ ਲੱਭੋ",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "ਸਮਝ ਪੈਦਾ ਕਰੋ",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "ਆਪਣੇ ਕਲੈਕਸ਼ਨ ਬਾਰੇ ਕੁਝ ਵੀ ਪੁੱਛੋ...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI ਵਰਕਸਪੇਸ ਇੱਕ ਸ਼ਕਤੀਸ਼ਾਲੀ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ ਜੋ AI ਮਾਡਲਾਂ ਦੀ ਸੰਭਾਵਨਾ ਨੂੰ ਵੱਧ ਤੋਂ ਵੱਧ ਕਰਨ ਲਈ ਤਿਆਰ ਕੀਤੀ ਗਈ ਹੈ, ਜੋ ਤੁਹਾਨੂੰ ਵਿਅਕਤੀਗਤ ਨੋਟਸ ਦੀ ਬਜਾਏ ਇੱਕੋ ਵਾਰ ਪੂਰੇ ਨੋਟ ਸੰਗ੍ਰਹਿ ਦਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਅਤੇ ਪ੍ਰਕਿਰਿਆ ਕਰਨ ਦੀ ਆਗਿਆ ਦਿੰਦੀ ਹੈ।",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "ਇਸ ਕਲੈਕਸ਼ਨ ਵਿੱਚ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨ ਲਈ ਕੋਈ ਨੋਟ ਨਹੀਂ",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "ਨੋਟ",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "ਪ੍ਰੋਸੈਸਿੰਗ...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "ਤੁਸੀਂ ਚਾਹੁੰਦੇ ਹੋ ਕਿ AI ਇਹਨਾਂ ਨੋਟਸ ਨਾਲ ਕੀ ਕਰੇ?\n\nਉਦਾਹਰਣਾਂ:\n- ਸਾਰੇ ਨੋਟਸ ਦਾ ਸਾਰ\n- ਮੁੱਖ ਥੀਮ ਅਤੇ ਕੀਵਰਡ ਐਕਸਟਰੈਕਟ ਕਰੋ\n- ਇੱਕ ਮਾਸਟਰ ਟੂ-ਡੂ ਸੂਚੀ ਬਣਾਓ\n- ਇਹਨਾਂ ਨੋਟਸ ਤੋਂ FAQ ਤਿਆਰ ਕਰੋ\n- ਵਿਸ਼ਿਆਂ ਵਿਚਕਾਰ ਸਬੰਧ ਲੱਭੋ",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "AI ਜਵਾਬ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "ਭੇਜੋ",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਦਾ ਸਾਰ",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "ਇਹਨਾਂ ਨੋਟਸ ਤੋਂ, ਅਕਸਰ ਪੁੱਛੇ ਜਾਣ ਵਾਲੇ ਸਵਾਲਾਂ ਅਤੇ ਜਵਾਬਾਂ (FAQ) ਦੀ ਇੱਕ ਸੂਚੀ ਬਣਾਓ। ਮਹੱਤਵਪੂਰਨ ਵਿਸ਼ਿਆਂ ਦੀ ਪਛਾਣ ਕਰੋ ਅਤੇ ਵਿਸਤ੍ਰਿਤ ਜਵਾਬਾਂ ਦੇ ਨਾਲ ਉਚਿਤ ਸਵਾਲ ਬਣਾਓ।",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "ਕਾਰਜ",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "ਨੋਟਸ ਵਿੱਚ ਜਾਣਕਾਰੀ ਦੇ ਵਿਚਕਾਰ ਸਬੰਧ ਲੱਭੋ ਅਤੇ ਸਮਝਾਓ। ਨੋਟਸ ਵਿੱਚ ਦਰਸਾਏ ਗਏ ਵੱਖ-ਵੱਖ ਵਿਸ਼ਿਆਂ ਦੇ ਵਿਚਕਾਰ ਲਿੰਕ, ਵਿਰੋਧਾਭਾਸ, ਜਾਂ ਸਬੰਧਾਂ ਦੀ ਪਛਾਣ ਕਰੋ।",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "ਇਸ ਕਲੈਕਸ਼ਨ ਦੇ ਸਾਰੇ ਨੋਟਸ ਤੋਂ ਇੱਕ ਵਿਆਪਕ ਸਾਰ ਬਣਾਓ। ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਨੁਕਤਿਆਂ ਨੂੰ ਉਜਾਗਰ ਕਰੋ ਅਤੇ ਇੱਕ ਸਿੰਗਲ, ਇਕਸਾਰ ਸਾਰ ਬਣਾਓ।",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "ਇਹਨਾਂ ਖੋਜ ਨੋਟਸ ਤੋਂ 5 ਮੁੱਖ ਥੀਮ ਅਤੇ ਸੰਬੰਧਿਤ ਕੀਵਰਡ ਦੀ ਪਛਾਣ ਕਰੋ। ਥੀਮ ਅਤੇ ਸੰਬੰਧਿਤ ਕੀਵਰਡ ਦੇ ਨਾਲ ਇੱਕ ਢਾਂਚਾਗਤ ਸੂਚੀ ਬਣਾਓ।",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "ਸਾਰੇ ਨੋਟਸ ਨੂੰ ਸਕੈਨ ਕਰੋ ਅਤੇ ਇੱਕ ਵਿਆਪਕ ਟੂ-ਡੂ ਸੂਚੀ ਬਣਾਓ। ਨੋਟਸ ਵਿੱਚ ਦਰਸਾਏ ਗਏ ਸਾਰੇ 'ਐਕਸ਼ਨ ਆਈਟਮਾਂ', ਕਾਰਜ, ਜਾਂ ਕੀਤੇ ਜਾਣ ਵਾਲੇ ਕੰਮ ਲੱਭੋ ਅਤੇ ਇੱਕ ਢਾਂਚਾਗਤ ਚੈੱਕਲਿਸਟ ਬਣਾਓ।",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI ਵਰਕਸਪੇਸ",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "ਰੋਜ਼ਾਨਾ ਵਰਤੋਂ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ ਹੈ। ਅਸੀਮਤ AI ਵਰਕਸਪੇਸ ਪਹੁੰਚ ਲਈ ਪ੍ਰੀਮੀਅਮ ਵਿੱਚ ਅਪਗ੍ਰੇਡ ਕਰੋ।",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "ਗਲਾਸਮੋਰਫਿਜ਼ਮ ਸਟਾਈਲ ਨਾਲ ਨੋਟਸ ਬਣਾਓ, ਪ੍ਰਬੰਧਿਤ ਕਰੋ ਅਤੇ ਸਿੰਕ ਕਰੋ।",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "Quick Notes",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "ਐਬਸਟਰੈਕਟ",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "ਸਾਰੇ",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "ਕ੍ਰਿਸਮਸ",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "ਜਿਓਮੈਟ੍ਰਿਕ",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "ਕੁਦਰਤ",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "ਕਸਟਮ",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "ਮਿਟਾਓ",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "ਕੋਈ ਨਹੀਂ",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "ਡਿਫੌਲਟ ਵਜੋਂ ਸੈੱਟ ਕਰੋ",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "ਅਪਲੋਡ",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "ਇੱਥੇ ਨੋਟ ਸ਼ਾਮਲ ਕਰੋ",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "ਕਲੈਕਸ਼ਨ",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "ਬਣਾਇਆ ਗਿਆ",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "ਮਿਟਾਇਆ ਗਿਆ",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "ਕਲੈਕਸ਼ਨ ਦਾ ਨਾਮ",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "ਕਲੈਕਸ਼ਨ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "ਪਿੰਨ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "ਥੀਮ",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "ਅਨਪਿੰਨ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "ਅੱਪਡੇਟ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "ਬਣਾਓ",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਬਣਾਓ",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਵਿੱਚ ਨੋਟ ਬਣਾਓ",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਮਿਟਾਓ",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਸੰਪਾਦਿਤ ਕਰੋ",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "ਇਹ ਕਲੈਕਸ਼ਨ ਖਾਲੀ ਹੈ",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਕਲੈਕਸ਼ਨ ਦਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "ਨੋਟ ਬਣਾਉਣ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "ਕਲੈਕਸ਼ਨ ਗਲਤੀ",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "ਮਿਟਾਉਣ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "ਲੋਡ ਅਸਫਲ",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "ਮੂਵ ਅਸਫਲ",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "ਪਿੰਨ ਅਸਫਲ",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "ਅੱਪਡੇਟ ਅਸਫਲ",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "ਕਲੈਕਸ਼ਨ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ ਹੈ",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਵਿੱਚ ਮੂਵ ਕਰੋ",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "ਨੋਟਸ",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "ਕਲੈਕਸ਼ਨ ਵਿੱਚ ਨੋਟ ਬਣਾਇਆ ਗਿਆ",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "ਨੋਟਸ",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "ਨੋਟਸ ਕਲੈਕਸ਼ਨ ਵਿੱਚ ਮੂਵ ਕੀਤੇ ਗਏ",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਪਿੰਨ ਕਰੋ",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਤੋਂ ਹਟਾਓ",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "ਸੇਵ ਕਰੋ",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਅਨਪਿੰਨ ਕਰੋ",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "ਤਤਕਾਲ ਨੋਟਸ ਖੋਲ੍ਹੋ",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "ਰੱਦ ਕਰੋ",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "ਬੰਦ ਕਰੋ",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "ਜਾਰੀ ਰੱਖੋ",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "ਟ੍ਰੈਸ਼ ਵਿੱਚ ਸਾਰੇ ਨੋਟਸ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਣਾ ਹੈ?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "ਕੀ ਤੁਸੀਂ ਯਕੀਨੀ ਹੋ ਕਿ ਤੁਸੀਂ ਇਸ ਕਲੈਕਸ਼ਨ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ? ਇਹ ਕਾਰਵਾਈ ਅਨਡੂ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕਦੀ।",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "ਨੋਟ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਣਾ ਹੈ?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "ਇਹ ਸਾਰੇ ਮੌਜੂਦਾ ਡੇਟਾ ਨੂੰ ਓਵਰਰਾਈਟ ਕਰ ਦੇਵੇਗਾ। ਜਾਰੀ ਰੱਖਣਾ ਹੈ?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "ਤਤਕਾਲ ਨੋਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰੋ",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "ਨਵੀਂ ਵਿੰਡੋ ਬਣਾਉਣ ਲਈ ਛੱਡੋ",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "ਮਿਲਾਉਣ ਲਈ ਟੈਬ ਨੂੰ ਇੱਥੇ ਸੁੱਟੋ",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "ਵਿੰਡੋਜ਼ ਨੂੰ ਮਿਲਾਉਣ ਲਈ ਸੁੱਟੋ",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI ਚੈਟ ਅਸਫਲ",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI ਵਿਸਤਾਰ ਅਸਫਲ",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI ਸੁਧਾਰ ਅਸਫਲ",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "AI ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI ਮੀਟਿੰਗ ਨੋਟਸ ਅਸਫਲ",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI ਰੂਪਰੇਖਾ ਅਸਫਲ",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI ਬੇਨਤੀ ਅਸਫਲ ਰਹੀ",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "AI ਬੈਕਐਂਡ URL ਸੈੱਟ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI ਸੁਝਾਅ ਅਸਫਲ",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI ਸਾਰ ਅਸਫਲ",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI ਟੋਨ ਅਸਫਲ",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "ਬੈਕਐਂਡ ਸਿਹਤ ਜਾਂਚ ਅਸਫਲ",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "ਬੈਕਐਂਡ ਬੇਨਤੀ ਅਸਫਲ",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "ਬੈਕਐਂਡ ਸਰਵਰ ਗਲਤੀ",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "AI ਕੈਸ਼ ਸਾਫ਼ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "AI ਅਨਲੌਕ ਸਥਿਤੀ ਦੀ ਜਾਂਚ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "ਵਰਤੋਂ ਦੇ ਅੰਕੜੇ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "ਸੇਵਾ ਵਰਕਰ ਵਿੱਚ ਉਪਭੋਗਤਾ ਈਮੇਲ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "ਨੋਟ-ਕਥਨ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "ਸਿਰਲੇਖ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "AI ਸੇਵਾ ਸ਼ੁਰੂ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "ਇੱਕ ਗਲਤੀ ਹੋਈ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "ਰੋਜ਼ਾਨਾ ਵਰਤੋਂ ਦੇ ਅੰਕੜੇ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API ਗਲਤੀ",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "ਅਵੈਧ ਜਵਾਬ ਫਾਰਮੈਟ",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "ਨੋਟ ਖਾਲੀ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸਮੱਗਰੀ ਸ਼ਾਮਲ ਕਰੋ।",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "ਸਥਾਨਕ ਸਟੋਰੇਜ ਵਿੱਚ ਨੋਟ ਨਹੀਂ ਮਿਲਿਆ",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "ਸਰਵਰ ਚੋਣਕਾਰ ਸ਼ੁਰੂ ਨਹੀਂ ਕੀਤਾ ਗਿਆ",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "ਸਿੰਕ ਪ੍ਰਕਿਰਿਆ ਗਲਤੀ ਨਾਲ ਅਸਫਲ ਹੋਈ",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "ਅਸੀਮਤ ਬੇਨਤੀ ਅਸਫਲ",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "ਉਪਭੋਗਤਾ ਪ੍ਰਮਾਣਿਤ ਨਹੀਂ ਹੈ",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "ਪੂਰਾ ਹੋਇਆ!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "ਚਿੱਤਰ ਸਫਲਤਾਪੂਰਵਕ ਡਾਊਨਲੋਡ ਹੋਇਆ",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "ਚਿੱਤਰ ਨਿਰਯਾਤ ਕੀਤੇ ਜਾ ਰਹੇ ਹਨ...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਪਲ ਉਡੀਕ ਕਰੋ",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "ਸ਼ੌਕ",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "ਵਿਚਾਰ",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "ਨਿੱਜੀ",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "ਪੜ੍ਹਾਈ",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "ਯਾਤਰਾ",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "ਕੰਮ",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "ਇੱਕ ਨਵਾਂ ਨੋਟ ਬਣਾਓ",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "ਨੋਟ ਮਿਟਾਓ",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "ਨਵਾਂ ਨੋਟ",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "ਕੋਈ ਵਾਧੂ ਸਮੱਗਰੀ ਨਹੀਂ",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "ਨੋਟ ਪਿੰਨ ਕਰੋ",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "ਨੋਟਸ ਖੋਜੋ...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "ਮੂਵ ਨੂੰ ਅਨਡੂ ਕਰੋ",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "ਨੋਟ ਅਨਪਿੰਨ ਕਰੋ",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "ਮੁੜ-ਸਥਾਪਿਤ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "ਪ੍ਰਮਾਣਿਕਤਾ ਗਲਤੀ",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਆਉਟ ਕਰਨ ਅਤੇ ਦੁਬਾਰਾ ਸਾਈਨ ਇਨ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "ਪ੍ਰਮਾਣਿਕਤਾ ਅਸਫਲ",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "ਬੈਕਅੱਪ ਲਿਆ ਗਿਆ",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "ਇਹ ਬੈਕਗ੍ਰਾਉਂਡ ਸਿਰਫ ਪ੍ਰੀਮੀਅਮ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਉਪਲਬਧ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਸਾਰੇ ਬੈਕਗ੍ਰਾਉਂਡ ਨੂੰ ਅਨਲੌਕ ਕਰਨ ਲਈ ਅਪਗ੍ਰੇਡ ਕਰੋ।",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "ਬੈਕਗ੍ਰਾਉਂਡ ਅਪਲੋਡ ਵਿਸ਼ੇਸ਼ਤਾ ਸਿਰਫ ਪ੍ਰੀਮੀਅਮ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਉਪਲਬਧ ਹੈ। ਕਿਰਪਾ ਕਰਕੇ ਇਸ ਵਿਸ਼ੇਸ਼ਤਾ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ ਅਪਗ੍ਰੇਡ ਕਰੋ।",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "ਸ਼ੇਅਰ ਲਿੰਕ ਨਹੀਂ ਬਣਾਇਆ ਜਾ ਸਕਦਾ",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "ਚੈੱਕਆਉਟ ਸੈਸ਼ਨ ਬਣਾਉਣ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Google ਨਾਲ ਕਨੈਕਟ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "ਈਮੇਲ ਲੋਡ ਨਹੀਂ ਹੋ ਸਕੀ।",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "ਰੋਜ਼ਾਨਾ ਸੀਮਾ ਪੂਰੀ ਹੋ ਗਈ ਹੈ। ਕੱਲ੍ਹ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਅਪਗ੍ਰੇਡ ਕਰੋ।",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "ਡਿਫੌਲਟ ਬੈਕਗ੍ਰਾਉਂਡ ਸੈੱਟ ਕੀਤਾ ਗਿਆ!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "ਹੋ ਗਿਆ",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "ਪੜ੍ਹਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "ਨਿਰਯਾਤ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "ਟ੍ਰੈਸ਼ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "ਟ੍ਰੈਸ਼ ਲੋਡ ਕਰਨ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "ਨੋਟ ਮੂਵ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "ਆਯਾਤ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "ਅਵੈਧ ਫਾਈਲ",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "ਖਾਤਾ ਜਾਣਕਾਰੀ ਲੋਡ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "ਮੂਵ ਰੱਦ ਕੀਤਾ ਗਿਆ",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "ਕਲੈਕਸ਼ਨ ਵਿੱਚ ਮੂਵ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "ਕੋਈ ਨੈੱਟਵਰਕ ਕਨੈਕਸ਼ਨ ਨਹੀਂ",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਆਪਣਾ ਇੰਟਰਨੈਟ ਕਨੈਕਸ਼ਨ ਚੈੱਕ ਕਰੋ ਅਤੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "ਇਸ ਕਲੈਕਸ਼ਨ ਵਿੱਚ ਕੋਈ ਨੋਟ ਨਹੀਂ ਮਿਲਿਆ",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "ਮਿਟਾਇਆ ਗਿਆ",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "ਮੂਵ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "ਸਰਵਰ 'ਤੇ ਨੋਟ ਨਹੀਂ ਮਿਲਿਆ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "ਪਿੰਨ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "ਅਨਪਿੰਨ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "ਅੱਪ ਟੂ ਡੇਟ",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "ਭੁਗਤਾਨ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "ਭੁਗਤਾਨ ਪੁਸ਼ਟੀ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਪੰਨਾ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ।",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "ਇਜਾਜ਼ਤ ਨਹੀਂ ਦਿੱਤੀ ਗਈ",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "ਸਿੰਕ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਦੀ ਵਰਤੋਂ ਕਰਨ ਲਈ, ਕਿਰਪਾ ਕਰਕੇ ਐਪ ਨੂੰ ਇਜਾਜ਼ਤ ਦਿਓ।",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "ਮੁੜ-ਸਥਾਪਿਤ ਕੀਤਾ ਗਿਆ",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "AI ਵਿਸ਼ਲੇਸ਼ਣ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਨੋਟ ਚੁਣੋ",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "ਕਿਰਪਾ ਕਰਕੇ ਪਹਿਲਾਂ ਨੋਟਸ ਚੁਣੋ",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "ਸ਼ੇਅਰ ਕੌਂਫਿਗਰ ਨਹੀਂ ਕੀਤਾ ਗਿਆ।",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "ਸਾਈਨ ਇਨ ਅਸਫਲ",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "ਸ਼ੇਅਰ ਕਰਨ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "ਅਪਲੋਡ ਕਰਨ ਲਈ ਸਾਈਨ ਇਨ ਕਰੋ",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ ਸਫਲਤਾਪੂਰਵਕ ਸਾਈਨ ਇਨ ਕੀਤਾ ਗਿਆ!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "ਸਾਈਨ ਆਉਟ ਕੀਤਾ ਗਿਆ",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "ਸਿੰਕ ਅਸਫਲ",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "ਸਿੰਕ ਕੀਤਾ ਗਿਆ",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "ਸਿੰਕ ਕੀਤਾ ਗਿਆ",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "ਡੇਟਾ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "ਡਰਾਈਵ ਨਾਲ ਸਿੰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "ਖਾਲੀ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "ਬਿਲਿੰਗ ਪ੍ਰਬੰਧਨ ਖੋਲ੍ਹਣ ਵਿੱਚ ਅਸਮਰੱਥ। ਕਿਰਪਾ ਕਰਕੇ ਬਾਅਦ ਵਿੱਚ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "ਭੁਗਤਾਨ ਦੀ ਪੁਸ਼ਟੀ ਕੀਤੀ ਜਾ ਰਹੀ ਹੈ...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "ਚੁਣੇ ਹੋਏ ਮਿਟਾਓ",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "ਹਮੇਸ਼ਾ ਲਈ ਮਿਟਾਓ",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "ਚੁਣੇ ਹੋਏ ਨੂੰ ਮੁੜ-ਸਥਾਪਿਤ ਕਰੋ",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "ਰੱਦ ਕਰੋ",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "ਚੁਣੀਆਂ ਆਈਟਮਾਂ ਨੂੰ ਪੱਕੇ ਤੌਰ 'ਤੇ ਮਿਟਾਉਣਾ ਹੈ?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "ਚੁਣੀਆਂ ਆਈਟਮਾਂ ਨੂੰ ਮੁੜ-ਸਥਾਪਿਤ ਕਰਨਾ ਹੈ?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "ਸਾਰੇ ਚੁਣੋ",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "ਚੁਣੇ ਗਏ",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI ਸਹਾਇਕ",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "ਕੁਝ ਵੀ ਪੁੱਛੋ",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "AI ਟੋਨ ਮੈਜਿਕ",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕਰੋ",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "ਖੱਬੇ ਪਾਸੇ ਇਕਸਾਰ ਕਰੋ",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "ਸੱਜੇ ਪਾਸੇ ਇਕਸਾਰ ਕਰੋ",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "ਬੈਕਗ੍ਰਾਉਂਡ",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "ਇੱਕ ਨਵਾਂ ਨੋਟ ਬਣਾਓ",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "ਨਵਾਂ ਨੋਟ",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "ਨੋਟ ਮਿਟਾਓ",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "ਚਿੱਤਰ ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰੋ",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "ਸੰਪਾਦਕ ਉਪਲਬਧ ਨਹੀਂ ਹੈ",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "ਲਿੰਕ URL ਦਰਜ ਕਰੋ...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "ਵੀਡੀਓ URL ਦਰਜ ਕਰੋ...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "ਫਾਰਮੈਟਿੰਗ ਲਾਗੂ ਕਰਨ ਵਿੱਚ ਗਲਤੀ",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "ਸਿਰਲੇਖ 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "ਸਿਰਲੇਖ 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "ਪਾਓ",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "ਚਿੱਤਰ ਪਾਓ",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "ਮੀਨੂ",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "CORS ਪਾਬੰਦੀਆਂ ਦੇ ਕਾਰਨ ਇਸ ਚਿੱਤਰ ਲਈ OCR ਉਪਲਬਧ ਨਹੀਂ ਹੈ।",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "ਫਾਰਮੈਟਿੰਗ ਹਟਾਓ",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "ਸਮਾਰਟ ਰੰਗ ਲਾਗੂ ਕੀਤੇ ਗਏ!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "ਢਾਂਚਾ ਅਨੁਕੂਲਿਤ!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "ਸਾਰੇ ਨੋਟਸ ਵੇਖੋ",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "ਸੂਚਨਾ ਸਮੱਗਰੀ",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "ਭੁਗਤਾਨ ਜਾਂਚ ਦਾ ਸਮਾਂ ਸਮਾਪਤ। ਜੇਕਰ ਭੁਗਤਾਨ ਪੂਰਾ ਹੋ ਗਿਆ ਹੈ ਤਾਂ ਕਿਰਪਾ ਕਰਕੇ ਰਿਫ੍ਰੈਸ਼ ਕਰੋ।",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "ਅਵੈਧ ਯੋਜਨਾ ਚੁਣੀ ਗਈ",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "ਭੁਗਤਾਨ ਜਾਰੀ ਰੱਖਣ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "ਉੱਨਤ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਤੱਕ ਪਹੁੰਚ",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI ਪ੍ਰੀਮੀਅਮ",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "ਬੈਕਗ੍ਰਾਉਂਡ ਪ੍ਰੀਮੀਅਮ",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "ਕਲੈਕਸ਼ਨ ਪ੍ਰੀਮੀਅਮ",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 ਵਧਾਈਆਂ!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "ਸਹਾਇਤਾ ਨਾਲ ਸੰਪਰਕ ਕਰੋ",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "ਵਿਸ਼ੇਸ਼ ਬੈਕਗ੍ਰਾਉਂਡ",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਬੈਕਗ੍ਰਾਉਂਡ ਤੱਕ ਪਹੁੰਚ",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "ਵਿਸ਼ੇਸ਼ ਸਹਿਯੋਗ",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "ਸਾਡੀ ਟੀਮ ਵੱਲੋਂ ਤਰਜੀਹੀ ਸਹਾਇਤਾ",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "ਮਿਆਦ ਪੁੱਗਦੀ ਹੈ",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "ਬਿਲਿੰਗ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "ਅਗਲੀ ਬਿਲਿੰਗ",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਸਾਲਾਨਾ",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਮਹੀਨਾਵਾਰ",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਅਜ਼ਮਾਇਸ਼",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "ਯੋਜਨਾ ਦੀ ਕਿਸਮ",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "ਪਹਿਲ ਦੇ ਅਧਾਰ 'ਤੇ ਸਹਾਇਤਾ",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "ਨੋਟਸ ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "ਦੂਜਿਆਂ ਨਾਲ ਨੋਟਸ ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "ਸ਼ੇਅਰ ਪ੍ਰੀਮੀਅਮ",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "ਮੁਫਤ ਅਜ਼ਮਾਇਸ਼ ਸ਼ੁਰੂ ਕਰੋ",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "ਵਰਤਣਾ ਸ਼ੁਰੂ ਕਰੋ",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "ਸਥਿਤੀ",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "ਸਰਗਰਮ",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "ਰੱਦ ਕੀਤਾ ਗਿਆ",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "ਮਿਆਦ ਪੁੱਗ ਗਈ",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "ਨਿਸ਼ਕਿਰਿਆ",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "ਹੁਣੇ ਸਬਸਕ੍ਰਾਈਬ ਕਰੋ",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "ਸਪੋਰਟ",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "ਅਸੀਮਤ AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "ਅਸੀਮਤ AI ਚੈਟ",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "ਪ੍ਰਤੀ ਦਿਨ ਅਸੀਮਤ AI ਬੇਨਤੀਆਂ",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "ਅਸੀਮਤ ਕਲੈਕਸ਼ਨ",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "ਅਸੀਮਤ ਕਲੈਕਸ਼ਨ ਬਣਾਓ",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "ਅਸੀਮਤ AI ਨੂੰ ਅਨਲੌਕ ਕਰੋ",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "ਤੁਸੀਂ ਸਫਲਤਾਪੂਰਵਕ ਪ੍ਰੀਮੀਅਮ ਵਿੱਚ ਅਪਗ੍ਰੇਡ ਕਰ ਲਿਆ ਹੈ",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "ਕੋਈ ਨਤੀਜਾ ਨਹੀਂ ਮਿਲਿਆ",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "ਵੱਖ-ਵੱਖ ਕੀਵਰਡ ਨਾਲ ਖੋਜ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ ਜਾਂ ਇੱਕ ਨਵਾਂ ਨੋਟ ਬਣਾਓ",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "AI ਵਰਤੋਂ",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "ਅੱਜ ਦੀ AI ਵਰਤੋਂ",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "ਦਿੱਖ",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "ਕਲਾਉਡ ਸਿੰਕ",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "ਕੌਂਫਿਗਰ ਕਰੋ",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "ਡੇਟਾ ਪ੍ਰਬੰਧਨ",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "ਡਿਫੌਲਟ ਨੋਟ ਦਾ ਆਕਾਰ",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "ਨਿਰਯਾਤ",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "ਡੇਟਾ ਨਿਰਯਾਤ ਕਰੋ",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "ਆਯਾਤ",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "ਡੇਟਾ ਆਯਾਤ ਕਰੋ",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "ਅਵੈਧ ਆਕਾਰ। ਚੌੜਾਈ: 400-1920, ਉਚਾਈ: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "ਰੱਦ ਕਰੋ",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "ਉਚਾਈ",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "ਡਿਫੌਲਟ 'ਤੇ ਰੀਸੈਟ ਕਰੋ",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "ਸੇਵ ਕਰੋ",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "ਪੂਰਵ-ਨਿਰਧਾਰਤ ਆਕਾਰ ਸੁਰੱਖਿਅਤ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "ਡਿਫੌਲਟ ਨੋਟ ਦਾ ਆਕਾਰ",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "ਚੌੜਾਈ",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "ਖੋਲ੍ਹੋ",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "ਸਾਈਨ ਇਨ ਲੋੜੀਂਦਾ ਹੈ",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Google ਨਾਲ ਸਾਈਨ ਇਨ ਕਰੋ",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "ਸਾਈਨ ਆਉਟ",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "ਨਾਲ ਸਾਈਨ ਇਨ ਕੀਤਾ ਗਿਆ",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "ਸਿੰਕ",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "ਥੀਮ",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "ਸੈਟਿੰਗਾਂ",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "ਟ੍ਰੈਸ਼",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "ਅਸੀਮਤ",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "ਪ੍ਰੀਮੀਅਮ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "AI ਨੂੰ ਅਨਲੌਕ ਕਰੋ",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "ਉਪਭੋਗਤਾ ਅਵਤਾਰ",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "ਕਾਪੀ ਕੀਤਾ ਗਿਆ",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "ਕਾਪੀ",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "ਸ਼ੇਅਰ ਲਿੰਕ ਬਣਾਇਆ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "ਤਤਕਾਲ ਨੋਟਸ ਤੋਂ ਇਸ ਨੋਟ ਨੂੰ ਵੇਖੋ",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Facebook 'ਤੇ ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "LinkedIn 'ਤੇ ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Reddit 'ਤੇ ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "X (Twitter) 'ਤੇ ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "WhatsApp 'ਤੇ ਸ਼ੇਅਰ ਕਰੋ",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "ਨੋਟ ਨੂੰ ਸਰਵਰ 'ਤੇ ਸਿੰਕ ਕਰਨ ਵਿੱਚ ਅਸਫਲ",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "ਸ਼ੌਕ",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "ਵਿਚਾਰ",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "ਨਿੱਜੀ",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "ਪੜ੍ਹਾਈ",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "ਯਾਤਰਾ",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "ਕੰਮ",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ ਨਵੇਂ ਨੋਟ ਵਿੱਚ ਜੋੜਿਆ ਗਿਆ",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI ਅਸਫਲ",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "ਬੈਕਗ੍ਰਾਉਂਡ ਅਸਫਲ",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "ਮਿਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ ਕਲਿੱਪਬੋਰਡ 'ਤੇ ਕਾਪੀ ਕੀਤਾ ਗਿਆ",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "ਲਿੰਕ ਕਾਪੀ ਕਰਨ ਵਿੱਚ ਅਸਫਲ। ਕਿਰਪਾ ਕਰਕੇ ਦੁਬਾਰਾ ਕੋਸ਼ਿਸ਼ ਕਰੋ।",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "ਨਿਰਯਾਤ ਅਸਫਲ",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "ਅਸਫਲ",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ ਨੋਟ ਵਿੱਚ ਸ਼ਾਮਲ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ ਕਾਪੀ ਕਰਨਾ ਅਸਫਲ ਰਿਹਾ",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "ਚਿੱਤਰ ਫਾਈਲ ਦੀ ਲੋੜ ਹੈ",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "ਚਿੱਤਰ ਬਹੁਤ ਵੱਡਾ ਹੈ",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "ਲਾਇਬ੍ਰੇਰੀ ਗਲਤੀ",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "ਲਾਇਬ੍ਰੇਰੀ ਲੋਡ ਹੋ ਰਹੀ ਹੈ",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "ਮੂਵ ਅਸਫਲ",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "ਚਲੇ ਗਏ",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "ਕੋਈ ਚੋਣ ਨਹੀਂ",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "ਕਾਰਵਾਈ ਅਸਫਲ",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "ਥਾਂ ਖਾਲੀ ਕਰਨ ਲਈ ਕਿਰਪਾ ਕਰਕੇ ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "ਸਟੋਰੇਜ ਗਲਤੀ। ਕਿਰਪਾ ਕਰਕੇ ਐਕਸਟੈਂਸ਼ਨ ਨੂੰ ਮੁੜ ਚਾਲੂ ਕਰੋ।",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "ਸਟੋਰੇਜ ਭਰ ਗਈ ਹੈ, ਕੈਸ਼ ਸਾਫ਼ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI ਸਹਾਇਕ",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "ਕੇਂਦਰ ਵਿੱਚ ਇਕਸਾਰ ਕਰੋ",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "ਖੱਬੇ ਪਾਸੇ ਇਕਸਾਰ ਕਰੋ",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "ਸੱਜੇ ਪਾਸੇ ਇਕਸਾਰ ਕਰੋ",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "ਬੈਕਗ੍ਰਾਉਂਡ ਦਾ ਰੰਗ",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "ਬੈਕਗ੍ਰਾਉਂਡ ਦਾ ਰੰਗ",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "ਬਲਾਕਕੋਟ",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "ਬਲਾਕਕੋਟ",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "ਬੋਲਡ",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "ਬੋਲਡ",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "ਬੁਲੇਟ ਸੂਚੀ",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "ਬੁਲੇਟ ਸੂਚੀ",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "ਚੈੱਕਲਿਸਟ",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "ਕੋਡ ਬਲਾਕ",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "ਕੋਡ ਬਲਾਕ",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "ਫੌਂਟ ਦਾ ਆਕਾਰ",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "ਫੌਂਟ ਦਾ ਆਕਾਰ",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "ਸਿਰਲੇਖ 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "ਸਿਰਲੇਖ 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "ਚਿੱਤਰ ਪਾਓ",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "ਲਿੰਕ ਪਾਓ",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "ਲਿੰਕ ਪਾਓ",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "ਵੀਡੀਓ ਪਾਓ",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "ਵੀਡੀਓ ਪਾਓ",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "ਇਟੈਲਿਕ",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "ਇਟੈਲਿਕ",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "ਜਸਟੀਫਾਈ",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "ਜਸਟੀਫਾਈ",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "ਨੰਬਰ ਵਾਲੀ ਸੂਚੀ",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "ਨੰਬਰ ਵਾਲੀ ਸੂਚੀ",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "ਫਾਰਮੈਟਿੰਗ ਹਟਾਓ",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "ਸਟਰਾਈਕਥਰੂ",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "ਸਟਰਾਈਕਥਰੂ",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "ਟੈਕਸਟ ਦਾ ਰੰਗ",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "ਟੈਕਸਟ ਦਾ ਰੰਗ",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "ਅੰਡਰਲਾਈਨ",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "ਅੰਡਰਲਾਈਨ",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "ਹਮੇਸ਼ਾ ਲਈ ਮਿਟਾਓ",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "ਟ੍ਰੈਸ਼ ਖਾਲੀ ਹੈ।",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "ਟ੍ਰੈਸ਼ ਖਾਲੀ ਕਰੋ",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "ਮੁੜ-ਸਥਾਪਿਤ ਕਰੋ",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "ਸਭ ਨੂੰ ਮੁੜ-ਸਥਾਪਿਤ ਕਰੋ",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "ਟ੍ਰੈਸ਼",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "ਨਵੇਂ ਉਪਭੋਗਤਾਵਾਂ ਲਈ ਸੁਆਗਤ ਕਲੈਕਸ਼ਨ",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "ਸੁਆਗਤ ਹੈ",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• ਨਵਾਂ ਨੋਟ ਬਣਾਉਣ ਲਈ <strong>+</strong> ਬਟਨ 'ਤੇ ਕਲਿੱਕ ਕਰੋ<br>• ਸਮੱਗਰੀ ਦਾ ਸਾਰ, ਅਨੁਵਾਦ, ਜਾਂ ਸੁਧਾਰ ਕਰਨ ਲਈ AI ਦੀ ਵਰਤੋਂ ਕਰੋ<br>• AI ਤੁਹਾਡੇ ਨੋਟਸ ਨੂੰ ਸੰਗਠਿਤ ਅਤੇ ਅਨੁਕੂਲ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰ ਸਕਦਾ ਹੈ",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ AI ਦੀ ਵਰਤੋਂ ਕਿਵੇਂ ਕਰੀਏ",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• ਕਲੈਕਸ਼ਨ ਬਣਾਉਣ ਲਈ ਖਾਲੀ ਥਾਂ 'ਤੇ ਸੱਜਾ-ਕਲਿੱਕ ਕਰੋ<br>• ਨੋਟਸ ਨੂੰ ਸੰਗਠਿਤ ਕਰਨ ਲਈ ਕਲੈਕਸ਼ਨਾਂ ਵਿੱਚ ਖਿੱਚੋ ਅਤੇ ਛੱਡੋ<br>• ਹਰੇਕ ਕਲੈਕਸ਼ਨ ਦਾ ਆਪਣਾ ਥੀਮ ਹੋ ਸਕਦਾ ਹੈ (ਕੰਮ, ਨਿੱਜੀ, ਵਿਚਾਰ...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 ਕਲੈਕਸ਼ਨ ਕਿਵੇਂ ਬਣਾਈਏ",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "ਤਤਕਾਲ ਨੋਟਸ ਦੀ ਵਰਤੋਂ ਕਰਨ ਦਾ ਅਨੰਦ ਲਓ! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "ਇਹ ਤੁਹਾਡਾ ਪਹਿਲਾ ਨੋਟ ਹੈ। ਤਤਕਾਲ ਨੋਟਸ ਤੁਹਾਨੂੰ ਜਲਦੀ ਅਤੇ ਕੁਸ਼ਲਤਾ ਨਾਲ ਨੋਟਸ ਲੈਣ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ।",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• ਨੋਟਸ ਨੂੰ ਸ਼੍ਰੇਣੀਬੱਧ ਕਰਨ ਲਈ ਰੰਗਾਂ ਦੀ ਵਰਤੋਂ ਕਰੋ<br>• ਮਹੱਤਵਪੂਰਨ ਨੋਟਸ ਨੂੰ ਸੂਚੀ ਦੇ ਸਿਖਰ 'ਤੇ ਪਿੰਨ ਕਰੋ<br>• ਉੱਪਰ ਦਿੱਤੇ ਖੋਜ ਬਾਰ ਨਾਲ ਜਲਦੀ ਖੋਜ ਕਰੋ<br>• ਸੁਰੱਖਿਅਤ ਬੈਕਅੱਪ ਲਈ Google Drive ਨਾਲ ਸਿੰਕ ਕਰੋ",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 ਵਰਤੋਂ ਸੁਝਾਅ",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "ਤਤਕਾਲ ਨੋਟਸ ਵਿੱਚ ਤੁਹਾਡਾ ਸੁਆਗਤ ਹੈ! 👋",
+    "description": "Title of the welcome note"
+  }
+}

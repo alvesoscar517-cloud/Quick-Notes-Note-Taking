@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Otvori brze bilješke",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Pristup zabranjen. Molimo provjerite svoja dopuštenja.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Primijeni na bilješku",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kopiraj",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Stvori zadatke",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API ključ nije konfiguriran",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Dodati",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Primjena sadržaja na bilješku nije uspjela",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Primijeni na bilješku",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Pozadinski poslužitelj nije dostupan. Molimo provjerite vezu i pokušajte ponovno.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "URL pozadine nije konfiguriran",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Pozadinski poslužitelj ne odgovara",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Stvaranje prozora za AI chat nije uspjelo",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Razgovarajte s AI o odabranom tekstu",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Sadržaj je primijenjen na vašu bilješku!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Sadržaj kopiran u međuspremnik!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Filtrirano",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Sadržaj je umetnut i zamijenjen odabranim tekstom",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Sadržaj nije dostupan",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopiraj",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Kopiranje u međuspremnik nije uspjelo",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Dnevni limit dosegnut (15/15). Pokušajte ponovno sutra.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Preuzmi sliku",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI je vratio prazan odgovor. Molimo pokušajte ponovno.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI greška",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Proširi",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Izdvoji tekst (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Analiza slike nije uspjela",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Analiziranje slike...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Dosegnut je dnevni limit analize slika. Nadogradite na premium za neograničenu analizu.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Preuzimanje slike nije uspjelo",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Slika je uspješno preuzeta",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Poboljšaj",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Pritisnite Enter za slanje, Shift+Enter za novi red",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Upišite svoju poruku ili odaberite brzu radnju...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Umetanje sadržaja nije uspjelo",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Umetni i zamijeni",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Nevažeći API ključ",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Nevažeća prijava",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Loš model",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Nevažeći odgovor od pozadinske usluge.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Iskoristili ste svih {limit} AI zahtjeva za danas. Nadogradite na Premium za neograničen pristup!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Zapisnici sa sastanka",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Minimiziraj",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Nema modela",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Mrežna greška",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Nema veze",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Nema odgovora od AI",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Nema odabranog teksta",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Nema AI operacija za poništavanje",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR rezultat primljen",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Nacrt",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium aktivan",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI obrađuje...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kvota puna",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Ograničenje brzine premašeno. Molimo pokušajte ponovno kasnije.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Zahtjev je istekao",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI odgovor primljen",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Blokirano",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Spremi",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Pretraži",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Odabrani tekst",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Greška poslužitelja - Molimo pokušajte ponovno kasnije",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Usluga nije dostupna",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Inicijalizacija AI usluge nije uspjela",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI usluga nije dostupna. Molimo osvježite stranicu.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI usluga nije ispravno konfigurirana",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI usluga nije inicijalizirana",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI usluga privremeno nedostupna",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Molimo prijavite se da biste koristili AI značajke. Kliknite gumb za prijavu u proširenju.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Prijavite se da biste otključali",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Statistika nije uspjela",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Prijedlozi",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Sažmi",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Istek vremena",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI asistent",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Ton",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramatično",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Šaljivo",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Molimo odaberite tekst ili dodajte sadržaj za transformaciju",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Pjesnički",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Profesionalno",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Pojednostavi",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Prevedi",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " na engleski",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "AI operacija uspješno poništena!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Nepoznata AI greška",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "ZAKLJUČANO",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Neograničeno",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Korisnička poruka",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Korisnički zahtjev",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Bok! Ja sam vaš AI asistent. Mogu vam pomoći sažeti, proširiti, poboljšati ili prevesti vaše bilješke. S čime vam mogu pomoći?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Dobrodošli Premium korisniče! Imate neograničene AI zahtjeve.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Dobrodošli! Preostalo vam je {remaining} od {limit} AI zahtjeva danas.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI analiza nije uspjela",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI analiza nije uspjela. Molimo pokušajte ponovno.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analiza je dovršena!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analizirano",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Zatvori",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Analiza zbirke",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Stvorena je nova bilješka s uvidima iz {count} bilješki.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Greška pri obradi zbirke",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Pronađi uzorke",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Generiraj uvide",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Pitaj bilo što o svojoj zbirci...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI radni prostor je moćna značajka dizajnirana da maksimizira potencijal AI modela, omogućujući vam stvaranje analiza i obradu cijelih zbirki bilješki odjednom umjesto pojedinačnih bilješki.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Nema bilješki u ovoj zbirci za analizu",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "bilješka(e)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Obrada...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Što želite da AI učini s ovim bilješkama?\n\nPrimjeri:\n- Sažmi sve bilješke\n- Izdvoji glavne teme i ključne riječi\n- Stvori glavni popis obaveza\n- Generiraj ČPP iz ovih bilješki\n- Pronađi veze između tema",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "Odgovor AI nije uspio. Molimo pokušajte ponovno.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Pošalji",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Sažmi zbirku",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Iz ovih bilješki stvorite popis često postavljanih pitanja i odgovora (ČPP). Identificirajte važne teme i stvorite odgovarajuća pitanja s detaljnim odgovorima.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Zadatak",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Pronađite i objasnite veze između informacija u bilješkama. Identificirajte veze, proturječnosti ili odnose između različitih tema spomenutih u bilješkama.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Stvorite sveobuhvatan sažetak iz svih bilješki u ovoj zbirci. Istaknite najvažnije točke i stvorite jedinstven, kohezivan sažetak.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Identificirajte 5 glavnih tema i srodnih ključnih riječi iz ovih istraživačkih bilješki. Stvorite strukturirani popis s temama i odgovarajućim ključnim riječima.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Skenirajte sve bilješke i stvorite sveobuhvatan popis obaveza. Pronađite sve 'akcijske stavke', zadatke ili posao koji treba obaviti spomenut u bilješkama i stvorite strukturirani kontrolni popis.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI radni prostor",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Dosegnut je dnevni limit upotrebe. Nadogradite na premium za neograničen pristup AI radnom prostoru.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Stvarajte, upravljajte i sinkronizirajte bilješke sa stilom staklomorfizma.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__ZAŠTIĆENO_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Sažetak",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Sve",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Božić",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrijski",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Priroda",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Običaj",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Izbriši",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Nijedna",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Postavi kao zadano",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Prenesi",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Dodaj bilješku ovdje",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Zbirka",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Stvoreno",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Izbrisano",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Naziv zbirke",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Unesite naziv zbirke...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Prikvačeno",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Tema",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Otkvačeno",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Ažurirano",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Stvori",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Stvori zbirku",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Stvori bilješku u zbirci",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Izbriši zbirku",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Uredi zbirku",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Ova zbirka je prazna",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Molimo unesite naziv zbirke",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Greška pri stvaranju bilješke",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Greška u zbirci",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Brisanje nije uspjelo",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Učitavanje nije uspjelo",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Premještanje nije uspjelo",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Prikvačivanje nije uspjelo",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Ažuriranje nije uspjelo",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Dosegnut je limit zbirki",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Premjesti u zbirku",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "bilješke",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "Bilješka stvorena u zbirci",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "bilješke",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "bilješke premještene u zbirku",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Prikvači zbirku",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Ukloni iz zbirke",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Spremi",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Otkvači zbirku",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Otvori brze bilješke",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Odustani",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Zatvori",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Nastavi",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Trajno izbrisati sve bilješke u smeću?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Jeste li sigurni da želite trajno izbrisati ovu zbirku? Ova radnja se ne može poništiti.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Trajno izbrisati bilješku?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Ovo će prebrisati sve trenutne podatke. Nastaviti?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Dodaj u brzu bilješku",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Ispustite za stvaranje novog prozora",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Ispustite karticu ovdje za spajanje",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Ispustite za spajanje prozora",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI chat nije uspio",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI proširenje nije uspjelo",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI poboljšanje nije uspjelo",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "Inicijalizacija AI nije uspjela",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI zapisnici sa sastanka nisu uspjeli",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI nacrt nije uspio",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI zahtjev nije uspio",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Postavljanje URL-a pozadine za AI nije uspjelo",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI prijedlozi nisu uspjeli",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI sažimanje nije uspjelo",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI ton nije uspio",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Provjera zdravlja pozadine nije uspjela",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Zahtjev pozadini nije uspio",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Greška pozadinskog poslužitelja",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Brisanje AI predmemorije nije uspjelo",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Greška pri provjeri statusa otključavanja AI",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Greška pri dohvaćanju statistike upotrebe",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Greška pri dohvaćanju e-pošte korisnika u servisnom radniku",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Stvaranje bilješke nije uspjelo",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Generiranje naslova nije uspjelo",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Inicijalizacija AI usluge nije uspjela",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "Došlo je do greške. Molimo pokušajte ponovno.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Dohvaćanje statistike dnevne upotrebe nije uspjelo",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Greška u Google Drive API-ju",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Nevažeći format odgovora",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Napomena je prazna. Dodajte sadržaj prije korištenja ove značajke.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Bilješka nije pronađena u lokalnoj pohrani",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Izbornik poslužitelja nije pokrenut",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Proces sinkronizacije nije uspio s greškom",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Neograničeni zahtjev nije uspio",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Korisnik nije autentificiran",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Dovršeno!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Slika je uspješno preuzeta",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Izvoz slika...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Molimo pričekajte trenutak",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Hobi",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Ideje",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Osobno",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Učenje",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Putovanje",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Posao",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Stvori novu bilješku",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Izbriši bilješku",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Nova bilješka",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Nema dodatnog sadržaja",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Prikvači bilješku",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Pretraži bilješke...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Poništi premještanje",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Otkvači bilješku",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Vraćeno",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Greška pri autentifikaciji",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Molimo pokušajte se odjaviti i ponovno prijaviti.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Autentifikacija nije uspjela",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Sigurnosno kopirano",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Ova pozadina dostupna je samo Premium korisnicima. Molimo nadogradite da biste otključali sve pozadine.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Značajka prijenosa pozadine dostupna je samo Premium korisnicima. Molimo nadogradite da biste koristili ovu značajku.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Nije moguće stvoriti poveznicu za dijeljenje",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Stvaranje sesije za naplatu nije uspjelo. Molimo pokušajte ponovno.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Povezivanje s Googleom...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Nije moguće učitati e-poštu.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Dnevni limit je dosegnut. Pokušajte sutra ili nadogradite.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Zadana pozadina postavljena!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Gotovo",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Greška pri čitanju",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Izvezeno",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Učitavanje smeća nije uspjelo",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Učitavanje smeća nije uspjelo. Molimo pokušajte ponovno.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Premještanje bilješke nije uspjelo",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Uvezeno",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Nevažeća datoteka",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Učitavanje informacija o računu...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Premještanje otkazano",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "Premješteno u zbirku",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Nema mrežne veze",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Molimo provjerite internetsku vezu i pokušajte ponovno.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Nema bilješki u ovoj zbirci",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Izbrisano",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Premješteno",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Bilješka nije pronađena na poslužitelju. Molimo pokušajte ponovno.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Prikvačeno",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Otkvačeno",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Ažurno",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Greška pri plaćanju. Molimo pokušajte ponovno.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Greška pri provjeri plaćanja. Molimo osvježite stranicu.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Dopuštenje odbijeno",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Da biste koristili značajke sinkronizacije, molimo odobrite dopuštenja aplikaciji.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Vraćeno",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Molimo odaberite barem jednu bilješku za AI analizu",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Molimo prvo odaberite bilješke",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Dijeljenje nije konfigurirano.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Prijava nije uspjela",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Prijavite se da biste dijelili",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Prijavite se da biste prenijeli",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Uspješno ste se prijavili!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Odjavljeni ste",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Sinkronizacija nije uspjela",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Sinkronizirano",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Sinkronizirano",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Sinkronizacija podataka...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Sinkronizacija s Diskom...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Ispražnjeno",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Nije moguće otvoriti upravljanje naplatom. Molimo pokušajte ponovno kasnije.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Provjera plaćanja...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Izbriši označeno",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Izbriši zauvijek",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Vrati označeno",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Odustani",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Trajno izbrisati označene stavke?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Vratiti označene stavke?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Označi sve",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "označeno",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI asistent",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Pitaj bilo što",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "Čarolija AI tona",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Poravnaj u sredinu",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Poravnaj lijevo",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Poravnaj desno",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Pozadina",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Stvori novu bilješku",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Nova bilješka",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Izbriši bilješku",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Preuzmi kao sliku",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Uređivač nije dostupan",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Unesite URL poveznice...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Unesite URL videozapisa...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Greška pri primjeni oblikovanja",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Naslov 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Naslov 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Umetni",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Umetni sliku",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Izbornik",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR nije dostupan za ovu sliku zbog CORS ograničenja.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Ukloni oblikovanje",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Podijeli",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Primijenjene pametne boje!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Struktura optimizirana!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Prikaži sve bilješke",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Sadržaj obavijesti",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Provjera plaćanja je istekla. Molimo osvježite ako je plaćanje dovršeno.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Odabran je nevažeći plan",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Molimo prijavite se da biste nastavili s plaćanjem",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Pristup naprednim značajkama",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Pozadina Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Zbirke Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Čestitamo!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Obratite se podršci",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Ekskluzivne pozadine",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Pristup premium pozadinama",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Ekskluzivna podrška",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Prioritetna podrška našeg tima",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Istječe",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Upravljaj naplatom",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Sljedeća naplata",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium godišnje",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium mjesečno",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Premium probno",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Vrsta plana",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Prioritetna podrška",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Dijelite bilješke",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Dijelite bilješke s drugima",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Dijeli Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Započnite besplatno probno razdoblje",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Počnite koristiti",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Status",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Aktivno",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Otkazano",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Isteklo",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Neaktivno",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Pretplatite se sada",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "podrška",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Neograničeni AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Neograničeni AI chat",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Neograničeni AI zahtjevi dnevno",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Neograničene zbirke",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Stvarajte neograničene zbirke",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Otključajte neograničeni AI",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Uspješno ste nadogradili na Premium",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Nema rezultata",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Pokušajte pretraživati s različitim ključnim riječima ili stvorite novu bilješku",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "Upotreba AI",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "Današnja upotreba AI",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Izgled",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Sinkronizacija u oblaku",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Konfigurirati",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Upravljanje podacima",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Zadana veličina bilješke",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Izvezi",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Izvezi podatke",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Uvezi",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Uvezi podatke",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Nevažeća veličina. Širina: 400-1920, Visina: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Otkazati",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Visina",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Vrati na zadano",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Uštedjeti",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Zadana veličina spremljena",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Zadana veličina bilješke",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Širina",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Otvori",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Potrebna je prijava",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Prijavite se s Googleom",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Odjava",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Prijavljeni ste kao",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Sinkroniziraj",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Postavke",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Smeće",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Neograničen",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Nabavite Premium",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "Otključaj AI",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Korisnički avatar",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Kopirano",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kopiraj",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Stvaranje poveznice za dijeljenje...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Pogledajte ovu bilješku iz Brzih bilješki",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Podijeli na Facebooku",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Podijeli na LinkedInu",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Podijeli na Redditu",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Podijeli na X (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Podijeli na WhatsAppu",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Sinkronizacija bilješke s poslužiteljem nije uspjela",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Hobi",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Ideje",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Osobno",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Učenje",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Putovanje",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Posao",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Dodano u novu bilješku",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI nije uspio",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Postavljanje pozadine nije uspjelo",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Nije moguće izbrisati",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Kopirano u međuspremnik",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Kopiranje poveznice nije uspjelo. Molimo pokušajte ponovno.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Izvoz nije uspio",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Nije uspjelo",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Dodavanje u bilješku nije uspjelo",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kopiranje nije uspjelo",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Potrebna je slikovna datoteka",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Slika je prevelika",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Greška u biblioteci",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Biblioteka se učitava",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Premještanje nije uspjelo",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Premješteno",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Nema odabira",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Operacija nije uspjela",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Molimo ponovno pokrenite proširenje da biste oslobodili prostor.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Greška u pohrani. Molimo ponovno pokrenite proširenje.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Pohrana je puna, čišćenje predmemorije...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI asistent",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Poravnaj u sredinu",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Poravnaj lijevo",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Poravnaj desno",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Boja pozadine",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Boja pozadine",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Blok citat",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Blok citat",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Podebljano",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Podebljano",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Popis s grafičkim oznakama",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Popis s grafičkim oznakama",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Kontrolni popis",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Blok koda",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Blok koda",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Veličina fonta",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Veličina fonta",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Naslov 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Naslov 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Umetni sliku",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Umetni poveznicu",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Umetni poveznicu",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Umetni video",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Umetni video",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Kurziv",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Kurziv",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Poravnaj obostrano",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Poravnaj obostrano",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Numerirani popis",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Numerirani popis",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Ukloni oblikovanje",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Precrtano",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Precrtano",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Boja teksta",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Boja teksta",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Podcrtano",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Podcrtano",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Izbriši zauvijek",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Smeće je prazno.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Isprazni smeće",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Vrati",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Vrati sve",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Smeće",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Zbirka dobrodošlice za nove korisnike",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Dobrodošli",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Kliknite gumb <strong>+</strong> da biste stvorili novu bilješku<br>• Koristite AI za sažimanje, prevođenje ili poboljšanje sadržaja<br>• AI vam može pomoći organizirati i optimizirati vaše bilješke",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Kako koristiti AI",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Desnom tipkom miša kliknite na prazan prostor da biste stvorili zbirku<br>• Povucite i ispustite bilješke u zbirke da biste ih organizirali<br>• Svaka zbirka može imati svoju temu (posao, osobno, ideje...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Kako stvoriti zbirke",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Uživajte u korištenju Brzih bilješki! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Ovo je vaša prva bilješka. Brze bilješke vam pomažu da brzo i učinkovito vodite bilješke.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Koristite boje za kategoriziranje bilješki<br>• Prikvačite važne bilješke na vrh popisa<br>• Brzo pretražujte pomoću trake za pretraživanje iznad<br>• Sinkronizirajte s Google Diskom za sigurnosno kopiranje",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Savjeti za korištenje",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Dobrodošli u Brze bilješke! 👋",
+    "description": "Title of the welcome note"
+  }
+}

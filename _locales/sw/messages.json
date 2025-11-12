@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Fungua Quick Notes",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Ufikiaji umekataliwa. Tafadhali angalia ruhusa zako.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Tumia kwenye Dokezo",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Nakili",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Unda Majukumu",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "Ufunguo wa API haujasanidiwa",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Andika",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Imeshindwa kutumia maudhui kwenye dokezo",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Tumia kwenye Dokezo",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Seva ya nyuma haipatikani. Tafadhali angalia muunganisho wako na ujaribu tena.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "URL ya nyuma haijasanidiwa",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Seva ya nyuma haijibu",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Imeshindwa kuunda dirisha la soga la AI",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Piga soga na AI kuhusu maandishi yaliyochaguliwa",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Maudhui yametumika kwenye dokezo lako!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Maudhui yamenakiliwa kwenye ubao wa kunakili!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Imechujwa",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Yaliyomo yaliyoingizwa na kubadilishwa maandishi yaliyochaguliwa",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Yaliyomo hayapatikani",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Nakili",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Imeshindwa kunakili kwenye ubao wa kunakili",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Kikomo cha kila siku kimefikiwa (15/15). Jaribu tena kesho.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Pakua Picha",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI imerejesha jibu tupu. Tafadhali jaribu tena.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "Hitilafu ya AI",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Panua",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Toa Maandishi (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Imeshindwa kuchambua picha",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Inachambua picha...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Kikomo cha uchambuzi wa picha cha kila siku kimefikiwa. Pata toleo jipya la premium kwa uchambuzi usio na kikomo.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Imeshindwa kupakua picha",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Picha imepakuliwa kikamilifu",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Boresha",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Bonyeza Enter kutuma, Shift+Enter kwa mstari mpya",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Andika ujumbe wako au chagua kitendo cha haraka...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Imeshindwa kuingiza yaliyomo",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Ingiza na ubadilishe",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Ufunguo batili wa API",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Kuingia batili",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Mtindo mbaya",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Jibu batili kutoka kwa huduma ya nyuma.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Umetumia maombi yote {limit} ya AI kwa leo. Pata toleo jipya la Premium kwa ufikiaji usio na kikomo!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Madokezo ya Mkutano",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Punguza",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Hakuna mtindo",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Hitilafu ya mtandao",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Hakuna muunganisho",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Hakuna jibu kutoka kwa AI",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Hakuna maandishi yaliyochaguliwa",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Hakuna operesheni za AI za kutendua",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "Matokeo ya OCR yamepokelewa",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Muhtasari",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium Inatumika",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI Inachakata...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kiwango kimejaa",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Kikomo cha kiwango kimepitwa. Tafadhali jaribu tena baadaye.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Muda wa ombi umekwisha",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "Jibu la AI limepokea",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Imezuiliwa",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Hifadhi",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Tafuta",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Maandishi yaliyochaguliwa",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Hitilafu ya seva - Tafadhali jaribu tena baadaye",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Huduma haifanyi kazi",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Imeshindwa kuanzisha huduma ya AI",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "Huduma ya AI haipatikani. Tafadhali onyesha upya ukurasa.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "Huduma ya AI haijasanidiwa ipasavyo",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "Huduma ya AI haijaanzishwa",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "Huduma ya AI haipatikani kwa muda",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Tafadhali ingia ili kutumia vipengele vya AI. Bofya kitufe cha kuingia kwenye kiendelezi.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Ingia ili kufungua",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Takwimu zimeshindwa",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Mapendekezo",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Fupisha",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Muda umekwisha",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "Msaidizi wa AI",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Toni",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Kidrama",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Kichekesho",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Tafadhali chagua maandishi au ongeza maudhui ili kubadilisha",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Kishairi",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Kitaalamu",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Rahisisha",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Tafsiri",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " kwa Kiingereza",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "Operesheni ya AI imetenduliwa kikamilifu!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Hitilafu isiyojulikana ya AI",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "FUNGUA",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Bila kikomo",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Ujumbe wa mtumiaji",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Ombi la mtumiaji",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Habari! Mimi ni msaidizi wako wa AI. Ninaweza kukusaidia kufupisha, kupanua, kuboresha, au kutafsiri madokezo yako. Ungependa nikusaidie na nini?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Karibu, mtumiaji wa Premium! Una maombi ya AI bila kikomo.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Karibu! Umesalia na maombi {remaining} kati ya {limit} ya AI leo.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "Uchambuzi wa AI haujafaulu",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "Uchambuzi wa AI haujafaulu. Tafadhali jaribu tena.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Uchambuzi umekamilika!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Imechambuliwa",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Funga",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Uchambuzi wa Mkusanyiko",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Dokezo jipya limeundwa na ufahamu kutoka kwa madokezo {count}.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Hitilafu wakati wa kuchakata mkusanyiko",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Tafuta Mitindo",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Zalisha Ufahamu",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Uliza chochote kuhusu mkusanyiko wako...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "Nafasi ya Kazi ya AI ni kipengele chenye nguvu kilichoundwa kuongeza uwezo wa mifumo ya AI, kukuwezesha kuunda uchambuzi na kuchakata makusanyo yote ya madokezo kwa pamoja badala ya madokezo ya kibinafsi.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Hakuna madokezo katika mkusanyiko huu ya kuchambua",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "dokezo(zo)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Inachakata...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Ungependa AI ifanye nini na madokezo haya?\n\nMifano:\n- Fupisha madokezo yote\n- Toa mada kuu na maneno muhimu\n- Unda orodha kuu ya mambo ya kufanya\n- Zalisha Maswali Yanayoulizwa Mara kwa Mara (FAQ) kutoka kwa madokezo haya\n- Tafuta uhusiano kati ya mada",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "Jibu la AI limeshindwa. Tafadhali jaribu tena.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Tuma",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Fupisha Mkusanyiko",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Kutoka kwa madokezo haya, unda orodha ya maswali na majibu yanayoulizwa mara kwa mara (FAQ). Tambua mada muhimu na uunde maswali yanayofaa na majibu ya kina.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Jukumu",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Tafuta na ueleze uhusiano kati ya habari katika madokezo. Tambua viungo, ukinzani, au uhusiano kati ya mada tofauti zilizotajwa kwenye madokezo.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Unda muhtasari kamili kutoka kwa madokezo yote katika mkusanyiko huu. Angazia mambo muhimu zaidi na uunde muhtasari mmoja, wenye mshikamano.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Tambua mada kuu 5 na maneno muhimu yanayohusiana kutoka kwa madokezo haya ya utafiti. Unda orodha iliyopangwa na mada na maneno muhimu yanayolingana.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Changanua madokezo yote na uunde orodha kamili ya mambo ya kufanya. Tafuta 'vipengee vya vitendo', majukumu, au kazi ya kufanywa iliyotajwa kwenye madokezo na uunde orodha ya ukaguzi iliyopangwa.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "Nafasi ya Kazi ya AI",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Kikomo cha matumizi cha kila siku kimefikiwa. Pata toleo jipya la premium kwa ufikiaji usio na kikomo wa Nafasi ya Kazi ya AI.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Unda, dhibiti, na ulandanishe madokezo kwa mtindo wa glassmorphism.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__ Imetengwa_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Abstract",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Zote",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Krismasi",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Jiometri",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Asili",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Desturi",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Futa",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Hakuna",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Weka kama Chaguo-msingi",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Pakia",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Ongeza Dokezo Hapa",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Mkusanyiko",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Imeundwa",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Imefutwa",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Jina la Mkusanyiko",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Weka jina la mkusanyiko...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Imebandikwa",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Mandhari",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Kubandikwa kumeondolewa",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Imesasishwa",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Unda",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Unda Mkusanyiko",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Unda Dokezo katika Mkusanyiko",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Futa Mkusanyiko",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Hariri Mkusanyiko",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Mkusanyiko huu hauna kitu",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Tafadhali weka jina la mkusanyiko",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Hitilafu wakati wa kuunda dokezo",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Hitilafu ya mkusanyiko",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Ufutaji haujafaulu",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Upakiaji haujafaulu",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Kuhamisha hakujafaulu",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Kubandika hakujafaulu",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Usasishaji haujafaulu",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Kikomo cha mkusanyiko kimefikiwa",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Hamishia kwenye mkusanyiko",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "madokezo",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "Dokezo limeundwa katika mkusanyiko",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "madokezo",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "madokezo yamehamishiwa kwenye mkusanyiko",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Bandika Mkusanyiko",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Ondoa kwenye mkusanyiko",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Hifadhi",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Ondoa Kubandika Mkusanyiko",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Fungua Quick Notes",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Ghairi",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Funga",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Endelea",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Unataka kufuta kabisa madokezo yote kwenye taka?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Una uhakika unataka kufuta kabisa mkusanyiko huu? Kitendo hiki hakiwezi kutenduliwa.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Unataka kufuta dokezo hili kabisa?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Hii itafuta data yote ya sasa. Unataka kuendelea?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Ongeza kwenye Quick Notes",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Tone ili kuunda dirisha mpya",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Tone tabo hapa ili ujumuishe",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Tone ili unganisha windows",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "Soga ya AI imeshindwa",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "Upanuzi wa AI haujafaulu",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "Uboreshaji wa AI haujafaulu",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "Uanzishaji wa AI haujafaulu",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "Madokezo ya mkutano wa AI yameshindwa",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "Muhtasari wa AI haujafaulu",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "Ombi la AI limeshindwa",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Kuweka URL ya nyuma ya AI kumeshindwa",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "Mapendekezo ya AI yameshindwa",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "Ufupishaji wa AI haujafaulu",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "Toni ya AI imeshindwa",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Ukaguzi wa afya wa nyuma haujafaulu",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Ombi la nyuma limeshindwa",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Hitilafu ya seva ya nyuma",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Kufuta kashe ya AI kumeshindwa",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Hitilafu wakati wa kuangalia hali ya kufungua AI",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Hitilafu wakati wa kupata takwimu za matumizi",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Hitilafu wakati wa kupata barua pepe ya mtumiaji katika mfanyakazi wa huduma",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Imeshindwa kuunda kumbuka",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Imeshindwa kuzalisha kichwa",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Imeshindwa kuanzisha huduma ya AI",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "Hitilafu imetokea. Tafadhali jaribu tena.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Kupata takwimu za matumizi ya kila siku kumeshindwa",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Hitilafu ya API ya Google Drive",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Fomati batili ya majibu",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Kumbuka ni tupu. Tafadhali ongeza yaliyomo kabla ya kutumia huduma hii.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Dokezo halikupatikana kwenye hifadhi ya ndani",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Chaguo la seva halijaanzishwa",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Mchakato wa ulandanishi haujafaulu na hitilafu",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Ombi lisilo na kikomo limeshindwa",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Mtumiaji hajathibitishwa",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Imekamilika!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Picha imepakuliwa kikamilifu",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Inahamisha picha...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Tafadhali subiri kidogo",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Hobi",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Mawazo",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Binafsi",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Masomo",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Safari",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Kazi",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Unda dokezo jipya",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Futa Dokezo",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Dokezo Jipya",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Hakuna maudhui ya ziada",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Bandika Dokezo",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Tafuta madokezo...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Tendua Kuhamisha",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Ondoa Kubandika Dokezo",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Imerejeshwa",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Hitilafu ya uthibitishaji",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Tafadhali jaribu kutoka na kuingia tena.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Uthibitishaji haujafaulu",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Imehifadhiwa nakala",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Mandharinyuma haya yanapatikana tu kwa watumiaji wa Premium. Tafadhali pata toleo jipya ili kufungua mandharinyuma yote.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Kipengele cha kupakia mandharinyuma kinapatikana tu kwa watumiaji wa Premium. Tafadhali pata toleo jipya ili kutumia kipengele hiki.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Haiwezi kuunda kiungo cha kushiriki",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Imeshindwa kuunda kipindi cha malipo. Tafadhali jaribu tena.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Inaunganisha na Google...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Haikuweza kupakia barua pepe.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Kikomo cha kila siku kimefikiwa. Jaribu kesho au pata toleo jipya.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Mandharinyuma chaguo-msingi limewekwa!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Imekamilika",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Hitilafu ya usomaji",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Imehamishwa",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Imeshindwa kupakia taka",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Imeshindwa kupakia taka. Tafadhali jaribu tena.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Imeshindwa kuhamisha dokezo",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Imeingizwa",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Faili batili",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Inapakia maelezo ya akaunti...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Kuhamisha kumeghairiwa",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "Imehamishiwa kwenye mkusanyiko",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Hakuna muunganisho wa mtandao",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Tafadhali angalia muunganisho wako wa intaneti na ujaribu tena.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Hakuna madokezo yaliyopatikana katika mkusanyiko huu",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Imefutwa",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Imehamishwa",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Dokezo halikupatikana kwenye seva. Tafadhali jaribu tena.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Imebandikwa",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Kubandikwa kumeondolewa",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Ni ya kisasa",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Hitilafu ya malipo. Tafadhali jaribu tena.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Hitilafu ya uthibitishaji wa malipo. Tafadhali onyesha upya ukurasa.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Ruhusa imekataliwa",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Ili kutumia vipengele vya ulandanishi, tafadhali toa ruhusa kwa programu.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Imerejeshwa",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Tafadhali chagua angalau dokezo moja kwa uchambuzi wa AI",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Tafadhali chagua madokezo kwanza",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Kushiriki hakujasanidiwa.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Kuingia hakujafaulu",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Ingia ili kushiriki",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Ingia ili kupakia",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Umeingia kikamilifu!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Umeondoka",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Ulandanishaji haujafaulu",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Imelandanishwa",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Imelandanishwa",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Inalandanisha data...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Inalandanisha na Drive...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Imefutwa",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Haiwezi kufungua usimamizi wa malipo. Tafadhali jaribu tena baadaye.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Inathibitisha malipo...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Futa Yaliyochaguliwa",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Futa Kabisa",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Rejesha Yaliyochaguliwa",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Ghairi",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Unataka kufuta kabisa vitu vilivyochaguliwa?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Unataka kurejesha vitu vilivyochaguliwa?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Chagua Zote",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "yamechaguliwa",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "Msaidizi wa AI",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Uliza chochote",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "Uchawi wa Toni ya AI",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Panga Katikati",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Panga Kushoto",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Panga Kulia",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Mandharinyuma",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Unda dokezo jipya",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Dokezo Jipya",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Futa Dokezo",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Pakua kama Picha",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Mhariri haipatikani",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Weka URL ya kiungo...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Weka URL ya video...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Hitilafu wakati wa kutumia uundo",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Kichwa cha habari 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Kichwa cha habari 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Weka",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Weka Picha",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Menyu",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR haipatikani kwa picha hii kutokana na vikwazo vya CORS.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Ondoa Uundo",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Shiriki",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Rangi smart kutumika!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Muundo ulioboreshwa!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Tazama Madokezo Yote",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Maudhui ya arifa",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Muda wa kuangalia malipo umekwisha. Tafadhali onyesha upya ikiwa malipo yalikamilika.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Mpango batili umechaguliwa",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Tafadhali ingia ili kuendelea na malipo",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Fikia vipengele vya hali ya juu",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Mandharinyuma ya Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Makusanyo ya Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Hongera!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Msaada wa Wasiliana",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Mandharinyuma ya Kipekee",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Ufikiaji wa mandharinyuma ya premium",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Msaada wa kipekee",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Msaada wa kipaumbele kutoka kwa timu yetu",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Inaisha",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Dhibiti Malipo",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Malipo Yanayofuata",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium ya Kila Mwaka",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium ya Kila Mwezi",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Jaribio la Premium",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Aina ya Mpango",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Usaidizi wa kipaumbele",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Shiriki Madokezo",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Shiriki madokezo na wengine",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Shiriki Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Anza Jaribio la Bila Malipo",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Anza Kutumia",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Hali",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Inatumika",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Imeghairiwa",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Muda umeisha",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Haitumiki",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Jisajili Sasa",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Msaada",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "AI Bila Kikomo",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Soga ya AI Bila Kikomo",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Maombi ya AI bila kikomo kwa siku",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Makusanyo Bila Kikomo",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Unda makusanyo bila kikomo",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Fungua AI Bila Kikomo",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Umeboresha hadi Premium kikamilifu",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Hakuna matokeo yaliyopatikana",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Jaribu kutafuta na maneno muhimu tofauti au unda dokezo jipya",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "Matumizi ya AI",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "Matumizi ya AI Leo",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Mwonekano",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Ulandanishaji wa Wingu",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Sanidi",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Usimamizi wa Data",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Saizi ya kawaida ya kumbuka",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Hamisha",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Hamisha Data",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Ingiza",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Ingiza Data",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Saizi batili. Upana: 400-1920, urefu: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Ghairi",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Urefu",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Rudisha kwa chaguo -msingi",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Kuokoa",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Saizi ya default imehifadhiwa",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Saizi ya kawaida ya kumbuka",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Upana",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Fungua",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Kuingia kunahitajika",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Ingia na Google",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Ondoka",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Umeingia na",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Landanisha",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Mandhari",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Mipangilio",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Taka",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Isiyo na kikomo",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Pata Premium",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "Fungua AI",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Picha ya Mtumiaji",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Imenakiliwa",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Nakili",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Inaunda kiungo cha kushiriki...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Angalia dokezo hili kutoka Quick Notes",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Shiriki kwenye Facebook",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Shiriki kwenye LinkedIn",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Shiriki kwenye Reddit",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Shiriki kwenye X (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Shiriki kwenye WhatsApp",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Imeshindwa kulandanisha dokezo na seva",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Hobi",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Mawazo",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Binafsi",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Masomo",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Safari",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Kazi",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Imeongezwa kwa kumbuka mpya",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI imeshindwa",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Mandharinyuma yameshindwa",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Haiwezi kufuta",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Imenakiliwa kwa clipboard",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Imeshindwa kunakili kiungo. Tafadhali jaribu tena.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Kuhamisha kumeshindwa",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Imeshindwa",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Imeshindwa kuongeza kwa kuzingatia",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "Imeshindwa kunakili",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Faili ya picha inahitajika",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Picha ni kubwa mno",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Hitilafu ya maktaba",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Maktaba inapakia",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Kuhamisha kumeshindwa",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Imehamishwa",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Hakuna uteuzi",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Operesheni imeshindwa",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Tafadhali anzisha upya kiendelezi ili kupata nafasi.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Hitilafu ya hifadhi. Tafadhali anzisha upya kiendelezi.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Hifadhi imejaa, inasafisha kashe...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "Msaidizi wa AI",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Panga Katikati",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Panga Kushoto",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Panga Kulia",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Rangi ya Mandharinyuma",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Rangi ya Mandharinyuma",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Kizuizi cha Nukuu",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Kizuizi cha Nukuu",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Koze",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Koze",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Orodha ya Vitone",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Orodha ya Vitone",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Orodha ya Ukaguzi",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Kizuizi cha Msimbo",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Kizuizi cha Msimbo",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Ukubwa wa fonti",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Ukubwa wa fonti",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Kichwa cha habari 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Kichwa cha habari 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Weka Picha",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Weka Kiungo",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Weka Kiungo",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Weka Video",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Weka Video",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Italiki",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Italiki",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Sawia",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Sawia",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Orodha ya Nambari",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Orodha ya Nambari",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Ondoa Uundo",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Piga Mstari",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Piga Mstari",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Rangi ya Maandishi",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Rangi ya Maandishi",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Piga mstari chini",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Piga mstari chini",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Futa kabisa",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Taka ni tupu.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Futa Taka",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Rejesha",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Rejesha Zote",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Taka",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Mkusanyiko wa karibu kwa watumiaji wapya",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Karibu",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Bofya kitufe cha <strong>+</strong> ili kuunda dokezo jipya<br>• Tumia AI kufupisha, kutafsiri, au kuboresha maudhui<br>• AI inaweza kukusaidia kupanga na kuboresha madokezo yako",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Jinsi ya kutumia AI",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Bofya kulia kwenye nafasi tupu ili kuunda mkusanyiko<br>• Buruta na uangushe madokezo kwenye makusanyo ili kupanga<br>• Kila mkusanyiko unaweza kuwa na mandhari yake (kazi, binafsi, mawazo...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Jinsi ya kuunda Makusanyo",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Furahia kutumia Quick Notes! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Hili ni dokezo lako la kwanza. Quick Notes inakusaidia kuandika madokezo haraka na kwa ufanisi.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Tumia rangi kupanga madokezo<br>• Bandika madokezo muhimu juu ya orodha<br>• Tafuta haraka na upau wa utafutaji hapo juu<br>• Landanisha na Google Drive kwa nakala salama",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Vidokezo vya Matumizi",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Karibu kwenye Quick Notes! 👋",
+    "description": "Title of the welcome note"
+  }
+}

@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Quick Notes 열기",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "접근이 금지되었습니다. 권한을 확인해주세요.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "노트에 적용",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "복사",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "작업 만들기",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API 키가 구성되지 않았습니다",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "추가",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "콘텐츠를 노트에 적용하지 못했습니다",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "노트에 적용",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "백엔드 서버를 사용할 수 없습니다. 연결을 확인하고 다시 시도해주세요.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "백엔드 URL이 구성되지 않았습니다",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "백엔드 서버가 응답하지 않습니다",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "AI 채팅창 생성 실패",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "선택한 텍스트에 대해 AI와 채팅하기",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "콘텐츠가 노트에 적용되었습니다!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "콘텐츠가 클립보드에 복사되었습니다!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "필터링됨",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "선택한 텍스트를 삽입하고 대체한 콘텐츠",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "콘텐츠를 사용할 수 없음",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "복사",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "클립보드에 복사하지 못했습니다",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "일일 한도(15/15)에 도달했습니다. 내일 다시 시도해주세요.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "이미지 다운로드",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI가 빈 응답을 반환했습니다. 다시 시도해주세요.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI 오류",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "확장하기",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "텍스트 추출 (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "이미지 분석 실패",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "이미지 분석 중...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "일일 이미지 분석 한도에 도달했습니다. 무제한 분석을 위해 프리미엄으로 업그레이드하세요.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "이미지 다운로드 실패",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "이미지를 성공적으로 다운로드했습니다",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "개선하기",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Enter를 누르면 전송, Shift+Enter를 누르면 줄바꿈",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "메시지를 입력하거나 빠른 작업을 선택하세요...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "콘텐츠를 삽입하지 못했습니다.",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "삽입 및 교체",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "잘못된 API 키",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "잘못된 로그인 정보",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "잘못된 모델",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "백엔드 서비스의 응답이 잘못되었습니다.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "오늘의 AI 요청 {limit}개를 모두 사용했습니다. 무제한 사용을 원하시면 프리미엄으로 업그레이드하세요!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "회의록",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "최소화",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "모델 없음",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "네트워크 오류",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "연결 없음",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "AI로부터 응답이 없습니다",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "선택된 텍스트 없음",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "취소할 AI 작업이 없습니다",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR 결과 수신됨",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "개요 작성",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "프리미엄 활성",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI 처리 중...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "할당량 초과",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "요청 한도를 초과했습니다. 나중에 다시 시도해주세요.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "요청 시간 초과",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI 응답 수신됨",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "차단됨",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "저장",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "검색",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "선택된 텍스트",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "서버 오류 - 나중에 다시 시도해주세요",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "서비스 중단",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "AI 서비스 초기화 실패",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI 서비스를 사용할 수 없습니다. 페이지를 새로고침하세요.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI 서비스가 제대로 구성되지 않았습니다",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI 서비스가 초기화되지 않았습니다",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI 서비스를 일시적으로 사용할 수 없습니다",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "AI 기능을 사용하려면 로그인하세요. 확장 프로그램의 로그인 버튼을 클릭하세요.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "잠금 해제하려면 로그인하세요",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "통계 조회 실패",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "제안",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "요약하기",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "시간 초과",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI 어시스턴트",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "어조",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "극적인",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Z세대",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "유머러스한",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "변환할 텍스트를 선택하거나 콘텐츠를 추가해주세요",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "시적인",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "전문적인",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "단순하게",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "번역하기",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " 영어로",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "AI 작업이 성공적으로 취소되었습니다!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "알 수 없는 AI 오류",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "잠금",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "무제한",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "사용자 메시지",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "사용자 요청",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "안녕하세요! 저는 당신의 AI 어시스턴트입니다. 노트 요약, 확장, 개선, 번역을 도와드릴 수 있습니다. 무엇을 도와드릴까요?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "프리미엄 사용자님, 환영합니다! AI 요청을 무제한으로 사용할 수 있습니다.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "환영합니다! 오늘 남은 AI 요청은 {limit}개 중 {remaining}개입니다.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI 분석 실패",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI 분석에 실패했습니다. 다시 시도해주세요.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "분석 완료!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "분석됨",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "닫기",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "컬렉션 분석",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "{count}개 노트의 통찰력으로 새 노트를 만들었습니다.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "컬렉션 처리 오류",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "패턴 찾기",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "통찰력 생성",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "컬렉션에 대해 무엇이든 물어보세요...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI 작업 공간은 AI 모델의 잠재력을 극대화하도록 설계된 강력한 기능으로, 개별 노트 대신 전체 노트 컬렉션을 한 번에 분석하고 처리할 수 있습니다.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "이 컬렉션에 분석할 노트가 없습니다",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "개 노트",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "처리 중...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "이 노트들로 AI가 무엇을 하길 원하시나요?\n\n예시:\n- 모든 노트 요약하기\n- 주요 주제 및 키워드 추출하기\n- 마스터 할 일 목록 만들기\n- 이 노트들로 FAQ 생성하기\n- 주제 간의 연결점 찾기",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "AI 응답에 실패했습니다. 다시 시도해주세요.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "보내기",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "컬렉션 요약",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "이 노트들에서 자주 묻는 질문과 답변(FAQ) 목록을 만드세요. 중요한 주제를 식별하고 상세한 답변과 함께 적절한 질문을 만드세요.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "작업",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "노트의 정보 간의 연결점을 찾아 설명하세요. 노트에 언급된 여러 주제 간의 연결, 모순 또는 관계를 식별하세요.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "이 컬렉션의 모든 노트에서 포괄적인 요약을 만드세요. 가장 중요한 사항을 강조하고 일관된 단일 요약을 만드세요.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "이 연구 노트에서 5가지 주요 주제와 관련 키워드를 식별하세요. 주제와 해당 키워드가 포함된 구조화된 목록을 만드세요.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "모든 노트를 스캔하여 포괄적인 할 일 목록을 만드세요. 노트에 언급된 모든 '실행 항목', 작업 또는 해야 할 일을 찾아 구조화된 체크리스트를 만드세요.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI 작업 공간",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "일일 사용 한도에 도달했습니다. 무제한 AI 작업 공간 액세스를 위해 프리미엄으로 업그레이드하세요.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "글래스모피즘 스타일로 노트를 생성, 관리하고 동기화하세요.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__보호됨_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "추상적인",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "모두",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "크리스마스",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "기하학",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "자연",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "관습",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "삭제",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "없음",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "기본값으로 설정",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "업로드",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "여기에 노트 추가",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "컬렉션",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "생성됨",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "삭제됨",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "컬렉션 이름",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "컬렉션 이름을 입력하세요...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "고정됨",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "테마",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "고정 해제됨",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "업데이트됨",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "만들기",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "컬렉션 만들기",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "컬렉션에 노트 만들기",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "컬렉션 삭제",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "컬렉션 편집",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "이 컬렉션은 비어 있습니다",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "컬렉션 이름을 입력해주세요",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "노트 생성 오류",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "컬렉션 오류",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "삭제 실패",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "로드 실패",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "이동 실패",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "고정 실패",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "업데이트 실패",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "컬렉션 한도 도달",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "컬렉션으로 이동",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "노트",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "컬렉션에 노트가 생성되었습니다",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "노트",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "개의 노트가 컬렉션으로 이동되었습니다",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "컬렉션 고정",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "컬렉션에서 제거",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "저장",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "컬렉션 고정 해제",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Quick Notes 열기",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "취소",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "닫기",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "계속",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "휴지통에 있는 모든 노트를 영구적으로 삭제하시겠습니까?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "이 컬렉션을 영구적으로 삭제하시겠습니까? 이 작업은 되돌릴 수 없습니다.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "노트를 영구적으로 삭제하시겠습니까?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "이렇게 하면 현재 모든 데이터에 덮어쓰게 됩니다. 계속하시겠습니까?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Quick Notes에 추가",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "드롭하여 새 창 만들기",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "병합하려면 여기에 탭을 놓으세요.",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "병합 창에 놓기",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI 채팅 실패",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI 확장 실패",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI 개선 실패",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "AI 초기화 실패",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI 회의록 작성 실패",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI 개요 작성 실패",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI 요청 실패",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "AI 백엔드 URL 설정 실패",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI 제안 실패",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI 요약 실패",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI 어조 변경 실패",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "백엔드 상태 확인 실패",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "백엔드 요청 실패",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "백엔드 서버 오류",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "AI 캐시 지우기 실패",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "AI 잠금 해제 상태 확인 오류",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "사용 통계 가져오기 오류",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "서비스 워커에서 사용자 이메일 가져오기 오류",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "메모를 작성하지 못했습니다.",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "제목 생성 실패",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "AI 서비스 초기화 실패",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "오류가 발생했습니다. 다시 시도해주세요.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "일일 사용 통계 가져오기 실패",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API 오류",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "잘못된 응답 형식",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "메모가 비어 있습니다. 이 기능을 사용하기 전에 콘텐츠를 추가하세요.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "로컬 저장소에서 노트를 찾을 수 없습니다",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "서버 선택기가 초기화되지 않았습니다.",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "동기화 프로세스 오류로 실패",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "무제한 요청 실패",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "사용자가 인증되지 않았습니다.",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "완료!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "이미지를 성공적으로 다운로드했습니다",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "이미지 내보내는 중...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "잠시만 기다려 주세요",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "취미",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "아이디어",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "개인",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "공부",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "여행",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "업무",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "새 노트 만들기",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "노트 삭제",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "새 노트",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "추가 콘텐츠 없음",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "노트 고정",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "노트 검색...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "이동 취소",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "노트 고정 해제",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "복원됨",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "인증 오류",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "로그아웃 후 다시 로그인해 보세요.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "인증 실패",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "드라이브에 백업됨",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "이 배경은 프리미엄 사용자만 사용할 수 있습니다. 모든 배경을 잠금 해제하려면 업그레이드하세요.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "배경 업로드 기능은 프리미엄 사용자만 사용할 수 있습니다. 이 기능을 사용하려면 업그레이드하세요.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "공유 링크를 만들 수 없습니다",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "결제 세션을 생성하지 못했습니다. 다시 시도해주세요.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Google에 연결 중...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "이메일을 로드할 수 없습니다.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "일일 한도에 도달했습니다. 내일 다시 시도하거나 업그레이드하세요.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "기본 배경이 설정되었습니다!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "완료",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "읽기 오류",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "내보내기 완료",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "휴지통 로드 실패",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "휴지통을 로드하지 못했습니다. 다시 시도해주세요.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "노트 이동 실패",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "가져오기 완료",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "잘못된 파일",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "계정 정보 로드 중...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "이동 취소됨",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "컬렉션으로 이동됨",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "네트워크 연결 없음",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "인터넷 연결을 확인하고 다시 시도해주세요.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "이 컬렉션에 노트가 없습니다",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "삭제됨",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "이동됨",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "서버에서 노트를 찾을 수 없습니다. 다시 시도해주세요.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "고정됨",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "고정 해제됨",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "최신 상태입니다",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "결제 오류. 다시 시도해주세요.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "결제 확인 오류. 페이지를 새로고침하세요.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "권한이 거부되었습니다",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "동기화 기능을 사용하려면 앱에 권한을 부여해주세요.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "드라이브에서 복원됨",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "AI 분석을 위해 하나 이상의 노트를 선택해주세요",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "먼저 노트를 선택해주세요",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "공유가 구성되지 않았습니다.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "로그인 실패",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "공유하려면 로그인하세요",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "업로드하려면 로그인하세요",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ 성공적으로 로그인되었습니다!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "로그아웃되었습니다",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "동기화 실패",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "드라이브에서 동기화됨",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "드라이브로 동기화됨",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "데이터 동기화 중...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Drive와 동기화 중...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "비워짐",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "결제 관리 페이지를 열 수 없습니다. 나중에 다시 시도해주세요.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "결제 확인 중...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "선택 항목 삭제",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "영구 삭제",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "선택 항목 복원",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "취소",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "선택한 항목을 영구적으로 삭제하시겠습니까?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "선택한 항목을 복원하시겠습니까?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "전체 선택",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "선택됨",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI 어시스턴트",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "무엇이든 물어보세요",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "AI 톤 매직",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "가운데 정렬",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "왼쪽 정렬",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "오른쪽 정렬",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "배경",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "새 노트 만들기",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "새 노트",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "노트 삭제",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "이미지로 다운로드",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "편집자를 사용할 수 없습니다.",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "링크 URL을 입력하세요...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "동영상 URL을 입력하세요...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "서식 적용 오류",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "제목 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "제목 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "삽입",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "이미지 삽입",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "메뉴",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "CORS 제한으로 인해 이 이미지에 OCR을 사용할 수 없습니다.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "서식 제거",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "공유",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "스마트한 컬러 적용!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "구조 최적화!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "모든 노트 보기",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "알림 내용",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "결제 확인 시간 초과. 결제가 완료되었다면 새로고침하세요.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "잘못된 요금제를 선택했습니다",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "결제를 계속하려면 로그인하세요",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "고급 기능 이용",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI 프리미엄",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "배경 프리미엄",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "컬렉션 프리미엄",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 축하합니다!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "지원팀에 문의",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "독점 배경화면",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "프리미엄 배경화면 이용",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "독점 지원",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "우리 팀의 우선 지원",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "만료일",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "결제 관리",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "다음 결제일",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "프리미엄 연간",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "프리미엄 월간",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "프리미엄 체험판",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "요금제 유형",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "우선 지원",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "노트 공유",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "다른 사람과 노트 공유",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "공유 프리미엄",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "무료 체험 시작",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "사용 시작",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "상태",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "활성",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "취소됨",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "만료됨",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "비활성",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "지금 구독",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "지원하다",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "무제한 AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "무제한 AI 채팅",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "일일 AI 요청 무제한",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "무제한 컬렉션",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "무제한 컬렉션 생성",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "무제한 AI 잠금 해제",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "프리미엄으로 성공적으로 업그레이드했습니다",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "검색 결과 없음",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "다른 키워드로 검색하거나 새 노트를 만들어보세요",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "AI 사용량",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "오늘의 AI 사용량",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "모양",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "클라우드 동기화",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "구성",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "데이터 관리",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "기본 메모 크기",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "내보내기",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "데이터 내보내기",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "가져오기",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "데이터 가져오기",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "크기가 잘못되었습니다. 너비: 400-1920, 높이: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "취소",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "키",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "기본값으로 재설정",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "구하다",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "기본 크기가 저장되었습니다.",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "기본 메모 크기",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "너비",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "열기",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "로그인 필요",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Google 계정으로 로그인",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "로그아웃",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "로그인 계정",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "동기화",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "테마",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "설정",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "휴지통",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "제한 없는",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "프리미엄 구독",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "AI 잠금 해제",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "사용자 아바타",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "복사됨",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "복사",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "공유 링크 생성 중...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Quick Notes의 이 노트를 확인해보세요",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Facebook에 공유",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "LinkedIn에 공유",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Reddit에 공유",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "X (Twitter)에 공유",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "WhatsApp에 공유",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "노트를 서버에 동기화하지 못했습니다",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "취미",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "아이디어",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "개인",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "공부",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "여행",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "업무",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ 새 노트에 추가됨",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI 응답 실패",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "배경 설정 실패",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "삭제할 수 없습니다",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ 클립보드에 복사됨",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "링크 복사에 실패했습니다. 다시 시도해주세요.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "내보내기 실패",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "실패",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ 메모에 추가하지 못했습니다.",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ 복사하지 못했습니다.",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "이미지 파일이 필요합니다",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "이미지가 너무 큽니다",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "라이브러리 오류",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "라이브러리 로딩 중",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "이동 실패",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "움직이는",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "선택 항목 없음",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "작업 실패",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "공간을 확보하려면 확장 프로그램을 다시 시작하세요.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "저장 공간 오류. 확장 프로그램을 다시 시작하세요.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "저장 공간 가득 참, 캐시 정리 중...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI 어시스턴트",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "가운데 정렬",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "왼쪽 정렬",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "오른쪽 정렬",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "배경 색상",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "배경 색상",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "인용구",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "인용구",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "굵게",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "굵게",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "글머리 기호 목록",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "글머리 기호 목록",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "체크리스트",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "코드 블록",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "코드 블록",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "글꼴 크기",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "글꼴 크기",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "제목 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "제목 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "이미지 삽입",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "링크 삽입",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "링크 삽입",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "동영상 삽입",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "동영상 삽입",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "기울임꼴",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "기울임꼴",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "양쪽 맞춤",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "양쪽 맞춤",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "번호 매기기 목록",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "번호 매기기 목록",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "서식 제거",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "취소선",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "취소선",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "텍스트 색상",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "텍스트 색상",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "밑줄",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "밑줄",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "영구 삭제",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "휴지통이 비어 있습니다.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "휴지통 비우기",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "복원",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "모두 복원",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "휴지통",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "신규 사용자를 위한 환영 컬렉션",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "환영합니다",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• <strong>+</strong> 버튼을 클릭하여 새 노트를 만드세요<br>• AI를 사용하여 콘텐츠를 요약, 번역 또는 개선하세요<br>• AI는 노트를 정리하고 최적화하는 데 도움을 줄 수 있습니다",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ AI 사용 방법",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• 빈 공간을 마우스 오른쪽 버튼으로 클릭하여 컬렉션을 만드세요<br>• 노트를 컬렉션으로 드래그 앤 드롭하여 정리하세요<br>• 각 컬렉션은 고유한 테마(업무, 개인, 아이디어...)를 가질 수 있습니다",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 컬렉션 만드는 방법",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Quick Notes를 즐겁게 사용하세요! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "이것은 당신의 첫 번째 노트입니다. Quick Notes는 빠르고 효율적으로 노트를 작성하도록 도와줍니다.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• 색상을 사용하여 노트를 분류하세요<br>• 중요한 노트를 목록 상단에 고정하세요<br>• 상단의 검색창으로 빠르게 검색하세요<br>• 안전한 백업을 위해 Google Drive와 동기화하세요",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 사용 팁",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Quick Notes에 오신 것을 환영합니다! 👋",
+    "description": "Title of the welcome note"
+  }
+}

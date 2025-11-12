@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>__MSG_ai_search__ - Quick Notes</title>
+    <!-- Load theme preload script FIRST - before any CSS -->
+    <script src="search-theme-preload.js"></script>
+    <!-- Inline CSS to prevent flash - applies immediately after theme class is set -->
+    <style>
+        /* Default dark theme */
+        html {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        html body {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        /* Light theme override */
+        html.light-theme {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+        html.light-theme body {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="main_app/main_app.css">
+    <link rel="stylesheet" href="search.css">
+    <link rel="stylesheet" href="virtual-scroll.css">
+</head>
+
+<body>
+    <div class="search-container">
+        <div class="search-header">
+            <h2>__MSG_ai_search__</h2>
+        </div>
+
+        <input type="text" id="searchInput" class="search-input" placeholder="__MSG_main_searchPlaceholder__">
+
+        <div id="searchResults" class="search-results">
+            <div class="no-results">__MSG_ai_inputHint__</div>
+        </div>
+    </div>
+
+    <script src="libs/dexie.min.js"></script>
+    <script src="indexeddb-manager.js"></script>
+    <script src="i18n-helper.js"></script>
+    <script src="virtual-scroll-manager.js"></script>
+    <script>
+        // Prevent zoom on all gestures
+        (function preventZoom() {
+            // Prevent pinch zoom
+            document.addEventListener('gesturestart', function(e) {
+                e.preventDefault();
+            }, { passive: false });
+
+            document.addEventListener('gesturechange', function(e) {
+                e.preventDefault();
+            }, { passive: false });
+
+            document.addEventListener('gestureend', function(e) {
+                e.preventDefault();
+            }, { passive: false });
+
+            // Prevent wheel zoom (Ctrl + scroll)
+            document.addEventListener('wheel', function(e) {
+                if (e.ctrlKey) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+            // Prevent keyboard zoom (Ctrl + Plus/Minus)
+            document.addEventListener('keydown', function(e) {
+                if ((e.ctrlKey || e.metaKey) && (e.key === '+' || e.key === '-' || e.key === '=')) {
+                    e.preventDefault();
+                }
+            }, { passive: false });
+
+            // Prevent double-tap zoom on touch devices
+            let lastTouchEnd = 0;
+            document.addEventListener('touchend', function(e) {
+                const now = Date.now();
+                if (now - lastTouchEnd <= 300) {
+                    e.preventDefault();
+                }
+                lastTouchEnd = now;
+            }, { passive: false });
+        })();
+
+        let allNotes = [];
+        let virtualScrollManager = null;
+
+        document.addEventListener('DOMContentLoaded', async () => {
+            await loadAllNotes();
+            setupSearch();
+            initializeVirtualScroll();
+
+            // Disable Chrome context menu globally
+            document.addEventListener('contextmenu', (e) => {
+                e.preventDefault();
+            });
+            
+            // Load and apply theme
+            if (typeof dbManager !== 'undefined') {
+                try {
+                    const theme = await dbManager.getSetting('theme');
+                    if (theme) {
+                        applyThemeToWindow(theme);
+                    }
+                } catch (e) {
+                    console.error('Error loading theme:', e);
+                }
+            }
+            
+            // Listen for theme changes from main app
+            chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+                if (request.action === 'themeChanged') {
+                    applyThemeToWindow(request.theme);
+                    sendResponse({ success: true });
+                }
+            });
+        });
+        
+        // Function to apply theme to this window
+        function applyThemeToWindow(theme) {
+            const isLightTheme = theme === 'light';
+            document.documentElement.classList.toggle('light-theme', isLightTheme);
+            document.body.classList.toggle('light-theme', isLightTheme);
+        }
+        
+        // Expose function to allow parent window to update theme
+        window.applyThemeFromParent = (theme) => {
+            applyThemeToWindow(theme);
+        };
+
+        async function loadAllNotes() {
+            try {
+                const savedNotes = await dbManager.getSetting('savedNotes') || [];
+                const notes = await dbManager.getAllNotes();
+                allNotes = [
+                    ...savedNotes,
+                    ...Object.values(notes)
+                ];
+            } catch (error) {
+                console.error('Failed to load notes:', error);
+            }
+        }
+
+        function initializeVirtualScroll() {
+            const searchResults = document.getElementById('searchResults');
+            virtualScrollManager = new VirtualScrollManager(searchResults, {
+                itemHeight: 120, // Height for search result items
+                bufferSize: 5,
+                threshold: 150,
+                renderItem: renderSearchResult
+            });
+        }
+
+        function renderSearchResult(element, note, index) {
+            element.className = 'search-result virtual-search-item';
+            element.style.cursor = 'pointer';
+
+            // Extract title and content
+            const tempDiv = document.createElement('div');
+            tempDiv.innerHTML = note.content || '';
+
+            const h1Element = tempDiv.querySelector('h1');
+            const pElement = tempDiv.querySelector('p');
+
+            let title, content;
+
+            if (h1Element && pElement) {
+                title = h1Element.textContent.trim() || chrome.i18n.getMessage('main_newNote');
+                content = pElement.textContent.trim();
+            } else {
+                title = tempDiv.firstChild?.textContent.trim() || chrome.i18n.getMessage('main_newNote');
+                content = tempDiv.textContent.trim();
+            }
+
+            const preview = content.length > 100 ? content.substring(0, 100) + '...' : content;
+            const date = formatDate(note.timestamp || note.lastModified);
+
+            element.innerHTML = `
+                <div class="result-title">${title}</div>
+                <div class="result-preview">${preview}</div>
+                <div class="result-date">${date}</div>
+            `;
+
+            element.addEventListener('click', () => openNote(note.id));
+        }
+
+        function setupSearch() {
+            const searchInput = document.getElementById('searchInput');
+            const searchResults = document.getElementById('searchResults');
+
+            // Handle Enter key press
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault(); // Prevent form submission
+                    const query = searchInput.value.toLowerCase().trim();
+
+                    // Check if there are no results
+                    if (query.length >= 2) {
+                        const results = allNotes.filter(note => {
+                            const tempDiv = document.createElement('div');
+                            tempDiv.innerHTML = note.content || '';
+
+                            const h1Element = tempDiv.querySelector('h1');
+                            const pElement = tempDiv.querySelector('p');
+
+                            let title, content;
+
+                            if (h1Element && pElement) {
+                                title = h1Element.textContent.trim().toLowerCase();
+                                content = pElement.textContent.trim().toLowerCase();
+                            } else {
+                                title = tempDiv.firstChild?.textContent.trim().toLowerCase() || '';
+                                content = tempDiv.textContent.trim().toLowerCase();
+                            }
+
+                            return title.includes(query) || content.includes(query);
+                        });
+
+                        // Trigger shake animation if no results
+                        if (results.length === 0) {
+                            // Use CSS animation only
+                            searchInput.classList.add('shake');
+                            setTimeout(() => {
+                                searchInput.classList.remove('shake');
+                            }, 500);
+                        }
+                    }
+                }
+            });
+
+            searchInput.addEventListener('input', (e) => {
+                const query = e.target.value.toLowerCase().trim();
+
+                if (query.length < 2) {
+                    if (virtualScrollManager) {
+                        virtualScrollManager.setData([]);
+                    }
+                    searchResults.innerHTML = '<div class="no-results">__MSG_ai_inputHint__</div>';
+                    return;
+                }
+
+                const results = allNotes.filter(note => {
+                    // Extract title and content from note structure
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = note.content || '';
+
+                    const h1Element = tempDiv.querySelector('h1');
+                    const pElement = tempDiv.querySelector('p');
+
+                    let title, content;
+
+                    if (h1Element && pElement) {
+                        // Note has structured title and content
+                        title = h1Element.textContent.trim().toLowerCase();
+                        content = pElement.textContent.trim().toLowerCase();
+                    } else {
+                        // Legacy note structure - first line as title
+                        title = tempDiv.firstChild?.textContent.trim().toLowerCase() || '';
+                        content = tempDiv.textContent.trim().toLowerCase();
+                    }
+
+                    const matches = title.includes(query) || content.includes(query);
+                    return matches;
+                });
+
+                if (results.length === 0) {
+                    if (virtualScrollManager) {
+                        virtualScrollManager.setData([]);
+                    }
+                    searchResults.innerHTML = '<div class="no-results">__MSG_ai_emptyResponse__</div>';
+                    return;
+                }
+
+                // Use virtual scrolling for better performance
+                if (virtualScrollManager && results.length > 10) {
+                    searchResults.innerHTML = ''; // Clear for virtual scrolling
+                    virtualScrollManager.setData(results);
+                } else {
+                    // Fallback for small result sets
+                    searchResults.innerHTML = results.map(note => {
+                        // Extract title and content from note structure
+                        const tempDiv = document.createElement('div');
+                        tempDiv.innerHTML = note.content || '';
+
+                        const h1Element = tempDiv.querySelector('h1');
+                        const pElement = tempDiv.querySelector('p');
+
+                        let title, content;
+
+                        if (h1Element && pElement) {
+                            // Note has structured title and content
+                            title = h1Element.textContent.trim() || chrome.i18n.getMessage('main_newNote');
+                            content = pElement.textContent.trim();
+                        } else {
+                            // Legacy note structure - first line as title
+                            title = tempDiv.firstChild?.textContent.trim() || chrome.i18n.getMessage('main_newNote');
+                            content = tempDiv.textContent.trim();
+                        }
+
+                        return `<div class="search-result" onclick="openNote('${note.id}')">
+                            <div class="result-title">${title}</div>
+                            <div class="result-preview">${getPreview(content)}</div>
+                            <div class="result-date">${formatDate(note.timestamp || note.lastModified)}</div>
+                        </div>`;
+                    }).join('');
+                }
+            });
+        }
+
+        function getPreview(content) {
+            // Content is already plain text, no need to strip HTML
+            const text = content.trim();
+            return text.length > 100 ? text.substring(0, 100) + '...' : text;
+        }
+
+        function formatDate(timestamp) {
+            if (!timestamp) return '';
+            const date = new Date(timestamp);
+            if (isNaN(date.getTime())) return '';
+            return `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
+        }
+
+        function openNote(noteId) {
+            try {
+                chrome.windows.create({
+                    url: chrome.runtime.getURL(`note/note.html?id=${noteId}`),
+                    type: 'popup',
+                    width: 400,
+                    height: 600,
+                    focused: true
+                });
+            } catch (error) {
+                console.error('Failed to create note window:', error);
+                try {
+                    chrome.windows.create({
+                        url: chrome.runtime.getURL(`note/note.html?id=${noteId}`),
+                        type: 'popup',
+                        focused: true
+                    });
+                } catch (fallbackError) {
+                    console.error('Fallback note window creation failed:', fallbackError);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>

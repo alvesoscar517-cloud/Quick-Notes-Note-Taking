@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Åpne Quick Notes",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Tilgang nektet. Vennligst sjekk tillatelsene dine.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Bruk på notat",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kopier",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Opprett oppgaver",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API-nøkkel ikke konfigurert",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Legg til",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Kunne ikke bruke innholdet på notatet",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Bruk på notat",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Backend-serveren er ikke tilgjengelig. Vennligst sjekk tilkoblingen din og prøv igjen.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "Backend-URL ikke konfigurert",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Backend-serveren svarer ikke",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Kunne ikke opprette AI-chatvindu",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Chat med AI om valgt tekst",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Innholdet er brukt på notatet ditt!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Innholdet er kopiert til utklippstavlen!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Filtrert",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Innhold satt inn og erstattet valgt tekst",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Innhold ikke tilgjengelig",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopier",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Kunne ikke kopiere til utklippstavlen",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Daglig grense nådd (15/15). Prøv igjen i morgen.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Last ned bilde",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI returnerte et tomt svar. Vennligst prøv igjen.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI-feil",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Utvid",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Trekk ut tekst (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Kunne ikke analysere bildet",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Analyserer bilde...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Daglig grense for bildeanalyse er nådd. Oppgrader til premium for ubegrenset analyse.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Kunne ikke laste ned bildet",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Bildet ble lastet ned",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Forbedre",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Trykk Enter for å sende, Shift+Enter for ny linje",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Skriv meldingen din eller velg en rask handling...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Kunne ikke sette inn innhold",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Sett inn og erstatt",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Ugyldig API-nøkkel",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Ugyldig innlogging",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Dårlig modell",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Ugyldig respons fra backend-tjenesten.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Du har brukt alle {limit} AI-forespørsler for i dag. Oppgrader til Premium for ubegrenset tilgang!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Møtenotater",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Minimer",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Ingen modell",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Nettverksfeil",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Ingen tilkobling",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Ingen respons fra AI",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Ingen valgt tekst",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Ingen AI-operasjoner å angre",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR-resultat mottatt",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Disposisjon",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium aktiv",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI behandler...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Kvoten er full",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Forespørselsgrensen er overskredet. Vennligst prøv igjen senere.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Forespørselen ble tidsavbrutt",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI-svar mottatt",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Blokkert",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Lagre",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Søk",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Valgt tekst",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Serverfeil - Vennligst prøv igjen senere",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Tjenesten er nede",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Kunne ikke initialisere AI-tjenesten",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI-tjenesten er ikke tilgjengelig. Vennligst oppdater siden.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI-tjenesten er ikke riktig konfigurert",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI-tjenesten er ikke initialisert",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI-tjenesten er midlertidig utilgjengelig",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Vennligst logg inn for å bruke AI-funksjoner. Klikk på innloggingsknappen i utvidelsen.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Logg inn for å låse opp",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Statistikk mislyktes",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Forslag",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Oppsummer",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Tidsavbrudd",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI-assistent",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Tone",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramatisk",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Humoristisk",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Vennligst velg tekst eller legg til innhold for å transformere",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Poetisk",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Profesjonell",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Forenkle",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Oversett",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " til engelsk",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "AI-operasjonen ble angret!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Ukjent AI-feil",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "LÅST",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Ubegrenset",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Brukermelding",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Brukerforespørsel",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Hei! Jeg er din AI-assistent. Jeg kan hjelpe deg med å oppsummere, utvide, forbedre eller oversette notatene dine. Hva vil du at jeg skal hjelpe deg med?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Velkommen, Premium-bruker! Du har ubegrenset antall AI-forespørsler.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Velkommen! Du har {remaining} av {limit} AI-forespørsler igjen i dag.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI-analyse mislyktes",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI-analyse mislyktes. Vennligst prøv igjen.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analyse fullført!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analysert",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Lukk",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Samlingsanalyse",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Opprettet nytt notat med innsikt fra {count} notater.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Feil ved behandling av samling",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Finn mønstre",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Generer innsikt",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Spør om hva som helst om samlingen din...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI-arbeidsområde er en kraftig funksjon designet for å maksimere potensialet til AI-modeller, slik at du kan lage analyser og behandle hele notatsamlinger samtidig i stedet for enkeltnotater.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Ingen notater i denne samlingen å analysere",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "notat(er)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Behandler...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Hva vil du at AI skal gjøre med disse notatene?\n\nEksempler:\n- Oppsummer alle notater\n- Trekk ut hovedtemaer og nøkkelord\n- Lag en hovedoppgaveliste\n- Generer FAQ fra disse notatene\n- Finn sammenhenger mellom emner",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "AI-respons mislyktes. Vennligst prøv igjen.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Send",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Oppsummer samling",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Fra disse notatene, lag en liste med ofte stilte spørsmål og svar (FAQ). Identifiser viktige emner og lag passende spørsmål med detaljerte svar.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Oppgave",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Finn og forklar sammenhenger mellom informasjon i notatene. Identifiser koblinger, motsetninger eller relasjoner mellom ulike emner nevnt i notatene.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Lag en omfattende oppsummering fra alle notatene i denne samlingen. Fremhev de viktigste punktene og lag en enkelt, sammenhengende oppsummering.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Identifiser 5 hovedtemaer og relaterte nøkkelord fra disse forskningsnotatene. Lag en strukturert liste med temaer og tilsvarende nøkkelord.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Skann alle notater og lag en omfattende gjøremålsliste. Finn alle 'handlingselementer', oppgaver eller arbeid som skal gjøres nevnt i notatene, og lag en strukturert sjekkliste.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI-arbeidsområde",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Daglig bruksgrense nådd. Oppgrader til premium for ubegrenset tilgang til AI-arbeidsområde.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Opprett, administrer og synkroniser notater med en glassmorphism-stil.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "Quick Notes",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Abstrakt",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Alle",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "jul",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrisk",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Natur",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Skikk",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Slett",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Ingen",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Angi som standard",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Last opp",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Legg til notat her",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Samling",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Opprettet",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Slettet",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Navn på samling",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Skriv inn navn på samling...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Festet",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Tema",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Løsnet",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Oppdatert",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Opprett",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Opprett samling",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Opprett notat i samling",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Slett samling",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Rediger samling",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Denne samlingen er tom",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Vennligst skriv inn navn på samling",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Feil ved oppretting av notat",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Feil i samling",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Sletting mislyktes",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Innlasting mislyktes",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Flytting mislyktes",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Festing mislyktes",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Oppdatering mislyktes",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Grensen for samlinger er nådd",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Flytt til samling",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "notater",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "Notat opprettet i samling",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "notater",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "notater flyttet til samling",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Fest samling",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Fjern fra samling",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Lagre",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Løsne samling",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Åpne Quick Notes",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Avbryt",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Lukk",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Fortsett",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Slette alle notater i søppelkurven permanent?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Er du sikker på at du vil slette denne samlingen permanent? Denne handlingen kan ikke angres.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Slette notatet permanent?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Dette vil overskrive all nåværende data. Fortsette?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Legg til i Quick Notes",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Slipp for å opprette nytt vindu",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Slipp fanen her for å slå sammen",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Slipp for å slå sammen vinduer",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI-chat mislyktes",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI-utvidelse mislyktes",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI-forbedring mislyktes",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "AI-initialisering mislyktes",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI-møtenotater mislyktes",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI-disposisjon mislyktes",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI-forespørsel mislyktes",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "AI-innstilling av backend-URL mislyktes",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI-forslag mislyktes",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI-oppsummering mislyktes",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI-tone mislyktes",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Backend-helsesjekk mislyktes",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Backend-forespørsel mislyktes",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Backend-serverfeil",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Tømming av AI-buffer mislyktes",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Feil ved sjekking av AI-opplåsingsstatus",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Feil ved henting av bruksstatistikk",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Feil ved henting av brukerens e-post i service worker",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Kunne ikke opprette notatet",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Kunne ikke generere tittel",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Kunne ikke initialisere AI-tjenesten",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "En feil oppstod. Vennligst prøv igjen.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Henting av daglig bruksstatistikk mislyktes",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API-feil",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Ugyldig svarformat",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Notatet er tomt. Legg til innhold før du bruker denne funksjonen.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Notatet ble ikke funnet i lokal lagring",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Servervelger ikke initialisert",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Synkroniseringsprosessen mislyktes med feil",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Ubegrenset forespørsel mislyktes",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Bruker ikke autentisert",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Fullført!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Bildet ble lastet ned",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Eksporterer bilder...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Vennligst vent et øyeblikk",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Hobby",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Idéer",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Personlig",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Studier",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Reise",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Jobb",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Opprett et nytt notat",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Slett notat",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Nytt notat",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Ikke noe tilleggsinnhold",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Fest notat",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Søk i notater...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Angre flytting",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Løsne notat",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Gjenopprettet",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Autentiseringsfeil",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Vennligst prøv å logge ut og logge inn igjen.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Autentisering mislyktes",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Sikkerhetskopiert",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Denne bakgrunnen er bare tilgjengelig for Premium-brukere. Vennligst oppgrader for å låse opp alle bakgrunner.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Bakgrunnsopplasting er bare tilgjengelig for Premium-brukere. Vennligst oppgrader for å bruke denne funksjonen.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Kan ikke opprette delingslenke",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Kunne ikke opprette betalingsøkt. Vennligst prøv igjen.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Kobler til Google...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Kunne ikke laste e-post.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Daglig grense nådd. Prøv i morgen eller oppgrader.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Standardbakgrunn angitt!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Ferdig",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Lesefeil",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Eksportert",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Kunne ikke laste søppelkurven",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Kunne ikke laste søppelkurven. Vennligst prøv igjen.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Kunne ikke flytte notatet",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Importert",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Ugyldig fil",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Laster kontoinformasjon...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Flytting avbrutt",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "Flyttet til samling",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Ingen nettverkstilkobling",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Vennligst sjekk internettforbindelsen din og prøv igjen.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Ingen notater funnet i denne samlingen",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Slettet",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Flyttet",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Notatet ble ikke funnet på serveren. Vennligst prøv igjen.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Festet",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Løsnet",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Oppdatert",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Betalingsfeil. Vennligst prøv igjen.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Feil ved betalingsbekreftelse. Vennligst oppdater siden.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Tilgang nektet",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "For å bruke synkroniseringsfunksjoner, vennligst gi tillatelse til appen.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Gjenopprettet",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Vennligst velg minst ett notat for AI-analyse",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Vennligst velg notater først",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Deling er ikke konfigurert.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Innlogging mislyktes",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Logg inn for å dele",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Logg inn for å laste opp",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ Vellykket innlogging!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Logget ut",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Synkronisering mislyktes",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Synkronisert",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Synkronisert",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Synkroniserer data...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Synkroniserer med Drive...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Tømt",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Kan ikke åpne faktureringsadministrasjon. Vennligst prøv igjen senere.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Bekrefter betaling...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Slett valgte",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Slett for alltid",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Gjenopprett valgte",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Avbryt",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Slette valgte elementer permanent?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Gjenopprette valgte elementer?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Velg alle",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "valgt",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI-assistent",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Spør om hva som helst",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "AI-tonemagi",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Midtstill",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Venstrejuster",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Høyrejuster",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Bakgrunn",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Opprett et nytt notat",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Nytt notat",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Slett notat",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Last ned som bilde",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Editor ikke tilgjengelig",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Skriv inn lenke-URL...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Skriv inn video-URL...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Feil ved bruk av formatering",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Overskrift 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Overskrift 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Sett inn",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Sett inn bilde",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Meny",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR er ikke tilgjengelig for dette bildet på grunn av CORS-restriksjoner.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Fjern formatering",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Del",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Smarte farger brukt!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Struktur optimalisert!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Vis alle notater",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Varslingsinnhold",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Betalingssjekk ble tidsavbrutt. Vennligst oppdater hvis betalingen ble fullført.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Ugyldig plan valgt",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Vennligst logg inn for å fortsette med betalingen",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Tilgang til avanserte funksjoner",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Bakgrunn Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Samlinger Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Gratulerer!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Kontakt kundestøtte",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Eksklusive bakgrunner",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Tilgang til premium bakgrunner",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Eksklusiv støtte",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Prioritert støtte fra vårt team",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Utløper",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Administrer fakturering",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Neste fakturering",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium årlig",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium månedlig",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Premium prøveperiode",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Plantype",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Prioritert støtte",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Del notater",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Del notater med andre",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Del Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Start gratis prøveperiode",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Begynn å bruke",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Status",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Aktiv",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Kansellert",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Utløpt",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Inaktiv",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Abonner nå",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Støtte",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Ubegrenset AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Ubegrenset AI-chat",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Ubegrenset antall AI-forespørsler per dag",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Ubegrenset antall samlinger",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Opprett ubegrenset antall samlinger",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Lås opp ubegrenset AI",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Du har oppgradert til Premium",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Ingen resultater funnet",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Prøv å søke med andre nøkkelord eller opprett et nytt notat",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "AI-bruk",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "AI-bruk i dag",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Utseende",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Skysynkronisering",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Konfigurer",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Datahåndtering",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Standard notatstørrelse",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Eksporter",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Eksporter data",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Importer",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Importer data",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Ugyldig størrelse. Bredde: 400-1920, Høyde: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Kansellere",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Høyde",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Tilbakestill til standard",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Spare",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Standardstørrelse lagret",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Standard notatstørrelse",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Bredde",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Åpne",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Innlogging kreves",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Logg inn med Google",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Logg ut",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Logget inn med",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Synkroniser",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Tema",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Innstillinger",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Søppelkurv",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Ubegrenset",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Skaff Premium",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "Lås opp AI",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Brukeravatar",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Kopiert",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kopier",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Oppretter delingslenke...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Sjekk ut dette notatet fra Quick Notes",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Del på Facebook",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Del på LinkedIn",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Del på Reddit",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Del på X (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Del på WhatsApp",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Kunne ikke synkronisere notatet til serveren",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Hobby",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Idéer",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Personlig",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Studier",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Reise",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Jobb",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Lagt til i nytt notat",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI mislyktes",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Bakgrunn mislyktes",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Kan ikke slette",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Kopiert til utklippstavlen",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Kunne ikke kopiere lenken. Vennligst prøv igjen.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Eksportering mislyktes",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Mislyktes",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Kunne ikke legge til i notatet",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kunne ikke kopiere",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Bildefil kreves",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Bildet er for stort",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Bibliotekfeil",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Bibliotek laster",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Flytting mislyktes",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Flyttet",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Ingen valg",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Operasjon mislyktes",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Vennligst start utvidelsen på nytt for å frigjøre plass.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Lagringsfeil. Vennligst start utvidelsen på nytt.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Lagringsplass full, tømmer buffer...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI-assistent",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Midtstill",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Venstrejuster",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Høyrejuster",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Bakgrunnsfarge",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Bakgrunnsfarge",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Sitatblokk",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Sitatblokk",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Fet",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Fet",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Punktliste",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Punktliste",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Sjekkliste",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Kodeblokk",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Kodeblokk",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Skriftstørrelse",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Skriftstørrelse",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Overskrift 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Overskrift 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Sett inn bilde",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Sett inn lenke",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Sett inn lenke",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Sett inn video",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Sett inn video",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Kursiv",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Kursiv",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Blokkjuster",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Blokkjuster",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Nummerert liste",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Nummerert liste",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Fjern format",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Gjennomstreking",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Gjennomstreking",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Tekstfarge",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Tekstfarge",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Understreking",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Understreking",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Slett for alltid",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Søppelkurven er tom.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Tøm søppelkurven",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Gjenopprett",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Gjenopprett alle",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Søppelkurv",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Velkomstsamling for nye brukere",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Velkommen",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Klikk på <strong>+</strong>-knappen for å opprette et nytt notat<br>• Bruk AI til å oppsummere, oversette eller forbedre innhold<br>• AI kan hjelpe deg med å organisere og optimalisere notatene dine",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Slik bruker du AI",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Høyreklikk på et tomt område for å opprette en samling<br>• Dra og slipp notater i samlinger for å organisere<br>• Hver samling kan ha sitt eget tema (jobb, personlig, idéer...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Slik oppretter du samlinger",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Kos deg med å bruke Quick Notes! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Dette er ditt første notat. Quick Notes hjelper deg med å ta notater raskt og effektivt.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Bruk farger for å kategorisere notater<br>• Fest viktige notater øverst på listen<br>• Søk raskt med søkefeltet ovenfor<br>• Synkroniser med Google Drive for sikker sikkerhetskopiering",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Brukstips",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Velkommen til Quick Notes! 👋",
+    "description": "Title of the welcome note"
+  }
+}

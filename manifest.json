@@ -1,0 +1,91 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Notes: AI Note Taking",
+  "version": "5.5.2",
+  "description": "__MSG_app_description__",
+  "default_locale": "en",
+  "permissions": [
+    "identity",
+    "windows",
+    "alarms",
+    "contextMenus",
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://quick-notes-85523783979.us-central1.run.app/*"
+  ],
+  "oauth2": {
+    "client_id": "472729326429-sdmvnlo3bdmvcesc7i8kh443803o811c.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive.appdata",
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "server-config.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "icons/icon128.png",
+      "64": "icons/icon128.png",
+      "128": "icons/icon128.png"
+    },
+    "default_title": "__MSG_action_default_title__"
+  },
+  "commands": {
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+O",
+        "mac": "MacCtrl+Shift+O"
+      },
+      "description": "__MSG_command_execute_action__"
+    }
+  },
+  "icons": {
+    "16": "icons/icon128.png",
+    "64": "icons/icon128.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "note/note.html",
+        "note/note.css",
+        "note/note.js",
+        "search.html",
+        "search.css",
+        "ai-chat.html",
+        "ai-chat.css",
+        "ai-chat.js",
+        "i18n-helper.js",
+        "icons/icon128.png"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  },
+  "externally_connectable": {
+    "matches": [
+      "https://quick-notes-85523783979.us-central1.run.app/*"
+    ]
+  }
+}

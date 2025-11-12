@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>__MSG_ai_title__</title>
+    <!-- Load theme preload script FIRST - before any CSS -->
+    <script src="ai-chat-theme-preload.js"></script>
+    <!-- Inline CSS to prevent flash - applies immediately after theme class is set -->
+    <style>
+        /* Default dark theme */
+        html {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        html body {
+            background: #202124 !important;
+            color: #e8eaed !important;
+        }
+        /* Light theme override */
+        html.light-theme {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+        html.light-theme body {
+            background: #f1f3f4 !important;
+            color: #202124 !important;
+        }
+    </style>
+    <link rel="stylesheet" href="ai-chat.css">
+    <link rel="stylesheet" href="toast-system.css">
+</head>
+<body>
+    <!-- AI Chat Overlay -->
+    <div id="ai-chat-overlay" class="ai-chat-overlay">
+        <div id="ai-chat-container" class="ai-chat-container">
+            <!-- Chat Header -->
+            <div class="ai-chat-header">
+                <div class="ai-chat-title">
+                    <div class="ai-icon">
+                        <img src="note img/Gemini.svg" width="24" height="24" alt="__MSG_toolbar_aiAssistant__">
+                    </div>
+                    <span class="ai-title-text">__MSG_ai_title__</span>
+                </div>
+                <div class="ai-chat-controls">
+                    <button id="ai-minimize-btn" class="ai-control-btn" title="__MSG_ai_minimize__">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6 12H18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
+            <!-- Chat Messages -->
+            <div id="ai-chat-messages" class="ai-chat-messages">
+                <div class="ai-welcome-message">
+                    <div class="ai-avatar">
+                        <img src="note img/Gemini.svg" width="20" height="20" alt="__MSG_toolbar_aiAssistant__">
+                    </div>
+                    <div class="ai-message-content">
+                        <p>__MSG_ai_welcome__</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typing Indicator -->
+            <div id="ai-typing-indicator" class="ai-typing-indicator" style="display: none;">
+                <div class="ai-avatar">
+                    <img src="note img/Gemini.svg" width="20" height="20" alt="__MSG_toolbar_aiAssistant__">
+                </div>
+                <div class="ai-typing-content">
+                    <div class="ai-typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Chat Input -->
+            <div class="ai-chat-input-container">
+                <div class="ai-chat-input-wrapper">
+                    <textarea 
+                        id="ai-chat-input" 
+                        class="ai-chat-input" 
+                        placeholder="__MSG_ai_inputPlaceholder__"
+                        rows="1"
+                    ></textarea>
+                    <button id="ai-send-btn" class="ai-send-btn" disabled>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M22 2L11 13M22 2L15 22L11 13M22 2L2 9L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Error Message -->
+            <div id="ai-error-message" class="ai-error-message" style="display: none;">
+                <div class="ai-error-content">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 9V13M12 17H12.01M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    <span id="ai-error-text"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- IndexedDB -->
+    <script src="libs/dexie.min.js"></script>
+    <script src="indexeddb-manager.js"></script>
+    <!-- Toast System -->
+    <script src="toast-system.js"></script>
+    <!-- i18n Helper Script -->
+    <script src="i18n-helper.js"></script>
+    <!-- Marked.js - Markdown Parser -->
+    <script src="libs/marked.min.js"></script>
+    <!-- Markdown Processor - Unified markdown handling -->
+    <script src="markdown-processor.js"></script>
+    <!-- AI Service Script (must load before ai-chat.js) -->
+    <script src="ai-service.js"></script>
+    <!-- AI Chat Script -->
+    <script src="ai-chat.js"></script>
+</body>
+</html>

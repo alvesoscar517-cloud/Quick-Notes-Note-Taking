@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Bude Rubuce-rubuce Masu Sauri",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "An hana shiga. Don Allah duba izinin ka.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Aiwatar a Rubutu",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kwafi",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Kirkiri Ayyuka",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "Ba a saita maɓallin API ba",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Sog",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Aiwatar da abun ciki a kan rubutu ya gaza",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Aiwatar a Rubutu",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Sabis ɗin baya baya samuwa. Don Allah duba haɗin ka ka sake gwadawa.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "Ba a saita URL ɗin baya ba",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Sabis ɗin baya baya amsawa",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Kirkirar taga hira na AI ya gaza",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Yi hira da AI game da rubutun da aka zaɓa",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "An aiwatar da abun ciki a kan rubutunka!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "An kwafa abun ciki zuwa allon rubutu!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "An tace",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Abun ciki da aka sanya kuma an maye gurbin rubutu da aka zaɓa",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Abubuwan da basu samu ba",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kwafi",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Kwafin zuwa allon rubutu ya gaza",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "An kai iyakar yau da kullun (15/15). Sake gwadawa gobe.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Sauke Hoto",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI ya dawo da amsa mara komai. Don Allah sake gwadawa.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "Kuskuren AI",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Faɗaɗa",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Fitar da Rubutu (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Nazarin hoto ya gaza",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Ana nazarin hoto...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "An kai iyakar nazarin hoto na yau da kullun. Haɓaka zuwa babban matsayi don nazari mara iyaka.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Sauke hoto ya gaza",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "An sauke hoto cikin nasara",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Inganta",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Danna Enter don aikawa, Shift+Enter don sabon layi",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Rubuta saƙonka ko zaɓi aiki mai sauri...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Ba a yi nasarar saka abun ciki ba",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Saka & maye gurbin",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Maɓallin API mara inganci",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Shiga mara inganci",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Samfuri mara kyau",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Amsa mara inganci daga sabis ɗin baya.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "Ka yi amfani da dukan buƙatun AI {limit} na yau. Haɓaka zuwa Babban Matsayi don samun damar da ba ta da iyaka!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Rubuce-rubucen Taro",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Rage girma",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Babu samfuri",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Kuskuren yanar gizo",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Babu haɗi",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Babu amsa daga AI",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Babu rubutun da aka zaɓa",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Babu ayyukan AI da za a warware",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "An samu sakamakon OCR",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Zane",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Babban Matsayi yana Aiki",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "Ana sarrafa AI...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "An wuce kason",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "An wuce iyakar ƙimar. Don Allah sake gwadawa daga baya.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Lokacin buƙata ya ƙare",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "Amsar AI",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "An katange",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Adana",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Bincika",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Rubutun da aka zaɓa",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Kuskuren uwar garke - Don Allah sake gwadawa daga baya",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Sabis ya sauka",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Fara sabis ɗin AI ya gaza",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "Sabis ɗin AI baya samuwa. Don Allah sake sabunta shafin.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "Ba a saita sabis ɗin AI yadda ya kamata ba",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "Ba a fara sabis ɗin AI ba",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "Sabis ɗin AI baya samuwa na ɗan lokaci",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Don Allah shiga don amfani da fasalulluka na AI. Danna maɓallin shiga a cikin ƙarin.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Shiga don buɗewa",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Kididdiga ya gaza",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Shawara",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Taƙaitawa",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Lokaci ya ƙare",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "Mataimakin AI",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Murya",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Na Wasan Kwaikwayo",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Zamani na Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Mai Ban Dariya",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Don Allah zaɓi rubutu ko ƙara abun ciki don canzawa",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Na Waƙa",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Na Kwarewa",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Sauƙaƙe",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Fassara",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " zuwa Turanci",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "An warware aikin AI cikin nasara!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Kuskuren AI da ba a sani ba",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "KULLE",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Mara iyaka",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Saƙon mai amfani",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Buƙatar mai amfani",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Sannu! Ni ne mataimakin AI ɗinka. Zan iya taimaka maka taƙaita, faɗaɗa, inganta, ko fassara rubuce-rubucenka. Me kake so in taimaka maka da shi?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Barka da zuwa mai amfani da Babban Matsayi! Kana da buƙatun AI marasa iyaka.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Barka da zuwa! Kana da sauran buƙatun AI {remaining} daga cikin {limit} a yau.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "Binciken AI ya gaza",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "Binciken AI ya gaza. Don Allah sake gwadawa.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "An kammala bincike!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "An bincika",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Rufe",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Binciken Tarin",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "An kirkiri sabon rubutu tare da fahimta daga rubuce-rubuce {count}.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Kuskuren sarrafa tarin",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Nemo Tsare-tsare",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Samar da Fahimta",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Tambayi komai game da tarinka...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "Filin Aiki na AI wani fasali ne mai ƙarfi da aka tsara don haɓaka damar samfuran AI, wanda ke ba ka damar ƙirƙirar bincike da sarrafa dukan tarin rubuce-rubuce a lokaci ɗaya maimakon rubuce-rubuce ɗaiɗaiku.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Babu rubuce-rubuce a cikin wannan tarin da za a bincika",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "rubutu(ce)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Ana sarrafawa...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "Me kake so AI ya yi da waɗannan rubuce-rubucen?\n\nMisalai:\n- Taƙaita dukan rubuce-rubuce\n- Fitar da manyan jigogi da mahimman kalmomi\n- Kirkiri babban jerin abubuwan yi\n- Samar da Tambayoyi da Amsoshi daga waɗannan rubuce-rubucen\n- Nemo alaƙa tsakanin batutuwa",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "Amsar AI ta gaza. Don Allah sake gwadawa.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Aika",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Taƙaita Tarin",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "Daga waɗannan rubuce-rubucen, kirkiri jerin tambayoyi da amsoshi da ake yawan yi (FAQ). Gano muhimman batutuwa kuma kirkiri tambayoyin da suka dace tare da cikakkun amsoshi.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Aiki",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Nemo kuma bayyana alaƙa tsakanin bayanai a cikin rubuce-rubucen. Gano hanyoyin haɗi, saɓani, ko alaƙa tsakanin batutuwa daban-daban da aka ambata a cikin rubuce-rubucen.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Kirkiri cikakken taƙaitaccen bayani daga dukan rubuce-rubuce a cikin wannan tarin. Haskaka mahimman abubuwa kuma kirkiri guda ɗaya, taƙaitaccen bayani mai ma'ana.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Gano manyan jigogi 5 da mahimman kalmomin da suka shafi su daga waɗannan rubuce-rubucen bincike. Kirkiri jerin da aka tsara tare da jigogi da mahimman kalmomin da suka dace.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Duba dukan rubuce-rubuce kuma kirkiri cikakken jerin abubuwan yi. Nemo dukan 'abubuwan aiki', ayyuka, ko aikin da za a yi da aka ambata a cikin rubuce-rubucen kuma kirkiri jerin dubawa da aka tsara.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "Filin Aiki na AI",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "An kai iyakar amfani na yau da kullun. Haɓaka zuwa babban matsayi don samun damar Filin Aiki na AI mara iyaka.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Kirkira, sarrafa, da daidaita rubuce-rubuce da salon glassmorphism.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__Proted_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "M",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Duka",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Kirsimati",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Ilmin geometric",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Hali",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Al'ada",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Goge",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Babu",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Saita a matsayin Tsoho",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Lodawa",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Ƙara Rubutu Anan",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Tarin Rubuce-rubuce",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "An kirkira",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "An goge",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Sunan Tarin Rubuce-rubuce",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Shigar da sunan tarin rubuce-rubuce...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "An maƙala",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Jigo",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "An cire maƙalawa",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "An sabunta",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Kirkira",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Kirkiri Tarin Rubuce-rubuce",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Kirkiri Rubutu a cikin Tarin",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Goge Tarin Rubuce-rubuce",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Gyara Tarin Rubuce-rubuce",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Wannan tarin babu komai a ciki",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Don Allah shigar da sunan tarin rubuce-rubuce",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Kuskuren kirkirar rubutu",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Kuskuren tarin rubuce-rubuce",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Gogewa ya gaza",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Lodi ya gaza",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Motsi ya gaza",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Maƙalawa ya gaza",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Sabuntawa ya gaza",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "An kai iyakar tarin",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Matsar zuwa tarin rubuce-rubuce",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "rubuce-rubuce",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "An kirkiri rubutu a cikin tarin",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "rubuce-rubuce",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "rubuce-rubuce an matsar zuwa tarin",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Maƙala Tarin Rubuce-rubuce",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Cire daga tarin rubuce-rubuce",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Adana",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "Cire Maƙalallen Tarin Rubuce-rubuce",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Bude Rubuce-rubuce Masu Sauri",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Soke",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Rufe",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Ci gaba",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Goge dukan rubuce-rubuce a cikin kwatashi har abada?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Ka tabbata kana son goge wannan tarin har abada? Ba za a iya warware wannan aikin ba.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Goge rubutu har abada?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Wannan zai rubuta kan dukan bayanan da ake da su. Ci gaba?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Ƙara zuwa Rubutu Mai Sauri",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Sauke don ƙirƙirar sabon taga",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Saita shafin anan don ci",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Sauke don hade Windows",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "Hira da AI ya gaza",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "Faɗaɗawar AI ya gaza",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "Inganta AI ya gaza",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "Fara AI ya gaza",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "Rubuce-rubucen taro na AI ya gaza",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "Zanen AI ya gaza",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "Tambayar AI ta gaza",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Saita URL ɗin baya na AI ya gaza",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "Shawara ta AI ya gaza",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "Taƙaitawar AI ya gaza",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "Muryar AI ya gaza",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Duba lafiyar baya ya gaza",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Buƙatar baya ya gaza",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Kuskuren uwar garke na baya",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Share ma'ajiyar AI ya gaza",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Kuskuren duba matsayin buɗe AI",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Kuskuren samun kididdigar amfani",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Kuskuren samun imel ɗin mai amfani a cikin ma'aikacin sabis",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Ba a yi nasarar ƙirƙirar bayanin kula ba",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Samar da kan magana ya gaza",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Fara sabis ɗin AI ya gaza",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "An sami kuskure. Don Allah sake gwadawa.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Samun kididdigar amfani na yau da kullun ya gaza",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Kuskuren Google Drive API",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Tsarin martani mara amfani",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Bayanin kula ba komai bane. Da fatan za a ƙara abun ciki kafin amfani da wannan fasalin.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Ba a sami rubutu a cikin ajiyar gida ba",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Selector Selech bai fara ba",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Tsarin daidaitawa ya gaza tare da kuskure",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Buƙata mara iyaka ya gaza",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Mai amfani ba ingantacce",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "An kammala!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "An sauke hoto cikin nasara",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Ana fitar da hotuna...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Don Allah jira ɗan lokaci",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Abin sha'awa",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Dabarun",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Na Kai",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Karatu",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Tafiya",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Aiki",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Kirkiri sabon rubutu",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Goge Rubutu",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Sabon Rubutu",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Babu ƙarin abun ciki",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Maƙala Rubutu",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Bincika rubuce-rubuce...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Warware Motsi",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Cire Maƙalallen Rubutu",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "An maido",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Kuskuren tantancewa",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Don Allah gwada fita ka sake shiga.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Tantancewa ya gaza",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "An ajiye",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Wannan bayan fage yana samuwa ne kawai ga masu amfani da Babban Matsayi. Don Allah haɓaka don buɗe dukan bayan fage.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Fasalin lodin bayan fage yana samuwa ne kawai ga masu amfani da Babban Matsayi. Don Allah haɓaka don amfani da wannan fasalin.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Ba za a iya kirkirar hanyar raba ba",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Kirkirar zaman biya ya gaza. Don Allah sake gwadawa.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Ana haɗawa da Google...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Ba za a iya loda imel ba.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "An kai iyakar yau da kullun. Sake gwadawa gobe ko haɓaka.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "An saita bayan fage na tsoho!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "An gama",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Kuskuren karantawa",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "An fitar",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Loda kwatashi ya gaza",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Loda kwatashi ya gaza. Don Allah sake gwadawa.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Matsar da rubutu ya gaza",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "An shigo",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Fayil mara inganci",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Ana loda bayanan asusu...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "An soke motsi",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "An matsar zuwa tarin",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Babu haɗin yanar gizo",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Don Allah duba haɗin intanet ɗinka ka sake gwadawa.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "Ba a sami rubuce-rubuce a cikin wannan tarin ba",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "An goge",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "An motsa",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Ba a sami rubutu a kan uwar garke ba. Don Allah sake gwadawa.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "An maƙala",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "An cire maƙalawa",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "An sabunta",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Kuskuren biya. Don Allah sake gwadawa.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Kuskuren tabbatar da biya. Don Allah sake sabunta shafin.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "An hana izini",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Don amfani da fasalulluka na daidaitawa, don Allah ba da izini ga manhajar.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "An maido",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Don Allah zaɓi aƙalla rubutu ɗaya don binciken AI",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Don Allah zaɓi rubuce-rubuce da farko",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Ba a saita rabawa ba.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Shiga ya gaza",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Shiga don rabawa",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Shiga don lodawa",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ An shiga cikin nasara!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "An fita",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Daidaitawa ya gaza",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "An daidaita",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "An daidaita",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Ana daidaita bayanai...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Ana daidaitawa da Drive...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "An kwashe",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Ba za a iya buɗe sarrafa biyan kuɗi ba. Don Allah sake gwadawa daga baya.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Ana tabbatar da biya...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Goge Waɗanda Aka Zaɓa",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Goge Har Abada",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Maido Da Waɗanda Aka Zaɓa",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Soke",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Goge abubuwan da aka zaɓa har abada?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Maido da abubuwan da aka zaɓa?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Zaɓi Duka",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "an zaɓa",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "Mataimakin AI",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Tambayi komai",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "Sihirin Murya na AI",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Daidaita Tsakiya",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Daidaita Hagu",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Daidaita Dama",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Bayan Fage",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Kirkiri sabon rubutu",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Sabon Rubutu",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Goge Rubutu",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Sauke a matsayin Hoto",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Edita babu",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Shigar da URL na hanyar haɗi...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Shigar da URL na bidiyo...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Kuskuren aiwatar da tsari",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Kan Magana 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Kan Magana 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Saka",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Saka Hoto",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Menu",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR baya samuwa don wannan hoton saboda ƙuntatawa na CORS.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Cire Tsari",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Raba",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Launuka masu wayo!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Tsarin tsari!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Duba Dukan Rubuce-rubuce",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Abun cikin sanarwa",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Lokacin duba biya ya ƙare. Don Allah sake sabuntawa idan an kammala biya.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "An zaɓi tsari mara inganci",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Don Allah shiga don ci gaba da biya",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Samun dama ga fasalulluka na ci gaba",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI Babban Matsayi",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Bayan Fage Babban Matsayi",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Tarin Babban Matsayi",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Barka!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Tallafi Tallafi",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Bayan Fage na Musamman",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Samun dama ga bayan fage na babban matsayi",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Tallafi na Musamman",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Fifikon goyon baya daga kungiyarmu",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Zai ƙare",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Sarrafa Biyan Kuɗi",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Biyan Kuɗi na Gaba",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Babban Matsayi na Shekara",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Babban Matsayi na Wata",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Babban Matsayi na Gwaji",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Nau'in Tsari",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Taimako na fifiko",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Raba Rubuce-rubuce",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Raba rubuce-rubuce da wasu",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Raba Babban Matsayi",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Fara Gwaji Kyauta",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Fara amfani",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Matsayi",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Yana Aiki",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "An soke",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Ya ƙare",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Baya aiki",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Yi Rajista Yanzu",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Goya baya",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "AI Mara Iyaka",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Hira da AI Mara Iyaka",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Buƙatun AI marasa iyaka a kowace rana",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Tarin Mara Iyaka",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Kirkiri tarin mara iyaka",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Buɗe AI Mara Iyaka",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "Ka haɓaka zuwa Babban Matsayi cikin nasara",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Ba a sami sakamako ba",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Gwada bincike da wasu mahimman kalmomi ko kirkiri sabon rubutu",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "Amfani da AI",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "Amfani da AI na Yau",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Bayyana",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Daidaitawar Gajimare",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Haɗa",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Sarrafa Bayanai",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Tsohon bayanin kula",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Fitarwa",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Fitar da Bayanai",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Shigowa",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Shigo da Bayanai",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Girman ba daidai ba. Nisa: 400-1220, tsawo: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Warware",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Tsawo",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Sake saita zuwa tsoho",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Ceta",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Tsohuwar sihirin da aka ajiye",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Tsohon bayanin kula",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Nisa",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Bude",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Ana buƙatar shiga",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Shiga da Google",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Fita",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "An shiga da",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Daidaita",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Jigo",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Saituna",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Kwatashi",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Wanda ba a da iyaka",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Samu Babban Matsayi",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "Buɗe AI",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Hoton Mai Amfani",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "An kwafa",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kwafi",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Ana kirkirar hanyar raba...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Duba wannan rubutu daga Rubuce-rubuce Masu Sauri",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Raba a Facebook",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Raba a LinkedIn",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Raba a Reddit",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Raba a X (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Raba a WhatsApp",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Daidaita rubutu zuwa uwar garke ya gaza",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Abin sha'awa",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Dabarun",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Na Kai",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Karatu",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Tafiya",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Aiki",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ kara wa sabon bayanin kula",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "Amsar AI ta gaza",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Saita bayan fage ya gaza",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Ba za a iya gogewa ba",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ kofe zuwa allo",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Kwafin hanyar ya gaza. Don Allah sake gwadawa.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Fitarwa ya gaza",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Ya gaza",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "Ba a yi nasarar ƙara ba",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Ba a yi nasarar kwafi ba",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Ana buƙatar fayil ɗin hoto",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Hoto ya yi girma sosai",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Kuskuren laburare",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Ana loda laburare",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Motsi ya gaza",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Koma",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Babu zaɓi",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Aiki ya gaza",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "Don Allah sake kunna ƙarin don samun sarari.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "Kuskuren ma'ajiya. Don Allah sake kunna ƙarin.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "Ma'ajiya ta cika, ana share ma'ajiyar wucin gadi...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "Mataimakin AI",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Daidaita Tsakiya",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Daidaita Hagu",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Daidaita Dama",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Launin Baya",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Launin Baya",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Tushen Magana",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Tushen Magana",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Mai Kauri",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Mai Kauri",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Jerin Maki",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Jerin Maki",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Jerin Dubawa",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Tushen Lamba",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Tushen Lamba",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Girman Font",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Girman Font",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Kan Magana 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Kan Magana 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Saka Hoto",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Saka Hanyar Haɗi",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Saka Hanyar Haɗi",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Saka Bidiyo",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Saka Bidiyo",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Karkace",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Karkace",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Daidaita",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Daidaita",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Jerin Lambobi",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Jerin Lambobi",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Cire Tsari",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Layi a tsakiya",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Layi a tsakiya",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Launin Rubutu",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Launin Rubutu",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Layi a ƙasa",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Layi a ƙasa",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Goge har abada",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Kwatashi babu komai a ciki.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Kwashe Kwatashi",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Maido",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Maido da Duka",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Kwatashi",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Tarin maraba ga sababbin masu amfani",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Barka da zuwa",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Danna maɓallin <strong>+</strong> don ƙirƙirar sabon rubutu<br>• Yi amfani da AI don taƙaita, fassara, ko inganta abun ciki<br>• AI na iya taimaka maka tsara da inganta rubuce-rubucenka",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Yadda ake amfani da AI",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Danna-dama a kan wuri mara komai don ƙirƙirar tarin<br>• Jawo da sauke rubuce-rubuce cikin tarin don tsarawa<br>• Kowane tarin zai iya samun jigon kansa (aiki, na kai, dabaru...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Yadda ake kirkirar Tarin Rubuce-rubuce",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Ji daɗin amfani da Rubuce-rubuce Masu Sauri! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Wannan shine rubutunka na farko. Rubuce-rubuce Masu Sauri na taimaka maka yin rubutu cikin sauri da inganci.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Yi amfani da launuka don rarraba rubuce-rubuce<br>• Maƙala muhimman rubuce-rubuce a saman jerin<br>• Bincika da sauri tare da sandar bincike a sama<br>• Daidaita da Google Drive don ajiyar aminci",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Tukwici na Amfani",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Barka da zuwa Rubuce-rubuce Masu Sauri! 👋",
+    "description": "Title of the welcome note"
+  }
+}

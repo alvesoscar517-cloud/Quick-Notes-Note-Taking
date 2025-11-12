@@ -1,0 +1,385 @@
+/* Note Tabs System */
+.tab-bar {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 12%, transparent);
+    border-bottom: none;
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 8px 2px 8px;
+    gap: 4px;
+    min-height: 36px;
+    position: relative;
+    z-index: 11;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    justify-content: space-between;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin-top: -5px;
+}
+
+.tab-bar::-webkit-scrollbar {
+    display: none;
+}
+
+.tab-list {
+    display: flex;
+    gap: 4px;
+    flex: 1;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    min-width: 0;
+    align-items: flex-end;
+}
+
+.tab-list::-webkit-scrollbar {
+    display: none;
+}
+
+.note-tab {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    background: color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 25%, transparent);
+    border: 1px solid color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 35%, transparent);
+    border-bottom: none;
+    border-radius: 8px 8px 0 0;
+    color: rgba(232, 234, 237, 0.85);
+    font-size: 12.5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    min-width: 100px;
+    max-width: 200px;
+    position: relative;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    margin-bottom: 0;
+}
+
+.note-tab:hover {
+    background: color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 35%, transparent);
+    color: #e8eaed;
+    transform: translateY(-1px);
+}
+
+.note-tab.active {
+    background: color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 45%, transparent);
+    color: #e8eaed;
+    border-bottom-color: transparent;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transform: translateY(0);
+}
+
+.tab-title {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.tab-close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    color: rgba(232, 234, 237, 0.5);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.tab-close:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: #e8eaed;
+}
+
+.tab-close svg {
+    width: 12px;
+    height: 12px;
+}
+
+.add-tab-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    color: rgba(232, 234, 237, 0.7);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.add-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #e8eaed;
+    transform: scale(1.05);
+}
+
+.add-tab-btn:active {
+    transform: scale(0.95);
+}
+
+.add-tab-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Tab counter badge */
+.tab-counter {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background: var(--note-accent-color, #8b9dc3);
+    color: white;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 8px;
+    min-width: 16px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Tab context menu */
+.tab-context-menu {
+    background: rgba(44, 44, 46, 0.95);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 4px;
+    min-width: 180px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    z-index: 10000;
+}
+
+.tab-context-item {
+    padding: 8px 12px;
+    color: #e8eaed;
+    font-size: 13px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: all 0.15s ease;
+}
+
+.tab-context-item:hover:not(.disabled) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.tab-context-item.disabled {
+    color: rgba(232, 234, 237, 0.3);
+    cursor: not-allowed;
+}
+
+.tab-context-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 4px 0;
+}
+
+.tab-context-danger {
+    color: #f28b82 !important;
+}
+
+.tab-context-danger:hover:not(.disabled) {
+    background: rgba(242, 139, 130, 0.15) !important;
+}
+
+/* Light theme context menu */
+body.light-theme .tab-context-menu {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+body.light-theme .tab-context-item {
+    color: #202124;
+}
+
+body.light-theme .tab-context-item:hover:not(.disabled) {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .tab-context-item.disabled {
+    color: rgba(32, 33, 36, 0.3);
+}
+
+body.light-theme .tab-context-divider {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .tab-context-danger {
+    color: #d93025 !important;
+}
+
+body.light-theme .tab-context-danger:hover:not(.disabled) {
+    background: rgba(217, 48, 37, 0.1) !important;
+}
+
+/* Light theme */
+body.light-theme .tab-bar {
+    background: color-mix(in srgb, var(--note-accent-color, #8b9dc3) 10%, white);
+    border-bottom: none;
+}
+
+body.light-theme .note-tab {
+    background: color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 20%, white);
+    border: 1px solid color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 30%, white);
+    border-bottom: none;
+    color: rgba(32, 33, 36, 0.85);
+}
+
+body.light-theme .note-tab:hover {
+    background: color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 30%, white);
+    color: #202124;
+}
+
+body.light-theme .note-tab.active {
+    background: color-mix(in srgb, var(--tab-note-color, var(--note-accent-color, #8b9dc3)) 40%, white);
+    color: #202124;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+body.light-theme .tab-close {
+    color: rgba(32, 33, 36, 0.5);
+}
+
+body.light-theme .tab-close:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+body.light-theme .add-tab-btn {
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    color: rgba(32, 33, 36, 0.7);
+}
+
+body.light-theme .add-tab-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+/* Tab bar controls (right side) */
+.tab-bar-controls {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+    flex-shrink: 0;
+    height: 100%;
+    padding-bottom: 1px;
+}
+
+/* Menu button in tab bar */
+.tab-bar .tab-menu-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+    color: rgba(232, 234, 237, 0.7);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.tab-bar .tab-menu-btn:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #e8eaed;
+    transform: scale(1.05);
+}
+
+.tab-bar .tab-menu-btn:active {
+    transform: scale(0.95);
+}
+
+.tab-bar .tab-menu-btn svg {
+    width: 16px;
+    height: 16px;
+}
+
+/* Light theme for tab menu button */
+body.light-theme .tab-bar .tab-menu-btn {
+    background: rgba(0, 0, 0, 0.03);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    color: rgba(32, 33, 36, 0.7);
+}
+
+body.light-theme .tab-bar .tab-menu-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+/* Hide top-bar completely when tab bar is visible, only show 5px color strip */
+.note-container.has-tab-bar .top-bar {
+    min-height: 5px !important;
+    max-height: 5px !important;
+    height: 5px !important;
+    padding: 0 !important;
+    background: var(--note-accent-color, #8b9dc3) !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    overflow: hidden !important;
+    pointer-events: none !important;
+    transition: none !important;
+}
+
+.note-container.has-tab-bar .top-bar * {
+    display: none !important;
+}
+
+/* Override hidden state when tab bar is visible - keep it at 5px always */
+.note-container.has-tab-bar .top-bar.hidden {
+    min-height: 5px !important;
+    max-height: 5px !important;
+    height: 5px !important;
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+}
+
+/* Lock editor margin when tab bar is visible - prevent jumping */
+.note-container.has-tab-bar .ql-container.ql-snow {
+    margin-top: 41px !important;
+    transition: none !important;
+}
+
+/* Lock editor padding when tab bar is visible */
+.note-container.has-tab-bar .ql-editor {
+    padding-top: 20px !important;
+    transition: none !important;
+}
+
+/* Ensure smooth transition */
+.ql-container.ql-snow {
+    transition: margin-top 0.3s ease;
+}

@@ -1,0 +1,5694 @@
+/* note.css */
+
+/* Ẩn toolbar mặc định của Quill */
+.ql-toolbar {
+    display: none !important;
+}
+
+/* Old color picker styles removed - now using unified formatting modal system */
+
+/* Table Dialog Modal Styles */
+.table-dialog-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.table-dialog-content {
+    background: #2d2d2d;
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 300px;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.table-dialog-content h3 {
+    color: #e8eaed;
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.table-size-selector label {
+    color: #e8eaed;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.table-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2px;
+    margin-bottom: 15px;
+    border: 1px solid #555;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.table-cell {
+    width: 30px;
+    height: 30px;
+    background: #444;
+    border: 1px solid #666;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    position: relative;
+}
+
+.table-cell:hover {
+    background: #555;
+}
+
+.table-cell::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 2px;
+    height: 2px;
+    background: #ccc;
+    border-radius: 50%;
+}
+
+.table-dialog-actions {
+    text-align: center;
+}
+
+.table-dialog-cancel {
+    background: #555;
+    color: #e8eaed;
+    border: 1px solid #777;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.table-dialog-cancel:hover {
+    background: #666;
+}
+
+/* Video Dialog Modal Styles */
+.video-dialog-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.video-dialog-content {
+    background: #2d2d2d;
+    border: 1px solid #555;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.video-dialog-content h3 {
+    color: #e8eaed;
+    margin: 0 0 15px 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.video-input-group {
+    margin-bottom: 15px;
+}
+
+.video-input-group label {
+    color: #e8eaed;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.video-input-group input {
+    width: 100%;
+    padding: 8px 12px;
+    background: #444;
+    border: 1px solid #666;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.video-input-group input:focus {
+    outline: none;
+    border-color: #888;
+    background: #555;
+}
+
+.video-dialog-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.video-dialog-cancel,
+.video-dialog-insert {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #777;
+}
+
+.video-dialog-cancel {
+    background: #555;
+    color: #e8eaed;
+}
+
+.video-dialog-cancel:hover {
+    background: #666;
+}
+
+.video-dialog-insert {
+    background: #007acc;
+    color: white;
+    border-color: #007acc;
+}
+
+.video-dialog-insert:hover {
+    background: #005a9e;
+}
+
+/* Link & Video Input Overlays */
+.input-overlay {
+    padding: 14px 16px;
+    min-width: 320px;
+}
+
+.input-overlay-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.input-overlay-content input {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 8px;
+    padding: 10px 14px;
+    color: #e8eaed;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+.input-overlay-content input:focus {
+    background: rgba(255, 255, 255, 0.12);
+    border-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
+}
+
+.input-overlay-content input::placeholder {
+    color: rgba(232, 234, 237, 0.5);
+}
+
+body.light-theme .input-overlay-content input {
+    background: rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    color: #202124;
+}
+
+body.light-theme .input-overlay-content input:focus {
+    background: rgba(0, 0, 0, 0.06);
+    border-color: rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .input-overlay-content input::placeholder {
+    color: rgba(32, 33, 36, 0.5);
+}
+
+.input-insert-btn {
+    background: var(--note-accent-color, #4285f4);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.input-insert-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.input-insert-btn:active {
+    transform: translateY(0);
+}
+
+/* Color Picker Overlay - Removed (using modal instead) */
+
+
+
+/* Tùy chỉnh container của Quill để khớp với thiết kế */
+.ql-container.ql-snow {
+    border: none !important;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-size: 16px;
+    /* Full height minus margins */
+    height: calc(100% - 40px);
+    /* 20px top + 20px bottom */
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Start from top edge, add bottom margin */
+    margin-top: 14px;
+    /* Adjusted for thicker topbar */
+    margin-bottom: 20px;
+    padding-top: 0;
+    /* Ensure it doesn't overlap with topbar */
+    z-index: 1;
+    transition: margin-top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Adjust editor margin and padding when topbar is hidden */
+.note-container:has(.top-bar.hidden) .ql-container.ql-snow {
+    margin-top: 5px;
+}
+
+.note-container:has(.top-bar.hidden) .ql-editor {
+    padding-top: 10px !important;
+    transition: padding-top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth transition for editor padding */
+.ql-editor {
+    transition: padding-top 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Tùy chỉnh editor của Quill */
+.ql-editor {
+    padding: 25px 15px;
+    padding-bottom: 80px;
+    /* Add space for toolbar overlay */
+    outline: none;
+    color: #e8eaed;
+    min-height: 100%;
+    /* Ensure proper text flow */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    /* Better line spacing */
+    line-height: 1.5;
+    /* Ensure text flows naturally */
+    overflow-wrap: break-word;
+    /* Enable scrolling but hide scrollbar */
+    overflow-y: auto;
+    flex: 1;
+    /* Ensure proper height */
+    height: 100%;
+    /* Hide scrollbar */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    /* Align with thinner top-bar */
+    margin-top: 0;
+    padding-top: 25px;
+    /* Increased padding for better spacing with thinner topbar */
+}
+
+.ql-editor.ql-blank::before {
+    color: rgba(232, 234, 237, 0.5);
+    font-style: italic;
+    left: 0;
+}
+
+/* Light theme for Quill editor */
+body.light-theme .ql-editor {
+    color: #202124;
+}
+
+body.light-theme .ql-editor.ql-blank::before {
+    color: rgba(32, 33, 36, 0.5);
+}
+
+/* Dark theme styles (keep unchanged) */
+:root {
+    /* Frosted Glass Design Variables */
+    --glass-bg-dark: rgba(44, 44, 46, 0.70);
+    --glass-bg-light: rgba(255, 255, 255, 0.70);
+    --glass-border-dark: rgba(255, 255, 255, 0.25);
+    --glass-border-light: rgba(0, 0, 0, 0.25);
+    --glass-shadow-dark: 0 12px 40px rgba(0, 0, 0, 0.4),
+        0 0 0 1px rgba(255, 255, 255, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+    --glass-shadow-light: 0 12px 40px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+    --glass-blur: 30px;
+    --glass-blur-light: 15px;
+
+    /* AI Gradient Variables */
+    --ai-gradient-primary: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+    --ai-gradient-glow: 0 0 20px rgba(102, 126, 234, 0.3), 0 0 40px rgba(118, 75, 162, 0.2);
+    --ai-expansion-duration: 0.4s;
+    --ai-gradient-border: linear-gradient(135deg, #667eea, #764ba2, #f093fb);
+
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    background: transparent;
+    touch-action: pan-x pan-y;
+    -ms-touch-action: pan-x pan-y;
+}
+
+.note-container {
+    width: 100%;
+    height: 100%;
+    background: #202124;
+    color: #e8eaed;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: relative;
+    /* Add for toast positioning */
+}
+
+.top-bar {
+    background: rgba(44, 44, 46, 0.75);
+    /* Frosted glass: darker, more opaque */
+    color: var(--dark-text);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    /* Increased padding for slightly thicker topbar */
+    flex-shrink: 0;
+    user-select: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 2px 8px rgba(139, 157, 195, 0.2),
+        0 0 0 1px rgba(139, 157, 195, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    min-height: 20px;
+    /* Increased minimum height for slightly thicker topbar */
+    height: auto;
+    /* Ensure topbar is above Quill editor */
+    z-index: 10;
+    overflow: hidden;
+}
+
+/* Topbar hidden state - only show thin border */
+.top-bar.hidden {
+    min-height: 5px !important;
+    max-height: 5px !important;
+    height: 5px !important;
+    padding: 0 !important;
+    background: var(--note-accent-color, #8b9dc3) !important;
+    box-shadow: none !important;
+    border-bottom: none !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+}
+
+/* Increase hover area when topbar is hidden */
+.top-bar.hidden::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 15px;
+    z-index: 100;
+}
+
+.top-bar-left,
+.top-bar-right {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.top-bar.hidden .top-bar-left {
+    opacity: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
+    transform: scaleY(0) !important;
+    margin: 0 !important;
+}
+
+.top-bar.hidden .top-bar-right {
+    opacity: 1 !important;
+    height: auto !important;
+    overflow: visible !important;
+    transform: scaleY(1) !important;
+    margin: 0 !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Hide all buttons except menu button when topbar is hidden */
+.top-bar.hidden .top-bar-right>*:not(.dropdown) {
+    display: none !important;
+}
+
+/* Keep menu button visible and clickable when topbar is hidden */
+.top-bar.hidden .dropdown {
+    display: block !important;
+}
+
+.top-bar.hidden #menu-btn {
+    pointer-events: auto !important;
+    opacity: 0.4 !important;
+    background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.top-bar.hidden #menu-btn:hover {
+    opacity: 1 !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Allow dropdown to be visible even when topbar is hidden */
+.top-bar.hidden .dropdown-content {
+    pointer-events: auto !important;
+    opacity: 1 !important;
+}
+
+/* When dropdown is open, prevent topbar from being hidden completely */
+.top-bar.hidden.dropdown-open {
+    min-height: 20px !important;
+    max-height: 20px !important;
+    height: 20px !important;
+    padding: 0px 10px !important;
+}
+
+/* Keep menu button visible when dropdown is open */
+.top-bar.hidden.dropdown-open #menu-btn {
+    opacity: 1 !important;
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.top-bar-btn {
+    background: transparent;
+    border: none;
+    color: var(--dark-text);
+    cursor: pointer;
+    padding: 3px;
+    /* Slightly increased padding for better button appearance */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.top-bar-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+/* Add new note button - increased size */
+#add-new-btn {
+    padding: 4px;
+    /* Increased padding for add note button */
+}
+
+#add-new-btn svg {
+    width: 16px;
+    /* Increased size for add note button */
+    height: 16px;
+    /* Increased size for add note button */
+}
+
+/* Menu button - increased size */
+#menu-btn {
+    padding: 5px;
+    /* Increased padding for menu button */
+}
+
+#menu-btn svg {
+    width: 20px;
+    /* Increased size for menu button */
+    height: 20px;
+    /* Increased size for menu button */
+}
+
+/* Remove old save state CSS */
+
+.editor {
+    flex-grow: 1;
+    padding: 0;
+    outline: none;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: text;
+    overflow: hidden;
+    /* Support dynamic background */
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-clip: border-box;
+    /* Full height */
+    height: 100%;
+    position: relative;
+    /* Align with top-bar */
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.editor::-webkit-scrollbar {
+    display: none;
+}
+
+/* Text selection styling - dynamic color based on note with soft transparency */
+/* Note: Chrome doesn't support border-radius for ::selection */
+.editor::selection {
+    background: var(--note-selection-color, rgba(152, 251, 152, 0.4));
+    color: #e8eaed;
+    /* Chrome doesn't support border-radius for text selection */
+    /* Instead, use soft colors and transparency */
+}
+
+.editor::-moz-selection {
+    background: var(--note-selection-color, rgba(152, 251, 152, 0.4));
+    color: #e8eaed;
+    /* Firefox has similar limitations */
+}
+
+/* Placeholder removed as requested */
+
+/* Smart save indicator */
+.save-indicator {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 12px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+/* Save toast notification - removed duplicate styles */
+
+.save-status {
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.save-status.saving {
+    color: #ffa726;
+    background: rgba(255, 167, 38, 0.1);
+}
+
+.save-status.saved {
+    color: #4caf50;
+    background: rgba(76, 175, 80, 0.1);
+}
+
+.save-status.unsaved {
+    color: #f44336;
+    background: rgba(244, 67, 54, 0.1);
+}
+
+.save-status.error {
+    color: #f44336;
+    background: rgba(244, 67, 54, 0.2);
+}
+
+
+
+
+/* Add styles for inserted images */
+.editor img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 8px 0;
+    border-radius: 4px;
+}
+
+/* Link styles in editor */
+.editor a {
+    color: #4285f4;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.editor a:hover {
+    color: #3367d6;
+    text-decoration: underline;
+    background: rgba(66, 133, 244, 0.1);
+    padding: 2px 4px;
+    margin: -2px -4px;
+    border-radius: 3px;
+    box-shadow: 0 1px 3px rgba(66, 133, 244, 0.2);
+}
+
+/* Add external link icon on hover */
+.editor a:hover::after {
+    content: '↗';
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+.editor a:visited {
+    color: #9c27b0;
+}
+
+.editor a:active {
+    color: #1a73e8;
+}
+
+/* Light theme link styles */
+body.light-theme .editor a {
+    color: #1a73e8;
+}
+
+body.light-theme .editor a:hover {
+    color: #0d47a1;
+    background: rgba(26, 115, 232, 0.1);
+    box-shadow: 0 1px 3px rgba(26, 115, 232, 0.2);
+}
+
+
+
+
+
+
+.toolbar-container {
+    /* Frosted glass container for toolbar */
+    background: rgba(44, 44, 46, 0.65);
+    border-top: 1px solid var(--glass-border-dark);
+    flex-shrink: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    box-shadow: var(--glass-shadow-dark);
+    margin: 6px 10px 4px 10px;
+    /* Reduced margins - closer to bottom */
+    border-radius: 16px;
+    /* Slightly smaller radius */
+    border: 1px solid var(--glass-border-dark);
+    user-select: none;
+    /* Prevent text selection on toolbar */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+    /* Overlay positioning */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: calc(100% - 20px);
+    margin: 6px 10px 4px 10px;
+}
+
+.toolbar-container::-webkit-scrollbar {
+    display: none;
+}
+
+.toolbar {
+    padding: 8px 16px;
+    /* Reduced padding */
+    background: none !important;
+    display: flex;
+    gap: 10px;
+    /* Slightly reduced gap */
+    min-width: max-content;
+    width: 100%;
+    align-items: center;
+    user-select: none;
+    /* Prevent text selection on toolbar */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.toolbar button {
+    background: transparent;
+    border: none;
+    color: #e8eaed;
+    cursor: pointer;
+    padding: 6px 10px;
+    /* Reduced padding */
+    border-radius: 6px;
+    /* Slightly smaller radius */
+    font-size: 15px;
+    /* Slightly smaller font */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    min-width: 32px;
+    /* Reduced min width */
+    min-height: 32px;
+    /* Reduced min height */
+    user-select: none;
+    /* Prevent text selection on buttons */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+/* Icon styling for dark theme */
+.toolbar button img {
+    width: 15px;
+    height: 15px;
+    filter: brightness(0) invert(1);
+    /* Makes icons white in dark theme */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.9;
+    will-change: transform, filter, opacity;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.toolbar button:hover img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.toolbar button.active img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.toolbar button:focus img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 6px rgba(66, 133, 244, 0.6));
+    opacity: 1;
+}
+
+/* Tiptap button styles */
+.toolbar button.tiptap-btn {
+    background: transparent;
+    border: none;
+    color: #e8eaed;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.toolbar button.tiptap-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+.toolbar button.tiptap-btn:active {
+    transform: translateY(0);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.toolbar button.tiptap-btn.is-active {
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar button.tiptap-btn img {
+    width: 15px;
+    height: 15px;
+    filter: brightness(0) invert(1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.9;
+    will-change: transform, filter, opacity;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.toolbar button.tiptap-btn:hover img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.toolbar button.tiptap-btn.is-active img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.toolbar button.tiptap-btn:focus img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 6px rgba(66, 133, 244, 0.6));
+    opacity: 1;
+}
+
+/* AI Tone Button - Inherit toolbar button styles */
+.toolbar button.toolbar-btn {
+    background: transparent;
+    border: none;
+    color: #e8eaed;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.toolbar button.toolbar-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+.toolbar button.toolbar-btn:active {
+    transform: translateY(0);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.toolbar button.toolbar-btn img {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) invert(1);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.9;
+    will-change: transform, filter, opacity;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.toolbar button.toolbar-btn:hover img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+.toolbar button.toolbar-btn:active img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* AI Tone Button Active State */
+.toolbar button.toolbar-btn.active {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.toolbar button.toolbar-btn.active img {
+    filter: brightness(0) invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.4));
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/* AI Formatting Button SVG */
+.toolbar button.toolbar-btn svg {
+    width: 16px;
+    height: 16px;
+    stroke: rgba(255, 255, 255, 0.7);
+    transition: all 0.2s ease;
+}
+
+.toolbar button.toolbar-btn:hover svg {
+    stroke: rgba(255, 255, 255, 1);
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    transform: scale(1.05);
+}
+
+.toolbar button.toolbar-btn:active svg {
+    stroke: rgba(255, 255, 255, 1);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.5));
+    transform: scale(1.1);
+}
+
+/* Toolbar Divider */
+.toolbar-divider {
+    width: 1px;
+    height: 24px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 0 8px;
+    align-self: center;
+    border-radius: 0.5px;
+}
+
+.toolbar button:disabled img {
+    filter: brightness(0) invert(1) opacity(0.4);
+    transform: scale(0.95);
+    cursor: not-allowed;
+}
+
+.toolbar button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.toolbar button.active {
+    background: rgba(255, 255, 255, 0.3);
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+}
+
+/* AI Input Bar with Morph Animation */
+.ai-input-bar {
+    margin: 6px 10px 0 10px;
+    background-color: transparent !important;
+
+    /* Overlay positioning */
+    position: fixed;
+    bottom: calc(0.1px + 50px);
+    left: 0;
+    right: 0;
+    z-index: 1001;
+    width: calc(100% - 20px);
+    margin: 6px 10px 0 10px;
+
+    /* Allow glow to extend beyond container */
+    overflow: visible;
+
+    /* Morph animation - hidden by default */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px) scale(0.92);
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    pointer-events: none;
+}
+
+.ai-input-bar.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+/* AI Input Wrapper - Simple single layer design */
+.ai-gradient-wrapper {
+    position: relative;
+    border-radius: 15px;
+    padding: 0;
+    background: transparent;
+    /* Sync transition with parent for smooth animation */
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    overflow: visible;
+}
+
+/* Removed unnecessary gradient animations */
+
+.ai-input-container {
+    padding: 12px 16px;
+    transition: all var(--ai-expansion-duration) cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: visible;
+    position: relative;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.ai-input-container.expanded {
+    min-height: 300px;
+    max-height: 500px;
+}
+
+/* Modern AI UX: Removed old result display styles */
+
+/* AI Input Area */
+.ai-input-area {
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+}
+
+.ai-input-wrapper {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    max-width: 100%;
+    position: relative;
+    z-index: 1;
+    overflow: visible;
+}
+
+.ai-input-field {
+    flex: 1;
+    background: rgb(44, 44, 46);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 28px;
+    color: var(--dark-text);
+    padding: 12px 20px;
+    font-size: 14px;
+    font-family: inherit;
+    transition: all 0.2s ease;
+    height: 48px;
+    box-sizing: border-box;
+    min-width: 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+.ai-input-field:focus {
+    background: rgb(44, 44, 46);
+    border-color: var(--note-accent-color, #4285f4);
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2),
+        0 4px 16px rgba(0, 0, 0, 0.3),
+        0 0 0 1px rgba(255, 255, 255, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.ai-input-field::placeholder {
+    color: var(--dark-text-secondary);
+}
+
+.ai-send-btn {
+    background: var(--note-accent-color, #8b9dc3);
+    border: 1px solid var(--note-accent-color, #8b9dc3);
+    border-radius: 50%;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2),
+        0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.ai-send-btn:hover:not(:disabled) {
+    background: var(--note-accent-hover, var(--note-accent-color, #8b9dc3));
+    border-color: var(--note-accent-hover, var(--note-accent-color, #8b9dc3));
+    transform: translateY(-1px) scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3),
+        0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.ai-send-btn:active {
+    background: var(--note-accent-hover, var(--note-accent-color, #8b9dc3));
+    transform: translateY(0) scale(1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ai-send-btn:disabled {
+    background: rgba(44, 44, 46, 0.99);
+    border-color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.4);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    filter: none;
+}
+
+.ai-close-bar-btn {
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 50%;
+    color: #9aa0a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ai-close-bar-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #e8eaed;
+}
+
+.ai-suggestions {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.ai-suggestion {
+    padding: 4px 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 15px;
+    color: #9aa0a6;
+    font-size: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.ai-suggestion:hover {
+    background: rgba(66, 133, 244, 0.2);
+    border-color: #4285f4;
+    color: #e8eaed;
+}
+
+/* Old ai-slide-down animation removed - now using morph animation with .show class */
+
+/* AI Button - Slow spinning animation when processing */
+#ai-assistant-btn.ai-processing {
+    opacity: 0.8 !important;
+    pointer-events: none !important;
+    cursor: not-allowed !important;
+}
+
+#ai-assistant-btn.ai-processing img {
+    animation: aiSlowSpin 2s linear infinite !important;
+}
+
+/* Slow spinning animation for AI button */
+@keyframes aiSlowSpin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Gradient animation */
+@keyframes gradientShift {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* AI Glow Pulse Animation */
+@keyframes aiGlowPulse {
+
+    0%,
+    100% {
+        box-shadow: 0 0 6px rgba(102, 126, 234, 0.1),
+            0 0 12px rgba(118, 75, 162, 0.08),
+            0 0 18px rgba(240, 147, 251, 0.06),
+            0 0 24px rgba(102, 126, 234, 0.03);
+    }
+
+    33% {
+        box-shadow: 0 0 8px rgba(118, 75, 162, 0.12),
+            0 0 15px rgba(240, 147, 251, 0.1),
+            0 0 22px rgba(102, 126, 234, 0.08),
+            0 0 30px rgba(118, 75, 162, 0.05);
+    }
+
+    66% {
+        box-shadow: 0 0 8px rgba(240, 147, 251, 0.12),
+            0 0 15px rgba(102, 126, 234, 0.1),
+            0 0 22px rgba(118, 75, 162, 0.08),
+            0 0 30px rgba(240, 147, 251, 0.05);
+    }
+}
+
+/* AI Glow Pulse Animation for Light Theme */
+@keyframes aiGlowPulseLight {
+
+    0%,
+    100% {
+        box-shadow: 0 0 6px rgba(102, 126, 234, 0.12),
+            0 0 12px rgba(118, 75, 162, 0.1),
+            0 0 18px rgba(240, 147, 251, 0.08),
+            0 0 24px rgba(102, 126, 234, 0.05);
+    }
+
+    33% {
+        box-shadow: 0 0 8px rgba(118, 75, 162, 0.15),
+            0 0 15px rgba(240, 147, 251, 0.12),
+            0 0 22px rgba(102, 126, 234, 0.1),
+            0 0 30px rgba(118, 75, 162, 0.07);
+    }
+
+    66% {
+        box-shadow: 0 0 8px rgba(240, 147, 251, 0.15),
+            0 0 15px rgba(102, 126, 234, 0.12),
+            0 0 22px rgba(118, 75, 162, 0.1),
+            0 0 30px rgba(240, 147, 251, 0.07);
+    }
+}
+
+/* Add styles for dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background: rgba(44, 44, 46, 0.95);
+    /* Much more opaque background */
+    min-width: 160px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+        0 0 0 1px rgba(255, 255, 255, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    z-index: 99999 !important;
+    border-radius: 15px;
+    padding: 5px 0;
+}
+
+.dropdown-content a {
+    color: #e8eaed;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 2px 8px;
+}
+
+.dropdown-content a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+/* Changed from hover to click - controlled by JavaScript */
+.dropdown-content.show {
+    display: block;
+}
+
+/* Color palette CSS (changed to square) */
+.color-palette {
+    display: flex;
+    justify-content: flex-start;
+    /* Arrange adjacent from left */
+    gap: 6px;
+    /* Spacing between color boxes */
+    padding: 10px;
+    border-bottom: 1px solid #44484b;
+}
+
+.color-dot {
+    width: 22px;
+    height: 22px;
+    border-radius: 4px;
+    /* Slight rounding for modern look */
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.color-dot:hover {
+    transform: scale(1.1);
+}
+
+.color-dot.selected {
+    border-color: #e8eaed;
+}
+
+/* ============================================
+   UNIFIED FORMATTING MODAL SYSTEM
+   ============================================ */
+
+/* Base Modal Styles - Shared by all formatting modals */
+.formatting-modal {
+    position: fixed !important;
+    bottom: 70px !important;
+    left: 50% !important;
+    right: auto !important;
+    transform: translateX(-50%) translateY(10px) scale(0.92);
+    background: rgba(44, 44, 46, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.5),
+        0 0 0 1px rgba(255, 255, 255, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    z-index: 1002;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    pointer-events: none;
+}
+
+.formatting-modal.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0) scale(1) !important;
+    pointer-events: auto;
+}
+
+/* Light Theme Support */
+body.light-theme .formatting-modal {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.15),
+        0 0 0 1px rgba(0, 0, 0, 0.08),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+
+/* Text Color Picker */
+.text-color-picker {
+    padding: 12px;
+}
+
+.text-color-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 22px);
+    gap: 8px;
+}
+
+.text-color-option {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.text-color-option:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.text-color-option:active {
+    transform: scale(1.1);
+}
+
+body.light-theme .text-color-option {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .text-color-option:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Highlight Color Picker */
+.highlight-color-picker {
+    padding: 12px;
+}
+
+.highlight-color-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 22px);
+    gap: 8px;
+}
+
+.highlight-color-option {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.highlight-color-option:hover {
+    transform: scale(1.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.highlight-color-option:active {
+    transform: scale(1.1);
+}
+
+body.light-theme .highlight-color-option {
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .highlight-color-option:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Duplicate styles removed - using unified formatting modal system above */
+
+/* Enhanced highlight text styling for better readability */
+.editor span[style*="background-color"] {
+    border-radius: 2px !important;
+    padding: 1px 2px !important;
+    margin: 0 1px !important;
+    transition: all 0.2s ease !important;
+}
+
+/* Ensure highlighted text maintains good contrast */
+.editor span[style*="background-color"]:hover {
+    opacity: 0.8 !important;
+    transform: scale(1.02) !important;
+}
+
+/* Light theme highlight adjustments */
+body.light-theme .editor span[style*="background-color"] {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* Light theme link styles */
+body.light-theme .editor a {
+    color: #1a73e8;
+}
+
+body.light-theme .editor a:hover {
+    color: #1557b0;
+}
+
+body.light-theme .editor a:visited {
+    color: #7b1fa2;
+}
+
+body.light-theme .editor a:active {
+    color: #0d47a1;
+}
+
+/* Dark theme highlight adjustments */
+body:not(.light-theme) .editor span[style*="background-color"] {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Light theme for highlight color picker */
+body.light-theme .highlight-color-picker {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+/* Font Size Picker Modal - Minimal compact design */
+.font-size-picker {
+    padding: 8px 12px;
+    background: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.font-size-controls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+}
+
+.font-size-btn {
+    width: 28px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    color: #e8eaed;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+    user-select: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.font-size-btn:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.font-size-btn:active {
+    transform: scale(0.95);
+}
+
+body.light-theme .font-size-btn {
+    background: rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #202124;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .font-size-btn:hover {
+    background: rgba(0, 0, 0, 0.14);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+}
+
+.font-size-display {
+    min-width: 50px;
+    height: 28px;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    border-radius: 8px;
+    color: #e8eaed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    user-select: none;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .font-size-display {
+    background: rgba(0, 0, 0, 0.08);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: #202124;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Font size styling for editor - ensure font size is applied correctly */
+.editor span[style*="font-size"] {
+    /* Ensure span font size is respected */
+    display: inline;
+}
+
+.editor font[size] {
+    /* Ensure font elements work correctly */
+    display: inline;
+}
+
+.editor font[data-font-size] {
+    /* Ensure font elements with data-font-size work correctly */
+    display: inline;
+}
+
+body.light-theme .highlight-color-option.selected {
+    border-color: #000000;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.text-color-option.selected {
+    border-color: #ffffff;
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3), 0 4px 12px rgba(0, 0, 0, 0.4);
+    transform: scale(1.1);
+}
+
+.text-color-option.selected::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ffffff;
+    font-size: 7px;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
+    pointer-events: none;
+}
+
+/* Ensure all child elements don't block pointer events */
+.text-color-option * {
+    pointer-events: none;
+}
+
+/* Ensure text color picker and grid are clickable */
+.text-color-picker {
+    pointer-events: all;
+}
+
+.text-color-grid {
+    pointer-events: all;
+}
+
+.text-color-option {
+    pointer-events: all;
+}
+
+
+/* Background Context Menu Styles */
+.background-context-menu {
+    position: fixed;
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 8px;
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    box-shadow: var(--glass-shadow-dark);
+    z-index: 1000;
+    min-width: 160px;
+    overflow: hidden;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.95);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.background-context-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1);
+}
+
+.background-context-menu .context-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    color: #e8eaed;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.background-context-menu .context-menu-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.background-context-menu .context-menu-item svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+}
+
+/* Light theme for background context menu */
+body.light-theme .background-context-menu {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .background-context-menu .context-menu-item {
+    color: var(--light-text);
+}
+
+body.light-theme .background-context-menu .context-menu-item:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Toast system is now unified - using toast-system.css */
+
+/* Notification Modal System - Optimized Design with Icon */
+.notification-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.notification-modal-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.notification-modal-content {
+    background: rgba(30, 30, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    max-width: 320px;
+    width: 90%;
+    overflow: hidden;
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notification-modal-overlay.show .notification-modal-content {
+    transform: scale(1) translateY(0);
+}
+
+/* Icon container - centered at top */
+.notification-modal-icon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 24px 0 24px;
+    margin-bottom: 16px;
+}
+
+.notification-modal-icon svg {
+    width: 56px;
+    height: 56px;
+    stroke-width: 2;
+}
+
+.notification-modal-icon.success svg {
+    color: #4caf50;
+}
+
+.notification-modal-icon.error svg {
+    color: #f44336;
+}
+
+.notification-modal-icon.warning svg {
+    color: #ff9800;
+}
+
+.notification-modal-icon.info svg {
+    color: #2196f3;
+}
+
+/* Body - text content */
+.notification-modal-body {
+    width: 100%;
+    padding: 0 24px;
+    margin-bottom: 20px;
+}
+
+.notification-modal-message {
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+/* Actions - button container */
+.notification-modal-actions {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0 24px 24px 24px;
+}
+
+.notification-modal-btn {
+    padding: 12px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    min-width: 100px;
+}
+
+.notification-modal-btn-primary {
+    background: #4285f4;
+    color: #ffffff;
+}
+
+.notification-modal-btn-primary:hover {
+    background: #3367d6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(66, 133, 244, 0.4);
+}
+
+.notification-modal-btn-secondary {
+    background: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.notification-modal-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Light theme support */
+body.light-theme .notification-modal-content {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .notification-modal-message {
+    color: #202124;
+}
+
+body.light-theme .notification-modal-btn-secondary {
+    background: rgba(0, 0, 0, 0.1);
+    color: #202124;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .notification-modal-btn-secondary:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* Compact modal for single-line messages */
+.notification-modal-compact .notification-modal-icon {
+    padding: 20px 20px 0 20px;
+    margin-bottom: 12px;
+}
+
+.notification-modal-compact .notification-modal-icon svg {
+    width: 48px;
+    height: 48px;
+}
+
+.notification-modal-compact .notification-modal-body {
+    padding: 0 20px;
+    margin-bottom: 16px;
+}
+
+.notification-modal-compact .notification-modal-message {
+    font-size: 14px;
+}
+
+.notification-modal-compact .notification-modal-actions {
+    padding: 0 20px 20px 20px;
+}
+
+.notification-modal-compact .notification-modal-btn {
+    padding: 10px 24px;
+    font-size: 13px;
+    min-width: 80px;
+}
+
+/* Error toast styling removed - using unified toast system */
+
+/* New styles for light-theme */
+body.light-theme .note-container {
+    background: #f1f3f4;
+    color: #202124;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .top-bar {
+    background: rgba(255, 255, 255, 0.75);
+    /* Light frosted glass */
+    color: var(--light-text);
+    border-bottom-color: rgba(0, 0, 0, 0.12);
+    box-shadow: 0 4px 16px rgba(139, 157, 195, 0.15),
+        0 0 0 1px rgba(139, 157, 195, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    padding: 1px 10px;
+    /* Reduced by 50%: 2px * 0.5 = 1px */
+    min-height: 20px;
+    /* Set minimum height to ensure it's thin */
+    height: auto;
+}
+
+body.light-theme .top-bar-btn {
+    color: var(--light-text);
+}
+
+body.light-theme .top-bar-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme placeholder removed as requested */
+
+body.light-theme .toolbar-container {
+    /* Light frosted glass container */
+    background: rgba(255, 255, 255, 0.7);
+    border-top: 1px solid var(--glass-border-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+
+    /* Overlay positioning for light theme */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    width: calc(100% - 20px);
+    margin: 6px 10px 8px 10px;
+}
+
+body.light-theme .toolbar {
+    background: transparent;
+}
+
+body.light-theme .toolbar button {
+    color: #202124;
+}
+
+body.light-theme .toolbar button:hover {
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+body.light-theme .toolbar button.active {
+    background: rgba(0, 0, 0, 0.25);
+    color: #000000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2),
+        inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    transform: translateY(-1px);
+}
+
+/* Icon styling for light theme */
+body.light-theme .toolbar button img {
+    filter: brightness(0) invert(0);
+    /* Makes icons dark in light theme */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.8;
+    will-change: transform, filter, opacity;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+body.light-theme .toolbar button:hover img {
+    filter: brightness(0) invert(0) drop-shadow(0 0 8px rgba(0, 0, 0, 0.3));
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+body.light-theme .toolbar button.active img {
+    filter: brightness(0) invert(0) drop-shadow(0 0 12px rgba(0, 0, 0, 0.5));
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+body.light-theme .toolbar button:focus img {
+    filter: brightness(0) invert(0) drop-shadow(0 0 6px rgba(66, 133, 244, 0.6));
+    opacity: 1;
+}
+
+body.light-theme .toolbar button:disabled img {
+    filter: brightness(0) invert(0) opacity(0.4);
+    transform: scale(0.95);
+    cursor: not-allowed;
+}
+
+/* Light theme AI button - Pure text with gradient */
+body.light-theme .toolbar .ai-btn {
+    background: none !important;
+    border: none !important;
+    outline: none !important;
+    background-image: linear-gradient(135deg, #ff6b6b, #9c27b0, #4285f4);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease-in-out infinite;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+body.light-theme .toolbar .ai-btn:hover {
+    background: none !important;
+    background-image: linear-gradient(135deg, #ff9a56, #ff6b9d, #00d2ff) !important;
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+/* Light theme AI Tone Button */
+body.light-theme .toolbar button.toolbar-btn {
+    background: transparent;
+    border: none;
+    color: #202124;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+body.light-theme .toolbar button.toolbar-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+}
+
+body.light-theme .toolbar button.toolbar-btn:active {
+    transform: translateY(0);
+    background: rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .toolbar button.toolbar-btn img {
+    width: 16px;
+    height: 16px;
+    filter: brightness(0) invert(0);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 0.9;
+    will-change: transform, filter, opacity;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+body.light-theme .toolbar button.toolbar-btn:hover img {
+    filter: brightness(0) invert(0) drop-shadow(0 0 8px rgba(0, 0, 0, 0.3));
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+body.light-theme .toolbar button.toolbar-btn:active img {
+    filter: brightness(0) invert(0) drop-shadow(0 0 12px rgba(0, 0, 0, 0.5));
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+/* Light theme AI Tone Button Active State */
+body.light-theme .toolbar button.toolbar-btn.active {
+    background: rgba(0, 0, 0, 0.15);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme AI Formatting Button SVG */
+body.light-theme .toolbar button.toolbar-btn svg {
+    stroke: rgba(0, 0, 0, 0.7);
+}
+
+body.light-theme .toolbar button.toolbar-btn:hover svg {
+    stroke: rgba(0, 0, 0, 1);
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.3));
+}
+
+body.light-theme .toolbar button.toolbar-btn:active svg {
+    stroke: rgba(0, 0, 0, 1);
+    filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.5));
+}
+
+body.light-theme .toolbar button.toolbar-btn.active img {
+    filter: brightness(0) invert(0) drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
+    transform: scale(1.05);
+    opacity: 1;
+}
+
+/* Light theme Toolbar Divider */
+body.light-theme .toolbar-divider {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/* AI Tone Loading Animation - Now using unified Lottie animation */
+
+/* Light theme AI button processing state - same spinning animation */
+body.light-theme #ai-assistant-btn.ai-processing {
+    opacity: 0.8 !important;
+    pointer-events: none !important;
+    cursor: not-allowed !important;
+}
+
+body.light-theme #ai-assistant-btn.ai-processing img {
+    animation: aiSlowSpin 2s linear infinite !important;
+}
+
+
+/* Light theme AI input bar */
+/* Light theme AI input bar - inherits morph animation from base */
+body.light-theme .ai-input-bar {
+    /* Only override positioning if needed, keep animation properties */
+    bottom: calc(4px + 50px);
+}
+
+/* Light theme - container styling removed */
+
+/* Removed light theme glow effects */
+
+/* Light theme AI result display - restored to original state */
+
+/* Light theme action buttons */
+body.light-theme .ai-result-btn {
+    background: rgba(0, 0, 0, 0.08);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: #202124;
+}
+
+body.light-theme .ai-result-btn:hover {
+    background: rgba(0, 0, 0, 0.15);
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+body.light-theme .ai-result-btn::before {
+    background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.1), transparent);
+}
+
+/* Light theme AI result text and avatar */
+body.light-theme .ai-result-text {
+    color: #202124;
+}
+
+body.light-theme .ai-result-avatar {
+    background: linear-gradient(135deg, #666, #999);
+}
+
+body.light-theme .ai-input-field {
+    background: rgb(255, 255, 255);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    color: var(--light-text);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1),
+        0 0 0 1px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+body.light-theme .ai-input-field:focus {
+    background: rgb(255, 255, 255);
+    border-color: var(--note-accent-color, #4285f4);
+    box-shadow: 0 0 0 2px rgba(66, 133, 244, 0.2),
+        0 4px 16px rgba(0, 0, 0, 0.1),
+        0 0 0 1px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
+
+body.light-theme .ai-input-field::placeholder {
+    color: var(--light-text-secondary);
+}
+
+body.light-theme .ai-send-btn {
+    background: var(--note-accent-color, #8b9dc3);
+    border: 1px solid var(--note-accent-color, #8b9dc3);
+    color: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15),
+        0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .ai-send-btn:hover:not(:disabled) {
+    background: var(--note-accent-hover, var(--note-accent-color, #8b9dc3));
+    border-color: var(--note-accent-hover, var(--note-accent-color, #8b9dc3));
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2),
+        0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .ai-send-btn:active {
+    background: var(--note-accent-hover, var(--note-accent-color, #8b9dc3));
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .ai-send-btn:disabled {
+    background: rgba(255, 255, 255, 0.99);
+    border-color: rgba(0, 0, 0, 0.2);
+    color: rgba(0, 0, 0, 0.4);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    filter: none;
+}
+
+body.light-theme .ai-close-bar-btn {
+    border-color: var(--glass-border-light);
+    color: #5f6368;
+}
+
+body.light-theme .ai-close-bar-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+body.light-theme .ai-suggestion {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: var(--glass-border-light);
+    color: #5f6368;
+}
+
+body.light-theme .ai-suggestion:hover {
+    background: rgba(66, 133, 244, 0.2);
+    color: #202124;
+}
+
+/* Modern AI UX: Subtle text replacement animation */
+@keyframes textReplacement {
+    0% {
+        background-color: rgba(66, 133, 244, 0.2);
+        transform: scale(1);
+    }
+
+    50% {
+        background-color: rgba(66, 133, 244, 0.4);
+        transform: scale(1.02);
+    }
+
+    100% {
+        background-color: transparent;
+        transform: scale(1);
+    }
+}
+
+.ai-text-replacement {
+    animation: textReplacement 0.6s ease-out;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: -2px -4px;
+}
+
+/* Modern AI UX: Subtle success indicator */
+.ai-success-indicator {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: rgba(52, 168, 83, 0.9);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 10001;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.3s ease;
+    backdrop-filter: blur(var(--glass-blur-light));
+    -webkit-backdrop-filter: blur(var(--glass-blur-light));
+    box-shadow: 0 4px 12px rgba(52, 168, 83, 0.3);
+}
+
+.ai-success-indicator.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Light theme for success indicator */
+body.light-theme .ai-success-indicator {
+    background: rgba(52, 168, 83, 0.9);
+    color: white;
+}
+
+/* Base Context Menu Styles - ULTIMATE STABILITY */
+/* REMOVED ALL CONTEXT MENU CSS STYLES */
+/* No more .custom-context-menu, .context-menu-item styles */
+
+/* Rest of CSS remains the same... */
+
+/* Real Text Shimmer Effect - Inspired by Framer */
+.ai-shimmer-effect {
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(90deg,
+            #666 0%,
+            #fff 50%,
+            #666 100%);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+/* Shimmer animation - light sweep across text */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Light theme shimmer effect */
+body.light-theme .ai-shimmer-effect {
+    background: linear-gradient(90deg,
+            #999 0%,
+            #000 50%,
+            #999 100%);
+    background-size: 200% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shimmer 2s ease-in-out infinite;
+}
+
+/* AI Loading Overlay - Simplified for fallback */
+.ai-loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10000;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+}
+
+.ai-loading-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* AI Loading Text Container - Centered */
+.ai-loading-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+/* Neural Network Container */
+.neural-network {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Neural Connections SVG */
+.neural-connections {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Neural Connection Lines */
+.neural-connection {
+    stroke: rgba(255, 107, 107, 0.6);
+    stroke-width: 1.5;
+    stroke-dasharray: 5, 5;
+    stroke-dashoffset: 0;
+    animation: neuralConnectionPulse 2s ease-in-out infinite;
+    animation-delay: var(--delay);
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.neural-connection-secondary {
+    stroke: rgba(156, 39, 176, 0.4);
+    stroke-width: 1;
+    stroke-dasharray: 3, 3;
+    stroke-dashoffset: 0;
+    animation: neuralConnectionPulse 2.5s ease-in-out infinite;
+    animation-delay: var(--delay);
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* Neural Nodes Container */
+.neural-nodes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+/* Individual Neural Node */
+.neural-node {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    background: radial-gradient(circle, rgba(66, 133, 244, 0.9) 0%, rgba(66, 133, 244, 0.3) 70%, transparent 100%);
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(var(--angle)) translateY(-60px) translate(-50%, -50%);
+    animation: neuralNodePulse 1.5s ease-in-out infinite;
+    animation-delay: var(--delay);
+    opacity: 0;
+    animation-fill-mode: forwards;
+    box-shadow: 0 0 10px rgba(66, 133, 244, 0.5);
+}
+
+/* AI Loading Text - Large gradient text like bottombar AI button */
+.ai-loading-text {
+    font-size: 48px;
+    font-weight: bold;
+    color: transparent;
+    background: linear-gradient(135deg, #ff6b6b, #9c27b0, #4285f4);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease-in-out infinite, aiLoadingPulse 2s ease-in-out infinite;
+    text-align: center;
+    line-height: 1;
+    user-select: none;
+    position: relative;
+    z-index: 3;
+}
+
+/* AI Loading Text Animation */
+@keyframes aiLoadingPulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+}
+
+/* AI Gradient Pulse Animation */
+@keyframes aiGradientPulse {
+
+    0%,
+    100% {
+        background: radial-gradient(circle at center,
+                rgba(255, 107, 107, 0.15) 0%,
+                rgba(156, 39, 176, 0.12) 25%,
+                rgba(66, 133, 244, 0.08) 50%,
+                rgba(0, 0, 0, 0.6) 75%,
+                rgba(0, 0, 0, 0.9) 100%);
+    }
+
+    33% {
+        background: radial-gradient(circle at center,
+                rgba(156, 39, 176, 0.18) 0%,
+                rgba(66, 133, 244, 0.15) 25%,
+                rgba(255, 107, 107, 0.12) 50%,
+                rgba(0, 0, 0, 0.6) 75%,
+                rgba(0, 0, 0, 0.9) 100%);
+    }
+
+    66% {
+        background: radial-gradient(circle at center,
+                rgba(66, 133, 244, 0.18) 0%,
+                rgba(255, 107, 107, 0.15) 25%,
+                rgba(156, 39, 176, 0.12) 50%,
+                rgba(0, 0, 0, 0.6) 75%,
+                rgba(0, 0, 0, 0.9) 100%);
+    }
+}
+
+/* Neural Network Animations */
+@keyframes neuralNodePulse {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) rotate(var(--angle)) translateY(-60px) translate(-50%, -50%) scale(0.5);
+        box-shadow: 0 0 5px rgba(66, 133, 244, 0.3);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translate(-50%, -50%) rotate(var(--angle)) translateY(-60px) translate(-50%, -50%) scale(1);
+        box-shadow: 0 0 15px rgba(66, 133, 244, 0.7);
+    }
+
+    50% {
+        opacity: 1;
+        transform: translate(-50%, -50%) rotate(var(--angle)) translateY(-60px) translate(-50%, -50%) scale(1.2);
+        box-shadow: 0 0 20px rgba(66, 133, 244, 0.9);
+    }
+
+    80% {
+        opacity: 0.8;
+        transform: translate(-50%, -50%) rotate(var(--angle)) translateY(-60px) translate(-50%, -50%) scale(1);
+        box-shadow: 0 0 10px rgba(66, 133, 244, 0.5);
+    }
+
+    100% {
+        opacity: 0.6;
+        transform: translate(-50%, -50%) rotate(var(--angle)) translateY(-60px) translate(-50%, -50%) scale(0.8);
+        box-shadow: 0 0 5px rgba(66, 133, 244, 0.3);
+    }
+}
+
+@keyframes neuralConnectionPulse {
+    0% {
+        opacity: 0;
+        stroke-dashoffset: 20;
+    }
+
+    30% {
+        opacity: 0.8;
+        stroke-dashoffset: 0;
+    }
+
+    70% {
+        opacity: 1;
+        stroke-dashoffset: -10;
+    }
+
+    100% {
+        opacity: 0.6;
+        stroke-dashoffset: -20;
+    }
+}
+
+/* Removed text and progress bar - only sparkles animation */
+
+/* Light theme for loading overlay */
+
+body.light-theme .ai-loading-overlay {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Light theme AI loading text - same gradient as dark theme */
+body.light-theme .ai-loading-text {
+    background: linear-gradient(135deg, #ff6b6b, #9c27b0, #4285f4);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    animation: gradientShift 3s ease-in-out infinite, aiLoadingPulse 2s ease-in-out infinite;
+}
+
+/* Light theme neural network styles */
+body.light-theme .neural-connection {
+    stroke: rgba(255, 107, 107, 0.7);
+}
+
+body.light-theme .neural-connection-secondary {
+    stroke: rgba(156, 39, 176, 0.5);
+}
+
+body.light-theme .neural-node {
+    background: radial-gradient(circle, rgba(66, 133, 244, 0.8) 0%, rgba(66, 133, 244, 0.4) 70%, transparent 100%);
+    box-shadow: 0 0 8px rgba(66, 133, 244, 0.6);
+}
+
+/* Light theme gradient pulse animation */
+@keyframes aiGradientPulseLight {
+
+    0%,
+    100% {
+        background: radial-gradient(circle at center,
+                rgba(255, 107, 107, 0.12) 0%,
+                rgba(156, 39, 176, 0.1) 25%,
+                rgba(66, 133, 244, 0.08) 50%,
+                rgba(255, 255, 255, 0.6) 75%,
+                rgba(255, 255, 255, 0.8) 100%);
+    }
+
+    33% {
+        background: radial-gradient(circle at center,
+                rgba(156, 39, 176, 0.15) 0%,
+                rgba(66, 133, 244, 0.12) 25%,
+                rgba(255, 107, 107, 0.1) 50%,
+                rgba(255, 255, 255, 0.6) 75%,
+                rgba(255, 255, 255, 0.8) 100%);
+    }
+
+    66% {
+        background: radial-gradient(circle at center,
+                rgba(66, 133, 244, 0.15) 0%,
+                rgba(255, 107, 107, 0.12) 25%,
+                rgba(156, 39, 176, 0.1) 50%,
+                rgba(255, 255, 255, 0.6) 75%,
+                rgba(255, 255, 255, 0.8) 100%);
+    }
+}
+
+/* ============================================
+   TOAST NOTIFICATIONS
+   Đã chuyển sang hệ thống toast thống nhất
+   Sử dụng toast-system.css và toast-system.js
+   ============================================ */
+
+/* CSS toast cũ đã được xóa và thay thế bằng hệ thống mới */
+/* Tất cả toast giờ sử dụng .unified-toast từ toast-system.css */
+
+body.light-theme .dropdown-content {
+    background: rgba(255, 255, 255, 0.98);
+    /* Much more opaque for light theme */
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2),
+        0 0 0 1px rgba(0, 0, 0, 0.05),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .dropdown-content a {
+    color: #202124;
+}
+
+body.light-theme .dropdown-content a:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Light theme topbar hidden state */
+body.light-theme .top-bar.hidden {
+    background: var(--note-accent-color, #8b9dc3) !important;
+    border-bottom: none !important;
+}
+
+/* Color palette CSS for light-theme */
+body.light-theme .color-palette {
+    border-bottom-color: #dadce0;
+}
+
+body.light-theme .color-dot.selected {
+    border-color: #202124;
+}
+
+/* Light theme for text color picker */
+body.light-theme .text-color-picker {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .text-color-option.selected {
+    border-color: #000000;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.3), 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .text-color-option.selected::after {
+    color: #000000;
+    text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+/* Background Picker Modal Styles */
+.background-picker-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.background-picker-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.background-picker-content {
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 15px;
+    box-shadow: var(--glass-shadow-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    /* Exact calculation: 360px grid width + 48px padding (24px each side) = 408px */
+    width: min(90vw, 408px);
+    height: min(80vh, 580px);
+    overflow: hidden;
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.background-picker-modal.show .background-picker-content {
+    transform: scale(1) translateY(0);
+}
+
+.background-picker-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--glass-border-dark);
+}
+
+.background-picker-header h3 {
+    margin: 0;
+    color: var(--dark-text);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.close-btn {
+    background: transparent;
+    border: none;
+    color: var(--dark-text-secondary);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--dark-text);
+}
+
+.background-picker-tabs {
+    display: flex;
+    gap: 4px;
+    padding: 12px 16px 0 16px;
+    border-bottom: 1px solid var(--glass-border-dark);
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    flex-shrink: 0;
+    position: sticky;
+    top: 0;
+    background: var(--glass-bg-dark);
+    z-index: 10;
+}
+
+.background-picker-tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.bg-tab {
+    padding: 8px 16px;
+    background: transparent;
+    border: none;
+    color: var(--dark-text-secondary);
+    cursor: pointer;
+    border-radius: 8px 8px 0 0;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    position: relative;
+}
+
+.bg-tab:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: var(--dark-text);
+}
+
+.bg-tab.active {
+    background: rgba(66, 133, 244, 0.15);
+    color: #4285f4;
+}
+
+.bg-tab.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: #4285f4;
+}
+
+.background-picker-body {
+    padding: 16px 24px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-sizing: border-box;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 0;
+}
+
+/* For Webkit browsers (Chrome, Safari) */
+.background-picker-body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Share Modal Styles */
+.share-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.share-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.share-modal-content {
+    background: rgba(30, 30, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    max-width: 320px;
+    width: 85%;
+    overflow: hidden;
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.share-modal.show .share-modal-content {
+    transform: scale(1) translateY(0);
+}
+
+.share-modal-header {
+    padding: 20px 20px 16px 20px;
+    position: relative;
+}
+
+.share-modal-header h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.share-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    background: transparent;
+    border: none;
+    color: #cccccc;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    width: 28px;
+    height: 28px;
+}
+
+.share-modal-close:hover {
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+.share-modal-body {
+    padding: 0 20px 20px 20px;
+}
+
+.share-social-icons {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.share-social-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.share-social-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.share-social-btn.linkedin {
+    background: #0077b5;
+    color: white;
+}
+
+.share-social-btn.facebook {
+    background: #1877f2;
+    color: white;
+}
+
+.share-social-btn.reddit {
+    background: #ff4500;
+    color: white;
+}
+
+.share-social-btn.twitter {
+    background: #000000;
+    color: white;
+}
+
+.share-social-btn.whatsapp {
+    background: #25d366;
+    color: white;
+}
+
+.share-link-container {
+    margin-top: 12px;
+}
+
+.share-link-input {
+    display: flex;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: all 0.2s ease;
+}
+
+.share-link-input:focus-within {
+    border-color: #4a9eff;
+    box-shadow: 0 0 0 2px rgba(74, 158, 255, 0.3);
+}
+
+.share-link-input input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    padding: 10px 12px;
+    color: #ffffff;
+    font-size: 13px;
+    outline: none;
+}
+
+.share-link-input input::placeholder {
+    color: #aaaaaa;
+}
+
+.share-copy-btn {
+    background: var(--accent-color, #4a9eff);
+    color: white;
+    border: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.share-copy-btn:hover {
+    background: var(--accent-hover, #3a8eef);
+    transform: translateY(-1px);
+}
+
+.share-copy-btn:active {
+    transform: translateY(0);
+}
+
+.share-copy-btn svg {
+    width: 14px;
+    height: 14px;
+}
+
+.share-copy-btn.copied {
+    background: #4caf50;
+}
+
+.share-copy-btn.copied:hover {
+    background: #45a049;
+}
+
+/* Loading Overlay */
+.share-loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    z-index: 10001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.share-loading-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.share-loading-content {
+    background: rgba(30, 30, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 20px 24px;
+    text-align: center;
+    max-width: 200px;
+    width: 80%;
+}
+
+.share-loading-spinner {
+    width: 28px;
+    height: 28px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-top: 3px solid #4a9eff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 12px auto;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.share-loading-text {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Light Theme Support */
+body.light-theme .share-modal {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+body.light-theme .share-modal-content {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .share-modal-header h3 {
+    color: var(--light-text);
+}
+
+body.light-theme .share-modal-close {
+    color: var(--light-text-secondary);
+}
+
+body.light-theme .share-modal-close:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: var(--light-text);
+}
+
+body.light-theme .share-link-input {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: var(--glass-border-light);
+}
+
+body.light-theme .share-link-input input {
+    color: var(--light-text);
+}
+
+body.light-theme .share-link-input input::placeholder {
+    color: var(--light-text-secondary);
+}
+
+body.light-theme .share-loading-overlay {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+body.light-theme .share-loading-content {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .share-loading-text {
+    color: var(--light-text);
+}
+
+.background-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 64px);
+    gap: 10px;
+    /* Exact calculation: 5 columns × 64px + 4 gaps × 10px = 360px */
+    width: 360px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-height: 200px;
+    position: relative;
+}
+
+/* Loading spinner for background picker */
+.background-loading-spinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.background-loading-spinner .spinner {
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-top-color: #4285f4;
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+body.light-theme .background-loading-spinner .spinner {
+    border-color: rgba(0, 0, 0, 0.1);
+    border-top-color: #1a73e8;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.background-option.lazy-loading {
+    animation: fadeInUp 0.3s ease-out forwards;
+}
+
+.background-option {
+    width: 64px;
+    height: 64px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    outline: 2px solid transparent;
+    outline-offset: 0;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* Overlay layer for preview - phủ kín 100% */
+.background-option::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    /* Shorthand cho top: 0, right: 0, bottom: 0, left: 0 */
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    pointer-events: none;
+    z-index: 1;
+    border-radius: inherit;
+    /* Kế thừa border-radius từ parent */
+}
+
+.background-option:hover {
+    transform: scale(1.15);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+
+.background-option.selected {
+    outline: 3px solid #4285f4;
+    outline-offset: -3px;
+    box-shadow: 0 0 0 1px rgba(66, 133, 244, 0.3), 0 4px 12px rgba(66, 133, 244, 0.4);
+    transform: scale(1.1);
+}
+
+/* Ensure all child elements don't block pointer events */
+.background-option * {
+    pointer-events: none;
+}
+
+/* Default background star indicator */
+.default-star {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    background: #ffd700;
+    color: #000;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    animation: starPulse 2s ease-in-out infinite;
+}
+
+@keyframes starPulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 4px 8px rgba(255, 215, 0, 0.4);
+    }
+}
+
+/* Dropdown item with icon */
+.dropdown-item-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #e8eaed;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 2px 8px;
+}
+
+/* Download button styling */
+#download-note-btn {
+    display: block;
+    color: #e8eaed;
+    padding: 12px 16px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+    margin: 2px 8px;
+}
+
+#download-note-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+#download-note-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.dropdown-item-with-icon:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-1px);
+}
+
+.dropdown-item-with-icon svg {
+    flex-shrink: 0;
+}
+
+/* Light theme for background picker */
+body.light-theme .background-picker-content {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+    width: min(90vw, 408px);
+    max-height: min(80vh, 580px);
+}
+
+body.light-theme .background-picker-tabs {
+    border-bottom-color: var(--glass-border-light);
+    background: var(--glass-bg-light);
+}
+
+body.light-theme .bg-tab {
+    color: var(--light-text-secondary);
+}
+
+body.light-theme .bg-tab:hover {
+    background: rgba(0, 0, 0, 0.05);
+    color: var(--light-text);
+}
+
+body.light-theme .bg-tab.active {
+    background: rgba(66, 133, 244, 0.1);
+    color: #1a73e8;
+}
+
+body.light-theme .background-picker-header {
+    border-bottom-color: var(--glass-border-light);
+}
+
+body.light-theme .background-picker-header h3 {
+    color: var(--light-text);
+}
+
+body.light-theme .close-btn {
+    color: var(--light-text-secondary);
+}
+
+body.light-theme .close-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: var(--light-text);
+}
+
+body.light-theme .background-category h4 {
+    color: var(--light-text);
+}
+
+body.light-theme .background-option:hover {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .dropdown-item-with-icon {
+    color: #202124;
+}
+
+body.light-theme .dropdown-item-with-icon:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* Locked background option styles */
+.background-option.locked {
+    position: relative;
+    cursor: pointer;
+    /* Allow normal cursor for hover and click */
+}
+
+.locked-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #ffffff;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    z-index: 10;
+}
+
+.locked-overlay svg {
+    width: 12px;
+    height: 12px;
+    opacity: 0.9;
+}
+
+/* Light theme locked background */
+body.light-theme .locked-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+}
+
+/* Light theme for download button */
+body.light-theme #download-note-btn {
+    color: #202124;
+}
+
+body.light-theme #download-note-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+
+/* Light theme toast styling removed - using unified toast system */
+
+/* Professional Paste Options Menu */
+.paste-options-menu {
+    position: fixed;
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 15px;
+    box-shadow: var(--glass-shadow-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    z-index: 10000;
+    padding: 8px 0;
+    min-width: 200px;
+    animation: pasteMenuSlideIn 0.2s ease-out;
+}
+
+.paste-option-item {
+    padding: 12px 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #e8eaed;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    border-radius: 8px;
+    margin: 2px 8px;
+}
+
+.paste-option-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateX(4px);
+}
+
+.paste-option-item:active {
+    transform: translateX(2px);
+}
+
+@keyframes pasteMenuSlideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Light theme for paste menu */
+body.light-theme .paste-options-menu {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .paste-option-item {
+    color: #202124;
+}
+
+body.light-theme .paste-option-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+/* AI Button - Use common style like other buttons */
+/* Floating AI Button for Text Selection - Icon Only, No Background */
+.ai-floating-button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 9999;
+    outline: none;
+    pointer-events: auto;
+    user-select: none;
+    opacity: 0;
+    transform: scale(0.7) translateY(8px);
+    transform-origin: center;
+    /* Transitions are controlled by JavaScript for better performance */
+    transition: none;
+    will-change: transform, opacity, left, top;
+}
+
+.ai-floating-button img {
+    width: 24px;
+    height: 24px;
+    /* Blue-cyan color with 100% opacity */
+    filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(2476%) hue-rotate(193deg) brightness(103%) contrast(101%);
+    opacity: 1;
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+}
+
+.ai-floating-button:hover {
+    transform: scale(1.15) translateY(0);
+}
+
+.ai-floating-button:hover img {
+    transform: scale(1.1) rotate(5deg);
+    filter: brightness(0) saturate(100%) invert(56%) sepia(89%) saturate(2476%) hue-rotate(193deg) brightness(110%) contrast(101%);
+}
+
+.ai-floating-button:active {
+    transform: scale(0.95) translateY(0);
+}
+
+.ai-floating-button:active img {
+    transform: scale(1) rotate(0deg);
+}
+
+/* Dark theme support - Blue-white color */
+body.dark-theme .ai-floating-button img {
+    /* Light blue-cyan for dark theme */
+    filter: brightness(0) saturate(100%) invert(70%) sepia(52%) saturate(1500%) hue-rotate(180deg) brightness(105%) contrast(101%);
+    opacity: 1;
+}
+
+body.dark-theme .ai-floating-button:hover img {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(52%) saturate(1500%) hue-rotate(180deg) brightness(115%) contrast(101%);
+}
+
+/* Light theme support - Blue-black color */
+body.light-theme .ai-floating-button img {
+    /* Darker blue for light theme */
+    filter: brightness(0) saturate(100%) invert(35%) sepia(95%) saturate(2000%) hue-rotate(200deg) brightness(95%) contrast(101%);
+    opacity: 1;
+}
+
+body.light-theme .ai-floating-button:hover img {
+    filter: brightness(0) saturate(100%) invert(35%) sepia(95%) saturate(2000%) hue-rotate(200deg) brightness(105%) contrast(101%);
+}
+
+/* Legacy animation keyframe - kept for compatibility */
+@keyframes aiButtonAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.8) translateY(5px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* Hide floating button when not needed */
+.ai-floating-button.hidden {
+    display: none !important;
+    opacity: 0 !important;
+}
+
+/* Selected Text Indicator */
+.selected-text-indicator {
+    background: rgba(50, 50, 50, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(120, 120, 120, 0.3);
+    border-radius: 8px;
+    padding: 8px 12px;
+    margin-bottom: 8px;
+    animation: indicatorMorphIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    max-width: 300px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes indicatorMorphIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(-10px);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: scale(1.05) translateY(-5px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+.indicator-content {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #e0e0e0;
+}
+
+.indicator-text {
+    flex: 1;
+    font-weight: 400;
+    line-height: 1;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.indicator-close {
+    background: none;
+    border: none;
+    color: #a0a0a0;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.indicator-close:hover {
+    background: rgba(120, 120, 120, 0.4);
+    color: #ffffff;
+}
+
+
+#ai-assistant-btn:focus {
+    background: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    outline: none !important;
+}
+
+/* AI Context Menu Styles */
+.ai-context-menu {
+    position: fixed;
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 15px;
+    box-shadow: var(--glass-shadow-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    z-index: 10000;
+    min-width: 200px;
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.95) translateY(-10px);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ai-context-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) translateY(0);
+}
+
+.ai-context-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    color: #e8eaed;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.ai-context-menu-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(66, 133, 244, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.ai-context-menu-item:hover {
+    background: rgba(66, 133, 244, 0.1);
+    color: #4285f4;
+    transform: translateX(4px);
+}
+
+.ai-context-menu-item:hover::before {
+    left: 100%;
+}
+
+/* Action Items specific styling - removed duplicate icon */
+
+/* Task list styling for action items */
+.editor input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    margin-right: 8px;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+    vertical-align: middle;
+}
+
+/* Reduce spacing between task items */
+.editor div[style*="display: flex"][style*="align-items: center"] {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: 1.4 !important;
+}
+
+.editor input[type="checkbox"]:checked {
+    background: rgba(66, 133, 244, 0.8);
+    border-color: rgba(66, 133, 244, 0.8);
+}
+
+.editor input[type="checkbox"]:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.editor input[type="checkbox"]:hover {
+    border-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+/* Light theme checkbox styling */
+body.light-theme .editor input[type="checkbox"] {
+    border-color: rgba(0, 0, 0, 0.3);
+}
+
+body.light-theme .editor input[type="checkbox"]:checked {
+    background: rgba(66, 133, 244, 0.8);
+    border-color: rgba(66, 133, 244, 0.8);
+}
+
+body.light-theme .editor input[type="checkbox"]:hover {
+    border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Image Context Menu Styles */
+.image-context-menu {
+    position: fixed;
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 15px;
+    box-shadow: var(--glass-shadow-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    z-index: 10000;
+    min-width: 200px;
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.95) translateY(-10px);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.image-context-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) translateY(0);
+}
+
+.image-context-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    color: #e8eaed;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-context-menu-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(66, 133, 244, 0.1), transparent);
+    transition: left 0.5s ease;
+}
+
+.image-context-menu-item:hover {
+    background: rgba(66, 133, 244, 0.1);
+    color: #4285f4;
+    transform: translateX(4px);
+}
+
+.image-context-menu-item:hover::before {
+    left: 100%;
+}
+
+.image-context-menu-item svg {
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+.image-context-menu-item:hover svg {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 4px rgba(66, 133, 244, 0.3));
+}
+
+/* Light theme for image context menu */
+body.light-theme .image-context-menu {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .image-context-menu-item {
+    color: #202124;
+}
+
+body.light-theme .image-context-menu-item:hover {
+    background: rgba(66, 133, 244, 0.1);
+    color: #4285f4;
+}
+
+/* OCR Loading Indicator - Google Gemini Icon Spinning */
+.ocr-loading-indicator {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 12px 0;
+    animation: ocrFadeIn 0.3s ease-out;
+}
+
+.ocr-loading-icon {
+    width: 20px;
+    height: 20px;
+    animation: ocrSpin 1.5s linear infinite;
+    filter: brightness(0) invert(1);
+    /* Màu sáng cho chế độ tối */
+}
+
+@keyframes ocrSpin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes ocrFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes ocrFadeOut {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    to {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+}
+
+.ocr-loading-indicator.fade-out {
+    animation: ocrFadeOut 0.3s ease-out forwards;
+}
+
+/* Light theme - icon màu xám tối */
+body.light-theme .ocr-loading-icon {
+    filter: brightness(0) invert(0.4);
+    /* Màu xám tối cho chế độ sáng */
+}
+
+
+/* Light theme for image analysis result */
+body.light-theme .image-analysis-result {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+body.light-theme .image-analysis-result .analysis-type {
+    background: rgba(66, 133, 244, 0.1);
+    color: #4285f4;
+}
+
+body.light-theme .image-analysis-result .ocr-content {
+    background: rgba(240, 240, 240, 0.8);
+    border-color: rgba(0, 0, 0, 0.1);
+    color: #202124;
+}
+
+body.light-theme .image-analysis-result .ocr-content h1,
+body.light-theme .image-analysis-result .ocr-content h2,
+body.light-theme .image-analysis-result .ocr-content h3,
+body.light-theme .image-analysis-result .ocr-content h4,
+body.light-theme .image-analysis-result .ocr-content h5,
+body.light-theme .image-analysis-result .ocr-content h6 {
+    color: #4285f4;
+}
+
+body.light-theme .image-analysis-result .ocr-content strong,
+body.light-theme .image-analysis-result .ocr-content b {
+    color: #000000;
+}
+
+body.light-theme .image-analysis-result .ocr-content em,
+body.light-theme .image-analysis-result .ocr-content i {
+    color: #666666;
+}
+
+body.light-theme .image-analysis-result .ocr-content code {
+    background: rgba(0, 0, 0, 0.1);
+    color: #0066cc;
+}
+
+body.light-theme .image-analysis-result .ocr-content pre {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .image-analysis-result .ocr-content pre code {
+    color: #0066cc;
+}
+
+body.light-theme .image-analysis-result .ocr-content li {
+    color: #202124;
+}
+
+body.light-theme .image-analysis-result .ocr-content th {
+    background: rgba(66, 133, 244, 0.1);
+    color: #4285f4;
+}
+
+body.light-theme .image-analysis-result .ocr-content td {
+    color: #202124;
+}
+
+body.light-theme .image-analysis-result .ocr-content blockquote {
+    color: #666666;
+    background: rgba(66, 133, 244, 0.05);
+}
+
+body.light-theme .image-analysis-result .ocr-content p {
+    color: #202124;
+}
+
+body.light-theme .image-analysis-result .ocr-content hr {
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.ai-context-menu-item svg {
+    flex-shrink: 0;
+    transition: all 0.2s ease;
+}
+
+.ai-context-menu-item:hover svg {
+    transform: scale(1.1);
+    color: #4285f4;
+}
+
+.ai-context-menu-item span {
+    flex: 1;
+    white-space: nowrap;
+}
+
+/* Light theme for AI context menu */
+body.light-theme .ai-context-menu {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .ai-context-menu-item {
+    color: #202124;
+}
+
+body.light-theme .ai-context-menu-item::before {
+    background: linear-gradient(90deg, transparent, rgba(66, 133, 244, 0.15), transparent);
+}
+
+body.light-theme .ai-context-menu-item:hover {
+    background: rgba(66, 133, 244, 0.15);
+    color: #4285f4;
+}
+
+body.light-theme .ai-context-menu-item:hover svg {
+    color: #4285f4;
+}
+
+/* Light theme scrollbar for editor - Hide scrollbar */
+body.light-theme .editor {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+body.light-theme .editor::-webkit-scrollbar {
+    display: none;
+}
+
+/* Light theme text selection styling - dynamic color based on note with soft transparency */
+/* Note: Chrome doesn't support border-radius for ::selection */
+body.light-theme .editor::selection {
+    background: var(--note-selection-color-light, rgba(152, 251, 152, 0.3));
+    color: #202124;
+    /* Chrome doesn't support border-radius for text selection */
+}
+
+body.light-theme .editor::-moz-selection {
+    background: var(--note-selection-color-light, rgba(152, 251, 152, 0.3));
+    color: #202124;
+    /* Firefox has similar limitations */
+}
+
+/* AI Result Area - Chat bot style like Gemini with strong frosted glass effect */
+.ai-result-area {
+    margin-bottom: 4px;
+    padding: 8px 10px 4px 10px;
+    background: rgba(44, 44, 46, 0.99);
+    border-radius: 16px;
+    border: 1px solid var(--glass-border-dark);
+    animation: ai-result-slide-down 0.3s ease-out;
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    box-shadow: var(--glass-shadow-dark);
+    display: block;
+    max-height: 450px;
+    overflow: visible;
+}
+
+/* Chat message styles */
+.ai-chat-message {
+    margin-bottom: 12px;
+}
+
+.ai-user-message {
+    margin-bottom: 8px;
+    padding: 4px 0;
+    /* Reduced padding for more space */
+}
+
+.ai-user-message .message-content {
+    color: rgba(255, 255, 255, 0.95);
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.ai-ai-message {
+    margin-bottom: 0;
+    padding: 2px 0 0 0;
+    max-height: 380px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    position: relative;
+}
+
+.ai-ai-message::-webkit-scrollbar {
+    display: none;
+}
+
+.ai-ai-message .message-content {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 100%;
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 14px;
+    line-height: 1.6;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+
+.ai-ai-message .message-content p {
+    margin: 0 0 8px 0;
+}
+
+.ai-ai-message .message-content p:last-child {
+    margin-bottom: 0;
+}
+
+.ai-ai-message .message-content strong,
+.ai-ai-message .message-content b {
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.98);
+}
+
+.ai-ai-message .message-content em,
+.ai-ai-message .message-content i {
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.ai-ai-message .message-content code {
+    font-family: 'Courier New', monospace;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 13px;
+}
+
+/* Inline action buttons at end of AI message (inside scrollable area) */
+.ai-inline-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+    padding: 12px 0 4px 0;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ai-inline-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    background: transparent;
+    border: none;
+    border-radius: 8px;
+    color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
+}
+
+.ai-inline-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.9);
+    transform: scale(1.1);
+}
+
+.ai-inline-btn:active {
+    transform: scale(0.95);
+}
+
+/* Animation for result area */
+@keyframes ai-result-slide-down {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+        max-height: 0;
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        max-height: 400px;
+    }
+}
+
+/* Light theme for chat bot style */
+body.light-theme .ai-result-area {
+    background: rgba(255, 255, 255, 0.99);
+    border: 1px solid var(--glass-border-light);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .ai-user-message .message-content {
+    color: rgba(0, 0, 0, 0.87);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+body.light-theme .ai-ai-message .message-content {
+    color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+body.light-theme .ai-ai-message .message-content strong,
+body.light-theme .ai-ai-message .message-content b {
+    color: rgba(0, 0, 0, 0.95);
+}
+
+body.light-theme .ai-ai-message .message-content em,
+body.light-theme .ai-ai-message .message-content i {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+body.light-theme .ai-ai-message .message-content code {
+    background: rgba(0, 0, 0, 0.08);
+}
+
+body.light-theme .ai-inline-actions {
+    border-top-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+body.light-theme .ai-inline-btn {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+body.light-theme .ai-inline-btn:hover {
+    background: rgba(0, 0, 0, 0.08);
+    color: rgba(0, 0, 0, 0.8);
+}
+
+body.light-theme .ai-user-message .message-content {
+    color: #202124;
+}
+
+body.light-theme .ai-ai-message .message-content {
+    color: #202124;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+body.light-theme .ai-action-btn {
+    border-color: rgba(0, 0, 0, 0.15);
+    color: #5f6368;
+}
+
+body.light-theme .ai-action-btn:hover {
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.25);
+    color: #202124;
+}
+
+/* AI Result Display (Legacy) */
+.ai-result-display {
+    margin-top: 16px;
+    padding: 16px;
+    background: var(--glass-bg-dark);
+    border-radius: 15px;
+    border: 1px solid var(--glass-border-dark);
+    box-shadow: var(--glass-shadow-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.ai-result-content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.ai-result-text {
+    color: var(--dark-text);
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 6px 4px;
+    /* Further reduced padding for maximum text space */
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ai-result-actions {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+    margin-top: 0px;
+    /* Reduced margin to bring buttons closer to text */
+    padding: 2px 0;
+    /* Added padding for consistency */
+}
+
+.ai-result-btn {
+    padding: 8px 16px;
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 8px;
+    color: var(--dark-text);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+}
+
+.ai-result-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
+
+/* Light theme for AI result */
+body.light-theme .ai-result-display {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .ai-result-text {
+    color: var(--light-text);
+    background: rgba(0, 0, 0, 0.05);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-theme .ai-result-btn {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    color: var(--light-text);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .ai-result-btn:hover {
+    background: rgba(0, 0, 0, 0.1);
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Upload option styles */
+.upload-option {
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 2px dashed rgba(255, 255, 255, 0.3) !important;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.upload-option:hover {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.upload-option:active {
+    transform: scale(0.98);
+}
+
+/* Custom background delete button */
+.delete-custom-bg {
+    position: absolute;
+    top: 4px;
+    right: 4px;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 0, 0, 0.8);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+    opacity: 0;
+    transition: all 0.2s ease;
+    z-index: 10;
+}
+
+.background-option:hover .delete-custom-bg {
+    opacity: 1;
+}
+
+.delete-custom-bg:hover {
+    background: rgba(255, 0, 0, 1);
+    transform: scale(1.1);
+}
+
+/* Light theme for upload and custom options */
+body.light-theme .upload-option {
+    background: rgba(0, 0, 0, 0.05) !important;
+    border-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+body.light-theme .upload-option:hover {
+    background: rgba(0, 0, 0, 0.1) !important;
+    border-color: rgba(0, 0, 0, 0.3) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .upload-option div {
+    color: var(--light-text);
+}
+
+body.light-theme .upload-option:active {
+    transform: scale(0.98);
+}
+
+/* Background Context Menu Styles */
+.background-context-menu {
+    position: fixed;
+    background: var(--glass-bg-dark);
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 15px;
+    box-shadow: var(--glass-shadow-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    z-index: 10001;
+    min-width: 160px;
+    padding: 8px 0;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(0.9) translateY(-10px);
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.background-context-menu.show {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1) translateY(0);
+}
+
+.context-menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    color: var(--dark-text);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.context-menu-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--dark-text);
+}
+
+.context-menu-item svg {
+    flex-shrink: 0;
+    width: 16px;
+    height: 16px;
+}
+
+.context-menu-item:first-child {
+    border-radius: 8px 8px 0 0;
+}
+
+.context-menu-item:last-child {
+    border-radius: 0 0 8px 8px;
+}
+
+.context-menu-item:only-child {
+    border-radius: 8px;
+}
+
+/* Light theme for context menu */
+body.light-theme .background-context-menu {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .context-menu-item {
+    color: var(--light-text);
+}
+
+body.light-theme .context-menu-item:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: var(--light-text);
+}
+
+/* Export Loading Modal - Optimized Design */
+.export-loading-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.export-loading-modal.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.export-loading-content {
+    background: rgba(30, 30, 30, 0.95);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    padding: 24px 28px;
+    text-align: center;
+    max-width: 260px;
+    width: 90%;
+    transform: scale(0.9) translateY(20px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.export-loading-modal.show .export-loading-content {
+    transform: scale(1) translateY(0);
+}
+
+.export-loading-icon {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+}
+
+.export-loading-spinner {
+    width: 36px;
+    height: 36px;
+    border: 3px solid rgba(255, 255, 255, 0.2);
+    border-top: 3px solid #4285f4;
+    border-radius: 50%;
+    animation: exportSpin 1s linear infinite;
+}
+
+.export-success-icon {
+    width: 48px;
+    height: 48px;
+    color: #4caf50;
+    animation: exportSuccess 0.6s ease-out;
+}
+
+.export-success-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.export-loading-text h3 {
+    margin: 0 0 6px 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.export-loading-text p {
+    margin: 0;
+    color: rgba(232, 234, 237, 0.8);
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+@keyframes exportSpin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes exportSuccess {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* Light theme for export modal */
+body.light-theme .export-loading-modal {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+body.light-theme .export-loading-content {
+    background: rgba(255, 255, 255, 0.95);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .export-loading-text h3 {
+    color: #202124;
+}
+
+body.light-theme .export-loading-text p {
+    color: rgba(95, 99, 104, 0.8);
+}
+
+body.light-theme .export-loading-spinner {
+    border-color: rgba(0, 0, 0, 0.15);
+    border-top-color: #4285f4;
+}
+
+body.light-theme .export-success-icon {
+    color: #34a853;
+}
+
+/* Responsive design for large screens - compact centered toolbar */
+@media (min-width: 1024px) {
+    .toolbar-container {
+        /* Width will be calculated by JavaScript based on actual button count */
+        /* This ensures toolbar is only as wide as needed */
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-right: 0;
+        /* Keep vertical margins */
+        margin-top: 6px;
+        margin-bottom: 4px;
+    }
+
+    .toolbar {
+        width: auto;
+        min-width: auto;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    /* AI Input Bar also centered on large screens */
+    .ai-input-bar {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%) translateY(10px) scale(0.92);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6px;
+        /* Width will match toolbar width via JavaScript */
+    }
+
+    .ai-input-bar.show {
+        transform: translateX(-50%) translateY(0) scale(1);
+    }
+
+    body.light-theme .toolbar-container {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6px;
+        margin-bottom: 4px;
+    }
+
+    body.light-theme .toolbar {
+        width: auto;
+        min-width: auto;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    body.light-theme .ai-input-bar {
+        left: 50%;
+        right: auto;
+        transform: translateX(-50%) translateY(10px) scale(0.92);
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 6px;
+    }
+
+    body.light-theme .ai-input-bar.show {
+        transform: translateX(-50%) translateY(0) scale(1);
+    }
+}
+
+/* Responsive design for overlay components */
+@media (max-width: 480px) {
+    .toolbar-container {
+        margin: 4px 8px 2px 8px;
+        width: calc(100% - 16px);
+    }
+
+    .ai-input-bar {
+        margin: 4px 8px 0 8px;
+        width: calc(100% - 16px);
+        /* bottom position inherited from main CSS with calc() */
+    }
+
+
+    body.light-theme .toolbar-container {
+        margin: 4px 8px 2px 8px;
+        width: calc(100% - 16px);
+    }
+
+    body.light-theme .ai-input-bar {
+        margin: 4px 8px 0 8px;
+        width: calc(100% - 16px);
+        /* bottom position inherited from main CSS with calc() */
+    }
+
+    /* Mobile modal optimizations */
+    .notification-modal-content {
+        max-width: 280px;
+        width: 95%;
+    }
+
+    .notification-modal-icon {
+        padding: 20px 20px 0 20px;
+        margin-bottom: 12px;
+    }
+
+    .notification-modal-icon svg {
+        width: 48px;
+        height: 48px;
+    }
+
+    .notification-modal-body {
+        padding: 0 20px;
+        margin-bottom: 16px;
+    }
+
+    .notification-modal-message {
+        font-size: 14px;
+    }
+
+    .notification-modal-actions {
+        padding: 0 20px 20px 20px;
+    }
+
+    .notification-modal-btn {
+        padding: 10px 24px;
+        font-size: 13px;
+        min-width: 80px;
+    }
+
+    .notification-modal-compact .notification-modal-icon {
+        padding: 16px 16px 0 16px;
+        margin-bottom: 10px;
+    }
+
+    .notification-modal-compact .notification-modal-icon svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notification-modal-compact .notification-modal-body {
+        padding: 0 16px;
+        margin-bottom: 12px;
+    }
+
+    .notification-modal-compact .notification-modal-message {
+        font-size: 13px;
+    }
+
+    .export-loading-content {
+        max-width: 260px;
+        width: 95%;
+        padding: 24px 28px;
+    }
+
+    .export-loading-icon {
+        margin-bottom: 16px;
+        height: 48px;
+    }
+
+    .export-loading-spinner {
+        width: 36px;
+        height: 36px;
+    }
+
+    .export-success-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .export-loading-text h3 {
+        font-size: 15px;
+        margin: 0 0 6px 0;
+    }
+
+    .export-loading-text p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .toolbar-container {
+        margin: 2px 4px 4px 4px;
+        width: calc(100% - 8px);
+    }
+
+    .ai-input-bar {
+        margin: 2px 4px 0 4px;
+        width: calc(100% - 8px);
+        /* bottom position inherited from main CSS with calc() */
+    }
+
+
+    body.light-theme .toolbar-container {
+        margin: 2px 4px 4px 4px;
+        width: calc(100% - 8px);
+    }
+
+    body.light-theme .ai-input-bar {
+        margin: 2px 4px 0 4px;
+        width: calc(100% - 8px);
+        /* bottom position inherited from main CSS with calc() */
+    }
+
+    /* Extra small screen modal optimizations */
+    .notification-modal-content {
+        max-width: 260px;
+        width: 98%;
+    }
+
+    .notification-modal-icon {
+        padding: 16px 16px 0 16px;
+        margin-bottom: 10px;
+    }
+
+    .notification-modal-icon svg {
+        width: 40px;
+        height: 40px;
+    }
+
+    .notification-modal-body {
+        padding: 0 16px;
+        margin-bottom: 12px;
+    }
+
+    .notification-modal-message {
+        font-size: 13px;
+    }
+
+    .notification-modal-actions {
+        padding: 0 16px 16px 16px;
+    }
+
+    .notification-modal-btn {
+        padding: 8px 20px;
+        font-size: 12px;
+        min-width: 70px;
+    }
+
+    .notification-modal-compact .notification-modal-icon {
+        padding: 14px 14px 0 14px;
+        margin-bottom: 8px;
+    }
+
+    .notification-modal-compact .notification-modal-icon svg {
+        width: 36px;
+        height: 36px;
+    }
+
+    .notification-modal-compact .notification-modal-body {
+        padding: 0 14px;
+        margin-bottom: 10px;
+    }
+
+    .notification-modal-compact .notification-modal-message {
+        font-size: 12px;
+    }
+
+    .export-loading-content {
+        max-width: 240px;
+        width: 98%;
+        padding: 20px 24px;
+    }
+
+    .export-loading-icon {
+        margin-bottom: 14px;
+        height: 40px;
+    }
+
+    .export-loading-spinner {
+        width: 32px;
+        height: 32px;
+    }
+
+    .export-success-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .export-loading-text h3 {
+        font-size: 14px;
+        margin: 0 0 6px 0;
+    }
+
+    .export-loading-text p {
+        font-size: 12px;
+    }
+}
+
+/* AI Context Menu Icon Optimization for Dark Theme */
+.ai-context-menu-item img {
+    filter: brightness(0) saturate(100%) invert(1);
+    opacity: 0.8;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ai-context-menu-item:hover img {
+    filter: brightness(0) saturate(100%) invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* AI Context Menu Icon Optimization for Light Theme */
+body.light-theme .ai-context-menu-item img {
+    filter: brightness(0) saturate(100%) invert(0);
+    opacity: 0.75;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.light-theme .ai-context-menu-item:hover img {
+    filter: brightness(0) saturate(100%) invert(0) drop-shadow(0 0 8px rgba(0, 0, 0, 0.3));
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Image Context Menu Icon Optimization for Dark Theme */
+.image-context-menu-item img {
+    filter: brightness(0) saturate(100%) invert(1);
+    opacity: 0.8;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.image-context-menu-item:hover img {
+    filter: brightness(0) saturate(100%) invert(1) drop-shadow(0 0 8px rgba(255, 255, 255, 0.3));
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Image Context Menu Icon Optimization for Light Theme */
+body.light-theme .image-context-menu-item img {
+    filter: brightness(0) saturate(100%) invert(0);
+    opacity: 0.75;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.light-theme .image-context-menu-item:hover img {
+    filter: brightness(0) saturate(100%) invert(0) drop-shadow(0 0 8px rgba(0, 0, 0, 0.3));
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Toast message paragraph - reset margin to prevent extra height */
+.unified-toast p,
+.unified-toast-message p {
+    margin: 0 !important;
+    padding: 0 !important;
+    line-height: inherit !important;
+}
+
+/* OCR Loading Indicator - 3 Dots Animation */
+.ocr-loading-indicator {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 8px 0;
+    padding: 12px;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.ocr-loading-indicator.fade-out {
+    opacity: 0;
+}
+
+.ocr-loading-dots {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.ocr-loading-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #9aa0a6;
+    animation: ocr-dot-pulse 1.4s ease-in-out infinite both;
+}
+
+.ocr-loading-dot:nth-child(1) {
+    animation-delay: -0.32s;
+}
+
+.ocr-loading-dot:nth-child(2) {
+    animation-delay: -0.16s;
+}
+
+.ocr-loading-dot:nth-child(3) {
+    animation-delay: 0s;
+}
+
+@keyframes ocr-dot-pulse {
+
+    0%,
+    80%,
+    100% {
+        transform: scale(0.8);
+        opacity: 0.5;
+    }
+
+    40% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}
+
+/* Light theme for OCR loading dots */
+body.light-theme .ocr-loading-dot {
+    background-color: #5f6368;
+}
+
+/* Shimmer Effect Animation */
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.shimmer-effect {
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: 4px;
+    padding: 2px 4px;
+    margin: 0 2px;
+}
+
+/* AI Tone Magic Menu - Compact Design with Morph Animation */
+.ai-tone-menu-compact {
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    background: var(--glass-bg-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 16px;
+    box-shadow: var(--glass-shadow-dark);
+    z-index: 1002;
+    padding: 12px;
+
+    /* Morph animation - same as formatting modals */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(10px) scale(0.92);
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    pointer-events: none;
+}
+
+.ai-tone-menu-compact.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+.ai-tone-options-compact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    width: 300px;
+}
+
+.ai-tone-option-compact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px 8px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 70px;
+    justify-content: center;
+}
+
+.ai-tone-option-compact:hover {
+    transform: translateY(-2px);
+}
+
+.ai-tone-option-compact:hover .ai-tone-icon {
+    transform: scale(1.1);
+}
+
+.ai-tone-option-compact:active {
+    transform: translateY(0);
+}
+
+.ai-tone-option-compact .ai-tone-icon {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 6px;
+    text-align: center;
+    display: block;
+    object-fit: contain;
+    filter: none;
+    opacity: 1;
+    transition: all 0.2s ease;
+}
+
+.ai-tone-option-compact .ai-tone-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #e8eaed;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Tone-specific color schemes for compact design - Using note system colors */
+.ai-tone-option-compact[data-tone="humorous"]:hover {
+    background: rgba(255, 193, 7, 0.15);
+    border-color: rgba(255, 193, 7, 0.4);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.2);
+}
+
+.ai-tone-option-compact[data-tone="poetic"]:hover {
+    background: rgba(156, 39, 176, 0.15);
+    border-color: rgba(156, 39, 176, 0.4);
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.2);
+}
+
+.ai-tone-option-compact[data-tone="dramatic"]:hover {
+    background: rgba(244, 67, 54, 0.15);
+    border-color: rgba(244, 67, 54, 0.4);
+    box-shadow: 0 4px 12px rgba(244, 67, 54, 0.2);
+}
+
+.ai-tone-option-compact[data-tone="genz"]:hover {
+    background: rgba(76, 175, 80, 0.15);
+    border-color: rgba(76, 175, 80, 0.4);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.2);
+}
+
+.ai-tone-option-compact[data-tone="professional"]:hover {
+    background: rgba(33, 150, 243, 0.15);
+    border-color: rgba(33, 150, 243, 0.4);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.2);
+}
+
+.ai-tone-option-compact[data-tone="simplify"]:hover {
+    background: rgba(255, 152, 0, 0.15);
+    border-color: rgba(255, 152, 0, 0.4);
+    box-shadow: 0 4px 12px rgba(255, 152, 0, 0.2);
+}
+
+/* Light theme adjustments for compact design */
+body.light-theme .ai-tone-menu-compact {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .ai-tone-option-compact {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+/* Light theme tone-specific hover effects */
+body.light-theme .ai-tone-option-compact[data-tone="humorous"]:hover {
+    background: rgba(255, 193, 7, 0.2);
+    border-color: rgba(255, 193, 7, 0.5);
+    box-shadow: 0 4px 12px rgba(255, 193, 7, 0.3);
+}
+
+body.light-theme .ai-tone-option-compact[data-tone="poetic"]:hover {
+    background: rgba(156, 39, 176, 0.2);
+    border-color: rgba(156, 39, 176, 0.5);
+    box-shadow: 0 4px 12px rgba(156, 39, 176, 0.3);
+}
+
+body.light-theme .ai-tone-option-compact[data-tone="dramatic"]:hover {
+    background: rgba(244, 67, 54, 0.2);
+    border-color: rgba(244, 67, 54, 0.5);
+    box-shadow: 0 4px 12px rgba(244, 67, 54, 0.3);
+}
+
+body.light-theme .ai-tone-option-compact[data-tone="genz"]:hover {
+    background: rgba(76, 175, 80, 0.2);
+    border-color: rgba(76, 175, 80, 0.5);
+    box-shadow: 0 4px 12px rgba(76, 175, 80, 0.3);
+}
+
+body.light-theme .ai-tone-option-compact[data-tone="professional"]:hover {
+    background: rgba(33, 150, 243, 0.2);
+    border-color: rgba(33, 150, 243, 0.5);
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+}
+
+body.light-theme .ai-tone-option-compact[data-tone="simplify"]:hover {
+    background: rgba(255, 152, 0, 0.2);
+    border-color: rgba(255, 152, 0, 0.5);
+    box-shadow: 0 4px 12px rgba(255, 152, 0, 0.3);
+}
+
+body.light-theme .ai-tone-option-compact .ai-tone-name {
+    color: #202124;
+}
+
+body.light-theme .ai-tone-option-compact:hover .ai-tone-icon {
+    transform: scale(1.1);
+}
+
+/* Responsive design for compact modal */
+@media (max-width: 480px) {
+    .ai-tone-menu-compact {
+        width: 90vw;
+        max-width: 320px;
+        bottom: 70px;
+        /* Closer to toolbar on mobile */
+    }
+
+    .ai-tone-options-compact {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 6px;
+    }
+
+    .ai-tone-option-compact {
+        padding: 8px 6px;
+        min-height: 60px;
+    }
+
+    .ai-tone-option-compact .ai-tone-icon {
+        width: 24px;
+        height: 24px;
+    }
+
+    .ai-tone-option-compact .ai-tone-name {
+        font-size: 11px;
+    }
+}
+
+/* Quill editor scrollbar styling - Hidden */
+.ql-editor::-webkit-scrollbar {
+    display: none;
+}
+
+/* Ensure Quill editor aligns properly with top-bar */
+.ql-container.ql-snow .ql-editor {
+    /* Remove any default margins that might cause misalignment */
+    margin: 0;
+    /* Ensure proper alignment with thinner top-bar */
+    padding-top: 25px;
+    /* Increased padding for better spacing with thinner topbar */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 80px;
+}
+
+/* AI Overlay - Gradient vignette overlay để focus vào animation ở giữa */
+.ai-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Radial gradient từ trong ra ngoài - tạo hiệu ứng vignette nhẹ */
+    background: radial-gradient(ellipse at center,
+            rgba(0, 0, 0, 0) 0%,
+            rgba(0, 0, 0, 0.15) 50%,
+            rgba(0, 0, 0, 0.35) 100%);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    z-index: 19999;
+    pointer-events: all;
+    animation: fadeInOverlay 0.3s ease-out;
+}
+
+@keyframes fadeInOverlay {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* Light theme - gradient nhẹ hơn với màu trắng */
+body.light-theme .ai-overlay {
+    background: radial-gradient(ellipse at center,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0.08) 50%,
+            rgba(0, 0, 0, 0.2) 100%);
+}
+
+/* AI Lottie Loading Animation - Center Screen - Star Loader (large) */
+.ai-lottie-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    z-index: 20000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    /* Subtle glow effect để nổi bật animation */
+    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.15));
+    animation: scaleInAnimation 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+@keyframes scaleInAnimation {
+    from {
+        transform: translate(-50%, -50%) scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 1;
+    }
+}
+
+#ai-lottie-animation {
+    width: 400px;
+    height: 400px;
+}
+
+/* AI Tone Lottie Loading Animation - Star Loader */
+.ai-tone-lottie-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.95);
+    z-index: 20000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+    /* Subtle glow effect để nổi bật animation */
+    filter: drop-shadow(0 0 40px rgba(255, 255, 255, 0.15));
+    animation: scaleInAnimation 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+
+#ai-tone-lottie-animation {
+    width: 400px;
+    height: 400px;
+}
+
+/* Respo
+nsive CSS for Formatting Modals - Ensure center alignment on all screen sizes */
+@media (max-width: 768px) {
+    .formatting-modal {
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) translateY(10px) scale(0.92) !important;
+        max-width: calc(100vw - 40px);
+    }
+
+    .formatting-modal.show {
+        transform: translateX(-50%) translateY(0) scale(1) !important;
+    }
+
+
+    /* Adjust color picker grid for smaller screens */
+    .text-color-grid,
+    .highlight-color-grid {
+        grid-template-columns: repeat(8, 22px);
+    }
+}
+
+@media (max-width: 480px) {
+    .formatting-modal {
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) translateY(10px) scale(0.92) !important;
+        max-width: calc(100vw - 30px);
+    }
+
+    .formatting-modal.show {
+        transform: translateX(-50%) translateY(0) scale(1) !important;
+    }
+
+
+    /* Adjust color picker grid for very small screens */
+    .text-color-grid,
+    .highlight-color-grid {
+        grid-template-columns: repeat(6, 20px);
+        gap: 6px;
+    }
+
+    .text-color-option,
+    .highlight-color-option {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 360px) {
+    .formatting-modal {
+        left: 50% !important;
+        right: auto !important;
+        transform: translateX(-50%) translateY(10px) scale(0.92) !important;
+        max-width: calc(100vw - 20px);
+    }
+
+    .formatting-modal.show {
+        transform: translateX(-50%) translateY(0) scale(1) !important;
+    }
+
+
+    /* Adjust color picker grid for extra small screens */
+    .text-color-grid,
+    .highlight-color-grid {
+        grid-template-columns: repeat(5, 18px);
+        gap: 5px;
+    }
+
+    .text-color-option,
+    .highlight-color-option {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+/* 
+AI Formatting Menu - Compact Design with Morph Animation */
+.ai-formatting-menu-compact {
+    position: fixed;
+    bottom: 70px;
+    left: 50%;
+    background: var(--glass-bg-dark);
+    backdrop-filter: blur(var(--glass-blur));
+    -webkit-backdrop-filter: blur(var(--glass-blur));
+    border: 1px solid var(--glass-border-dark);
+    border-radius: 16px;
+    box-shadow: var(--glass-shadow-dark);
+    z-index: 1002;
+    padding: 12px;
+
+    /* Morph animation - same as formatting modals */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-50%) translateY(10px) scale(0.92);
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    pointer-events: none;
+}
+
+.ai-formatting-menu-compact.show {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(-50%) translateY(0) scale(1);
+    pointer-events: auto;
+}
+
+.ai-formatting-options-compact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    width: 240px;
+}
+
+.ai-formatting-option-compact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid transparent;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    position: relative;
+    overflow: hidden;
+    min-height: 90px;
+    justify-content: center;
+}
+
+.ai-formatting-option-compact:hover {
+    transform: translateY(-2px);
+}
+
+.ai-formatting-option-compact:hover .ai-formatting-icon svg {
+    transform: scale(1.1);
+}
+
+.ai-formatting-option-compact:active {
+    transform: translateY(0);
+}
+
+.ai-formatting-option-compact .ai-formatting-icon {
+    width: 32px;
+    height: 32px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ai-formatting-option-compact .ai-formatting-icon svg {
+    width: 28px;
+    height: 28px;
+    transition: all 0.2s ease;
+}
+
+.ai-formatting-option-compact .ai-formatting-name {
+    font-size: 12px;
+    font-weight: 500;
+    color: #e8eaed;
+    text-align: center;
+    line-height: 1.2;
+}
+
+/* Formatting-specific color schemes for compact design */
+.ai-formatting-option-compact[data-action="color-suggestion"]:hover {
+    background: rgba(255, 107, 107, 0.15);
+    border-color: rgba(255, 107, 107, 0.4);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
+}
+
+.ai-formatting-option-compact[data-action="structure-optimization"]:hover {
+    background: rgba(102, 126, 234, 0.15);
+    border-color: rgba(102, 126, 234, 0.4);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
+
+/* Light theme adjustments for AI Formatting menu */
+body.light-theme .ai-formatting-menu-compact {
+    background: var(--glass-bg-light);
+    border-color: var(--glass-border-light);
+    box-shadow: var(--glass-shadow-light);
+}
+
+body.light-theme .ai-formatting-option-compact {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+body.light-theme .ai-formatting-option-compact .ai-formatting-name {
+    color: #202124;
+}
+
+body.light-theme .ai-formatting-option-compact[data-action="color-suggestion"]:hover {
+    background: rgba(255, 107, 107, 0.1);
+    border-color: rgba(255, 107, 107, 0.3);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.15);
+}
+
+body.light-theme .ai-formatting-option-compact[data-action="structure-optimization"]:hover {
+    background: rgba(102, 126, 234, 0.1);
+    border-color: rgba(102, 126, 234, 0.3);
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+/* Responsive design for AI Formatting menu */
+@media (max-width: 480px) {
+    .ai-formatting-menu-compact {
+        width: 90vw;
+        max-width: 280px;
+    }
+
+    .ai-formatting-options-compact {
+        width: 100%;
+    }
+
+    .ai-formatting-option-compact {
+        min-height: 80px;
+        padding: 12px 8px;
+    }
+}

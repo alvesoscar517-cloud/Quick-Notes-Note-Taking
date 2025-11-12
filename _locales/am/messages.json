@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "ፈጣን ማስታወሻዎችን ክፈት",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "መዳረሻ ተከልክሏል። እባክዎ ፈቃዶችዎን ያረጋግጡ።",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "በማስታወሻ ላይ ተግብር",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "ቅዳ",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "ተግባራትን ፍጠር",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "የኤፒአይ ቁልፍ አልተዋቀረም",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "ይደግፉ",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "ይዘትን በማስታወሻ ላይ መተግበር አልተሳካም",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "በማስታወሻ ላይ ተግብር",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "የኋላ አገልጋይ አይገኝም። እባክዎ ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ።",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "የኋላ ዩአርኤል አልተዋቀረም",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "የኋላ አገልጋይ ምላሽ እየሰጠ አይደለም",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "የ AI ውይይት መስኮት መፍጠር አልተሳካም",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "ስለተመረጠው ጽሑፍ ከ AI ጋር ተወያይ",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "ይዘት በማስታወሻዎ ላይ ተተግብሯል!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "ይዘት ወደ ቅንጥብ ሰሌዳ ተቀድቷል!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "ተጣርቷል",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "ይዘት የተመረጠውን ጽሑፍ ገብቷል እና ተተክቷል",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "ይዘት አይገኝም",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "ቅዳ",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "ወደ ቅንጥብ ሰሌዳ መቅዳት አልተሳካም",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "የዕለታዊ ገደብ ላይ ደርሰዋል (15/15)። ነገ እንደገና ይሞክሩ።",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "ምስል አውርድ",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI ባዶ ምላሽ ሰጥቷል። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI ስህተት",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "አስፋ",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "ጽሑፍ አውጣ (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "ምስል መተንተን አልተሳካም",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "ምስል በመተንተን ላይ...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "የዕለታዊ የምስል ትንተና ገደብ ላይ ደርሰዋል። ላልተገደበ ትንተና ወደ ፕሪሚየም ያሻሽሉ።",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "ምስል ማውረድ አልተሳካም",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "ምስል በተሳካ ሁኔታ ወርዷል",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "አሻሽል",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "ለመላክ Enterን ይጫኑ፣ ለአዲስ መስመር Shift+Enter",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "መልዕክትዎን ይተይቡ ወይም ፈጣን እርምጃ ይምረጡ...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "ይዘትን ማስገባት አልተሳካም",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "ያስገቡ እና ይተኩ",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "ልክ ያልሆነ የኤፒአይ ቁልፍ",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "ልክ ያልሆነ መግቢያ",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "መጥፎ ሞዴል",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "ከኋላ አገልግሎት ልክ ያልሆነ ምላሽ።",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "ለዛሬ ሁሉንም {limit} የ AI ጥያቄዎች ተጠቅመዋል። ላልተገደበ መዳረሻ ወደ ፕሪሚየም ያሻሽሉ!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "የስብሰባ ማስታወሻዎች",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "አሳንስ",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "ሞዴል የለም",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "የአውታረ መረብ ስህተት",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "ግንኙነት የለም",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "ከ AI ምላሽ የለም",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "የተመረጠ ጽሑፍ የለም",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "የሚቀለበስ የ AI ክዋኔ የለም",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "የኦ.ሲ.ዲ. ውጤት ተቀበለ",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "ዝርዝር",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "ፕሪሚየም ገቢር ነው",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI በማስኬድ ላይ...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "ኮታ ሞልቷል",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "የፍጥነት ገደብ አልፏል። እባክዎ ቆይተው እንደገና ይሞክሩ።",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "የጥያቄ ጊዜ አልቋል",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "የተቀበለው መልስ",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "ታግዷል",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "አስቀምጥ",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "ፈልግ",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "የተመረጠ ጽሑፍ",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "የአገልጋይ ስህተት - እባክዎ ቆይተው እንደገና ይሞክሩ",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "አገልግሎት ጠፍቷል",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "የ AI አገልግሎትን ማስጀመር አልተሳካም",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "የ AI አገልግሎት አይገኝም። እባክዎ ገጹን ያድሱ።",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "የ AI አገልግሎት በትክክል አልተዋቀረም",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "የ AI አገልግሎት አልተጀመረም",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "የ AI አገልግሎት ለጊዜው አይገኝም",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "የ AI ባህሪያትን ለመጠቀም እባክዎ ይግቡ። በቅጥያው ውስጥ ያለውን የመግቢያ ቁልፍ ጠቅ ያድርጉ።",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "ለመክፈት ይግቡ",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "የስታቲስቲክስ ጥያቄ አልተሳካም",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "ጥቆማዎች",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "አጠቃልል",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "ጊዜ አልቋል",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI ረዳት",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "ቃና",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "ድራማዊ",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "ዘመናዊ",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "አስቂኝ",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "ለመቀየር እባክዎ ጽሑፍ ይምረጡ ወይም ይዘት ይጨምሩ",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "ቅኔያዊ",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "ሙያዊ",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "አቅልል",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "ተርጉም",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " ወደ እንግሊዝኛ",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "የ AI ክዋኔ በተሳካ ሁኔታ ተቀልብሷል!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "ያልታወቀ የ AI ስህተት",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "ቆልፍ",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "ያልተገደበ",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "የተጠቃሚ መልዕክት",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "የተጠቃሚ ጥያቄ",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "ሰላም! እኔ የእርስዎ AI ረዳት ነኝ። ማስታወሻዎችዎን ለማጠቃለል፣ ለማስፋት፣ ለማሻሻል ወይም ለመተርጎም ልረዳዎ እችላለሁ። በምን ልርዳዎ?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "እንኳን ደህና መጡ ፕሪሚየም ተጠቃሚ! ያልተገደበ የ AI ጥያቄዎች አሉዎት።",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "እንኳን ደህና መጡ! ዛሬ ከ {limit} የ AI ጥያቄዎች ውስጥ {remaining} ቀርተውዎታል።",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "የ AI ትንተና አልተሳካም",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "የ AI ትንተና አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "ትንተና ተጠናቋል!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "ተተንትኗል",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "ዝጋ",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "የስብስብ ትንተና",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "ከ {count} ማስታወሻዎች ግንዛቤዎች ጋር አዲስ ማስታወሻ ተፈጥሯል።",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "ስብስብን በማስኬድ ላይ ስህተት",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "ስርዓተ-ጥለቶችን ፈልግ",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "ግንዛቤዎችን አመንጭ",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "ስለ ስብስብዎ ማንኛውንም ነገር ይጠይቁ...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI የስራ ቦታ የ AI ሞዴሎችን አቅም ለማሳደግ የተነደፈ ኃይለኛ ባህሪ ነው፣ ይህም ከግል ማስታወሻዎች ይልቅ ሙሉ የማስታወሻ ስብስቦችን በአንድ ጊዜ እንዲተነትኑ እና እንዲያካሂዱ ያስችልዎታል።",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "በዚህ ስብስብ ውስጥ የሚተነተኑ ማስታወሻዎች የሉም",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "ማስታወሻ(ዎች)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "በማስኬድ ላይ...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "AI በእነዚህ ማስታወሻዎች ምን እንዲያደርግ ይፈልጋሉ?\n\nምሳሌዎች:\n- ሁሉንም ማስታወሻዎች አጠቃልል\n- ዋና ዋና ገጽታዎችን እና ቁልፍ ቃላትን አውጣ\n- ዋና የተግባር ዝርዝር ፍጠር\n- ከእነዚህ ማስታወሻዎች ተደጋጋሚ ጥያቄዎችን አመንጭ\n- በርዕሶች መካከል ያሉ ግንኙነቶችን ፈልግ",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "የ AI ምላሽ አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "ላክ",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "ስብስብን አጠቃልል",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "ከእነዚህ ማስታወሻዎች፣ በተደጋጋሚ የሚጠየቁ ጥያቄዎች እና መልሶች (FAQ) ዝርዝር ፍጠር። አስፈላጊ ርዕሶችን ለይ እና ዝርዝር መልሶች ያላቸው ተገቢ ጥያቄዎችን ፍጠር።",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "ተግባር",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "በማስታወሻዎቹ ውስጥ ባሉ መረጃዎች መካከል ያሉ ግንኙነቶችን ፈልግ እና አብራራ። በማስታወሻዎቹ ውስጥ በተጠቀሱት የተለያዩ ርዕሶች መካከል ያሉ አገናኞችን፣ ግጭቶችን ወይም ግንኙነቶችን ለይ።",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "በዚህ ስብስብ ውስጥ ካሉ ሁሉም ማስታወሻዎች አጠቃላይ ማጠቃለያ ፍጠር። በጣም አስፈላጊ ነጥቦችን አጉልተህ አንድ ወጥ የሆነ ማጠቃለያ ፍጠር።",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "ከእነዚህ የምርምር ማስታወሻዎች 5 ዋና ዋና ገጽታዎችን እና ተዛማጅ ቁልፍ ቃላትን ለይ። ከገጽታዎች እና ተዛማጅ ቁልፍ ቃላት ጋር የተዋቀረ ዝርዝር ፍጠር።",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "ሁሉንም ማስታወሻዎች ቃኝ እና አጠቃላይ የተግባር ዝርዝር ፍጠር። በማስታወሻዎቹ ውስጥ የተጠቀሱትን ሁሉንም 'የድርጊት ንጥሎች'፣ ተግባራት ወይም የሚከናወኑ ስራዎችን ፈልገህ የተዋቀረ የማረጋገጫ ዝርዝር ፍጠር።",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI የስራ ቦታ",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "የዕለታዊ አጠቃቀም ገደብ ላይ ደርሰዋል። ላልተገደበ የ AI የስራ ቦታ መዳረሻ ወደ ፕሪሚየም ያሻሽሉ።",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "ማስታወሻዎችን በብርጭቆ በሚመስል ዘይቤ ይፍጠሩ፣ ያስተዳድሩ እና ያመሳስሉ።",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__ ጥገኛ_ዩስ",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "ረቂቅ",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "ሁሉም",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "የገና በአል",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "ጂኦሜትሪክ",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "ተፈጥሮ",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "ብጁ",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "ሰርዝ",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "የለም",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "እንደ ነባሪ አዘጋጅ",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "ስቀል",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "ማስታወሻ እዚህ ጨምር",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "ስብስብ",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "ተፈጥሯል",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "ተሰርዟል",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "የስብስብ ስም",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "የስብስብ ስም ያስገቡ...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "ተሰክቷል",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "ገጽታ",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "ተነቅሏል",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "ተዘምኗል",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "ፍጠር",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "ስብስብ ፍጠር",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "በስብስብ ውስጥ ማስታወሻ ፍጠር",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "ስብስብ ሰርዝ",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "ስብስብ አርትዕ",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "ይህ ስብስብ ባዶ ነው",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "እባክዎ የስብስብ ስም ያስገቡ",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "ማስታወሻ መፍጠር ላይ ስህተት",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "የስብስብ ስህተት",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "መስረዝ አልተሳካም",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "መጫን አልተሳካም",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "ማንቀሳቀስ አልተሳካም",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "መሰካት አልተሳካም",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "ማዘመን አልተሳካም",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "የስብስብ ገደብ ላይ ደርሰዋል",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "ወደ ስብስብ አንቀሳቅስ",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "ማስታወሻዎች",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "ማስታወሻ በስብስብ ውስጥ ተፈጥሯል",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "ማስታወሻዎች",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "ማስታወሻዎች ወደ ስብስብ ተንቀሳቅሰዋል",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "ስብስብ ሰካ",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "ከስብስብ አስወግድ",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "አስቀምጥ",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "ስብስብ ንቀል",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "ፈጣን ማስታወሻዎችን ክፈት",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "ሰርዝ",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "ዝጋ",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "ቀጥል",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "በመጣያ ውስጥ ያሉ ሁሉም ማስታወሻዎች እስከመጨረሻው ይሰረዙ?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "ይህን ስብስብ እስከመጨረሻው ለመሰረዝ እርግጠኛ ነዎት? ይህ እርምጃ ሊቀለበስ አይችልም።",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "ማስታወሻ እስከመጨረሻው ይሰረዝ?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "ይህ ሁሉንም የአሁኑን ውሂብ ይተካል። ይቀጥል?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "ወደ ፈጣን ማስታወሻ ጨምር",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "አዲስ መስኮት ለመፍጠር ጣል ያድርጉ",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "ለማዋሃድ እዚህ ይርቁ",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "ዊንዶውስ ለማዋሃድ ይርቁ",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI ውይይት አልተሳካም",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI ማስፋት አልተሳካም",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI ማሻሻል አልተሳካም",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "AI ማስጀመር አልተሳካም",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI የስብሰባ ማስታወሻዎች አልተሳኩም",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI ዝርዝር አልተሳካም",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "የ AI ጥያቄ አልተሳካም",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "AI የኋላ ዩአርኤል ማዘጋጀት አልተሳካም",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI ጥቆማዎች አልተሳኩም",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI ማጠቃለል አልተሳካም",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI ቃና አልተሳካም",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "የኋላ የጤና ምርመራ አልተሳካም",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "የኋላ ጥያቄ አልተሳካም",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "የኋላ አገልጋይ ስህተት",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "የ AI መሸጎጫ ማጽዳት አልተሳካም",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "የ AI መክፈቻ ሁኔታን በማረጋገጥ ላይ ስህተት",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "የአጠቃቀም ስታቲስቲክስን በማምጣት ላይ ስህተት",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "በአገልግሎት ሰራተኛ ውስጥ የተጠቃሚ ኢሜል በማግኘት ላይ ስህተት",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "ማስታወሻ መፍጠር አልተሳካም",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "ርዕስ ማመንጨት አልተሳካም",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "የ AI አገልግሎትን ማስጀመር አልተሳካም",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "ስህተት ተከስቷል። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "የዕለታዊ አጠቃቀም ስታቲስቲክስ ማግኘት አልተሳካም",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "የ Google Drive ኤፒአይ ስህተት",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "ልክ ያልሆነ የመልቀቂያ ቅርጸት",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "ማስታወሻ ባዶ ነው. እባክዎ ይህንን ባህሪ ከመጠቀምዎ በፊት ይዘትን ያክሉ.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "ማስታወሻ በአካባቢያዊ ማከማቻ ውስጥ አልተገኘም",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "የአገልጋይ መራጭ አልተጀመረም",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "የማመሳሰል ሂደት በስህተት ተቋርጧል",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "ያልተገደበ ጥያቄ አልተሳካም",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "ተጠቃሚው አልተረጋገጠም",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "ተጠናቋል!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "ምስል በተሳካ ሁኔታ ወርዷል",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "ምስሎችን በመላክ ላይ...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "እባክዎ ትንሽ ይጠብቁ",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "መዝናኛ",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "ሀሳቦች",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "የግል",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "ጥናት",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "ጉዞ",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "ሥራ",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "አዲስ ማስታወሻ ፍጠር",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "ማስታወሻ ሰርዝ",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "አዲስ ማስታወሻ",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "ተጨማሪ ይዘት የለም",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "ማስታወሻ ሰካ",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "ማስታወሻዎችን ፈልግ...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "ማንቀሳቀስን ቀልብስ",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "ማስታወሻ ንቀል",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "እነበረበት ተመልሷል",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "የማረጋገጫ ስህተት",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "እባክዎ ወጥተው እንደገና ለመግባት ይሞክሩ።",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "ማረጋገጫ አልተሳካም",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "ምትኬ ተቀምጧል",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "ይህ ዳራ ለፕሪሚየም ተጠቃሚዎች ብቻ ይገኛል። ሁሉንም ዳራዎች ለመክፈት እባክዎ ያሻሽሉ።",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "የዳራ መስቀል ባህሪ ለፕሪሚየም ተጠቃሚዎች ብቻ ይገኛል። ይህን ባህሪ ለመጠቀም እባክዎ ያሻሽሉ።",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "የማጋሪያ አገናኝ መፍጠር አይቻልም",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "የመክፈያ ክፍለ ጊዜ መፍጠር አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "ከ Google ጋር በመገናኘት ላይ...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "ኢሜል መጫን አልተቻለም።",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "የዕለታዊ ገደብ ላይ ደርሰዋል። ነገ ይሞክሩ ወይም ያሻሽሉ።",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "ነባሪ ዳራ ተዘጋጅቷል!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "ተከናውኗል",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "የንባብ ስህተት",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "ተልኳል",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "መጣያ መጫን አልተሳካም",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "መጣያ መጫን አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "ማስታወሻ ማንቀሳቀስ አልተሳካም",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "ገብቷል",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "ልክ ያልሆነ ፋይል",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "የመለያ መረጃ በመጫን ላይ...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "ማንቀሳቀስ ተሰርዟል",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "ወደ ስብስብ ተንቀሳቅሷል",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "የአውታረ መረብ ግንኙነት የለም",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "እባክዎ የበይነመረብ ግንኙነትዎን ያረጋግጡ እና እንደገና ይሞክሩ።",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "በዚህ ስብስብ ውስጥ ምንም ማስታወሻዎች አልተገኙም",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "ተሰርዟል",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "ተንቀሳቅሷል",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "ማስታወሻ በአገልጋይ ላይ አልተገኘም። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "ተሰክቷል",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "ተነቅሏል",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "ዘመናዊ ነው",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "የክፍያ ስህተት። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "የክፍያ ማረጋገጫ ስህተት። እባክዎ ገጹን ያድሱ።",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "ፍቃድ ተከልክሏል",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "የማመሳሰል ባህሪያትን ለመጠቀም እባክዎ ለመተግበሪያው ፈቃድ ይስጡ።",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "እነበረበት ተመልሷል",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "ለ AI ትንተና እባክዎ ቢያንስ አንድ ማስታወሻ ይምረጡ",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "እባክዎ መጀመሪያ ማስታወሻዎችን ይምረጡ",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "ማጋራት አልተዋቀረም።",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "መግባት አልተሳካም",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "ለማጋራት ይግቡ",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "ለመስቀል ይግቡ",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ በተሳካ ሁኔታ ገብተዋል!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "ወጥተዋል",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "ማመሳሰል አልተሳካም",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "ተመሳስሏል",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "ተመሳስሏል",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "ውሂብ በማመሳሰል ላይ...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "ከ Drive ጋር በማመሳሰል ላይ...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "ባዶ ሆኗል",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "የክፍያ አስተዳደርን መክፈት አልተቻለም። እባክዎ ቆይተው እንደገና ይሞክሩ።",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "ክፍያ በማረጋገጥ ላይ...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "የተመረጡትን ሰርዝ",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "ለዘላለም ሰርዝ",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "የተመረጡትን እነበረበት መልስ",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "ሰርዝ",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "የተመረጡት ንጥሎች እስከመጨረሻው ይሰረዙ?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "የተመረጡት ንጥሎች ይመለሱ?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "ሁሉንም ምረጥ",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "ተመርጧል",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI ረዳት",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "ማንኛውንም ነገር ይጠይቁ",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "AI ቃና አስማት",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "መሃል አስተካክል",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "ግራ አስተካክል",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "ቀኝ አስተካክል",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "ዳራ",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "አዲስ ማስታወሻ ፍጠር",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "አዲስ ማስታወሻ",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "ማስታወሻ ሰርዝ",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "እንደ ምስል አውርድ",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "አርታኢ አልተገኘም",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "የአገናኝ ዩአርኤል ያስገቡ...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "የቪዲዮ ዩአርኤል ያስገቡ...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "ቅርጸት በመተግበር ላይ ስህተት",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "ርዕስ 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "ርዕስ 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "አስገባ",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "ምስል አስገባ",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "ምናሌ",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "በ CORS ገደቦች ምክንያት OCR ለዚህ ምስል አይገኝም።",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "ቅርጸትን አስወግድ",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "አጋራ",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "ስማርት ቀለሞች ተተግብረዋል!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "መዋቅር የተመቻቸ!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "ሁሉንም ማስታወሻዎች ይመልከቱ",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "የማሳወቂያ ይዘት",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "የክፍያ ማረጋገጫ ጊዜ አልቋል። ክፍያ ከተጠናቀቀ እባክዎ ያድሱ።",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "ልክ ያልሆነ እቅድ ተመርጧል",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "በክፍያ ለመቀጠል እባክዎ ይግቡ",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "የላቁ ባህሪያትን ይድረሱ",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI ፕሪሚየም",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "ዳራ ፕሪሚየም",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "ስብስቦች ፕሪሚየም",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 እንኳን ደስ አለዎት!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "ድጋፍን ያነጋግሩ",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "ልዩ ዳራዎች",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "የፕሪሚየም ዳራዎች መዳረሻ",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "ብቸኛ ድጋፍ",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "የቅድሚያ ድጋፍ ከቡድኑ",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "ጊዜው ያበቃል",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "ክፍያን አስተዳድር",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "ቀጣይ የክፍያ ቀን",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "ፕሪሚየም ዓመታዊ",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "ፕሪሚየም ወርሃዊ",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "ፕሪሚየም ሙከራ",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "የእቅድ ዓይነት",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "ቅድሚያ የሚሰጠው ድጋፍ",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "ማስታወሻዎችን አጋራ",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "ማስታወሻዎችን ከሌሎች ጋር ያጋሩ",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "አጋራ ፕሪሚየም",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "ነጻ ሙከራ ጀምር",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "መጠቀም ጀምር",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "ሁኔታ",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "ገቢር",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "ተሰርዟል",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "ጊዜው አልፎበታል",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "እንቅስቃሴ-አልባ",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "አሁን ይመዝገቡ",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "ድጋፍ",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "ያልተገደበ AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "ያልተገደበ AI ውይይት",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "በቀን ያልተገደበ የ AI ጥያቄዎች",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "ያልተገደበ ስብስቦች",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "ያልተገደበ ስብስቦችን ይፍጠሩ",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "ያልተገደበ AI ክፈት",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "በተሳካ ሁኔታ ወደ ፕሪሚየም አሻሽለዋል",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "ምንም ውጤት አልተገኘም",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "በተለያዩ ቁልፍ ቃላት ለመፈለግ ይሞክሩ ወይም አዲስ ማስታወሻ ይፍጠሩ",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "AI አጠቃቀም",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "የዛሬው AI አጠቃቀም",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "ገጽታ",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "የደመና ማመሳሰል",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "አዋቅር",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "የውሂብ አስተዳደር",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "ነባሪ ማስታወሻ መጠን",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "ላክ",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "ውሂብ ላክ",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "አስመጣ",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "ውሂብ አስመጣ",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "ልክ ያልሆነ መጠን. ስፋት 400-1920, ቁመት 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "ይቅር",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "ቁመት",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "ወደ ነባሪ ዳግም ያስጀምሩ",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "አስቀምጥ",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "ነባሪ መጠን የተቀመጠ",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "ነባሪ ማስታወሻ መጠን",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "ስፋት",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "ክፈት",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "መግባት ያስፈልጋል",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "በ Google ይግቡ",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "ውጣ",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "በዚህ ገብተዋል",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "አመሳስል",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "ገጽታ",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "ቅንብሮች",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "መጣያ",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "ያልተገደበ",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "ፕሪሚየም ያግኙ",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "AI ክፈት",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "የተጠቃሚ አምሳያ",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "ተቀድቷል",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "ቅዳ",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "የማጋሪያ አገናኝ በመፍጠር ላይ...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "ይህን ማስታወሻ ከፈጣን ማስታወሻዎች ይመልከቱ",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "በ Facebook ላይ አጋራ",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "በ LinkedIn ላይ አጋራ",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "በ Reddit ላይ አጋራ",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "በ X (Twitter) ላይ አጋራ",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "በ WhatsApp ላይ አጋራ",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "ማስታወሻን ወደ አገልጋይ ማመሳሰል አልተሳካም",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "መዝናኛ",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "ሀሳቦች",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "የግል",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "ጥናት",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "ጉዞ",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "ሥራ",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ ወደ አዲስ ማስታወሻ አክሏል",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI አልተሳካም",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "ዳራ ማዘጋጀት አልተሳካም",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "መሰረዝ አይቻልም",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ ወደ ቅንጥብ ሰሌዳው ተቀደደ",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "አገናኝ መቅዳት አልተሳካም። እባክዎ እንደገና ይሞክሩ።",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "መላክ አልተሳካም",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "አልተሳካም",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "To ማስታወሻ ላይ ማከል አልቻለም",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ መቅዳት አልተሳካም",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "የምስል ፋይል ያስፈልጋል",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "ምስሉ በጣም ትልቅ ነው",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "የቤተ-መጽሐፍት ስህተት",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "ቤተ-መጽሐፍት በመጫን ላይ",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "ማንቀሳቀስ አልተሳካም",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "ተንቀሳቀሰ",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "ምርጫ የለም",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "ክዋኔ አልተሳካም",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "ቦታ ለማስለቀቅ እባክዎ ቅጥያውን እንደገና ያስጀምሩ።",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "የማከማቻ ስህተት። እባክዎ ቅጥያውን እንደገና ያስጀምሩ።",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "ማከማቻ ሞልቷል፣ መሸጎጫ በማጽዳት ላይ...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI ረዳት",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "መሃል አስተካክል",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "ግራ አስተካክል",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "ቀኝ አስተካክል",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "የዳራ ቀለም",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "የዳራ ቀለም",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "የጥቅስ ክፍል",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "የጥቅስ ክፍል",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "ደማቅ",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "ደማቅ",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "የነጥብ ዝርዝር",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "የነጥብ ዝርዝር",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "የማረጋገጫ ዝርዝር",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "የኮድ ክፍል",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "የኮድ ክፍል",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "የቅርጸ-ቁምፊ መጠን",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "የቅርጸ-ቁምፊ መጠን",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "ርዕስ 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "ርዕስ 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "ምስል አስገባ",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "አገናኝ አስገባ",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "አገናኝ አስገባ",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "ቪዲዮ አስገባ",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "ቪዲዮ አስገባ",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "ሰያፍ",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "ሰያፍ",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "አሰልፍ",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "አሰልፍ",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "የቁጥር ዝርዝር",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "የቁጥር ዝርዝር",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "ቅርጸትን አስወግድ",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "መካከለኛ መስመር",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "መካከለኛ መስመር",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "የጽሑፍ ቀለም",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "የጽሑፍ ቀለም",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "ከስር መስመር",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "ከስር መስመር",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "ለዘላለም ሰርዝ",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "መጣያ ባዶ ነው።",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "መጣያ ባዶ አድርግ",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "እነበረበት መልስ",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "ሁሉንም እነበረበት መልስ",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "መጣያ",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "ለአዲስ ተጠቃሚዎች የእንኳን ደህና መጡ ስብስብ",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "እንኳን ደህና መጡ",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• አዲስ ማስታወሻ ለመፍጠር የ <strong>+</strong> ቁልፍን ጠቅ ያድርጉ<br>• ይዘትን ለማጠቃለል፣ ለመተርጎም ወይም ለማሻሻል AI ይጠቀሙ<br>• AI ማስታወሻዎችዎን ለማደራጀት እና ለማመቻቸት ሊረዳዎ ይችላል",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ AI እንዴት መጠቀም እንደሚቻል",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• ስብስብ ለመፍጠር ባዶ ቦታ ላይ በቀኝ ጠቅ ያድርጉ<br>• ለማደራጀት ማስታወሻዎችን ወደ ስብስቦች ይጎትቱ እና ይጣሉ<br>• እያንዳንዱ ስብስብ የራሱ ገጽታ ሊኖረው ይችላል (ሥራ፣ የግል፣ ሀሳቦች...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 ስብስቦችን እንዴት መፍጠር እንደሚቻል",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "ፈጣን ማስታወሻዎችን በመጠቀም ይደሰቱ! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "ይህ የመጀመሪያዎ ማስታወሻ ነው። ፈጣን ማስታወሻዎች በፍጥነት እና በብቃት ማስታወሻ እንዲይዙ ይረዳዎታል።",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• ማስታወሻዎችን ለመከፋፈል ቀለሞችን ይጠቀሙ<br>• አስፈላጊ ማስታወሻዎችን ከዝርዝሩ አናት ላይ ይሰኩ<br>• ከላይ ባለው የፍለጋ አሞሌ በፍጥነት ይፈልጉ<br>• ለደህንነቱ የተጠበቀ ምትኬ ከ Google Drive ጋር ያመሳስሉ",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 የአጠቃቀም ምክሮች",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "ወደ ፈጣን ማስታወሻዎች እንኳን ደህና መጡ! 👋",
+    "description": "Title of the welcome note"
+  }
+}

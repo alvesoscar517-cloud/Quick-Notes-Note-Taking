@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "เปิด Quick Notes",
+    "description": "ชื่อเริ่มต้นสำหรับปุ่มการทำงานของส่วนขยาย"
+  },
+  "ai_accessDenied": {
+    "message": "การเข้าถึงถูกปฏิเสธ โปรดตรวจสอบสิทธิ์ของคุณ",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการเข้าถึงถูกปฏิเสธ"
+  },
+  "ai_actionApply": {
+    "message": "ใช้กับโน้ต",
+    "description": "ชื่อสำหรับปุ่มการดำเนินการนำไปใช้ของ AI"
+  },
+  "ai_actionCopy": {
+    "message": "คัดลอก",
+    "description": "ชื่อสำหรับปุ่มการดำเนินการคัดลอกของ AI"
+  },
+  "ai_actionItems": {
+    "message": "สร้างงาน",
+    "description": "การดำเนินการ AI เพื่อสกัดรายการดำเนินการและสร้างรายการสิ่งที่ต้องทำ"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "คีย์ API ยังไม่ได้กำหนดค่า",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อคีย์ API ยังไม่ได้กำหนดค่า"
+  },
+  "ai_appendToNote": {
+    "message": "ผนวก",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "นำเนื้อหาไปใช้กับโน้ตล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อนำเนื้อหาของ AI ไปใช้กับโน้ตล้มเหลว"
+  },
+  "ai_applyToNote": {
+    "message": "ใช้กับโน้ต",
+    "description": "ข้อความบนปุ่มสำหรับนำผลลัพธ์ของ AI ไปใช้กับโน้ต"
+  },
+  "ai_backendNotAvailable": {
+    "message": "เซิร์ฟเวอร์แบ็กเอนด์ไม่พร้อมใช้งาน โปรดตรวจสอบการเชื่อมต่อของคุณแล้วลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเซิร์ฟเวอร์แบ็กเอนด์ไม่พร้อมใช้งาน"
+  },
+  "ai_backendNotConfigured": {
+    "message": "URL ของแบ็กเอนด์ยังไม่ได้กำหนดค่า",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อ URL ของแบ็กเอนด์ยังไม่ได้กำหนดค่า"
+  },
+  "ai_backendNotResponding": {
+    "message": "เซิร์ฟเวอร์แบ็กเอนด์ไม่ตอบสนอง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเซิร์ฟเวอร์แบ็กเอนด์ไม่ตอบสนอง"
+  },
+  "ai_chatWindowFailed": {
+    "message": "สร้างหน้าต่างแชท AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อสร้างหน้าต่างแชท AI ล้มเหลว"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "แชทกับ AI เกี่ยวกับข้อความที่เลือก",
+    "description": "ชื่อสำหรับปุ่มลอย AI และข้อความตัวยึด"
+  },
+  "ai_contentApplied": {
+    "message": "นำเนื้อหาไปใช้กับโน้ตของคุณแล้ว!",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อนำเนื้อหาของ AI ไปใช้กับโน้ต"
+  },
+  "ai_contentCopied": {
+    "message": "คัดลอกเนื้อหาไปยังคลิปบอร์ดแล้ว!",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อคัดลอกเนื้อหาของ AI ไปยังคลิปบอร์ด"
+  },
+  "ai_contentFiltered": {
+    "message": "ถูกกรอง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเนื้อหาถูกกรอง"
+  },
+  "ai_contentInserted": {
+    "message": "เนื้อหาแทรกและแทนที่ข้อความที่เลือก",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "เนื้อหาไม่พร้อมใช้งาน",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "คัดลอก",
+    "description": "ข้อความบนปุ่มสำหรับคัดลอกผลลัพธ์ของ AI"
+  },
+  "ai_copyFailed": {
+    "message": "คัดลอกไปยังคลิปบอร์ดล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อคัดลอกเนื้อหาของ AI ไปยังคลิปบอร์ดล้มเหลว"
+  },
+  "ai_dailyLimitReached": {
+    "message": "ถึงขีดจำกัดรายวันแล้ว (15/15) โปรดลองอีกครั้งในวันพรุ่งนี้",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อถึงขีดจำกัดรายวันของ AI"
+  },
+  "ai_downloadImage": {
+    "message": "ดาวน์โหลดรูปภาพ",
+    "description": "ตัวเลือกเมนูบริบทเพื่อดาวน์โหลดรูปภาพไปยังคอมพิวเตอร์"
+  },
+  "ai_emptyResponse": {
+    "message": "AI ส่งคืนการตอบกลับที่ว่างเปล่า โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับการตอบกลับที่ว่างเปล่าของ AI"
+  },
+  "ai_errorPrefix": {
+    "message": "ข้อผิดพลาด AI",
+    "description": "คำนำหน้าสำหรับข้อความแสดงข้อผิดพลาดของ AI"
+  },
+  "ai_expand": {
+    "message": "ขยายความ",
+    "description": "การดำเนินการ AI เพื่อขยายเนื้อหา"
+  },
+  "ai_extractText": {
+    "message": "สกัดข้อความ (OCR)",
+    "description": "ตัวเลือกเมนูบริบทเพื่อสกัดข้อความจากรูปภาพโดยใช้ OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "วิเคราะห์รูปภาพล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อวิเคราะห์รูปภาพล้มเหลว"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "กำลังวิเคราะห์รูปภาพ...",
+    "description": "ข้อความกำลังโหลดขณะที่ AI วิเคราะห์รูปภาพ"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "ถึงขีดจำกัดการวิเคราะห์รูปภาพรายวันแล้ว อัปเกรดเป็นพรีเมียมเพื่อการวิเคราะห์ไม่จำกัด",
+    "description": "ข้อความเมื่อผู้ใช้ถึงขีดจำกัดการวิเคราะห์รูปภาพรายวัน"
+  },
+  "ai_imageDownloadError": {
+    "message": "ดาวน์โหลดรูปภาพล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อดาวน์โหลดรูปภาพล้มเหลว"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "ดาวน์โหลดรูปภาพสำเร็จแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อดาวน์โหลดรูปภาพ"
+  },
+  "ai_improve": {
+    "message": "ปรับปรุง",
+    "description": "การดำเนินการ AI เพื่อปรับปรุงเนื้อหา"
+  },
+  "ai_inputHint": {
+    "message": "กด Enter เพื่อส่ง, Shift+Enter เพื่อขึ้นบรรทัดใหม่",
+    "description": "ข้อความคำใบ้สำหรับช่องป้อนข้อมูล AI"
+  },
+  "ai_inputPlaceholder": {
+    "message": "พิมพ์ข้อความของคุณหรือเลือกการดำเนินการด่วน...",
+    "description": "ข้อความตัวยึดสำหรับช่องป้อนข้อมูล AI"
+  },
+  "ai_insertFailed": {
+    "message": "ไม่สามารถแทรกเนื้อหาได้",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "ใส่และแทนที่",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "คีย์ API ไม่ถูกต้อง",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับคีย์ API ที่ไม่ถูกต้อง"
+  },
+  "ai_invalidCredentials": {
+    "message": "การเข้าสู่ระบบไม่ถูกต้อง",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อมูลประจำตัวที่ไม่ถูกต้อง"
+  },
+  "ai_invalidModel": {
+    "message": "โมเดลไม่ดี",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับโมเดลที่ไม่ถูกต้อง"
+  },
+  "ai_invalidResponse": {
+    "message": "การตอบกลับจากบริการแบ็กเอนด์ไม่ถูกต้อง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อบริการแบ็กเอนด์ส่งคืนการตอบกลับที่ไม่ถูกต้อง"
+  },
+  "ai_limitReached": {
+    "message": "คุณใช้คำขอ AI ทั้ง {limit} คำขอสำหรับวันนี้แล้ว อัปเกรดเป็นพรีเมียมเพื่อเข้าถึงได้ไม่จำกัด!",
+    "description": "ข้อความเมื่อถึงขีดจำกัดรายวันของ AI"
+  },
+  "ai_meetingNotes": {
+    "message": "บันทึกการประชุม",
+    "description": "การดำเนินการ AI เพื่อจัดรูปแบบข้อความเป็นบันทึกการประชุม"
+  },
+  "ai_minimize": {
+    "message": "ย่อเล็กสุด",
+    "description": "ข้อความบนปุ่มย่อเล็กสุด"
+  },
+  "ai_modelNotFound": {
+    "message": "ไม่มีโมเดล",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่พบโมเดล"
+  },
+  "ai_networkError": {
+    "message": "ข้อผิดพลาดของเครือข่าย",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาดของเครือข่าย"
+  },
+  "ai_noConnection": {
+    "message": "ไม่มีการเชื่อมต่อ",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่มีการเชื่อมต่อ"
+  },
+  "ai_noResponse": {
+    "message": "ไม่มีการตอบกลับจาก AI",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อ AI ไม่มีการตอบกลับ"
+  },
+  "ai_noSelectedText": {
+    "message": "ไม่มีข้อความที่เลือก",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่มีข้อความใดถูกเลือก"
+  },
+  "ai_noUndoAvailable": {
+    "message": "ไม่มีการดำเนินการ AI ให้เลิกทำ",
+    "description": "ข้อความข้อมูลเมื่อไม่มีการดำเนินการ AI ให้เลิกทำ"
+  },
+  "ai_ocrResultReceived": {
+    "message": "ได้รับผล OCR แล้ว",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "โครงร่าง",
+    "description": "การดำเนินการ AI เพื่อสร้างโครงร่าง"
+  },
+  "ai_premiumActive": {
+    "message": "พรีเมียมทำงานอยู่",
+    "description": "ข้อความที่แสดงเมื่อพรีเมียมทำงานอยู่"
+  },
+  "ai_processing": {
+    "message": "กำลังประมวลผล AI...",
+    "description": "ข้อความที่แสดงขณะที่ AI กำลังประมวลผล"
+  },
+  "ai_quotaExceeded": {
+    "message": "โควต้าเต็ม",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเกินโควต้า"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "เกินขีดจำกัดอัตราการใช้งาน โปรดลองอีกครั้งในภายหลัง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเกินขีดจำกัดอัตราการใช้งาน"
+  },
+  "ai_requestTimeout": {
+    "message": "คำขอหมดเวลา",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อคำขอหมดเวลา"
+  },
+  "ai_responseReceived": {
+    "message": "ได้รับการตอบกลับจาก AI",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "ถูกบล็อก",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเนื้อหาถูกบล็อกโดยตัวกรองความปลอดภัย"
+  },
+  "ai_save": {
+    "message": "บันทึก",
+    "description": "การดำเนินการ AI เพื่อบันทึก"
+  },
+  "ai_search": {
+    "message": "ค้นหา",
+    "description": "การดำเนินการ AI เพื่อค้นหา"
+  },
+  "ai_selectedText": {
+    "message": "ข้อความที่เลือก",
+    "description": "ป้ายกำกับสำหรับข้อความที่เลือกในบริบทของ AI"
+  },
+  "ai_serverError": {
+    "message": "ข้อผิดพลาดของเซิร์ฟเวอร์ - โปรดลองอีกครั้งในภายหลัง",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาดของเซิร์ฟเวอร์"
+  },
+  "ai_serviceDown": {
+    "message": "บริการหยุดทำงาน",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อบริการหยุดทำงาน"
+  },
+  "ai_serviceInitFailed": {
+    "message": "การเริ่มต้นบริการ AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการเริ่มต้นบริการ AI ล้มเหลว"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "บริการ AI ไม่พร้อมใช้งาน โปรดรีเฟรชหน้า",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อบริการ AI ไม่พร้อมใช้งาน"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "บริการ AI ไม่ได้รับการกำหนดค่าอย่างถูกต้อง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อบริการ AI ไม่ได้รับการกำหนดค่า"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "บริการ AI ยังไม่ได้เริ่มต้น",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อบริการ AI ยังไม่ได้เริ่มต้น"
+  },
+  "ai_serviceUnavailable": {
+    "message": "บริการ AI ไม่พร้อมใช้งานชั่วคราว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อบริการ AI ไม่พร้อมใช้งานชั่วคราว"
+  },
+  "ai_signInRequired": {
+    "message": "โปรดลงชื่อเข้าใช้เพื่อใช้คุณสมบัติ AI คลิกปุ่มลงชื่อเข้าใช้ในส่วนขยาย",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อผู้ใช้ต้องลงชื่อเข้าใช้เพื่อใช้คุณสมบัติ AI"
+  },
+  "ai_signInToUnlock": {
+    "message": "ลงชื่อเข้าใช้เพื่อปลดล็อก",
+    "description": "ข้อความที่แสดงเพื่อแจ้งให้ผู้ใช้ลงชื่อเข้าใช้เพื่อปลดล็อก AI"
+  },
+  "ai_statsFailed": {
+    "message": "สถิติล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อคำขอสถิติล้มเหลว"
+  },
+  "ai_suggestions": {
+    "message": "ข้อเสนอแนะ",
+    "description": "การดำเนินการ AI เพื่อให้ข้อเสนอแนะ"
+  },
+  "ai_summarize": {
+    "message": "สรุป",
+    "description": "การดำเนินการ AI เพื่อสรุปเนื้อหา"
+  },
+  "ai_timeout": {
+    "message": "หมดเวลา",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับการหมดเวลา"
+  },
+  "ai_title": {
+    "message": "ผู้ช่วย AI",
+    "description": "ชื่อผู้ช่วย AI"
+  },
+  "ai_tone": {
+    "message": "น้ำเสียง",
+    "description": "การดำเนินการ AI เพื่อปรับน้ำเสียง"
+  },
+  "ai_toneDramatic": {
+    "message": "ดราม่า",
+    "description": "ชื่อน้ำเสียงที่เป็นดราม่า"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "ชื่อน้ำเสียงของ Gen Z"
+  },
+  "ai_toneHumorous": {
+    "message": "ขำขัน",
+    "description": "ชื่อน้ำเสียงที่ขำขัน"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "โปรดเลือกข้อความหรือเพิ่มเนื้อหาเพื่อแปลง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่มีข้อความที่เลือกสำหรับการแปลงน้ำเสียง"
+  },
+  "ai_tonePoetic": {
+    "message": "บทกวี",
+    "description": "ชื่อน้ำเสียงที่เป็นบทกวี"
+  },
+  "ai_toneProfessional": {
+    "message": "เป็นทางการ",
+    "description": "ชื่อน้ำเสียงที่เป็นทางการ"
+  },
+  "ai_toneSimplify": {
+    "message": "ทำให้ง่าย",
+    "description": "ชื่อน้ำเสียงที่ทำให้ง่าย"
+  },
+  "ai_translate": {
+    "message": "แปล",
+    "description": "การดำเนินการ AI เพื่อแปลเนื้อหา"
+  },
+  "ai_translateToEnglish": {
+    "message": " เป็นภาษาอังกฤษ",
+    "description": "ส่วนท้ายสำหรับการดำเนินการแปล"
+  },
+  "ai_undoSuccess": {
+    "message": "เลิกทำการดำเนินการ AI สำเร็จแล้ว!",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อเลิกทำการดำเนินการ AI"
+  },
+  "ai_unknownError": {
+    "message": "เกิดข้อผิดพลาดที่ไม่รู้จักกับ AI",
+    "description": "ข้อความแสดงข้อผิดพลาดทั่วไปสำหรับข้อผิดพลาดที่ไม่รู้จักของ AI"
+  },
+  "ai_usageLocked": {
+    "message": "ล็อก",
+    "description": "ข้อความที่แสดงเมื่อการใช้งาน AI ถูกล็อก"
+  },
+  "ai_usageUnlimited": {
+    "message": "ไม่จำกัด",
+    "description": "ข้อความที่แสดงเมื่อการใช้งาน AI ไม่จำกัด"
+  },
+  "ai_userMessage": {
+    "message": "ข้อความของผู้ใช้",
+    "description": "ป้ายกำกับสำหรับข้อความของผู้ใช้ในบริบทของ AI"
+  },
+  "ai_userRequest": {
+    "message": "คำขอของผู้ใช้",
+    "description": "ป้ายกำกับสำหรับคำขอของผู้ใช้ในบริบทของ AI"
+  },
+  "ai_welcome": {
+    "message": "สวัสดี! ฉันคือผู้ช่วย AI ของคุณ ฉันสามารถช่วยคุณสรุป ขยายความ ปรับปรุง หรือแปลโน้ตของคุณได้ คุณต้องการให้ฉันช่วยอะไร?",
+    "description": "ข้อความต้อนรับจากผู้ช่วย AI"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "ยินดีต้อนรับผู้ใช้พรีเมียม! คุณมีคำขอ AI ไม่จำกัด",
+    "description": "ข้อความต้อนรับสำหรับผู้ใช้พรีเมียม"
+  },
+  "ai_welcomeUser": {
+    "message": "ยินดีต้อนรับ! คุณมีคำขอ AI เหลือ {remaining} จาก {limit} คำขอในวันนี้",
+    "description": "ข้อความต้อนรับที่แสดงคำขอ AI ที่เหลือ"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "การวิเคราะห์ AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเริ่มต้นเมื่อการวิเคราะห์ AI ล้มเหลว"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "การวิเคราะห์ AI ล้มเหลว โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการวิเคราะห์ AI ล้มเหลวพร้อมแจ้งให้ลองอีกครั้ง"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "การวิเคราะห์เสร็จสมบูรณ์!",
+    "description": "ข้อความเมื่อการวิเคราะห์เสร็จสิ้น"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "วิเคราะห์แล้ว",
+    "description": "ป้ายกำกับสำหรับจำนวนที่วิเคราะห์แล้วในพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_close": {
+    "message": "ปิด",
+    "description": "ปุ่มปิดสำหรับพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "การวิเคราะห์คอลเลกชัน",
+    "description": "ชื่อสำหรับผลการวิเคราะห์คอลเลกชัน"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "สร้างโน้ตใหม่พร้อมข้อมูลเชิงลึกจาก {count} โน้ต",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อพื้นที่ทำงาน AI สร้างโน้ต"
+  },
+  "ai_workspace_error": {
+    "message": "เกิดข้อผิดพลาดในการประมวลผลคอลเลกชัน",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "ค้นหารูปแบบ",
+    "description": "ปุ่มสำหรับค้นหารูปแบบในคอลเลกชัน"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "สร้างข้อมูลเชิงลึก",
+    "description": "ปุ่มสำหรับสร้างข้อมูลเชิงลึกจากคอลเลกชัน"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "ถามอะไรก็ได้เกี่ยวกับคอลเลกชันของคุณ...",
+    "description": "ข้อความตัวยึดสำหรับช่องป้อนข้อมูลของพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_intro": {
+    "message": "พื้นที่ทำงาน AI เป็นคุณสมบัติที่มีประสิทธิภาพซึ่งออกแบบมาเพื่อเพิ่มศักยภาพของโมเดล AI ให้สูงสุด ช่วยให้คุณสามารถสร้างการวิเคราะห์และประมวลผลคอลเลกชันโน้ตทั้งหมดได้ในครั้งเดียว แทนที่จะเป็นโน้ตแต่ละรายการ",
+    "description": "ข้อความแนะนำสำหรับพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_no_notes": {
+    "message": "ไม่มีโน้ตในคอลเลกชันนี้ให้วิเคราะห์",
+    "description": "ข้อความเมื่อคอลเลกชันว่างเปล่า"
+  },
+  "ai_workspace_notes_label": {
+    "message": "โน้ต",
+    "description": "ป้ายกำกับสำหรับจำนวนโน้ต"
+  },
+  "ai_workspace_processing": {
+    "message": "กำลังประมวลผล...",
+    "description": "ข้อความที่แสดงขณะที่ AI กำลังประมวลผลในพื้นที่ทำงาน"
+  },
+  "ai_workspace_prompt": {
+    "message": "คุณต้องการให้ AI ทำอะไรกับโน้ตเหล่านี้?\n\nตัวอย่าง:\n- สรุปโน้ตทั้งหมด\n- สกัดธีมหลักและคำสำคัญ\n- สร้างรายการสิ่งที่ต้องทำหลัก\n- สร้างคำถามที่พบบ่อยจากโน้ตเหล่านี้\n- ค้นหาความเชื่อมโยงระหว่างหัวข้อ",
+    "description": "ข้อความพร้อมท์สำหรับช่องป้อนงานของพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "การตอบกลับของ AI ล้มเหลว โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการตอบกลับของ AI ล้มเหลว"
+  },
+  "ai_workspace_send": {
+    "message": "ส่ง",
+    "description": "ปุ่มส่งสำหรับพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "สรุปคอลเลกชัน",
+    "description": "ปุ่มสำหรับสรุปคอลเลกชันทั้งหมด"
+  },
+  "ai_workspace_task_faq": {
+    "message": "จากโน้ตเหล่านี้ สร้างรายการคำถามและคำตอบที่พบบ่อย (FAQ) ระบุหัวข้อสำคัญและสร้างคำถามที่เหมาะสมพร้อมคำตอบโดยละเอียด",
+    "description": "คำอธิบายงานสำหรับการดำเนินการเกี่ยวกับ FAQ"
+  },
+  "ai_workspace_task_label": {
+    "message": "งาน",
+    "description": "ป้ายกำกับสำหรับงานในการวิเคราะห์พื้นที่ทำงาน AI"
+  },
+  "ai_workspace_task_search": {
+    "message": "ค้นหาและอธิบายความเชื่อมโยงระหว่างข้อมูลในโน้ต ระบุลิงก์ ความขัดแย้ง หรือความสัมพันธ์ระหว่างหัวข้อต่างๆ ที่กล่าวถึงในโน้ต",
+    "description": "คำอธิบายงานสำหรับการดำเนินการค้นหา"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "สร้างบทสรุปที่ครอบคลุมจากโน้ตทั้งหมดในคอลเลกชันนี้ เน้นประเด็นที่สำคัญที่สุดและสร้างบทสรุปที่สอดคล้องกันเป็นหนึ่งเดียว",
+    "description": "คำอธิบายงานสำหรับการดำเนินการสังเคราะห์"
+  },
+  "ai_workspace_task_themes": {
+    "message": "ระบุ 5 ธีมหลักและคำสำคัญที่เกี่ยวข้องจากโน้ตการวิจัยเหล่านี้ สร้างรายการที่มีโครงสร้างพร้อมธีมและคำสำคัญที่สอดคล้องกัน",
+    "description": "คำอธิบายงานสำหรับการดำเนินการเกี่ยวกับธีม"
+  },
+  "ai_workspace_task_todo": {
+    "message": "สแกนโน้ตทั้งหมดและสร้างรายการสิ่งที่ต้องทำที่ครอบคลุม ค้นหารายการดำเนินการ งาน หรือสิ่งที่ต้องทำทั้งหมดที่กล่าวถึงในโน้ตและสร้างรายการตรวจสอบที่มีโครงสร้าง",
+    "description": "คำอธิบายงานสำหรับการดำเนินการเกี่ยวกับสิ่งที่ต้องทำ"
+  },
+  "ai_workspace_title": {
+    "message": "พื้นที่ทำงาน AI",
+    "description": "ชื่อสำหรับหน้าต่างพื้นที่ทำงาน AI"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "ถึงขีดจำกัดการใช้งานรายวันแล้ว อัปเกรดเป็นพรีเมียมเพื่อเข้าถึงพื้นที่ทำงาน AI ได้ไม่จำกัด",
+    "description": "ข้อความเมื่อถึงขีดจำกัดรายวัน"
+  },
+  "app_description": {
+    "message": "สร้าง จัดการ และซิงค์โน้ตด้วยสไตล์กลาสมอร์ฟิซึม",
+    "description": "คำอธิบายของแอปพลิเคชัน"
+  },
+  "app_name": {
+    "message": "__ป้องกัน_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "เชิงนามธรรม",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "ทั้งหมด",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "คริสต์มาส",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "เรขาคณิต",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "ธรรมชาติ",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "กำหนดเอง",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "ลบ",
+    "description": "ข้อความสำหรับตัวเลือกลบในเมนูบริบทของพื้นหลัง"
+  },
+  "background_none": {
+    "message": "ไม่มี",
+    "description": "ข้อความสำหรับตัวเลือกไม่มีพื้นหลัง"
+  },
+  "background_setAsDefault": {
+    "message": "ตั้งเป็นค่าเริ่มต้น",
+    "description": "ข้อความสำหรับตัวเลือกตั้งเป็นค่าเริ่มต้นในเมนูบริบทของพื้นหลัง"
+  },
+  "background_upload": {
+    "message": "อัปโหลด",
+    "description": "ข้อความสำหรับตัวเลือกอัปโหลดพื้นหลัง"
+  },
+  "collections_addNoteHere": {
+    "message": "เพิ่มโน้ตที่นี่",
+    "description": "ข้อความบนปุ่มสำหรับวางโน้ตที่ตัดมาในคอลเลกชัน"
+  },
+  "collections_collection": {
+    "message": "คอลเลกชัน",
+    "description": "ป้ายกำกับสำหรับคอลเลกชัน"
+  },
+  "collections_collectionCreated": {
+    "message": "สร้างแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อสร้างคอลเลกชัน"
+  },
+  "collections_collectionDeleted": {
+    "message": "ลบแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อลบคอลเลกชัน"
+  },
+  "collections_collectionName": {
+    "message": "ชื่อคอลเลกชัน",
+    "description": "ป้ายกำกับสำหรับช่องชื่อคอลเลกชัน"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "ป้อนชื่อคอลเลกชัน...",
+    "description": "ข้อความตัวยึดสำหรับช่องป้อนชื่อคอลเลกชัน"
+  },
+  "collections_collectionPinned": {
+    "message": "ปักหมุดแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อปักหมุดคอลเลกชัน"
+  },
+  "collections_collectionTheme": {
+    "message": "ธีม",
+    "description": "ป้ายกำกับสำหรับธีมคอลเลกชัน"
+  },
+  "collections_collectionUnpinned": {
+    "message": "ถอนหมุดแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อถอนหมุดคอลเลกชัน"
+  },
+  "collections_collectionUpdated": {
+    "message": "อัปเดตแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่ออัปเดตคอลเลกชัน"
+  },
+  "collections_create": {
+    "message": "สร้าง",
+    "description": "ข้อความบนปุ่มสำหรับสร้าง"
+  },
+  "collections_createCollection": {
+    "message": "สร้างคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับสร้างคอลเลกชันใหม่"
+  },
+  "collections_createNoteInCollection": {
+    "message": "สร้างโน้ตในคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับสร้างโน้ตในคอลเลกชัน"
+  },
+  "collections_deleteCollection": {
+    "message": "ลบคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับลบคอลเลกชัน"
+  },
+  "collections_editCollection": {
+    "message": "แก้ไขคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับแก้ไขคอลเลกชัน"
+  },
+  "collections_emptyCollection": {
+    "message": "คอลเลกชันนี้ว่างเปล่า",
+    "description": "ข้อความที่แสดงเมื่อคอลเลกชันว่างเปล่า"
+  },
+  "collections_enterCollectionName": {
+    "message": "กรุณาป้อนชื่อคอลเลกชัน",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อต้องระบุชื่อคอลเลกชัน"
+  },
+  "collections_errorCreatingNote": {
+    "message": "เกิดข้อผิดพลาดในการสร้างโน้ต",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อสร้างโน้ตล้มเหลว"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "เกิดข้อผิดพลาดกับคอลเลกชัน",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อสร้าง/อัปเดตคอลเลกชันล้มเหลว"
+  },
+  "collections_errorDeleting": {
+    "message": "การลบล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อลบคอลเลกชันล้มเหลว"
+  },
+  "collections_errorLoading": {
+    "message": "การโหลดล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อโหลดคอลเลกชันล้มเหลว"
+  },
+  "collections_errorMovingNote": {
+    "message": "การย้ายล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อย้ายโน้ตล้มเหลว"
+  },
+  "collections_errorTogglingPin": {
+    "message": "การปักหมุดล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อสลับการปักหมุดคอลเลกชันล้มเหลว"
+  },
+  "collections_errorUpdating": {
+    "message": "การอัปเดตล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่ออัปเดตคอลเลกชันล้มเหลว"
+  },
+  "collections_limitReached": {
+    "message": "ถึงขีดจำกัดคอลเลกชันแล้ว",
+    "description": "ข้อความเมื่อถึงขีดจำกัดคอลเลกชัน"
+  },
+  "collections_moveToCollection": {
+    "message": "ย้ายไปยังคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับย้ายโน้ตไปยังคอลเลกชัน"
+  },
+  "collections_noteCount": {
+    "message": "โน้ต",
+    "description": "ข้อความสำหรับจำนวนโน้ตในคอลเลกชัน"
+  },
+  "collections_noteCreated": {
+    "message": "สร้างโน้ตในคอลเลกชันแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อสร้างโน้ตในคอลเลกชัน"
+  },
+  "collections_notes": {
+    "message": "โน้ต",
+    "description": "ข้อความสำหรับจำนวนโน้ตในคอลเลกชัน"
+  },
+  "collections_notesMoved": {
+    "message": "โน้ตถูกย้ายไปยังคอลเลกชัน",
+    "description": "ข้อความเมื่อโน้ตถูกย้ายไปยังคอลเลกชัน"
+  },
+  "collections_pinCollection": {
+    "message": "ปักหมุดคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับปักหมุดคอลเลกชัน"
+  },
+  "collections_removeFromCollection": {
+    "message": "ลบออกจากคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับลบรายการออกจากคอลเลกชัน"
+  },
+  "collections_save": {
+    "message": "บันทึก",
+    "description": "ข้อความบนปุ่มสำหรับบันทึกการเปลี่ยนแปลง"
+  },
+  "collections_unpinCollection": {
+    "message": "ถอนหมุดคอลเลกชัน",
+    "description": "ข้อความบนปุ่มสำหรับถอนหมุดคอลเลกชัน"
+  },
+  "command_execute_action": {
+    "message": "เปิด Quick Notes",
+    "description": "คำอธิบายสำหรับคำสั่งดำเนินการ"
+  },
+  "confirmations_cancel": {
+    "message": "ยกเลิก",
+    "description": "ข้อความบนปุ่มยกเลิก"
+  },
+  "confirmations_close": {
+    "message": "ปิด",
+    "description": "ข้อความสำหรับปุ่มปิด"
+  },
+  "confirmations_continue": {
+    "message": "ดำเนินการต่อ",
+    "description": "ข้อความบนปุ่มดำเนินการต่อ"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "ลบโน้ตทั้งหมดในถังขยะอย่างถาวรหรือไม่?",
+    "description": "ข้อความยืนยันสำหรับการลบถังขยะอย่างถาวร"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบคอลเลกชันนี้อย่างถาวร? การดำเนินการนี้ไม่สามารถเลิกทำได้",
+    "description": "ข้อความยืนยันสำหรับการลบคอลเลกชันอย่างถาวร"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "ลบโน้ตอย่างถาวรหรือไม่?",
+    "description": "ข้อความยืนยันสำหรับการลบโน้ตอย่างถาวร"
+  },
+  "confirmations_overwriteData": {
+    "message": "การดำเนินการนี้จะเขียนทับข้อมูลปัจจุบันทั้งหมด ดำเนินการต่อหรือไม่?",
+    "description": "ข้อความยืนยันสำหรับการเขียนทับข้อมูล"
+  },
+  "contextMenu_addToNote": {
+    "message": "เพิ่มไปยัง Quick Notes",
+    "description": "รายการเมนูบริบทเพื่อเพิ่มข้อความที่เลือกลงในโน้ต"
+  },
+  "dragDropCreateWindow": {
+    "message": "วางเพื่อสร้างหน้าต่างใหม่",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "วางแท็บที่นี่เพื่อรวม",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "วางเพื่อรวมหน้าต่าง",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "การแชทกับ AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการแชทกับ AI ล้มเหลว"
+  },
+  "errors_aiExpandFailed": {
+    "message": "การขยายความโดย AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการขยายความโดย AI ล้มเหลว"
+  },
+  "errors_aiImproveFailed": {
+    "message": "การปรับปรุงโดย AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการปรับปรุงโดย AI ล้มเหลว"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "การเริ่มต้น AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการเริ่มต้น AI ล้มเหลว"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "การสร้างบันทึกการประชุมโดย AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการสร้างบันทึกการประชุมโดย AI ล้มเหลว"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "การสร้างโครงร่างโดย AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการสร้างโครงร่างโดย AI ล้มเหลว"
+  },
+  "errors_aiRequestFailed": {
+    "message": "คำขอ AI ล้มเหลว",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "การตั้งค่า URL ของแบ็กเอนด์ AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการตั้งค่า URL ของแบ็กเอนด์ AI ล้มเหลว"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "ข้อเสนอแนะจาก AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อข้อเสนอแนะจาก AI ล้มเหลว"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "การสรุปโดย AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการสรุปโดย AI ล้มเหลว"
+  },
+  "errors_aiToneFailed": {
+    "message": "การปรับน้ำเสียงโดย AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการปรับน้ำเสียงโดย AI ล้มเหลว"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "การตรวจสอบสถานะแบ็กเอนด์ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการตรวจสอบสถานะแบ็กเอนด์ล้มเหลว"
+  },
+  "errors_backendRequestFailed": {
+    "message": "คำขอแบ็กเอนด์ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อคำขอแบ็กเอนด์ล้มเหลว"
+  },
+  "errors_backendServerError": {
+    "message": "ข้อผิดพลาดของเซิร์ฟเวอร์แบ็กเอนด์",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาดของเซิร์ฟเวอร์แบ็กเอนด์"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "การล้างแคช AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการล้างแคช AI ล้มเหลว"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "เกิดข้อผิดพลาดในการตรวจสอบสถานะการปลดล็อก AI",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการตรวจสอบสถานะการปลดล็อก AI ล้มเหลว"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "เกิดข้อผิดพลาดในการดึงสถิติการใช้งาน",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการดึงสถิติการใช้งานล้มเหลว"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "เกิดข้อผิดพลาดในการรับอีเมลผู้ใช้ใน service worker",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการรับอีเมลผู้ใช้ล้มเหลว"
+  },
+  "errors_failedToCreateNote": {
+    "message": "ไม่สามารถสร้างบันทึกได้",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "สร้างชื่อเรื่องล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการสร้างชื่อเรื่องโดย AI ล้มเหลว"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "การเริ่มต้นบริการ AI ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการเริ่มต้นบริการ AI ล้มเหลว"
+  },
+  "errors_genericError": {
+    "message": "เกิดข้อผิดพลาด โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดทั่วไปสำหรับข้อผิดพลาดที่ไม่รู้จัก"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "การรับสถิติการใช้งานรายวันล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการรับสถิติการใช้งานรายวันล้มเหลว"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "ข้อผิดพลาด Google Drive API",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับข้อผิดพลาด Google Drive API"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "รูปแบบการตอบกลับไม่ถูกต้อง",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "หมายเหตุว่างเปล่า โปรดเพิ่มเนื้อหาก่อนที่จะใช้คุณสมบัตินี้",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "ไม่พบโน้ตในที่จัดเก็บข้อมูลในเครื่อง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่พบโน้ตในเครื่อง"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "ตัวเลือกเซิร์ฟเวอร์ไม่ได้เตรียมใช้งาน",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "กระบวนการซิงค์ล้มเหลวพร้อมข้อผิดพลาด",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อกระบวนการซิงค์ล้มเหลว"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "คำขอไม่จำกัดล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อคำขอไม่จำกัดล้มเหลว"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "ผู้ใช้ไม่ได้รับการรับรองความถูกต้อง",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "เสร็จสมบูรณ์!",
+    "description": "ชื่อสำหรับหน้าต่างแจ้งความสำเร็จในการส่งออก"
+  },
+  "export_downloadSuccess": {
+    "message": "ดาวน์โหลดรูปภาพสำเร็จแล้ว",
+    "description": "ข้อความสำหรับหน้าต่างแจ้งความสำเร็จในการส่งออก"
+  },
+  "export_exportingImages": {
+    "message": "กำลังส่งออกรูปภาพ...",
+    "description": "ชื่อสำหรับหน้าต่างโหลดการส่งออก"
+  },
+  "export_pleaseWait": {
+    "message": "โปรดรอสักครู่",
+    "description": "ข้อความสำหรับหน้าต่างโหลดการส่งออก"
+  },
+  "icons_hobby": {
+    "message": "งานอดิเรก",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนงานอดิเรก"
+  },
+  "icons_ideas": {
+    "message": "ไอเดีย",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนไอเดีย"
+  },
+  "icons_personal": {
+    "message": "ส่วนตัว",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนส่วนตัว"
+  },
+  "icons_study": {
+    "message": "เรียน",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนเรียน"
+  },
+  "icons_travel": {
+    "message": "ท่องเที่ยว",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนท่องเที่ยว"
+  },
+  "icons_work": {
+    "message": "งาน",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนงาน"
+  },
+  "main_createNote": {
+    "message": "สร้างโน้ตใหม่",
+    "description": "ข้อความบนปุ่มสำหรับสร้างโน้ตใหม่"
+  },
+  "main_deleteNote": {
+    "message": "ลบโน้ต",
+    "description": "ข้อความบนปุ่มสำหรับลบโน้ต"
+  },
+  "main_newNote": {
+    "message": "โน้ตใหม่",
+    "description": "ป้ายกำกับสำหรับโน้ตใหม่"
+  },
+  "main_noContent": {
+    "message": "ไม่มีเนื้อหาเพิ่มเติม",
+    "description": "ข้อความที่แสดงเมื่อไม่มีเนื้อหาเพิ่มเติม"
+  },
+  "main_pinNote": {
+    "message": "ปักหมุดโน้ต",
+    "description": "ข้อความบนปุ่มสำหรับปักหมุดโน้ต"
+  },
+  "main_searchPlaceholder": {
+    "message": "ค้นหาโน้ต...",
+    "description": "ข้อความตัวยึดสำหรับช่องค้นหา"
+  },
+  "main_undoCut": {
+    "message": "เลิกทำการย้าย",
+    "description": "ข้อความบนปุ่มสำหรับเลิกทำการตัดโน้ต"
+  },
+  "main_unpinNote": {
+    "message": "ถอนหมุดโน้ต",
+    "description": "ข้อความบนปุ่มสำหรับถอนหมุดโน้ต"
+  },
+  "messages_allNotesRestored": {
+    "message": "กู้คืนแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จในการกู้คืนทั้งหมด"
+  },
+  "messages_authError": {
+    "message": "ข้อผิดพลาดในการตรวจสอบสิทธิ์",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับปัญหาการตรวจสอบสิทธิ์"
+  },
+  "messages_authErrorDetails": {
+    "message": "โปรดลองออกจากระบบและลงชื่อเข้าใช้อีกครั้ง",
+    "description": "รายละเอียดสำหรับข้อผิดพลาดในการตรวจสอบสิทธิ์"
+  },
+  "messages_authenticationFailed": {
+    "message": "การตรวจสอบสิทธิ์ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการตรวจสอบสิทธิ์ล้มเหลว"
+  },
+  "messages_backedUpToDrive": {
+    "message": "สำรองข้อมูลแล้ว",
+    "description": "ข้อความสำหรับการสำรองข้อมูลไปยังไดรฟ์"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "พื้นหลังนี้มีให้สำหรับผู้ใช้พรีเมียมเท่านั้น โปรดอัปเกรดเพื่อปลดล็อกพื้นหลังทั้งหมด",
+    "description": "ข้อความคุณสมบัติพรีเมียมสำหรับพื้นหลังที่ถูกล็อก"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "คุณสมบัติการอัปโหลดพื้นหลังมีให้สำหรับผู้ใช้พรีเมียมเท่านั้น โปรดอัปเกรดเพื่อใช้คุณสมบัตินี้",
+    "description": "ข้อความคุณสมบัติพรีเมียมสำหรับการอัปโหลดพื้นหลัง"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "ไม่สามารถสร้างลิงก์แชร์ได้",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อสร้างลิงก์แชร์ล้มเหลว"
+  },
+  "messages_checkoutFailed": {
+    "message": "สร้างเซสชันการชำระเงินล้มเหลว โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อสร้างการชำระเงินล้มเหลว"
+  },
+  "messages_connectingToGoogle": {
+    "message": "กำลังเชื่อมต่อกับ Google...",
+    "description": "ข้อความกำลังโหลดเมื่อเชื่อมต่อกับ Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "ไม่สามารถโหลดอีเมลได้",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่สามารถโหลดอีเมลของผู้ใช้ได้"
+  },
+  "messages_dailyLimitReached": {
+    "message": "ถึงขีดจำกัดรายวันแล้ว โปรดลองอีกครั้งในวันพรุ่งนี้หรืออัปเกรด",
+    "description": "ข้อความเตือนเมื่อถึงขีดจำกัดการแชร์รายวัน"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "ตั้งค่าพื้นหลังเริ่มต้นแล้ว!",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อตั้งค่าพื้นหลังเริ่มต้น"
+  },
+  "messages_done": {
+    "message": "เสร็จสิ้น",
+    "description": "ข้อความแจ้งความสำเร็จทั่วไป"
+  },
+  "messages_errorReadingFile": {
+    "message": "ข้อผิดพลาดในการอ่าน",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่ออ่านไฟล์ล้มเหลว"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "ส่งออกแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จในการส่งออก"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "โหลดถังขยะล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อโหลดถังขยะล้มเหลว"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "โหลดถังขยะล้มเหลว โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดที่แสดงในถังขยะเมื่อการโหลดล้มเหลว"
+  },
+  "messages_failedToMoveNote": {
+    "message": "ย้ายโน้ตล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อย้ายโน้ตล้มเหลว"
+  },
+  "messages_importedSuccessfully": {
+    "message": "นำเข้าแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จในการนำเข้า"
+  },
+  "messages_invalidFileFormat": {
+    "message": "ไฟล์ไม่ถูกต้อง",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับรูปแบบไฟล์ที่ไม่ถูกต้อง"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "กำลังโหลดข้อมูลบัญชี...",
+    "description": "ข้อความกำลังโหลดเมื่อดึงข้อมูลบัญชี"
+  },
+  "messages_moveCancelled": {
+    "message": "การย้ายถูกยกเลิก",
+    "description": "ข้อความเมื่อการย้ายถูกยกเลิก"
+  },
+  "messages_movedToCollection": {
+    "message": "ย้ายไปยังคอลเลกชันแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อย้ายโน้ตไปยังคอลเลกชัน"
+  },
+  "messages_networkError": {
+    "message": "ไม่มีการเชื่อมต่อเครือข่าย",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับปัญหาเครือข่าย"
+  },
+  "messages_networkErrorDetails": {
+    "message": "โปรดตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้ง",
+    "description": "รายละเอียดสำหรับข้อผิดพลาดเครือข่าย"
+  },
+  "messages_noNotesInCollection": {
+    "message": "ไม่พบโน้ตในคอลเลกชันนี้",
+    "description": "ข้อความเมื่อคอลเลกชันไม่มีโน้ต"
+  },
+  "messages_noteDeleted": {
+    "message": "ลบแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จในการลบโน้ต"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "ย้ายแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จเมื่อย้ายโน้ตไปยังคอลเลกชัน"
+  },
+  "messages_noteNotFound": {
+    "message": "ไม่พบโน้ตบนเซิร์ฟเวอร์ โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่พบโน้ตบนเซิร์ฟเวอร์"
+  },
+  "messages_notePinned": {
+    "message": "ปักหมุดแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จในการปักหมุดโน้ต"
+  },
+  "messages_noteUnpinned": {
+    "message": "ถอนหมุดแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จในการถอนหมุดโน้ต"
+  },
+  "messages_notesUpToDate": {
+    "message": "เป็นปัจจุบัน",
+    "description": "ข้อความเมื่อโน้ตเป็นปัจจุบัน"
+  },
+  "messages_paymentError": {
+    "message": "เกิดข้อผิดพลาดในการชำระเงิน โปรดลองอีกครั้ง",
+    "description": "ข้อความแสดงข้อผิดพลาดสำหรับการชำระเงิน"
+  },
+  "messages_paymentVerificationError": {
+    "message": "เกิดข้อผิดพลาดในการยืนยันการชำระเงิน โปรดรีเฟรชหน้า",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการยืนยันการชำระเงินล้มเหลว"
+  },
+  "messages_permissionDenied": {
+    "message": "การอนุญาตถูกปฏิเสธ",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อผู้ใช้ปฏิเสธการอนุญาต"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "หากต้องการใช้คุณสมบัติการซิงค์ โปรดให้สิทธิ์แก่แอป",
+    "description": "รายละเอียดสำหรับข้อผิดพลาดการอนุญาตถูกปฏิเสธ"
+  },
+  "messages_restoredFromDrive": {
+    "message": "กู้คืนแล้ว",
+    "description": "ข้อความสำหรับการกู้คืนจากไดรฟ์"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "โปรดเลือกอย่างน้อยหนึ่งโน้ตสำหรับการวิเคราะห์ AI",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อไม่มีโน้ตใดถูกเลือกสำหรับ AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "โปรดเลือกโน้ตก่อน",
+    "description": "ข้อความเมื่อไม่มีโน้ตใดถูกเลือก"
+  },
+  "messages_shareNotConfigured": {
+    "message": "การแชร์ยังไม่ได้กำหนดค่า",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการแชร์ยังไม่ได้กำหนดค่า"
+  },
+  "messages_signInFailed": {
+    "message": "การลงชื่อเข้าใช้ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อลงชื่อเข้าใช้ล้มเหลว"
+  },
+  "messages_signInToShare": {
+    "message": "ลงชื่อเข้าใช้เพื่อแชร์",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อผู้ใช้ต้องลงชื่อเข้าใช้เพื่อแชร์"
+  },
+  "messages_signInToUpload": {
+    "message": "ลงชื่อเข้าใช้เพื่ออัปโหลด",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อผู้ใช้ต้องลงชื่อเข้าใช้เพื่ออัปโหลด"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ ลงชื่อเข้าใช้สำเร็จ!",
+    "description": "ข้อความแจ้งความสำเร็จในการลงชื่อเข้าใช้"
+  },
+  "messages_signedOut": {
+    "message": "ออกจากระบบแล้ว",
+    "description": "ข้อความแจ้งการออกจากระบบ"
+  },
+  "messages_syncFailed": {
+    "message": "การซิงค์ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการซิงค์ล้มเหลว"
+  },
+  "messages_syncedFromDrive": {
+    "message": "ซิงค์แล้ว",
+    "description": "ข้อความสำหรับการซิงค์จากไดรฟ์"
+  },
+  "messages_syncedToDrive": {
+    "message": "ซิงค์แล้ว",
+    "description": "ข้อความสำหรับการซิงค์ไปยังไดรฟ์"
+  },
+  "messages_syncingData": {
+    "message": "กำลังซิงค์ข้อมูล...",
+    "description": "ข้อความกำลังโหลดเมื่อซิงค์ข้อมูล"
+  },
+  "messages_syncingWithDrive": {
+    "message": "กำลังซิงค์กับไดรฟ์...",
+    "description": "ข้อความที่แสดงเมื่อกำลังซิงค์กับ Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "ล้างแล้ว",
+    "description": "ข้อความแจ้งความสำเร็จในการล้างถังขยะ"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "ไม่สามารถเปิดการจัดการการเรียกเก็บเงินได้ โปรดลองอีกครั้งในภายหลัง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเปิดพอร์ทัลการเรียกเก็บเงินล้มเหลว"
+  },
+  "messages_verifyingPayment": {
+    "message": "กำลังยืนยันการชำระเงิน...",
+    "description": "ข้อความที่แสดงขณะยืนยันการชำระเงิน"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "ลบรายการที่เลือก",
+    "description": "ข้อความบนปุ่มสำหรับลบรายการที่เลือก"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "ลบถาวร",
+    "description": "ข้อความบนปุ่มสำหรับลบรายการที่เลือกอย่างถาวร"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "กู้คืนรายการที่เลือก",
+    "description": "ข้อความบนปุ่มสำหรับกู้คืนรายการที่เลือก"
+  },
+  "multiSelect_cancel": {
+    "message": "ยกเลิก",
+    "description": "ข้อความบนปุ่มสำหรับยกเลิกการเลือก"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "ลบรายการที่เลือกอย่างถาวรหรือไม่?",
+    "description": "ข้อความยืนยันสำหรับการลบจำนวนมากอย่างถาวร"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "กู้คืนรายการที่เลือกหรือไม่?",
+    "description": "ข้อความยืนยันสำหรับการกู้คืนจำนวนมาก"
+  },
+  "multiSelect_selectAll": {
+    "message": "เลือกทั้งหมด",
+    "description": "ข้อความบนปุ่มสำหรับเลือกทุกรายการ"
+  },
+  "multiSelect_selected": {
+    "message": "รายการที่เลือก",
+    "description": "ป้ายกำกับสำหรับจำนวนที่เลือก"
+  },
+  "note_aiAssistant": {
+    "message": "ผู้ช่วย AI",
+    "description": "ข้อความบนปุ่มผู้ช่วย AI"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "ถามอะไรก็ได้",
+    "description": "ข้อความตัวยึดสำหรับช่องป้อนข้อมูล AI"
+  },
+  "note_aiToneMagic": {
+    "message": "เวทมนตร์น้ำเสียง AI",
+    "description": "คำแนะนำเครื่องมือสำหรับปุ่มเวทมนตร์น้ำเสียง AI"
+  },
+  "note_alignCenter": {
+    "message": "จัดกึ่งกลาง",
+    "description": "ข้อความบนปุ่มจัดกึ่งกลาง"
+  },
+  "note_alignLeft": {
+    "message": "จัดชิดซ้าย",
+    "description": "ข้อความบนปุ่มจัดชิดซ้าย"
+  },
+  "note_alignRight": {
+    "message": "จัดชิดขวา",
+    "description": "ข้อความบนปุ่มจัดชิดขวา"
+  },
+  "note_background": {
+    "message": "พื้นหลัง",
+    "description": "ข้อความบนปุ่มพื้นหลัง"
+  },
+  "note_createNew": {
+    "message": "สร้างโน้ตใหม่",
+    "description": "ข้อความบนปุ่มสำหรับสร้างโน้ตใหม่"
+  },
+  "note_defaultTitle": {
+    "message": "โน้ตใหม่",
+    "description": "ชื่อเริ่มต้นสำหรับโน้ตใหม่"
+  },
+  "note_deleteNote": {
+    "message": "ลบโน้ต",
+    "description": "ข้อความบนปุ่มลบโน้ต"
+  },
+  "note_download": {
+    "message": "ดาวน์โหลดเป็นรูปภาพ",
+    "description": "ข้อความบนปุ่มดาวน์โหลดเป็นรูปภาพ"
+  },
+  "note_editorNotAvailable": {
+    "message": "เครื่องมือแก้ไขไม่พร้อมใช้งาน",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "ป้อน URL ของลิงก์...",
+    "description": "ข้อความตัวยึดสำหรับช่องป้อน URL ของลิงก์"
+  },
+  "note_enterVideoURL": {
+    "message": "ป้อน URL ของวิดีโอ...",
+    "description": "ข้อความตัวยึดสำหรับช่องป้อน URL ของวิดีโอ"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "เกิดข้อผิดพลาดในการใช้การจัดรูปแบบ",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อการจัดรูปแบบล้มเหลว"
+  },
+  "note_heading1": {
+    "message": "หัวข้อ 1",
+    "description": "ข้อความบนปุ่มหัวข้อ 1"
+  },
+  "note_heading2": {
+    "message": "หัวข้อ 2",
+    "description": "ข้อความบนปุ่มหัวข้อ 2"
+  },
+  "note_insertButton": {
+    "message": "แทรก",
+    "description": "ข้อความสำหรับปุ่มแทรก"
+  },
+  "note_insertImage": {
+    "message": "แทรกรูปภาพ",
+    "description": "ข้อความบนปุ่มแทรกรูปภาพ"
+  },
+  "note_menu": {
+    "message": "เมนู",
+    "description": "ข้อความบนปุ่มเมนู"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR ไม่พร้อมใช้งานสำหรับรูปภาพนี้เนื่องจากข้อจำกัดของ CORS",
+    "description": "ข้อความข้อมูลเมื่อ OCR ไม่พร้อมใช้งาน"
+  },
+  "note_removeFormat": {
+    "message": "ลบการจัดรูปแบบ",
+    "description": "ข้อความบนปุ่มลบการจัดรูปแบบ"
+  },
+  "note_share": {
+    "message": "แชร์",
+    "description": "ข้อความบนปุ่มแชร์"
+  },
+  "note_smartColorsApplied": {
+    "message": "ใช้สีอัจฉริยะแล้ว!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "ปรับโครงสร้างให้เหมาะสม!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "ดูโน้ตทั้งหมด",
+    "description": "ข้อความบนปุ่มดูโน้ตทั้งหมด"
+  },
+  "notification_defaultContent": {
+    "message": "เนื้อหาการแจ้งเตือน",
+    "description": "เนื้อหาเริ่มต้นสำหรับหน้าต่างการแจ้งเตือน"
+  },
+  "payment_checkTimeout": {
+    "message": "การตรวจสอบการชำระเงินหมดเวลา โปรดรีเฟรชหากการชำระเงินเสร็จสิ้นแล้ว",
+    "description": "ข้อความเมื่อการตรวจสอบการชำระเงินหมดเวลา"
+  },
+  "payment_invalidPlan": {
+    "message": "แผนที่เลือกไม่ถูกต้อง",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อเลือกแผนที่ไม่ถูกต้อง"
+  },
+  "payment_signInRequired": {
+    "message": "โปรดลงชื่อเข้าใช้เพื่อดำเนินการชำระเงินต่อ",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อผู้ใช้ต้องลงชื่อเข้าใช้เพื่อชำระเงิน"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "เข้าถึงคุณสมบัติขั้นสูง",
+    "description": "คุณสมบัติพรีเมียม: เข้าถึงคุณสมบัติขั้นสูง"
+  },
+  "premium_aiPremium": {
+    "message": "AI พรีเมียม",
+    "description": "ข้อความแสดงแทนสำหรับไอคอน AI พรีเมียม"
+  },
+  "premium_backgroundPremium": {
+    "message": "พื้นหลังพรีเมียม",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนพื้นหลังพรีเมียม"
+  },
+  "premium_collectionsPremium": {
+    "message": "คอลเลกชันพรีเมียม",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนคอลเลกชันพรีเมียม"
+  },
+  "premium_congratulations": {
+    "message": "🎉 ขอแสดงความยินดี!",
+    "description": "ชื่อสำหรับหน้าต่างแจ้งความสำเร็จของพรีเมียม"
+  },
+  "premium_contact_support": {
+    "message": "ติดต่อฝ่ายสนับสนุน",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "พื้นหลังพิเศษ",
+    "description": "ชื่อคุณสมบัติสำหรับพื้นหลังพิเศษ"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "เข้าถึงพื้นหลังระดับพรีเมียม",
+    "description": "คำอธิบายสำหรับคุณสมบัติพื้นหลังพิเศษ"
+  },
+  "premium_exclusiveSupport": {
+    "message": "การสนับสนุนพิเศษ",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "การสนับสนุนลำดับความสำคัญจากทีมงานของเรา",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "หมดอายุ",
+    "description": "ป้ายกำกับสำหรับวันที่หมดอายุ"
+  },
+  "premium_manage_billing": {
+    "message": "จัดการการเรียกเก็บเงิน",
+    "description": "ข้อความบนปุ่มสำหรับจัดการการเรียกเก็บเงิน"
+  },
+  "premium_next_billing": {
+    "message": "การเรียกเก็บเงินครั้งถัดไป",
+    "description": "ป้ายกำกับสำหรับวันที่เรียกเก็บเงินครั้งถัดไป"
+  },
+  "premium_plan_annual": {
+    "message": "พรีเมียมรายปี",
+    "description": "ข้อความสำหรับแผนรายปี"
+  },
+  "premium_plan_monthly": {
+    "message": "พรีเมียมรายเดือน",
+    "description": "ข้อความสำหรับแผนรายเดือน"
+  },
+  "premium_plan_trial": {
+    "message": "ทดลองใช้พรีเมียม",
+    "description": "ข้อความสำหรับแผนทดลองใช้"
+  },
+  "premium_plan_type": {
+    "message": "ประเภทแผน",
+    "description": "ป้ายกำกับสำหรับประเภทแผน"
+  },
+  "premium_prioritySupport": {
+    "message": "การสนับสนุนลำดับความสำคัญ",
+    "description": "คุณสมบัติพรีเมียม: การสนับสนุนลำดับความสำคัญ"
+  },
+  "premium_shareNotes": {
+    "message": "แชร์โน้ต",
+    "description": "ชื่อคุณสมบัติสำหรับแชร์โน้ต"
+  },
+  "premium_shareNotesDesc": {
+    "message": "แชร์โน้ตกับผู้อื่น",
+    "description": "คำอธิบายสำหรับคุณสมบัติแชร์โน้ต"
+  },
+  "premium_sharePremium": {
+    "message": "แชร์พรีเมียม",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนแชร์พรีเมียม"
+  },
+  "premium_startFreeTrial": {
+    "message": "เริ่มทดลองใช้ฟรี",
+    "description": "ข้อความบนปุ่มสำหรับเริ่มทดลองใช้ฟรี"
+  },
+  "premium_startUsing": {
+    "message": "เริ่มใช้งาน",
+    "description": "ข้อความบนปุ่มสำหรับเริ่มใช้งานคุณสมบัติพรีเมียม"
+  },
+  "premium_status": {
+    "message": "สถานะ",
+    "description": "ป้ายกำกับสำหรับสถานะ"
+  },
+  "premium_status_active": {
+    "message": "ใช้งานอยู่",
+    "description": "ข้อความสถานะสำหรับการสมัครสมาชิกที่ใช้งานอยู่"
+  },
+  "premium_status_cancelled": {
+    "message": "ยกเลิกแล้ว",
+    "description": "ข้อความสถานะสำหรับการสมัครสมาชิกที่ถูกยกเลิก"
+  },
+  "premium_status_expired": {
+    "message": "หมดอายุ",
+    "description": "ข้อความสถานะสำหรับการสมัครสมาชิกที่หมดอายุ"
+  },
+  "premium_status_inactive": {
+    "message": "ไม่ใช้งาน",
+    "description": "ข้อความสถานะสำหรับการสมัครสมาชิกที่ไม่ใช้งาน"
+  },
+  "premium_subscribeNow": {
+    "message": "สมัครสมาชิกตอนนี้",
+    "description": "ข้อความบนปุ่มสำหรับสมัครสมาชิกพรีเมียม"
+  },
+  "premium_support": {
+    "message": "สนับสนุน",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "AI ไม่จำกัด",
+    "description": "ชื่อคุณสมบัติสำหรับ AI ไม่จำกัด"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "แชท AI ไม่จำกัด",
+    "description": "คุณสมบัติพรีเมียม: แชท AI ไม่จำกัด"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "คำขอ AI ไม่จำกัดต่อวัน",
+    "description": "คำอธิบายสำหรับคุณสมบัติ AI ไม่จำกัด"
+  },
+  "premium_unlimitedCollections": {
+    "message": "คอลเลกชันไม่จำกัด",
+    "description": "ชื่อคุณสมบัติสำหรับคอลเลกชันไม่จำกัด"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "สร้างคอลเลกชันได้ไม่จำกัด",
+    "description": "คำอธิบายสำหรับคุณสมบัติคอลเลกชันไม่จำกัด"
+  },
+  "premium_unlockTitle": {
+    "message": "ปลดล็อก AI ไม่จำกัด",
+    "description": "ชื่อสำหรับหน้าต่างปลดล็อกพรีเมียม"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "คุณได้อัปเกรดเป็นพรีเมียมสำเร็จแล้ว",
+    "description": "ข้อความสำหรับการอัปเกรดเป็นพรีเมียมที่สำเร็จ"
+  },
+  "search_noResults": {
+    "message": "ไม่พบผลลัพธ์",
+    "description": "ชื่อที่แสดงเมื่อการค้นหาไม่พบผลลัพธ์"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "ลองค้นหาด้วยคำสำคัญอื่นหรือสร้างโน้ตใหม่",
+    "description": "ข้อความที่แสดงเมื่อการค้นหาไม่พบผลลัพธ์"
+  },
+  "settings_aiUsage": {
+    "message": "การใช้งาน AI",
+    "description": "ชื่อส่วนการใช้งาน AI ในการตั้งค่า"
+  },
+  "settings_aiUsageToday": {
+    "message": "การใช้งาน AI วันนี้",
+    "description": "ป้ายกำกับการใช้งาน AI สำหรับวันนี้"
+  },
+  "settings_appearance": {
+    "message": "ลักษณะที่ปรากฏ",
+    "description": "ส่วนการตั้งค่าลักษณะที่ปรากฏ"
+  },
+  "settings_cloudSync": {
+    "message": "ซิงค์บนคลาวด์",
+    "description": "ป้ายกำกับส่วนซิงค์บนคลาวด์"
+  },
+  "settings_configure": {
+    "message": "กำหนดค่า",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "การจัดการข้อมูล",
+    "description": "ส่วนการตั้งค่าการจัดการข้อมูล"
+  },
+  "settings_defaultNoteSize": {
+    "message": "ขนาดบันทึกย่อเริ่มต้น",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "ส่งออก",
+    "description": "ข้อความบนปุ่มส่งออก"
+  },
+  "settings_exportData": {
+    "message": "ส่งออกข้อมูล",
+    "description": "ข้อความบนปุ่มส่งออกข้อมูล"
+  },
+  "settings_import": {
+    "message": "นำเข้า",
+    "description": "ข้อความบนปุ่มนำเข้า"
+  },
+  "settings_importData": {
+    "message": "นำเข้าข้อมูล",
+    "description": "ข้อความบนปุ่มนำเข้าข้อมูล"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "ขนาดไม่ถูกต้อง ความกว้าง: 400-1920 ความสูง: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "ยกเลิก",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "ความสูง",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "รีเซ็ตเป็นค่าเริ่มต้น",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "บันทึก",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "บันทึกขนาดเริ่มต้นแล้ว",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "ขนาดบันทึกย่อเริ่มต้น",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "ความกว้าง",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "เปิด",
+    "description": "ข้อความบนปุ่มเปิด"
+  },
+  "settings_signInRequired": {
+    "message": "จำเป็นต้องลงชื่อเข้าใช้",
+    "description": "ข้อความที่แสดงเมื่อจำเป็นต้องลงชื่อเข้าใช้"
+  },
+  "settings_signInWithGoogle": {
+    "message": "ลงชื่อเข้าใช้ด้วย Google",
+    "description": "ข้อความบนปุ่มลงชื่อเข้าใช้ด้วย Google"
+  },
+  "settings_signOut": {
+    "message": "ออกจากระบบ",
+    "description": "ข้อความบนปุ่มออกจากระบบ"
+  },
+  "settings_signedInWith": {
+    "message": "ลงชื่อเข้าใช้ด้วย",
+    "description": "ข้อความแสดงสถานะการลงชื่อเข้าใช้"
+  },
+  "settings_sync": {
+    "message": "ซิงค์",
+    "description": "ข้อความบนปุ่มซิงค์"
+  },
+  "settings_theme": {
+    "message": "ธีม",
+    "description": "ป้ายกำกับการตั้งค่าธีม"
+  },
+  "settings_title": {
+    "message": "การตั้งค่า",
+    "description": "ชื่อหน้าการตั้งค่า"
+  },
+  "settings_trash": {
+    "message": "ถังขยะ",
+    "description": "ป้ายกำกับส่วนถังขยะ"
+  },
+  "settings_unlimited": {
+    "message": "ไม่จำกัด",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "รับพรีเมียม",
+    "description": "ข้อความบนปุ่มรับพรีเมียม"
+  },
+  "settings_unlockAIText": {
+    "message": "ปลดล็อก AI",
+    "description": "ป้ายกำกับข้อความปลดล็อก AI"
+  },
+  "settings_userAvatar": {
+    "message": "รูปประจำตัวผู้ใช้",
+    "description": "ข้อความแสดงแทนสำหรับรูปประจำตัวผู้ใช้"
+  },
+  "share_copied": {
+    "message": "คัดลอกแล้ว",
+    "description": "ข้อความที่แสดงเมื่อคัดลอกเนื้อหา"
+  },
+  "share_copy": {
+    "message": "คัดลอก",
+    "description": "ข้อความสำหรับปุ่มคัดลอกในหน้าต่างแชร์"
+  },
+  "share_creatingLink": {
+    "message": "กำลังสร้างลิงก์แชร์...",
+    "description": "ข้อความสำหรับหน้าต่างโหลดการแชร์"
+  },
+  "share_defaultTitle": {
+    "message": "ดูโน้ตนี้จาก Quick Notes",
+    "description": "ชื่อเริ่มต้นสำหรับโน้ตที่แชร์"
+  },
+  "share_facebook": {
+    "message": "แชร์บน Facebook",
+    "description": "ชื่อสำหรับปุ่มแชร์บน Facebook"
+  },
+  "share_linkedin": {
+    "message": "แชร์บน LinkedIn",
+    "description": "ชื่อสำหรับปุ่มแชร์บน LinkedIn"
+  },
+  "share_reddit": {
+    "message": "แชร์บน Reddit",
+    "description": "ชื่อสำหรับปุ่มแชร์บน Reddit"
+  },
+  "share_twitter": {
+    "message": "แชร์บน X (Twitter)",
+    "description": "ชื่อสำหรับปุ่มแชร์บน Twitter"
+  },
+  "share_whatsapp": {
+    "message": "แชร์บน WhatsApp",
+    "description": "ชื่อสำหรับปุ่มแชร์บน WhatsApp"
+  },
+  "sync_noteFailed": {
+    "message": "ซิงค์โน้ตไปยังเซิร์ฟเวอร์ล้มเหลว",
+    "description": "ข้อความแสดงข้อผิดพลาดเมื่อซิงค์โน้ตไปยังเซิร์ฟเวอร์ล้มเหลว"
+  },
+  "themes_hobby": {
+    "message": "งานอดิเรก",
+    "description": "ชื่อธีมงานอดิเรก"
+  },
+  "themes_ideas": {
+    "message": "ไอเดีย",
+    "description": "ชื่อธีมไอเดีย"
+  },
+  "themes_personal": {
+    "message": "ส่วนตัว",
+    "description": "ชื่อธีมส่วนตัว"
+  },
+  "themes_study": {
+    "message": "เรียน",
+    "description": "ชื่อธีมเรียน"
+  },
+  "themes_travel": {
+    "message": "ท่องเที่ยว",
+    "description": "ชื่อธีมท่องเที่ยว"
+  },
+  "themes_work": {
+    "message": "งาน",
+    "description": "ชื่อธีมงาน"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅เพิ่มในบันทึกใหม่",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI ล้มเหลว",
+    "description": "ข้อความแจ้งเตือนเมื่อการตอบกลับของ AI ล้มเหลว"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "การตั้งค่าพื้นหลังล้มเหลว",
+    "description": "ข้อความแจ้งเตือนเมื่อการตั้งค่าพื้นหลังล้มเหลว"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "ไม่สามารถลบได้",
+    "description": "ข้อความแจ้งเตือนเมื่อไม่สามารถลบรายการเริ่มต้นได้"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅คัดลอกลงคลิปบอร์ด",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "คัดลอกลิงก์ล้มเหลว โปรดลองอีกครั้ง",
+    "description": "ข้อความแจ้งเตือนเมื่อการคัดลอกล้มเหลว"
+  },
+  "toast_exportFailed": {
+    "message": "การส่งออกล้มเหลว",
+    "description": "ข้อความแจ้งเตือนเมื่อการส่งออกล้มเหลว"
+  },
+  "toast_failed": {
+    "message": "ล้มเหลว",
+    "description": "ข้อความแจ้งเตือนความล้มเหลวทั่วไป"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ ไม่สามารถเพิ่มบันทึกได้",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌คัดลอกไม่สำเร็จ",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "จำเป็นต้องมีไฟล์รูปภาพ",
+    "description": "ข้อความแจ้งเตือนเมื่อจำเป็นต้องมีไฟล์รูปภาพ"
+  },
+  "toast_imageTooLarge": {
+    "message": "รูปภาพมีขนาดใหญ่เกินไป",
+    "description": "ข้อความแจ้งเตือนเมื่อไฟล์รูปภาพมีขนาดใหญ่เกินไป"
+  },
+  "toast_libraryError": {
+    "message": "ข้อผิดพลาดของไลบรารี",
+    "description": "ข้อความแจ้งเตือนสำหรับข้อผิดพลาดของไลบรารี"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "กำลังโหลดไลบรารี",
+    "description": "ข้อความแจ้งเตือนเมื่อไลบรารียังไม่ได้โหลด"
+  },
+  "toast_moveFailed": {
+    "message": "การย้ายล้มเหลว",
+    "description": "ข้อความแจ้งเตือนเมื่อการย้ายล้มเหลว"
+  },
+  "toast_moved": {
+    "message": "ย้ายแล้ว",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "ไม่มีรายการที่เลือก",
+    "description": "ข้อความแจ้งเตือนเมื่อไม่มีรายการใดถูกเลือก"
+  },
+  "toast_operationFailed": {
+    "message": "การดำเนินการล้มเหลว",
+    "description": "ข้อความแจ้งเตือนสำหรับการดำเนินการที่ล้มเหลวทั่วไป"
+  },
+  "toast_restartExtension": {
+    "message": "โปรดรีสตาร์ทส่วนขยายเพื่อเพิ่มพื้นที่ว่าง",
+    "description": "ข้อความแจ้งเตือนขอให้ผู้ใช้รีสตาร์ทส่วนขยาย"
+  },
+  "toast_storageError": {
+    "message": "ข้อผิดพลาดของพื้นที่จัดเก็บ โปรดรีสตาร์ทส่วนขยาย",
+    "description": "ข้อความแจ้งเตือนสำหรับข้อผิดพลาดของพื้นที่จัดเก็บ"
+  },
+  "toast_storageFullCleaning": {
+    "message": "พื้นที่จัดเก็บเต็ม กำลังล้างแคช...",
+    "description": "ข้อความแจ้งเตือนเมื่อพื้นที่จัดเก็บเต็มและกำลังล้างแคช"
+  },
+  "toolbar_aiAssistant": {
+    "message": "ผู้ช่วย AI",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนผู้ช่วย AI"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "จัดกึ่งกลาง",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนจัดกึ่งกลาง"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "จัดชิดซ้าย",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนจัดชิดซ้าย"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "จัดชิดขวา",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนจัดชิดขวา"
+  },
+  "toolbar_backgroundColor": {
+    "message": "สีพื้นหลัง",
+    "description": "ชื่อสำหรับปุ่มสีพื้นหลังในแถบเครื่องมือ"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "สีพื้นหลัง",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนสีพื้นหลัง"
+  },
+  "toolbar_blockquote": {
+    "message": "บล็อกคำพูด",
+    "description": "ชื่อสำหรับปุ่มบล็อกคำพูดในแถบเครื่องมือ"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "บล็อกคำพูด",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนบล็อกคำพูด"
+  },
+  "toolbar_bold": {
+    "message": "ตัวหนา",
+    "description": "ชื่อสำหรับปุ่มตัวหนาในแถบเครื่องมือ"
+  },
+  "toolbar_boldIcon": {
+    "message": "ตัวหนา",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนตัวหนา"
+  },
+  "toolbar_bulletList": {
+    "message": "รายการสัญลักษณ์",
+    "description": "ชื่อสำหรับปุ่มรายการสัญลักษณ์ในแถบเครื่องมือ"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "รายการสัญลักษณ์",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนรายการสัญลักษณ์"
+  },
+  "toolbar_checklist": {
+    "message": "รายการตรวจสอบ",
+    "description": "ชื่อสำหรับปุ่มรายการตรวจสอบในแถบเครื่องมือ"
+  },
+  "toolbar_codeBlock": {
+    "message": "บล็อกโค้ด",
+    "description": "ชื่อสำหรับปุ่มบล็อกโค้ดในแถบเครื่องมือ"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "บล็อกโค้ด",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนบล็อกโค้ด"
+  },
+  "toolbar_fontSize": {
+    "message": "ขนาดตัวอักษร",
+    "description": "ชื่อสำหรับปุ่มขนาดตัวอักษรในแถบเครื่องมือ"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "ขนาดตัวอักษร",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนขนาดตัวอักษร"
+  },
+  "toolbar_heading3": {
+    "message": "หัวข้อ 3",
+    "description": "ชื่อสำหรับปุ่มหัวข้อ 3 ในแถบเครื่องมือ"
+  },
+  "toolbar_heading3Icon": {
+    "message": "หัวข้อ 3",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนหัวข้อ 3"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "แทรกรูปภาพ",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนแทรกรูปภาพ"
+  },
+  "toolbar_insertLink": {
+    "message": "แทรกลิงก์",
+    "description": "ชื่อสำหรับปุ่มแทรกลิงก์ในแถบเครื่องมือ"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "แทรกลิงก์",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนแทรกลิงก์"
+  },
+  "toolbar_insertVideo": {
+    "message": "แทรกวิดีโอ",
+    "description": "ชื่อสำหรับปุ่มแทรกวิดีโอในแถบเครื่องมือ"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "แทรกวิดีโอ",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนแทรกวิดีโอ"
+  },
+  "toolbar_italic": {
+    "message": "ตัวเอียง",
+    "description": "ชื่อสำหรับปุ่มตัวเอียงในแถบเครื่องมือ"
+  },
+  "toolbar_italicIcon": {
+    "message": "ตัวเอียง",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนตัวเอียง"
+  },
+  "toolbar_justify": {
+    "message": "จัดชิดขอบ",
+    "description": "ชื่อสำหรับปุ่มจัดชิดขอบข้อความในแถบเครื่องมือ"
+  },
+  "toolbar_justifyIcon": {
+    "message": "จัดชิดขอบ",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนจัดชิดขอบ"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "รายการลำดับเลข",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนรายการลำดับเลข"
+  },
+  "toolbar_orderedList": {
+    "message": "รายการลำดับเลข",
+    "description": "ชื่อสำหรับปุ่มรายการลำดับเลขในแถบเครื่องมือ"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "ลบรูปแบบ",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนลบรูปแบบ"
+  },
+  "toolbar_strikethrough": {
+    "message": "ขีดทับ",
+    "description": "ชื่อสำหรับปุ่มขีดทับในแถบเครื่องมือ"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "ขีดทับ",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนขีดทับ"
+  },
+  "toolbar_textColor": {
+    "message": "สีตัวอักษร",
+    "description": "ชื่อสำหรับปุ่มสีตัวอักษรในแถบเครื่องมือ"
+  },
+  "toolbar_textColorIcon": {
+    "message": "สีตัวอักษร",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนสีตัวอักษร"
+  },
+  "toolbar_underline": {
+    "message": "ขีดเส้นใต้",
+    "description": "ชื่อสำหรับปุ่มขีดเส้นใต้ในแถบเครื่องมือ"
+  },
+  "toolbar_underlineIcon": {
+    "message": "ขีดเส้นใต้",
+    "description": "ข้อความแสดงแทนสำหรับไอคอนขีดเส้นใต้"
+  },
+  "trash_deleteForever": {
+    "message": "ลบถาวร",
+    "description": "ข้อความบนปุ่มสำหรับลบรายการอย่างถาวร"
+  },
+  "trash_empty": {
+    "message": "ถังขยะว่างเปล่า",
+    "description": "ข้อความเมื่อถังขยะว่างเปล่า"
+  },
+  "trash_emptyTrash": {
+    "message": "ล้างถังขยะ",
+    "description": "ข้อความบนปุ่มสำหรับล้างถังขยะ"
+  },
+  "trash_restore": {
+    "message": "กู้คืน",
+    "description": "ข้อความบนปุ่มสำหรับกู้คืนรายการ"
+  },
+  "trash_restoreAll": {
+    "message": "กู้คืนทั้งหมด",
+    "description": "ข้อความบนปุ่มสำหรับกู้คืนทุกรายการ"
+  },
+  "trash_title": {
+    "message": "ถังขยะ",
+    "description": "ชื่อหน้าถังขยะ"
+  },
+  "welcome_collection_description": {
+    "message": "คอลเลกชันต้อนรับสำหรับผู้ใช้ใหม่",
+    "description": "คำอธิบายของคอลเลกชันต้อนรับเริ่มต้น"
+  },
+  "welcome_collection_name": {
+    "message": "ยินดีต้อนรับ",
+    "description": "ชื่อของคอลเลกชันต้อนรับเริ่มต้น"
+  },
+  "welcome_note_ai_content": {
+    "message": "• คลิกปุ่ม <strong>+</strong> เพื่อสร้างโน้ตใหม่<br>• ใช้ AI เพื่อสรุป แปล หรือปรับปรุงเนื้อหา<br>• AI สามารถช่วยคุณจัดระเบียบและปรับปรุงโน้ตของคุณได้",
+    "description": "คำแนะนำการใช้งาน AI ในโน้ตต้อนรับ"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ วิธีใช้ AI",
+    "description": "ชื่อส่วนการใช้งาน AI ในโน้ตต้อนรับ"
+  },
+  "welcome_note_collections_content": {
+    "message": "• คลิกขวาบนพื้นที่ว่างเพื่อสร้างคอลเลกชัน<br>• ลากและวางโน้ตลงในคอลเลกชันเพื่อจัดระเบียบ<br>• แต่ละคอลเลกชันสามารถมีธีมของตัวเองได้ (งาน, ส่วนตัว, ไอเดีย...)",
+    "description": "คำแนะนำการใช้งานคอลเลกชันในโน้ตต้อนรับ"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 วิธีสร้างคอลเลกชัน",
+    "description": "ชื่อส่วนคอลเลกชันในโน้ตต้อนรับ"
+  },
+  "welcome_note_footer": {
+    "message": "ขอให้สนุกกับการใช้ Quick Notes! 🎉",
+    "description": "ข้อความส่วนท้ายในโน้ตต้อนรับ"
+  },
+  "welcome_note_intro": {
+    "message": "นี่คือโน้ตแรกของคุณ Quick Notes ช่วยให้คุณจดบันทึกได้อย่างรวดเร็วและมีประสิทธิภาพ",
+    "description": "ข้อความแนะนำในโน้ตต้อนรับ"
+  },
+  "welcome_note_tips_content": {
+    "message": "• ใช้สีเพื่อจัดหมวดหมู่โน้ต<br>• ปักหมุดโน้ตสำคัญไว้ที่ด้านบนของรายการ<br>• ค้นหาอย่างรวดเร็วด้วยแถบค้นหาด้านบน<br>• ซิงค์กับ Google Drive เพื่อการสำรองข้อมูลที่ปลอดภัย",
+    "description": "เคล็ดลับการใช้งานในโน้ตต้อนรับ"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 เคล็ดลับการใช้งาน",
+    "description": "ชื่อส่วนเคล็ดลับในโน้ตต้อนรับ"
+  },
+  "welcome_note_title": {
+    "message": "ยินดีต้อนรับสู่ Quick Notes! 👋",
+    "description": "ชื่อของโน้ตต้อนรับ"
+  }
+}

@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "Open Quick Notes",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "Toegang geweigerd. Controleer uw machtigingen.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "Toepassen op Notitie",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "Kopiëren",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "Taken maken",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API-sleutel niet geconfigureerd",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "Toevoegen",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "Toepassen van inhoud op notitie mislukt",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "Toepassen op Notitie",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "Backend-server is niet beschikbaar. Controleer uw verbinding en probeer het opnieuw.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "Backend-URL niet geconfigureerd",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "Backend-server reageert niet",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "Maken van AI-chatvenster mislukt",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "Chat met AI over geselecteerde tekst",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "Inhoud toegepast op uw notitie!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "Inhoud gekopieerd naar klembord!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "Gefilterd",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "Inhoud ingevoegd en vervangen van geselecteerde tekst",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "Inhoud niet beschikbaar",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "Kopiëren",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "Kopiëren naar klembord mislukt",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "Dagelijkse limiet bereikt (15/15). Probeer het morgen opnieuw.",
+    "description": "Error message when daily limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "Afbeelding downloaden",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "Leeg antwoord",
+    "description": "Error message when AI returns empty response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI-fout",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "Uitbreiden",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "Tekst extraheren (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "Afbeelding analyse mislukt",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "Afbeelding analyseren...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "Dagelijkse afbeelding analyse limiet bereikt. Upgrade naar Premium voor onbeperkte analyse.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "Afbeelding download mislukt",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "Afbeelding succesvol gedownload",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "Verbeteren",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "Druk op Enter om te verzenden, Shift+Enter voor een nieuwe regel",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "Typ uw bericht of selecteer een snelle actie...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "Kan inhoud niet invoegen",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "Invoegen en vervangen",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "Ongeldige API-sleutel",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "Ongeldige inloggegevens",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "Slecht model",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "Ongeldig antwoord van de backend-dienst.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "You have used all {limit} AI requests for today. Upgrade to Premium for unlimited access!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "Vergadernotities",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "Minimaliseren",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "Geen model",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "Netwerkfout",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "Geen verbinding",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "Geen reactie van AI",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "Geen geselecteerde tekst",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "Geen actie om ongedaan te maken",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR-resultaat ontvangen",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "Overzicht",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "Premium Actief",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI verwerkt...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "Quota vol",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "Snelheidslimiet overschreden. Probeer het later opnieuw.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "Time-out van verzoek",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI-antwoord ontvangen",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "Geblokkeerd",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "Opslaan",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "Zoeken",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "Geselecteerde tekst",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "Serverfout - Probeer het later opnieuw",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "Dienst buiten gebruik",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "Initialisatie van AI-dienst mislukt",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI-dienst niet beschikbaar. Vernieuw de pagina.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI-dienst niet correct geconfigureerd",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI-dienst niet geïnitialiseerd",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI-dienst tijdelijk niet beschikbaar",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "Log in om AI-functies te gebruiken. Klik op de inlogknop in de extensie.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "Log in om te ontgrendelen",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "Statistieken mislukt",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "Suggesties",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "Samenvatten",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "Time-out",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI Assistent",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "Toon",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "Dramatisch",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "Gen Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "Humoristisch",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "Selecteer tekst of voeg inhoud toe om te transformeren",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "Poëtisch",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "Professioneel",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "Vereenvoudigen",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "Vertalen",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " naar het Engels",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "Ongedaan maken gelukt",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "Onbekende AI-fout",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "VERGRENDELD",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "Onbeperkt",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "Gebruikersbericht",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "Gebruikersverzoek",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "Hallo! Ik ben uw AI-assistent. Ik kan u helpen uw notities samen te vatten, uit te breiden, te verbeteren of te vertalen. Waarmee kan ik u helpen?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "Welcome Premium user! You have unlimited AI requests.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "Welcome! You have {remaining} of {limit} AI requests remaining today.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI analysis failed",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI analysis failed. Please try again.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "Analyse voltooid!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "Analyzed",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "Sluiten",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "Collectie Analyse",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "Created new note with insights from {count} notes.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "Fout bij verwerken van collectie",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "Patronen Vinden",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "Inzichten Genereren",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "Vraag alles over uw collectie...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI Werkruimte is een krachtige functie die is ontworpen om het potentieel van AI-modellen te maximaliseren, waardoor u analyses kunt maken en hele notitiecollecties tegelijk kunt verwerken in plaats van individuele notities.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "Geen notities in deze collectie om te analyseren",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "note(s)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "Verwerken...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "What would you like AI to do with these notes?\n\nExamples:\n- Summarize all notes\n- Extract main themes and keywords\n- Create a master to-do list\n- Generate FAQ from these notes\n- Find connections between topics",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "AI response failed. Please try again.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "Verzenden",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "Collectie Samenvatten",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "From these notes, create a list of frequently asked questions and answers (FAQ). Identify important topics and create appropriate questions with detailed answers.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "Task",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "Find and explain connections between information in the notes. Identify links, contradictions, or relationships between different topics mentioned in the notes.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "Create a comprehensive summary from all notes in this collection. Highlight the most important points and create a single, cohesive summary.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "Identify 5 main themes and related keywords from these research notes. Create a structured list with themes and corresponding keywords.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "Scan all notes and create a comprehensive to-do list. Find all 'action items', tasks, or work to be done mentioned in the notes and create a structured checklist.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI Werkruimte",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "Dagelijkse gebruikslimiet bereikt. Upgrade naar premium voor onbeperkte toegang tot AI Werkruimte.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "Creëer, beheer en synchroniseer notities met een glassmorphism-stijl.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "__BESCHERMD_0__",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "Abstract",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "Alle",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "Kerstmis",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "Geometrisch",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "Natuur",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "Aangepast",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "Verwijderen",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "Geen",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "Instellen als standaard",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "Uploaden",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "Voeg notitie hier toe",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "Collectie",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "Gemaakt",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "Verwijderd",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "Naam Collectie",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "Voer collectienaam in...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "Gepind",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "Thema",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "Losgemaakt",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "Bijgewerkt",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "Maken",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "Collectie Maken",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "Maak Notitie in Collectie",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "Verwijder Collectie",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "Bewerk Collectie",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "Deze collectie is leeg",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "Voer a.u.b. een collectienaam in",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "Fout bij het maken van de notitie",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "Collectiefout",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "Verwijderen mislukt",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "Laden mislukt",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "Verplaatsen mislukt",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "Pinnen mislukt",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "Update mislukt",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "Collectielimiet bereikt",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "Verplaats naar collectie",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "notities",
+    "description": "Tekst voor aantal notities in collecties"
+  },
+  "collections_noteCreated": {
+    "message": "Notitie gemaakt in collectie",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "notities",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "notities verplaatst naar collectie",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "Pin Collectie",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "Verwijder uit Collectie",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "Opslaan",
+    "description": "Knoptekst voor het opslaan van wijzigingen"
+  },
+  "collections_unpinCollection": {
+    "message": "Maak Collectie los",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "Open Quick Notes",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "Annuleren",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "Sluiten",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "Doorgaan",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "Alle notities in de prullenbak permanent verwijderen?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "Weet u zeker dat u deze collectie permanent wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "Notitie permanent verwijderen?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "Dit overschrijft alle huidige gegevens. Doorgaan?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "Toevoegen aan Quick Notes",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "Laat vallen om een ​​nieuw venster te maken",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "Zet het tabblad hier neer om samen te voegen",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "Neerzetten om vensters samen te voegen",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "Chat met AI mislukt",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "Uitbreiden door AI mislukt",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "Verbeteren door AI mislukt",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "Initialiseren van AI mislukt",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI meeting notes failed",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "Overzicht door AI mislukt",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI-verzoek is mislukt",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "Instellen van AI-backend-URL mislukt",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "Suggesties door AI mislukt",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "Samenvatten door AI mislukt",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "Toon door AI mislukt",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "Backend-gezondheidscontrole mislukt",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "Backend-verzoek mislukt",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "Backend-serverfout",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "Wissen van AI-cache mislukt",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "Fout bij het controleren van de AI-ontgrendelingsstatus",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "Fout bij het ophalen van gebruiksstatistieken",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "Fout bij het ophalen van e-mailadres van de gebruiker in de service worker",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "Kan notitie niet maken",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "Failed to generate title",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "Initialiseren van AI-dienst mislukt",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "Er is een fout opgetreden. Probeer het opnieuw.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "Ophalen van dagelijkse gebruiksstatistieken mislukt",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API-fout",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "Ongeldig antwoordformaat",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "Notitie is leeg. Voeg inhoud toe voordat u deze functie gebruikt.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "Notitie niet gevonden in lokale opslag",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "Serverselector is niet geïnitialiseerd",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "Synchronisatieproces mislukt met fout",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "Onbeperkt verzoek mislukt",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "Gebruiker niet geverifieerd",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "Voltooid!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "Afbeelding succesvol gedownload",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "Afbeeldingen exporteren...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "Een ogenblik geduld",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "Hobby",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "Ideeën",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "Persoonlijk",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "Studie",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "Reizen",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "Werk",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "Maak een nieuwe notitie",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "Verwijder Notitie",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "Nieuwe Notitie",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "Geen aanvullende inhoud",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "Pin Notitie",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "Zoek notities...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "Verplaatsing ongedaan maken",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "Maak Notitie los",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "Hersteld",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "Authenticatiefout",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "Probeer uit te loggen en opnieuw in te loggen.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "Authenticatie mislukt",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "Back-up gemaakt",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "Deze achtergrond is alleen beschikbaar voor Premium-gebruikers. Upgrade om alle achtergronden te ontgrendelen.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "Achtergronduploadfunctie is alleen beschikbaar voor Premium-gebruikers. Upgrade om deze functie te gebruiken.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "Kan geen deellink maken",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "Aanmaken van afrekensessie mislukt. Probeer het opnieuw.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Verbinden met Google...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "Kon e-mail niet laden.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "Dagelijkse limiet bereikt. Probeer morgen opnieuw of upgrade.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "Standaard achtergrond ingesteld!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "Done",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "Leesfout",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "Geëxporteerd",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "Failed to load trash",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "Failed to load trash. Please try again.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "Failed to move note",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "Geïmporteerd",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "Ongeldig bestand",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "Account informatie laden...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "Move cancelled",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "Moved to collection",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "Geen netwerkverbinding",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "Controleer uw internetverbinding en probeer het opnieuw.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "No notes found in this collection",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "Verwijderd",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "Verplaatst",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "Notitie niet gevonden op de server. Probeer het opnieuw.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "Gepind",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "Losgemaakt",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "Actueel",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "Betalingsfout. Probeer het opnieuw.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "Payment verification error. Please refresh the page.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "Toestemming geweigerd",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "Om synchronisatiefuncties te gebruiken, verleen toestemmingen aan de app.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "Hersteld",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "Please select at least one note for AI analysis",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "Please select notes first",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "Delen is niet geconfigureerd.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "Inloggen mislukt",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "Log in om te delen",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "Log in om te uploaden",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "Ingelogd",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "Uitgelogd",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "Synchronisatie mislukt",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "Gesynchroniseerd",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "Gesynchroniseerd",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "Data synchroniseren...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "Synchroniseren met Drive...",
+    "description": "Bericht weergegeven bij synchroniseren met Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "Geleegd",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "Unable to open billing management. Please try again later.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "Verifying payment...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "Verwijder Geselecteerde",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "Verwijder voorgoed",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "Herstel Geselecteerde",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "Annuleren",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "Geselecteerde items permanent verwijderen?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "Geselecteerde items herstellen?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "Alles selecteren",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "geselecteerd",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI Assistent",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "Vraag maar raak",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "AI Toon Magie",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "Centreren",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "Links uitlijnen",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "Rechts uitlijnen",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "Achtergrond",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "Maak een nieuwe notitie",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "Nieuwe Notitie",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "Verwijder Notitie",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "Downloaden als Afbeelding",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "Editor niet beschikbaar",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "Enter link URL...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "Enter video URL...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "Error applying formatting",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "Kop 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "Kop 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "Insert",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "Afbeelding Invoegen",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "Menu",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "OCR not available for this image due to CORS restrictions.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "Opmaak Verwijderen",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "Delen",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "Slimme kleuren toegepast!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "Structuur geoptimaliseerd!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "Bekijk Alle Notities",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "Meldingsinhoud",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "Time-out bij betalingscontrole. Vernieuw de pagina als de betaling is voltooid.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "Ongeldig abonnement geselecteerd",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "Log in om door te gaan met de betaling",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "Access advanced features",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI Premium",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "Achtergrond Premium",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "Collecties Premium",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 Congratulations!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "Neem contact op met ondersteuning",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "Exclusieve Achtergronden",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "Toegang tot premium achtergronden",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "Exclusieve ondersteuning",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "Prioritaire ondersteuning van ons team",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "Verloopt",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "Facturering beheren",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "Volgende facturering",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "Premium Jaarlijks",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "Premium Maandelijks",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "Premium Proefperiode",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "Plannen type",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "Priority support",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "Deel Notities",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "Deel notities met anderen",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "Delen Premium",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "Start gratis proefperiode",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "Start using",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "Status",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "Actief",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "Geannuleerd",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "Verlopen",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "Inactief",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "Nu abonneren",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "Steun",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "Onbeperkte AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "Unlimited AI Chat",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "Onbeperkte AI-verzoeken per dag",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "Onbeperkte Collecties",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "Maak onbeperkt collecties aan",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "Ontgrendel Onbeperkte AI",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "You have successfully upgraded to Premium",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "Geen resultaten gevonden",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "Probeer andere zoekwoorden",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "AI-gebruik",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "AI-gebruik vandaag",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "Uiterlijk",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "Cloudsynchronisatie",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "Configureer",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "Gegevensbeheer",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "Standaard notitiegrootte",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "Exporteren",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "Gegevens Exporteren",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "Importeren",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "Gegevens Importeren",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "Ongeldige maat. Breedte: 400-1920, Hoogte: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "Annuleren",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "Hoogte",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "Terugzetten naar standaard",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "Redden",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "Standaardgrootte opgeslagen",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "Standaard notitiegrootte",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "Breedte",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "Openen",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "Inloggen vereist",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Inloggen met Google",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "Uitloggen",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "Ingelogd met",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "Synchroniseren",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "Thema",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "Instellingen",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "Prullenbak",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "Onbeperkt",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "Neem Premium",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "AI ontgrendelen",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "Gebruikersavatar",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "Gekopieerd",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "Kopiëren",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "Deellink maken...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "Bekijk deze notitie van Quick Notes",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Delen op Facebook",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "Delen op LinkedIn",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Delen op Reddit",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "Delen op X (Twitter)",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "Delen op WhatsApp",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "Synchroniseren van notitie met server mislukt",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "Hobby",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "Ideeën",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "Persoonlijk",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "Studie",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "Reizen",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "Werk",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ Toegevoegd aan nieuwe notitie",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI mislukt",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "Instellen achtergrond mislukt",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "Kan niet verwijderen",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ Gekopieerd naar klembord",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "Kopiëren van link mislukt. Probeer het opnieuw.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "Exporteren mislukt",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "Mislukt",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ Kan niet toevoegen aan notitie",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ Kopiëren is mislukt",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "Afbeeldingsbestand vereist",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "Afbeelding te groot",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "Bibliotheekfout",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "Bibliotheek wordt geladen",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "Verplaatsen mislukt",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "Verplaatst",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "Geen selectie",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "Operatie mislukt",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "⚠️ Herstart de extensie om ruimte vrij te maken.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "❌ Opslag fout. Herstart de extensie.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "🧹 Opslag vol, cache opschonen...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI Assistent",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "Centreren",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "Links uitlijnen",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "Rechts uitlijnen",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "Background Color",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "Background Color",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "Blockquote",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "Blockquote",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "Vet",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "Vet",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "Opsommingslijst",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "Opsommingslijst",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "Checklist",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "Code Block",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "Code Block",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "Font Size",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "Font Size",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "Heading 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "Heading 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "Afbeelding Invoegen",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "Insert Link",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "Insert Link",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "Insert Video",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "Insert Video",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "Cursief",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "Cursief",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "Justify",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "Justify",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "Genummerde lijst",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "Genummerde lijst",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "Formaat Verwijderen",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "Doorhalen",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "Doorhalen",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "Text Color",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "Text Color",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "Onderstrepen",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "Onderstrepen",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "Verwijder voorgoed",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "Prullenbak is leeg.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "Leeg Prullenbak",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "Herstellen",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "Alles Herstellen",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "Prullenbak",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "Welkomstcollectie voor nieuwe gebruikers",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "Welkom",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• Klik op de knop <strong>+</strong> om een nieuwe notitie te maken<br>• Gebruik AI om inhoud samen te vatten, te vertalen of te verbeteren<br>• AI kan u helpen uw notities te organiseren en te optimaliseren",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ Hoe AI te gebruiken",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• Klik met de rechtermuisknop op een lege ruimte om een collectie te maken<br>• Sleep notities naar collecties om te organiseren<br>• Elke collectie kan zijn eigen thema hebben (werk, persoonlijk, ideeën...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 Hoe collecties te maken",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "Geniet van het gebruik van Quick Notes! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "Dit is je eerste notitie. Quick Notes helpt je snel en efficiënt notities te maken.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• Gebruik kleuren om notities te categoriseren<br>• Pin belangrijke notities bovenaan de lijst<br>• Zoek snel met de zoekbalk hierboven<br>• Synchroniseer met Google Drive voor een veilige back-up",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 Gebruikstips",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "Welkom bij Quick Notes! 👋",
+    "description": "Title of the welcome note"
+  }
+}

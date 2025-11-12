@@ -1,0 +1,1934 @@
+{
+  "action_default_title": {
+    "message": "விரைவுக் குறிப்புகளைத் திற",
+    "description": "Default title for the extension action button"
+  },
+  "ai_accessDenied": {
+    "message": "அணுகல் தடைசெய்யப்பட்டுள்ளது. தயவுசெய்து உங்கள் அனுமதிகளைச் சரிபார்க்கவும்.",
+    "description": "Error message when access is denied"
+  },
+  "ai_actionApply": {
+    "message": "குறிப்பிற்குப் பயன்படுத்து",
+    "description": "Title for AI apply action button"
+  },
+  "ai_actionCopy": {
+    "message": "நகலெடு",
+    "description": "Title for AI copy action button"
+  },
+  "ai_actionItems": {
+    "message": "பணிகளை உருவாக்கு",
+    "description": "AI action to extract action items and create to-do list"
+  },
+  "ai_apiKeyNotConfigured": {
+    "message": "API விசை கட்டமைக்கப்படவில்லை",
+    "description": "Error message when API key is not configured"
+  },
+  "ai_appendToNote": {
+    "message": "இணைக்கவும்",
+    "description": "Title for AI append button when text is selected"
+  },
+  "ai_applyFailed": {
+    "message": "குறிப்பில் உள்ளடக்கத்தைப் பயன்படுத்துவதில் தோல்வி",
+    "description": "Error message when applying AI content to note fails"
+  },
+  "ai_applyToNote": {
+    "message": "குறிப்பிற்குப் பயன்படுத்து",
+    "description": "Button text to apply AI result to note"
+  },
+  "ai_backendNotAvailable": {
+    "message": "பின்தள சேவையகம் கிடைக்கவில்லை. தயவுசெய்து உங்கள் இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when backend server is not available"
+  },
+  "ai_backendNotConfigured": {
+    "message": "பின்தள URL கட்டமைக்கப்படவில்லை",
+    "description": "Error message when backend URL is not configured"
+  },
+  "ai_backendNotResponding": {
+    "message": "பின்தள சேவையகம் பதிலளிக்கவில்லை",
+    "description": "Error message when backend server is not responding"
+  },
+  "ai_chatWindowFailed": {
+    "message": "AI அரட்டை சாளரத்தை உருவாக்குவதில் தோல்வி",
+    "description": "Error message when AI chat window creation fails"
+  },
+  "ai_chatWithSelectedText": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட உரை பற்றி AI உடன் அரட்டையடிக்கவும்",
+    "description": "Title for AI floating button and placeholder"
+  },
+  "ai_contentApplied": {
+    "message": "உங்கள் குறிப்பில் உள்ளடக்கம் பயன்படுத்தப்பட்டது!",
+    "description": "Success message when AI content is applied to note"
+  },
+  "ai_contentCopied": {
+    "message": "உள்ளடக்கம் கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது!",
+    "description": "Success message when AI content is copied to clipboard"
+  },
+  "ai_contentFiltered": {
+    "message": "வடிகட்டப்பட்டது",
+    "description": "Error message when content is filtered"
+  },
+  "ai_contentInserted": {
+    "message": "உள்ளடக்கம் செருகப்பட்டு தேர்ந்தெடுக்கப்பட்ட உரை மாற்றப்பட்டது",
+    "description": "Message when AI content is inserted and replaced"
+  },
+  "ai_contentNotAvailable": {
+    "message": "உள்ளடக்கம் கிடைக்கவில்லை",
+    "description": "Error message when content is not available for AI action"
+  },
+  "ai_copy": {
+    "message": "நகலெடு",
+    "description": "Button text to copy AI result"
+  },
+  "ai_copyFailed": {
+    "message": "கிளிப்போர்டுக்கு நகலெடுப்பதில் தோல்வி",
+    "description": "Error message when copying AI content to clipboard fails"
+  },
+  "ai_dailyLimitReached": {
+    "message": "தினசரி வரம்பு (15/15) எட்டப்பட்டது. நாளை மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when daily AI limit is reached"
+  },
+  "ai_downloadImage": {
+    "message": "படத்தைப் பதிவிறக்கு",
+    "description": "Context menu option to download image to computer"
+  },
+  "ai_emptyResponse": {
+    "message": "AI காலி பதிலை அளித்துள்ளது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message for empty AI response"
+  },
+  "ai_errorPrefix": {
+    "message": "AI பிழை",
+    "description": "Prefix for AI error messages"
+  },
+  "ai_expand": {
+    "message": "விரிவாக்கு",
+    "description": "AI action to expand content"
+  },
+  "ai_extractText": {
+    "message": "உரையைப் பிரித்தெடு (OCR)",
+    "description": "Context menu option to extract text from image using OCR"
+  },
+  "ai_imageAnalysisError": {
+    "message": "படத்தைப் பகுப்பாய்வு செய்வதில் தோல்வி",
+    "description": "Error message when image analysis fails"
+  },
+  "ai_imageAnalysisInProgress": {
+    "message": "படம் பகுப்பாய்வு செய்யப்படுகிறது...",
+    "description": "Loading message while AI analyzes the image"
+  },
+  "ai_imageAnalysisLimitReached": {
+    "message": "தினசரி பட பகுப்பாய்வு வரம்பு எட்டப்பட்டது. வரம்பற்ற பகுப்பாய்விற்கு பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Message when user reaches daily limit for image analysis"
+  },
+  "ai_imageDownloadError": {
+    "message": "படத்தைப் பதிவிறக்குவதில் தோல்வி",
+    "description": "Error message when image download fails"
+  },
+  "ai_imageDownloadSuccess": {
+    "message": "படம் வெற்றிகரமாக பதிவிறக்கப்பட்டது",
+    "description": "Success message when image is downloaded"
+  },
+  "ai_improve": {
+    "message": "மேம்படுத்து",
+    "description": "AI action to improve content"
+  },
+  "ai_inputHint": {
+    "message": "அனுப்ப Enter ஐ அழுத்தவும், புதிய வரிக்கு Shift+Enter ஐ அழுத்தவும்",
+    "description": "Hint text for AI input"
+  },
+  "ai_inputPlaceholder": {
+    "message": "உங்கள் செய்தியைத் தட்டச்சு செய்யவும் அல்லது ஒரு விரைவான செயலைத் தேர்ந்தெடுக்கவும்...",
+    "description": "Placeholder text for AI input"
+  },
+  "ai_insertFailed": {
+    "message": "உள்ளடக்கத்தைச் செருகுவதில் தோல்வி",
+    "description": "Error message when insert fails"
+  },
+  "ai_insertReplace": {
+    "message": "செருகவும் மற்றும் மாற்றவும்",
+    "description": "Title for AI insert and replace button"
+  },
+  "ai_invalidAPIKey": {
+    "message": "செல்லாத API விசை",
+    "description": "Error message for invalid API key"
+  },
+  "ai_invalidCredentials": {
+    "message": "செல்லாத உள்நுழைவு",
+    "description": "Error message for invalid credentials"
+  },
+  "ai_invalidModel": {
+    "message": "மோசமான மாதிரி",
+    "description": "Error message for invalid model"
+  },
+  "ai_invalidResponse": {
+    "message": "பின்தள சேவையிலிருந்து செல்லாத பதில்.",
+    "description": "Error message when backend service returns invalid response"
+  },
+  "ai_limitReached": {
+    "message": "இன்றைய {limit} AI கோரிக்கைகள் அனைத்தையும் நீங்கள் பயன்படுத்தியுள்ளீர்கள். வரம்பற்ற அணுகலுக்கு பிரீமியத்திற்கு மேம்படுத்தவும்!",
+    "description": "Message when daily AI limit is reached"
+  },
+  "ai_meetingNotes": {
+    "message": "சந்திப்புக் குறிப்புகள்",
+    "description": "AI action to format text as meeting notes"
+  },
+  "ai_minimize": {
+    "message": "சிறிதாக்கு",
+    "description": "Minimize button text"
+  },
+  "ai_modelNotFound": {
+    "message": "மாதிரி இல்லை",
+    "description": "Error message when model is not found"
+  },
+  "ai_networkError": {
+    "message": "நெட்வொர்க் பிழை",
+    "description": "Error message for network errors"
+  },
+  "ai_noConnection": {
+    "message": "இணைப்பு இல்லை",
+    "description": "Error message when there's no connection"
+  },
+  "ai_noResponse": {
+    "message": "AI இடமிருந்து பதில் இல்லை",
+    "description": "Error message when AI returns no response"
+  },
+  "ai_noSelectedText": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட உரை இல்லை",
+    "description": "Error message when no text is selected"
+  },
+  "ai_noUndoAvailable": {
+    "message": "செயல்தவிர்க்க AI செயல்பாடுகள் இல்லை",
+    "description": "Info message when no AI operations are available to undo"
+  },
+  "ai_ocrResultReceived": {
+    "message": "OCR முடிவு பெறப்பட்டது",
+    "description": "Fallback message when OCR result is received"
+  },
+  "ai_outline": {
+    "message": "சுருக்கக்குறிப்பு",
+    "description": "AI action to create outline"
+  },
+  "ai_premiumActive": {
+    "message": "பிரீமியம் செயலில் உள்ளது",
+    "description": "Text shown when premium is active"
+  },
+  "ai_processing": {
+    "message": "AI செயலாக்கப்படுகிறது...",
+    "description": "Text shown while AI is processing"
+  },
+  "ai_quotaExceeded": {
+    "message": "ஒதுக்கீடு நிரம்பியுள்ளது",
+    "description": "Error message when quota is exceeded"
+  },
+  "ai_rateLimitExceeded": {
+    "message": "விகித வரம்பு மீறப்பட்டது. தயவுசெய்து பின்னர் மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when rate limit is exceeded"
+  },
+  "ai_requestTimeout": {
+    "message": "கோரிக்கை காலாவதியானது",
+    "description": "Error message when request times out"
+  },
+  "ai_responseReceived": {
+    "message": "AI பதில் கிடைத்தது",
+    "description": "Fallback message when AI response is received"
+  },
+  "ai_safetyFiltered": {
+    "message": "தடுக்கப்பட்டது",
+    "description": "Error message when content is blocked by safety filter"
+  },
+  "ai_save": {
+    "message": "சேமி",
+    "description": "AI action to save"
+  },
+  "ai_search": {
+    "message": "தேடு",
+    "description": "AI action to search"
+  },
+  "ai_selectedText": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட உரை",
+    "description": "Label for selected text in AI context"
+  },
+  "ai_serverError": {
+    "message": "சேவையகப் பிழை - தயவுசெய்து பின்னர் மீண்டும் முயற்சிக்கவும்",
+    "description": "Error message for server errors"
+  },
+  "ai_serviceDown": {
+    "message": "சேவை முடங்கியுள்ளது",
+    "description": "Error message when service is down"
+  },
+  "ai_serviceInitFailed": {
+    "message": "AI சேவையைத் தொடங்குவதில் தோல்வி",
+    "description": "Error message when AI service initialization fails"
+  },
+  "ai_serviceNotAvailable": {
+    "message": "AI சேவை கிடைக்கவில்லை. தயவுசெய்து பக்கத்தைப் புதுப்பிக்கவும்.",
+    "description": "Error message when AI service is not available"
+  },
+  "ai_serviceNotConfigured": {
+    "message": "AI சேவை சரியாக கட்டமைக்கப்படவில்லை",
+    "description": "Error message when AI service is not configured"
+  },
+  "ai_serviceNotInitialized": {
+    "message": "AI சேவை தொடங்கப்படவில்லை",
+    "description": "Error message when AI service is not initialized"
+  },
+  "ai_serviceUnavailable": {
+    "message": "AI சேவை தற்காலிகமாகக் கிடைக்கவில்லை",
+    "description": "Error message when AI service is temporarily unavailable"
+  },
+  "ai_signInRequired": {
+    "message": "AI அம்சங்களைப் பயன்படுத்த தயவுசெய்து உள்நுழைக. நீட்டிப்பில் உள்ள உள்நுழைவு பொத்தானைக் கிளிக் செய்யவும்.",
+    "description": "Error message when user needs to sign in for AI features"
+  },
+  "ai_signInToUnlock": {
+    "message": "திறக்க உள்நுழைக",
+    "description": "Text shown to prompt user to sign in to unlock AI"
+  },
+  "ai_statsFailed": {
+    "message": "புள்ளிவிவரங்கள் தோல்வியுற்றன",
+    "description": "Error message when stats request fails"
+  },
+  "ai_suggestions": {
+    "message": "பரிந்துரைகள்",
+    "description": "AI action to provide suggestions"
+  },
+  "ai_summarize": {
+    "message": "சுருக்கு",
+    "description": "AI action to summarize content"
+  },
+  "ai_timeout": {
+    "message": "காலாவதியானது",
+    "description": "Error message for timeout"
+  },
+  "ai_title": {
+    "message": "AI உதவியாளர்",
+    "description": "AI assistant title"
+  },
+  "ai_tone": {
+    "message": "தொனி",
+    "description": "AI action to adjust tone"
+  },
+  "ai_toneDramatic": {
+    "message": "நாடகத்தனமான",
+    "description": "Dramatic tone name"
+  },
+  "ai_toneGenZ": {
+    "message": "ஜென் Z",
+    "description": "Gen Z tone name"
+  },
+  "ai_toneHumorous": {
+    "message": "நகைச்சுவையான",
+    "description": "Humorous tone name"
+  },
+  "ai_toneNoTextSelected": {
+    "message": "தயவுசெய்து உரையைத் தேர்ந்தெடுக்கவும் அல்லது மாற்றுவதற்கு உள்ளடக்கத்தைச் சேர்க்கவும்",
+    "description": "Error message when no text is selected for tone transformation"
+  },
+  "ai_tonePoetic": {
+    "message": "கவித்துவமான",
+    "description": "Poetic tone name"
+  },
+  "ai_toneProfessional": {
+    "message": "தொழில்முறை",
+    "description": "Professional tone name"
+  },
+  "ai_toneSimplify": {
+    "message": "எளிமைப்படுத்து",
+    "description": "Simplify tone name"
+  },
+  "ai_translate": {
+    "message": "மொழிபெயர்",
+    "description": "AI action to translate content"
+  },
+  "ai_translateToEnglish": {
+    "message": " ஆங்கிலத்திற்கு",
+    "description": "Suffix for translate action"
+  },
+  "ai_undoSuccess": {
+    "message": "AI செயல்பாடு வெற்றிகரமாக செயல்தவிர்க்கப்பட்டது!",
+    "description": "Success message when AI operation is undone"
+  },
+  "ai_unknownError": {
+    "message": "தெரியாத AI பிழை",
+    "description": "Generic error message for unknown AI errors"
+  },
+  "ai_usageLocked": {
+    "message": "பூட்டு",
+    "description": "Text shown when AI usage is locked"
+  },
+  "ai_usageUnlimited": {
+    "message": "வரம்பற்றது",
+    "description": "Text shown when AI usage is unlimited"
+  },
+  "ai_userMessage": {
+    "message": "பயனர் செய்தி",
+    "description": "Label for user message in AI context"
+  },
+  "ai_userRequest": {
+    "message": "பயனர் கோரிக்கை",
+    "description": "Label for user request in AI context"
+  },
+  "ai_welcome": {
+    "message": "வணக்கம்! நான் உங்கள் AI உதவியாளர். உங்கள் குறிப்புகளைச் சுருக்க, விரிவாக்க, மேம்படுத்த அல்லது மொழிபெயர்க்க நான் உதவ முடியும். நான் உங்களுக்கு என்ன உதவ வேண்டும்?",
+    "description": "Welcome message from AI assistant"
+  },
+  "ai_welcomePremiumUser": {
+    "message": "பிரீமியம் பயனரே வருக! உங்களிடம் வரம்பற்ற AI கோரிக்கைகள் உள்ளன.",
+    "description": "Welcome message for premium users"
+  },
+  "ai_welcomeUser": {
+    "message": "வருக! இன்று உங்களுக்கு {limit} AI கோரிக்கைகளில் {remaining} மீதமுள்ளன.",
+    "description": "Welcome message showing remaining AI requests"
+  },
+  "ai_workspace_analysisFailedDefault": {
+    "message": "AI பகுப்பாய்வு தோல்வியுற்றது",
+    "description": "Default error message when AI analysis fails"
+  },
+  "ai_workspace_analysisFailedRetry": {
+    "message": "AI பகுப்பாய்வு தோல்வியுற்றது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when AI analysis fails with retry prompt"
+  },
+  "ai_workspace_analysis_complete": {
+    "message": "பகுப்பாய்வு முடிந்தது!",
+    "description": "Message when analysis is finished"
+  },
+  "ai_workspace_analyzed_label": {
+    "message": "பகுப்பாய்வு செய்யப்பட்டது",
+    "description": "Label for analyzed count in AI workspace"
+  },
+  "ai_workspace_close": {
+    "message": "மூடு",
+    "description": "Close button for AI Workspace"
+  },
+  "ai_workspace_collection_analysis": {
+    "message": "தொகுப்பு பகுப்பாய்வு",
+    "description": "Title for collection analysis results"
+  },
+  "ai_workspace_createdNoteWithInsights": {
+    "message": "{count} குறிப்புகளிலிருந்து உள்ளுணர்வுகளுடன் புதிய குறிப்பு உருவாக்கப்பட்டது.",
+    "description": "Success message when AI workspace creates note"
+  },
+  "ai_workspace_error": {
+    "message": "தொகுப்பைச் செயலாக்குவதில் பிழை",
+    "description": "Error message for AI Workspace"
+  },
+  "ai_workspace_find_patterns": {
+    "message": "வடிவங்களைக் கண்டுபிடி",
+    "description": "Button to find patterns in collection"
+  },
+  "ai_workspace_generate_insights": {
+    "message": "உள்ளுணர்வுகளை உருவாக்கு",
+    "description": "Button to generate insights from collection"
+  },
+  "ai_workspace_input_placeholder": {
+    "message": "உங்கள் தொகுப்பு பற்றி எதையும் கேளுங்கள்...",
+    "description": "Placeholder text for AI Workspace input"
+  },
+  "ai_workspace_intro": {
+    "message": "AI பணியிடம் என்பது AI மாதிரிகளின் திறனை அதிகரிக்க வடிவமைக்கப்பட்ட ஒரு சக்திவாய்ந்த அம்சமாகும், இது தனிப்பட்ட குறிப்புகளுக்குப் பதிலாக முழு குறிப்புத் தொகுப்புகளையும் ஒரே நேரத்தில் பகுப்பாய்வு செய்து செயலாக்க உங்களை அனுமதிக்கிறது.",
+    "description": "Introduction text for AI Workspace"
+  },
+  "ai_workspace_no_notes": {
+    "message": "இந்தத் தொகுப்பில் பகுப்பாய்வு செய்ய குறிப்புகள் இல்லை",
+    "description": "Message when collection is empty"
+  },
+  "ai_workspace_notes_label": {
+    "message": "குறிப்பு(கள்)",
+    "description": "Label for notes count"
+  },
+  "ai_workspace_processing": {
+    "message": "செயலாக்கப்படுகிறது...",
+    "description": "Text shown while AI is processing in workspace"
+  },
+  "ai_workspace_prompt": {
+    "message": "இந்தக் குறிப்புகளுடன் AI என்ன செய்ய வேண்டும் என்று விரும்புகிறீர்கள்?\n\nஎடுத்துக்காட்டுகள்:\n- அனைத்து குறிப்புகளையும் சுருக்கு\n- முக்கிய தீம்கள் மற்றும் முக்கிய வார்த்தைகளைப் பிரித்தெடு\n- ஒரு முதன்மை செய்ய வேண்டிய பட்டியலை உருவாக்கு\n- இந்தக் குறிப்புகளிலிருந்து FAQ ஐ உருவாக்கு\n- தலைப்புகளுக்கு இடையேயான தொடர்புகளைக் கண்டுபிடி",
+    "description": "Prompt text for AI Workspace task input"
+  },
+  "ai_workspace_responseFailedRetry": {
+    "message": "AI பதில் தோல்வியுற்றது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when AI response fails"
+  },
+  "ai_workspace_send": {
+    "message": "அனுப்பு",
+    "description": "Send button for AI Workspace"
+  },
+  "ai_workspace_summarize_collection": {
+    "message": "தொகுப்பைச் சுருக்கு",
+    "description": "Button to summarize entire collection"
+  },
+  "ai_workspace_task_faq": {
+    "message": "இந்தக் குறிப்புகளிலிருந்து, அடிக்கடி கேட்கப்படும் கேள்விகள் மற்றும் பதில்களின் (FAQ) பட்டியலை உருவாக்கு. முக்கியமான தலைப்புகளை அடையாளம் கண்டு விரிவான பதில்களுடன் பொருத்தமான கேள்விகளை உருவாக்கு.",
+    "description": "Task description for FAQ action"
+  },
+  "ai_workspace_task_label": {
+    "message": "பணி",
+    "description": "Label for task in AI workspace analysis"
+  },
+  "ai_workspace_task_search": {
+    "message": "குறிப்புகளில் உள்ள தகவல்களுக்கு இடையேயான தொடர்புகளைக் கண்டுபிடித்து விளக்கவும். குறிப்புகளில் குறிப்பிடப்பட்டுள்ள வெவ்வேறு தலைப்புகளுக்கு இடையேயான இணைப்புகள், முரண்பாடுகள் அல்லது உறவுகளை அடையாளம் காணவும்.",
+    "description": "Task description for search action"
+  },
+  "ai_workspace_task_synthesis": {
+    "message": "இந்தத் தொகுப்பிலுள்ள அனைத்து குறிப்புகளிலிருந்தும் ஒரு விரிவான சுருக்கத்தை உருவாக்கு. மிக முக்கியமான புள்ளிகளை முன்னிலைப்படுத்தி ஒரு ஒற்றை, ஒத்திசைவான சுருக்கத்தை உருவாக்கு.",
+    "description": "Task description for synthesis action"
+  },
+  "ai_workspace_task_themes": {
+    "message": "இந்த ஆராய்ச்சி குறிப்புகளிலிருந்து 5 முக்கிய தீம்கள் மற்றும் தொடர்புடைய முக்கிய வார்த்தைகளை அடையாளம் காணவும். தீம்கள் மற்றும் தொடர்புடைய முக்கிய வார்த்தைகளுடன் ஒரு கட்டமைக்கப்பட்ட பட்டியலை உருவாக்கு.",
+    "description": "Task description for themes action"
+  },
+  "ai_workspace_task_todo": {
+    "message": "அனைத்து குறிப்புகளையும் ஸ்கேன் செய்து ஒரு விரிவான செய்ய வேண்டிய பட்டியலை உருவாக்கு. குறிப்புகளில் குறிப்பிடப்பட்டுள்ள அனைத்து 'செயல் உருப்படிகள்', பணிகள் அல்லது செய்ய வேண்டிய வேலைகளைக் கண்டுபிடித்து ஒரு கட்டமைக்கப்பட்ட சரிபார்ப்புப் பட்டியலை உருவாக்கு.",
+    "description": "Task description for todo action"
+  },
+  "ai_workspace_title": {
+    "message": "AI பணியிடம்",
+    "description": "Title for AI Workspace modal"
+  },
+  "ai_workspace_usage_limit": {
+    "message": "தினசரி பயன்பாட்டு வரம்பு எட்டப்பட்டது. வரம்பற்ற AI பணியிட அணுகலுக்கு பிரீமியத்திற்கு மேம்படுத்தவும்.",
+    "description": "Message when daily limit is reached"
+  },
+  "app_description": {
+    "message": "கண்ணாடிமார்பிசம் பாணியில் குறிப்புகளை உருவாக்கவும், நிர்வகிக்கவும் மற்றும் ஒத்திசைக்கவும்.",
+    "description": "The description of the application"
+  },
+  "app_name": {
+    "message": "Quick Notes",
+    "description": "Application name"
+  },
+  "background_categoryAbstract": {
+    "message": "சுருக்கம்",
+    "description": "Tab label for abstract backgrounds"
+  },
+  "background_categoryAll": {
+    "message": "அனைத்து",
+    "description": "Tab label for all backgrounds"
+  },
+  "background_categoryChristmas": {
+    "message": "கிறிஸ்துமஸ்",
+    "description": "Tab label for Christmas backgrounds"
+  },
+  "background_categoryGeometric": {
+    "message": "வடிவியல்",
+    "description": "Tab label for geometric backgrounds"
+  },
+  "background_categoryNature": {
+    "message": "இயற்கை",
+    "description": "Tab label for nature backgrounds"
+  },
+  "background_customName": {
+    "message": "தனிப்பயன்",
+    "description": "Prefix for custom background names"
+  },
+  "background_delete": {
+    "message": "நீக்கு",
+    "description": "Text for delete option in background context menu"
+  },
+  "background_none": {
+    "message": "இல்லை",
+    "description": "Text for no background option"
+  },
+  "background_setAsDefault": {
+    "message": "இயல்புநிலையாக அமை",
+    "description": "Text for set as default option in background context menu"
+  },
+  "background_upload": {
+    "message": "பதிவேற்று",
+    "description": "Text for background upload option"
+  },
+  "collections_addNoteHere": {
+    "message": "இங்கே குறிப்பைச் சேர்",
+    "description": "Button text to paste cut note to collection"
+  },
+  "collections_collection": {
+    "message": "தொகுப்பு",
+    "description": "Label for collection"
+  },
+  "collections_collectionCreated": {
+    "message": "உருவாக்கப்பட்டது",
+    "description": "Success message when collection is created"
+  },
+  "collections_collectionDeleted": {
+    "message": "நீக்கப்பட்டது",
+    "description": "Success message when collection is deleted"
+  },
+  "collections_collectionName": {
+    "message": "தொகுப்பின் பெயர்",
+    "description": "Label for collection name field"
+  },
+  "collections_collectionNamePlaceholder": {
+    "message": "தொகுப்பின் பெயரை உள்ளிடவும்...",
+    "description": "Placeholder text for collection name input"
+  },
+  "collections_collectionPinned": {
+    "message": "பின் செய்யப்பட்டது",
+    "description": "Success message when collection is pinned"
+  },
+  "collections_collectionTheme": {
+    "message": "தீம்",
+    "description": "Label for collection theme"
+  },
+  "collections_collectionUnpinned": {
+    "message": "அன்பின் செய்யப்பட்டது",
+    "description": "Success message when collection is unpinned"
+  },
+  "collections_collectionUpdated": {
+    "message": "புதுப்பிக்கப்பட்டது",
+    "description": "Success message when collection is updated"
+  },
+  "collections_create": {
+    "message": "உருவாக்கு",
+    "description": "Button text to create"
+  },
+  "collections_createCollection": {
+    "message": "தொகுப்பை உருவாக்கு",
+    "description": "Button text to create a new collection"
+  },
+  "collections_createNoteInCollection": {
+    "message": "தொகுப்பில் குறிப்பை உருவாக்கு",
+    "description": "Button text to create note in collection"
+  },
+  "collections_deleteCollection": {
+    "message": "தொகுப்பை நீக்கு",
+    "description": "Button text to delete collection"
+  },
+  "collections_editCollection": {
+    "message": "தொகுப்பைத் திருத்து",
+    "description": "Button text to edit collection"
+  },
+  "collections_emptyCollection": {
+    "message": "இந்தத் தொகுப்பு காலியாக உள்ளது",
+    "description": "Message shown when collection is empty"
+  },
+  "collections_enterCollectionName": {
+    "message": "தயவுசெய்து தொகுப்பின் பெயரை உள்ளிடவும்",
+    "description": "Error message when collection name is required"
+  },
+  "collections_errorCreatingNote": {
+    "message": "குறிப்பை உருவாக்குவதில் பிழை",
+    "description": "Error message when note creation fails"
+  },
+  "collections_errorCreatingUpdating": {
+    "message": "தொகுப்புப் பிழை",
+    "description": "Error message for collection creation/update failure"
+  },
+  "collections_errorDeleting": {
+    "message": "நீக்குதல் தோல்வியுற்றது",
+    "description": "Error message for collection deletion failure"
+  },
+  "collections_errorLoading": {
+    "message": "ஏற்றுதல் தோல்வியுற்றது",
+    "description": "Error message for collection loading failure"
+  },
+  "collections_errorMovingNote": {
+    "message": "நகர்த்துதல் தோல்வியுற்றது",
+    "description": "Error message for note moving failure"
+  },
+  "collections_errorTogglingPin": {
+    "message": "பின் செய்தல் தோல்வியுற்றது",
+    "description": "Error message for collection pin toggle failure"
+  },
+  "collections_errorUpdating": {
+    "message": "புதுப்பித்தல் தோல்வியுற்றது",
+    "description": "Error message for collection update failure"
+  },
+  "collections_limitReached": {
+    "message": "தொகுப்பு வரம்பு எட்டப்பட்டது",
+    "description": "Message when collection limit is reached"
+  },
+  "collections_moveToCollection": {
+    "message": "தொகுப்புக்கு நகர்த்து",
+    "description": "Button text to move note to collection"
+  },
+  "collections_noteCount": {
+    "message": "குறிப்புகள்",
+    "description": "Text for note count in collections"
+  },
+  "collections_noteCreated": {
+    "message": "தொகுப்பில் குறிப்பு உருவாக்கப்பட்டது",
+    "description": "Success message when note is created in collection"
+  },
+  "collections_notes": {
+    "message": "குறிப்புகள்",
+    "description": "Text for note count in collections"
+  },
+  "collections_notesMoved": {
+    "message": "குறிப்புகள் தொகுப்புக்கு நகர்த்தப்பட்டன",
+    "description": "Message when notes are moved to collection"
+  },
+  "collections_pinCollection": {
+    "message": "தொகுப்பைப் பின் செய்",
+    "description": "Button text to pin collection"
+  },
+  "collections_removeFromCollection": {
+    "message": "தொகுப்பிலிருந்து அகற்று",
+    "description": "Button text to remove item from collection"
+  },
+  "collections_save": {
+    "message": "சேமி",
+    "description": "Button text to save changes"
+  },
+  "collections_unpinCollection": {
+    "message": "தொகுப்பை அன்பின் செய்",
+    "description": "Button text to unpin collection"
+  },
+  "command_execute_action": {
+    "message": "விரைவுக் குறிப்புகளைத் திற",
+    "description": "Description for the execute action command"
+  },
+  "confirmations_cancel": {
+    "message": "ரத்துசெய்",
+    "description": "Cancel button text"
+  },
+  "confirmations_close": {
+    "message": "மூடு",
+    "description": "Text for close button"
+  },
+  "confirmations_continue": {
+    "message": "தொடர்க",
+    "description": "Continue button text"
+  },
+  "confirmations_deleteAllTrash": {
+    "message": "குப்பையிலுள்ள அனைத்து குறிப்புகளையும் நிரந்தரமாக நீக்கவா?",
+    "description": "Confirmation message for permanent trash deletion"
+  },
+  "confirmations_deleteCollectionPermanently": {
+    "message": "இந்தத் தொகுப்பை நிரந்தரமாக நீக்க விரும்புகிறீர்களா? இந்தச் செயலைச் செயல்தவிர்க்க முடியாது.",
+    "description": "Confirmation message for permanent collection deletion"
+  },
+  "confirmations_deleteNotePermanently": {
+    "message": "குறிப்பை நிரந்தரமாக நீக்கவா?",
+    "description": "Confirmation message for permanent note deletion"
+  },
+  "confirmations_overwriteData": {
+    "message": "இது தற்போதைய எல்லா தரவையும் மேலெழுதும். தொடரவா?",
+    "description": "Confirmation message for data overwrite"
+  },
+  "contextMenu_addToNote": {
+    "message": "விரைவுக் குறிப்பில் சேர்",
+    "description": "Context menu item to add selected text to note"
+  },
+  "dragDropCreateWindow": {
+    "message": "புதிய சாளரத்தை உருவாக்க கைவிடவும்",
+    "description": "Hint text when dragging tab to create new window"
+  },
+  "dragDropMergeHere": {
+    "message": "ஒன்றிணைக்க இங்கே தாவலைக் கைவிடவும்",
+    "description": "Hint text shown in target window when merging tabs"
+  },
+  "dragDropMergeWindow": {
+    "message": "சாளரங்களை ஒன்றிணைக்க கைவிடவும்",
+    "description": "Hint text when dragging tab to merge with another window"
+  },
+  "errors_aiChatFailed": {
+    "message": "AI அரட்டை தோல்வியுற்றது",
+    "description": "Error message when AI chat fails"
+  },
+  "errors_aiExpandFailed": {
+    "message": "AI விரிவாக்கம் தோல்வியுற்றது",
+    "description": "Error message when AI expand fails"
+  },
+  "errors_aiImproveFailed": {
+    "message": "AI மேம்படுத்துதல் தோல்வியுற்றது",
+    "description": "Error message when AI improve fails"
+  },
+  "errors_aiInitializeFailed": {
+    "message": "AI தொடங்குவதில் தோல்வி",
+    "description": "Error message when AI initialize fails"
+  },
+  "errors_aiMeetingNotesFailed": {
+    "message": "AI சந்திப்புக் குறிப்புகள் தோல்வியுற்றன",
+    "description": "Error message when AI meeting notes fails"
+  },
+  "errors_aiOutlineFailed": {
+    "message": "AI சுருக்கக்குறிப்பு தோல்வியுற்றது",
+    "description": "Error message when AI outline fails"
+  },
+  "errors_aiRequestFailed": {
+    "message": "AI கோரிக்கை தோல்வியடைந்தது",
+    "description": "Error message when AI request fails"
+  },
+  "errors_aiSetBackendUrlFailed": {
+    "message": "AI பின்தள URL ஐ அமைப்பதில் தோல்வி",
+    "description": "Error message when AI set backend URL fails"
+  },
+  "errors_aiSuggestionsFailed": {
+    "message": "AI பரிந்துரைகள் தோல்வியுற்றன",
+    "description": "Error message when AI suggestions fails"
+  },
+  "errors_aiSummarizeFailed": {
+    "message": "AI சுருக்குதல் தோல்வியுற்றது",
+    "description": "Error message when AI summarize fails"
+  },
+  "errors_aiToneFailed": {
+    "message": "AI தொனி தோல்வியுற்றது",
+    "description": "Error message when AI tone fails"
+  },
+  "errors_backendHealthCheckFailed": {
+    "message": "பின்தள சுகாதாரச் சோதனை தோல்வியுற்றது",
+    "description": "Error message when backend health check fails"
+  },
+  "errors_backendRequestFailed": {
+    "message": "பின்தள கோரிக்கை தோல்வியுற்றது",
+    "description": "Error message when backend request fails"
+  },
+  "errors_backendServerError": {
+    "message": "பின்தள சேவையகப் பிழை",
+    "description": "Error message for backend server errors"
+  },
+  "errors_clearAICacheFailed": {
+    "message": "AI தற்காலிகச் சேமிப்பை அழிப்பதில் தோல்வி",
+    "description": "Error message when clear AI cache fails"
+  },
+  "errors_errorCheckingAIUnlockStatus": {
+    "message": "AI திறப்பு நிலையைச் சரிபார்ப்பதில் பிழை",
+    "description": "Error message when checking AI unlock status fails"
+  },
+  "errors_errorFetchingUsageStats": {
+    "message": "பயன்பாட்டு புள்ளிவிவரங்களைப் பெறுவதில் பிழை",
+    "description": "Error message when fetching usage stats fails"
+  },
+  "errors_errorGettingUserEmail": {
+    "message": "சேவை ஊழியரில் பயனர் மின்னஞ்சலைப் பெறுவதில் பிழை",
+    "description": "Error message when getting user email fails"
+  },
+  "errors_failedToCreateNote": {
+    "message": "குறிப்பை உருவாக்க முடியவில்லை",
+    "description": "Error message when note creation fails"
+  },
+  "errors_failedToGenerateTitle": {
+    "message": "தலைப்பை உருவாக்குவதில் தோல்வி",
+    "description": "Error message when AI title generation fails"
+  },
+  "errors_failedToInitializeAIService": {
+    "message": "AI சேவையைத் தொடங்குவதில் தோல்வி",
+    "description": "Error message when AI service initialization fails"
+  },
+  "errors_genericError": {
+    "message": "ஒரு பிழை ஏற்பட்டது. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Generic error message for unknown errors"
+  },
+  "errors_getDailyUsageStatsFailed": {
+    "message": "தினசரி பயன்பாட்டு புள்ளிவிவரங்களைப் பெறுவதில் தோல்வி",
+    "description": "Error message when get daily usage stats fails"
+  },
+  "errors_googleDriveAPIError": {
+    "message": "Google Drive API பிழை",
+    "description": "Error message for Google Drive API errors"
+  },
+  "errors_invalidResponseFormat": {
+    "message": "தவறான பதில் வடிவம்",
+    "description": "Error message when response format is invalid"
+  },
+  "errors_noteEmpty": {
+    "message": "குறிப்பு காலியாக உள்ளது. இந்த அம்சத்தைப் பயன்படுத்தும் முன் உள்ளடக்கத்தைச் சேர்க்கவும்.",
+    "description": "Error message when note is empty for AI/share features"
+  },
+  "errors_noteNotFound": {
+    "message": "உள்ளூர் சேமிப்பகத்தில் குறிப்பு காணப்படவில்லை",
+    "description": "Error message when note is not found locally"
+  },
+  "errors_serverSelectorNotInitialized": {
+    "message": "சர்வர் தேர்வி துவக்கப்படவில்லை",
+    "description": "Error message when server selector is not initialized"
+  },
+  "errors_syncProcessFailed": {
+    "message": "ஒத்திசைவு செயல்முறை பிழையுடன் தோல்வியுற்றது",
+    "description": "Error message when sync process fails"
+  },
+  "errors_unlimitedRequestFailed": {
+    "message": "வரம்பற்ற கோரிக்கை தோல்வியுற்றது",
+    "description": "Error message when unlimited request fails"
+  },
+  "errors_userNotAuthenticated": {
+    "message": "பயனர் அங்கீகரிக்கப்படவில்லை",
+    "description": "Error message when user is not authenticated"
+  },
+  "export_completed": {
+    "message": "முடிந்தது!",
+    "description": "Title for export success modal"
+  },
+  "export_downloadSuccess": {
+    "message": "படம் வெற்றிகரமாக பதிவிறக்கப்பட்டது",
+    "description": "Message for export success modal"
+  },
+  "export_exportingImages": {
+    "message": "படங்கள் ஏற்றுமதி செய்யப்படுகின்றன...",
+    "description": "Title for export loading modal"
+  },
+  "export_pleaseWait": {
+    "message": "தயவுசெய்து ஒரு கணம் காத்திருக்கவும்",
+    "description": "Message for export loading modal"
+  },
+  "icons_hobby": {
+    "message": "பொழுதுபோக்கு",
+    "description": "Alt text for hobby icon"
+  },
+  "icons_ideas": {
+    "message": "யோசனைகள்",
+    "description": "Alt text for ideas icon"
+  },
+  "icons_personal": {
+    "message": "தனிப்பட்ட",
+    "description": "Alt text for personal icon"
+  },
+  "icons_study": {
+    "message": "படிப்பு",
+    "description": "Alt text for study icon"
+  },
+  "icons_travel": {
+    "message": "பயணம்",
+    "description": "Alt text for travel icon"
+  },
+  "icons_work": {
+    "message": "பணி",
+    "description": "Alt text for work icon"
+  },
+  "main_createNote": {
+    "message": "புதிய குறிப்பை உருவாக்கு",
+    "description": "Button text to create a new note"
+  },
+  "main_deleteNote": {
+    "message": "குறிப்பை நீக்கு",
+    "description": "Button text to delete a note"
+  },
+  "main_newNote": {
+    "message": "புதிய குறிப்பு",
+    "description": "Label for new note"
+  },
+  "main_noContent": {
+    "message": "கூடுதல் உள்ளடக்கம் இல்லை",
+    "description": "Text shown when there's no additional content"
+  },
+  "main_pinNote": {
+    "message": "குறிப்பைப் பின் செய்",
+    "description": "Button text to pin a note"
+  },
+  "main_searchPlaceholder": {
+    "message": "குறிப்புகளைத் தேடு...",
+    "description": "Placeholder text for search input"
+  },
+  "main_undoCut": {
+    "message": "நகர்த்தலைச் செயல்தவிர்",
+    "description": "Button text to undo cut note action"
+  },
+  "main_unpinNote": {
+    "message": "குறிப்பை அன்பின் செய்",
+    "description": "Button text to unpin a note"
+  },
+  "messages_allNotesRestored": {
+    "message": "மீட்டெடுக்கப்பட்டது",
+    "description": "Success message for restore all"
+  },
+  "messages_authError": {
+    "message": "அங்கீகாரப் பிழை",
+    "description": "Error message for authentication issues"
+  },
+  "messages_authErrorDetails": {
+    "message": "தயவுசெய்து வெளியேறி மீண்டும் உள்நுழைய முயற்சிக்கவும்.",
+    "description": "Details for authentication error"
+  },
+  "messages_authenticationFailed": {
+    "message": "அங்கீகாரம் தோல்வியுற்றது",
+    "description": "Error message for authentication failure"
+  },
+  "messages_backedUpToDrive": {
+    "message": "காப்புப் பிரதி எடுக்கப்பட்டது",
+    "description": "Message for backup to Drive"
+  },
+  "messages_backgroundPremiumOnly": {
+    "message": "இந்தப் பின்னணி பிரீமியம் பயனர்களுக்கு மட்டுமே கிடைக்கும். எல்லாப் பின்னணிகளையும் திறக்க தயவுசெய்து மேம்படுத்தவும்.",
+    "description": "Premium feature message for locked backgrounds"
+  },
+  "messages_backgroundUploadPremiumOnly": {
+    "message": "பின்னணி பதிவேற்ற அம்சம் பிரீமியம் பயனர்களுக்கு மட்டுமே கிடைக்கும். இந்த அம்சத்தைப் பயன்படுத்த தயவுசெய்து மேம்படுத்தவும்.",
+    "description": "Premium feature message for background upload"
+  },
+  "messages_cannotCreateShareLink": {
+    "message": "பகிர்தல் இணைப்பை உருவாக்க முடியவில்லை",
+    "description": "Error message when share link creation fails"
+  },
+  "messages_checkoutFailed": {
+    "message": "செக்அவுட் அமர்வை உருவாக்குவதில் தோல்வி. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when checkout creation fails"
+  },
+  "messages_connectingToGoogle": {
+    "message": "Google உடன் இணைக்கப்படுகிறது...",
+    "description": "Loading message when connecting to Google"
+  },
+  "messages_couldNotLoadEmail": {
+    "message": "மின்னஞ்சலை ஏற்ற முடியவில்லை.",
+    "description": "Error message when user email cannot be loaded"
+  },
+  "messages_dailyLimitReached": {
+    "message": "தினசரி வரம்பு எட்டப்பட்டது. நாளை மீண்டும் முயற்சிக்கவும் அல்லது மேம்படுத்தவும்.",
+    "description": "Warning message when daily share limit is reached"
+  },
+  "messages_defaultBackgroundSet": {
+    "message": "இயல்புநிலை பின்னணி அமைக்கப்பட்டது!",
+    "description": "Success message when default background is set"
+  },
+  "messages_done": {
+    "message": "முடிந்தது",
+    "description": "Generic success message"
+  },
+  "messages_errorReadingFile": {
+    "message": "வாசிப்புப் பிழை",
+    "description": "Error message for file reading failure"
+  },
+  "messages_exportedSuccessfully": {
+    "message": "ஏற்றுமதி செய்யப்பட்டது",
+    "description": "Success message for export"
+  },
+  "messages_failedToLoadTrash": {
+    "message": "குப்பையை ஏற்றுவதில் தோல்வி",
+    "description": "Error message when loading trash fails"
+  },
+  "messages_failedToLoadTrashError": {
+    "message": "குப்பையை ஏற்றுவதில் தோல்வி. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message shown in trash container when loading fails"
+  },
+  "messages_failedToMoveNote": {
+    "message": "குறிப்பை நகர்த்துவதில் தோல்வி",
+    "description": "Error message when moving note fails"
+  },
+  "messages_importedSuccessfully": {
+    "message": "இறக்குமதி செய்யப்பட்டது",
+    "description": "Success message for import"
+  },
+  "messages_invalidFileFormat": {
+    "message": "செல்லாத கோப்பு",
+    "description": "Error message for invalid file format"
+  },
+  "messages_loadingAccountInfo": {
+    "message": "கணக்குத் தகவல் ஏற்றப்படுகிறது...",
+    "description": "Loading message when fetching account info"
+  },
+  "messages_moveCancelled": {
+    "message": "நகர்த்துதல் ரத்து செய்யப்பட்டது",
+    "description": "Message when move operation is cancelled"
+  },
+  "messages_movedToCollection": {
+    "message": "தொகுப்புக்கு நகர்த்தப்பட்டது",
+    "description": "Success message when note is moved to collection"
+  },
+  "messages_networkError": {
+    "message": "நெட்வொர்க் இணைப்பு இல்லை",
+    "description": "Error message for network issues"
+  },
+  "messages_networkErrorDetails": {
+    "message": "தயவுசெய்து உங்கள் இணைய இணைப்பைச் சரிபார்த்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Details for network error"
+  },
+  "messages_noNotesInCollection": {
+    "message": "இந்தத் தொகுப்பில் குறிப்புகள் எதுவும் இல்லை",
+    "description": "Message when collection has no notes"
+  },
+  "messages_noteDeleted": {
+    "message": "நீக்கப்பட்டது",
+    "description": "Success message for note deletion"
+  },
+  "messages_noteMovedToCollection": {
+    "message": "நகர்த்தப்பட்டது",
+    "description": "Success message for note moved to collection"
+  },
+  "messages_noteNotFound": {
+    "message": "சர்வரில் குறிப்பு காணப்படவில்லை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when note is not found on server"
+  },
+  "messages_notePinned": {
+    "message": "பின் செய்யப்பட்டது",
+    "description": "Success message for note pinning"
+  },
+  "messages_noteUnpinned": {
+    "message": "அன்பின் செய்யப்பட்டது",
+    "description": "Success message for note unpinning"
+  },
+  "messages_notesUpToDate": {
+    "message": "புதுப்பித்த நிலையில் உள்ளது",
+    "description": "Message when notes are up to date"
+  },
+  "messages_paymentError": {
+    "message": "பணம் செலுத்துவதில் பிழை. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message for payment errors"
+  },
+  "messages_paymentVerificationError": {
+    "message": "பணம் செலுத்துதல் சரிபார்ப்புப் பிழை. தயவுசெய்து பக்கத்தைப் புதுப்பிக்கவும்.",
+    "description": "Error message when payment verification fails"
+  },
+  "messages_permissionDenied": {
+    "message": "அனுமதி மறுக்கப்பட்டது",
+    "description": "Error message when user denies permission"
+  },
+  "messages_permissionDeniedDetails": {
+    "message": "ஒத்திசைவு அம்சங்களைப் பயன்படுத்த, தயவுசெய்து பயன்பாட்டிற்கு அனுமதிகளை வழங்கவும்.",
+    "description": "Details for permission denied error"
+  },
+  "messages_restoredFromDrive": {
+    "message": "மீட்டெடுக்கப்பட்டது",
+    "description": "Message for restore from Drive"
+  },
+  "messages_selectAtLeastOneNote": {
+    "message": "AI பகுப்பாய்விற்கு குறைந்தபட்சம் ஒரு குறிப்பையாவது தேர்ந்தெடுக்கவும்",
+    "description": "Error message when no notes are selected for AI"
+  },
+  "messages_selectNotesFirst": {
+    "message": "தயவுசெய்து முதலில் குறிப்புகளைத் தேர்ந்தெடுக்கவும்",
+    "description": "Message when no notes are selected"
+  },
+  "messages_shareNotConfigured": {
+    "message": "பகிர்தல் கட்டமைக்கப்படவில்லை.",
+    "description": "Error message when share is not configured"
+  },
+  "messages_signInFailed": {
+    "message": "உள்நுழைதல் தோல்வியுற்றது",
+    "description": "Error message for sign in failure"
+  },
+  "messages_signInToShare": {
+    "message": "பகிர்வதற்கு உள்நுழைக",
+    "description": "Error message when user needs to sign in to share"
+  },
+  "messages_signInToUpload": {
+    "message": "பதிவேற்ற உள்நுழைக",
+    "description": "Error message when user needs to sign in to upload"
+  },
+  "messages_signedInSuccessfully": {
+    "message": "✓ வெற்றிகரமாக உள்நுழைந்துள்ளீர்கள்!",
+    "description": "Success message for sign in"
+  },
+  "messages_signedOut": {
+    "message": "வெளியேறிவிட்டீர்கள்",
+    "description": "Message for sign out"
+  },
+  "messages_syncFailed": {
+    "message": "ஒத்திசைவு தோல்வியுற்றது",
+    "description": "Error message for sync failure"
+  },
+  "messages_syncedFromDrive": {
+    "message": "ஒத்திசைக்கப்பட்டது",
+    "description": "Message for sync from Drive"
+  },
+  "messages_syncedToDrive": {
+    "message": "ஒத்திசைக்கப்பட்டது",
+    "description": "Message for sync to Drive"
+  },
+  "messages_syncingData": {
+    "message": "தரவு ஒத்திசைக்கப்படுகிறது...",
+    "description": "Loading message when syncing data"
+  },
+  "messages_syncingWithDrive": {
+    "message": "டிரைவ் உடன் ஒத்திசைக்கப்படுகிறது...",
+    "description": "Message shown when syncing with Google Drive"
+  },
+  "messages_trashEmptied": {
+    "message": "காலி செய்யப்பட்டது",
+    "description": "Success message for empty trash"
+  },
+  "messages_unableToOpenBilling": {
+    "message": "பில்லிங் நிர்வாகத்தைத் திறக்க முடியவில்லை. தயவுசெய்து பின்னர் மீண்டும் முயற்சிக்கவும்.",
+    "description": "Error message when opening billing portal fails"
+  },
+  "messages_verifyingPayment": {
+    "message": "பணம் செலுத்துதல் சரிபார்க்கப்படுகிறது...",
+    "description": "Message shown while verifying payment"
+  },
+  "multiSelect_bulkDelete": {
+    "message": "தேர்ந்தெடுத்தவற்றை நீக்கு",
+    "description": "Button text to delete selected items"
+  },
+  "multiSelect_bulkDeleteForever": {
+    "message": "நிரந்தரமாக நீக்கு",
+    "description": "Button text to permanently delete selected items"
+  },
+  "multiSelect_bulkRestore": {
+    "message": "தேர்ந்தெடுத்தவற்றை மீட்டெடு",
+    "description": "Button text to restore selected items"
+  },
+  "multiSelect_cancel": {
+    "message": "ரத்துசெய்",
+    "description": "Button text to cancel selection"
+  },
+  "multiSelect_confirmBulkDeleteForever": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட உருப்படிகளை நிரந்தரமாக நீக்கவா?",
+    "description": "Confirmation message for permanent bulk delete"
+  },
+  "multiSelect_confirmBulkRestore": {
+    "message": "தேர்ந்தெடுக்கப்பட்ட உருப்படிகளை மீட்டெடுக்கவா?",
+    "description": "Confirmation message for bulk restore"
+  },
+  "multiSelect_selectAll": {
+    "message": "அனைத்தையும் தேர்ந்தெடு",
+    "description": "Button text to select all items"
+  },
+  "multiSelect_selected": {
+    "message": "தேர்ந்தெடுக்கப்பட்டது",
+    "description": "Label for selected count"
+  },
+  "note_aiAssistant": {
+    "message": "AI உதவியாளர்",
+    "description": "AI assistant button text"
+  },
+  "note_aiInputPlaceholder": {
+    "message": "எதையும் கேளுங்கள்",
+    "description": "Placeholder text for AI input"
+  },
+  "note_aiToneMagic": {
+    "message": "AI தொனி மேஜிக்",
+    "description": "AI Tone Magic button tooltip"
+  },
+  "note_alignCenter": {
+    "message": "மையத்தில் சீரமை",
+    "description": "Align center button text"
+  },
+  "note_alignLeft": {
+    "message": "இடதுபுறம் சீரமை",
+    "description": "Align left button text"
+  },
+  "note_alignRight": {
+    "message": "வலதுபுறம் சீரமை",
+    "description": "Align right button text"
+  },
+  "note_background": {
+    "message": "பின்னணி",
+    "description": "Background button text"
+  },
+  "note_createNew": {
+    "message": "புதிய குறிப்பை உருவாக்கு",
+    "description": "Button text to create new note"
+  },
+  "note_defaultTitle": {
+    "message": "புதிய குறிப்பு",
+    "description": "Default title for new notes"
+  },
+  "note_deleteNote": {
+    "message": "குறிப்பை நீக்கு",
+    "description": "Delete note button text"
+  },
+  "note_download": {
+    "message": "படமாகப் பதிவிறக்கு",
+    "description": "Download as image button text"
+  },
+  "note_editorNotAvailable": {
+    "message": "எடிட்டர் கிடைக்கவில்லை",
+    "description": "Error message when editor is not available"
+  },
+  "note_enterLinkURL": {
+    "message": "இணைப்பு URL ஐ உள்ளிடவும்...",
+    "description": "Placeholder text for link URL input"
+  },
+  "note_enterVideoURL": {
+    "message": "காணொளி URL ஐ உள்ளிடவும்...",
+    "description": "Placeholder text for video URL input"
+  },
+  "note_errorApplyingFormatting": {
+    "message": "வடிவமைப்பைப் பயன்படுத்துவதில் பிழை",
+    "description": "Error message when formatting fails"
+  },
+  "note_heading1": {
+    "message": "தலைப்பு 1",
+    "description": "Heading 1 button text"
+  },
+  "note_heading2": {
+    "message": "தலைப்பு 2",
+    "description": "Heading 2 button text"
+  },
+  "note_insertButton": {
+    "message": "செருகு",
+    "description": "Text for insert button"
+  },
+  "note_insertImage": {
+    "message": "படத்தைச் செருகு",
+    "description": "Insert image button text"
+  },
+  "note_menu": {
+    "message": "மெனு",
+    "description": "Menu button text"
+  },
+  "note_ocrNotAvailable": {
+    "message": "CORS கட்டுப்பாடுகள் காரணமாக இந்தப் படத்திற்கு OCR கிடைக்கவில்லை.",
+    "description": "Info message when OCR is not available"
+  },
+  "note_removeFormat": {
+    "message": "வடிவமைப்பை அகற்று",
+    "description": "Remove formatting button text"
+  },
+  "note_share": {
+    "message": "பகிர்",
+    "description": "Share button text"
+  },
+  "note_smartColorsApplied": {
+    "message": "ஸ்மார்ட் நிறங்கள் பயன்படுத்தப்பட்டன!",
+    "description": "Success message when smart colors are applied"
+  },
+  "note_structureOptimized": {
+    "message": "அமைப்பு உகந்ததாக்கப்பட்டது!",
+    "description": "Success message when structure is optimized"
+  },
+  "note_viewAllNotes": {
+    "message": "அனைத்து குறிப்புகளையும் காண்க",
+    "description": "View all notes button text"
+  },
+  "notification_defaultContent": {
+    "message": "அறிவிப்பு உள்ளடக்கம்",
+    "description": "Default content for notification modal"
+  },
+  "payment_checkTimeout": {
+    "message": "பணம் செலுத்துதல் சரிபார்ப்பு காலாவதியானது. பணம் செலுத்துதல் முடிந்தால் தயவுசெய்து புதுப்பிக்கவும்.",
+    "description": "Message when payment check times out"
+  },
+  "payment_invalidPlan": {
+    "message": "செல்லாத திட்டம் தேர்ந்தெடுக்கப்பட்டது",
+    "description": "Error message when invalid plan is selected"
+  },
+  "payment_signInRequired": {
+    "message": "பணம் செலுத்த தொடர தயவுசெய்து உள்நுழைக",
+    "description": "Error message when user needs to sign in for payment"
+  },
+  "premium_accessAdvancedFeatures": {
+    "message": "மேம்பட்ட அம்சங்களுக்கான அணுகல்",
+    "description": "Premium feature: access to advanced features"
+  },
+  "premium_aiPremium": {
+    "message": "AI பிரீமியம்",
+    "description": "Alt text for AI premium icon"
+  },
+  "premium_backgroundPremium": {
+    "message": "பின்னணி பிரீமியம்",
+    "description": "Alt text for background premium icon"
+  },
+  "premium_collectionsPremium": {
+    "message": "தொகுப்புகள் பிரீமியம்",
+    "description": "Alt text for collections premium icon"
+  },
+  "premium_congratulations": {
+    "message": "🎉 வாழ்த்துக்கள்!",
+    "description": "Title for premium success modal"
+  },
+  "premium_contact_support": {
+    "message": "ஆதரவைத் தொடர்பு கொள்ளவும்",
+    "description": "Button text to contact support"
+  },
+  "premium_exclusiveBackgrounds": {
+    "message": "பிரத்யேக பின்னணிகள்",
+    "description": "Feature title for exclusive backgrounds"
+  },
+  "premium_exclusiveBackgroundsDesc": {
+    "message": "பிரீமியம் பின்னணிகளுக்கான அணுகல்",
+    "description": "Description for exclusive backgrounds feature"
+  },
+  "premium_exclusiveSupport": {
+    "message": "பிரத்தியேக ஆதரவு",
+    "description": "Feature title for exclusive support"
+  },
+  "premium_exclusiveSupportDesc": {
+    "message": "எங்கள் குழுவின் முன்னுரிமை ஆதரவு",
+    "description": "Description for exclusive support feature"
+  },
+  "premium_expires": {
+    "message": "காலாவதியாகிறது",
+    "description": "Label for expiration date"
+  },
+  "premium_manage_billing": {
+    "message": "பில்லிங்கை நிர்வகி",
+    "description": "Button text to manage billing"
+  },
+  "premium_next_billing": {
+    "message": "அடுத்த பில்லிங்",
+    "description": "Label for next billing date"
+  },
+  "premium_plan_annual": {
+    "message": "பிரீமியம் வருடாந்திரம்",
+    "description": "Text for annual plan"
+  },
+  "premium_plan_monthly": {
+    "message": "பிரீமியம் மாதாந்திரம்",
+    "description": "Text for monthly plan"
+  },
+  "premium_plan_trial": {
+    "message": "பிரீமியம் சோதனை",
+    "description": "Text for trial plan"
+  },
+  "premium_plan_type": {
+    "message": "திட்ட வகை",
+    "description": "Label for plan type"
+  },
+  "premium_prioritySupport": {
+    "message": "முன்னுரிமை ஆதரவு",
+    "description": "Premium feature: priority support"
+  },
+  "premium_shareNotes": {
+    "message": "குறிப்புகளைப் பகிர்",
+    "description": "Feature title for share notes"
+  },
+  "premium_shareNotesDesc": {
+    "message": "மற்றவர்களுடன் குறிப்புகளைப் பகிர்",
+    "description": "Description for share notes feature"
+  },
+  "premium_sharePremium": {
+    "message": "பகிர்வு பிரீமியம்",
+    "description": "Alt text for share premium icon"
+  },
+  "premium_startFreeTrial": {
+    "message": "இலவச சோதனையைத் தொடங்கு",
+    "description": "Button text to start free trial"
+  },
+  "premium_startUsing": {
+    "message": "பயன்படுத்தத் தொடங்கு",
+    "description": "Button text to start using premium features"
+  },
+  "premium_status": {
+    "message": "நிலை",
+    "description": "Label for status"
+  },
+  "premium_status_active": {
+    "message": "செயலில் உள்ளது",
+    "description": "Status text for active subscription"
+  },
+  "premium_status_cancelled": {
+    "message": "ரத்து செய்யப்பட்டது",
+    "description": "Status text for cancelled subscription"
+  },
+  "premium_status_expired": {
+    "message": "காலாவதியானது",
+    "description": "Status text for expired subscription"
+  },
+  "premium_status_inactive": {
+    "message": "செயலற்றது",
+    "description": "Status text for inactive subscription"
+  },
+  "premium_subscribeNow": {
+    "message": "இப்போது குழுசேர்",
+    "description": "Button text to subscribe to premium"
+  },
+  "premium_support": {
+    "message": "ஆதரவு",
+    "description": "Label for support section"
+  },
+  "premium_unlimitedAI": {
+    "message": "வரம்பற்ற AI",
+    "description": "Feature title for unlimited AI"
+  },
+  "premium_unlimitedAIChat": {
+    "message": "வரம்பற்ற AI அரட்டை",
+    "description": "Premium feature: unlimited AI chat"
+  },
+  "premium_unlimitedAIDesc": {
+    "message": "ஒரு நாளைக்கு வரம்பற்ற AI கோரிக்கைகள்",
+    "description": "Description for unlimited AI feature"
+  },
+  "premium_unlimitedCollections": {
+    "message": "வரம்பற்ற தொகுப்புகள்",
+    "description": "Feature title for unlimited collections"
+  },
+  "premium_unlimitedCollectionsDesc": {
+    "message": "வரம்பற்ற தொகுப்புகளை உருவாக்கு",
+    "description": "Description for unlimited collections feature"
+  },
+  "premium_unlockTitle": {
+    "message": "வரம்பற்ற AI ஐத் திற",
+    "description": "Title for premium unlock modal"
+  },
+  "premium_upgradedSuccessfully": {
+    "message": "நீங்கள் வெற்றிகரமாக பிரீமியத்திற்கு மேம்படுத்தியுள்ளீர்கள்",
+    "description": "Message for successful premium upgrade"
+  },
+  "search_noResults": {
+    "message": "முடிவுகள் எதுவும் கிடைக்கவில்லை",
+    "description": "Title shown when search returns no results"
+  },
+  "search_tryDifferentKeywords": {
+    "message": "வெவ்வேறு முக்கிய வார்த்தைகளுடன் தேட முயற்சிக்கவும் அல்லது ஒரு புதிய குறிப்பை உருவாக்கவும்",
+    "description": "Message shown when search returns no results"
+  },
+  "settings_aiUsage": {
+    "message": "AI பயன்பாடு",
+    "description": "AI Usage section title in settings"
+  },
+  "settings_aiUsageToday": {
+    "message": "இன்றைய AI பயன்பாடு",
+    "description": "AI usage label for today"
+  },
+  "settings_appearance": {
+    "message": "தோற்றம்",
+    "description": "Appearance settings section"
+  },
+  "settings_cloudSync": {
+    "message": "கிளவுட் ஒத்திசைவு",
+    "description": "Cloud sync section label"
+  },
+  "settings_configure": {
+    "message": "கட்டமைக்கவும்",
+    "description": "Configure button text"
+  },
+  "settings_dataManagement": {
+    "message": "தரவு மேலாண்மை",
+    "description": "Data management settings section"
+  },
+  "settings_defaultNoteSize": {
+    "message": "இயல்புநிலை குறிப்பு அளவு",
+    "description": "Default note size setting label"
+  },
+  "settings_export": {
+    "message": "ஏற்றுமதி",
+    "description": "Export button text"
+  },
+  "settings_exportData": {
+    "message": "தரவை ஏற்றுமதி செய்",
+    "description": "Export data button text"
+  },
+  "settings_import": {
+    "message": "இறக்குமதி",
+    "description": "Import button text"
+  },
+  "settings_importData": {
+    "message": "தரவை இறக்குமதி செய்",
+    "description": "Import data button text"
+  },
+  "settings_noteSizeInvalid": {
+    "message": "தவறான அளவு. அகலம்: 400-1920, உயரம்: 400-1080",
+    "description": "Error message for invalid note size"
+  },
+  "settings_noteSizeModal_cancel": {
+    "message": "ரத்து செய்",
+    "description": "Cancel button text"
+  },
+  "settings_noteSizeModal_height": {
+    "message": "உயரம்",
+    "description": "Height label"
+  },
+  "settings_noteSizeModal_reset": {
+    "message": "இயல்புநிலைக்கு மீட்டமைக்கவும்",
+    "description": "Reset to default button text"
+  },
+  "settings_noteSizeModal_save": {
+    "message": "சேமிக்கவும்",
+    "description": "Save button text"
+  },
+  "settings_noteSizeModal_saved": {
+    "message": "இயல்பு அளவு சேமிக்கப்பட்டது",
+    "description": "Success message when note size is saved"
+  },
+  "settings_noteSizeModal_title": {
+    "message": "இயல்புநிலை குறிப்பு அளவு",
+    "description": "Note size modal title"
+  },
+  "settings_noteSizeModal_width": {
+    "message": "அகலம்",
+    "description": "Width label"
+  },
+  "settings_open": {
+    "message": "திற",
+    "description": "Open button text"
+  },
+  "settings_signInRequired": {
+    "message": "உள்நுழைவு தேவை",
+    "description": "Text shown when sign in is required"
+  },
+  "settings_signInWithGoogle": {
+    "message": "Google மூலம் உள்நுழைக",
+    "description": "Google sign in button text"
+  },
+  "settings_signOut": {
+    "message": "வெளியேறு",
+    "description": "Sign out button text"
+  },
+  "settings_signedInWith": {
+    "message": "கொண்டு உள்நுழைந்துள்ளீர்கள்",
+    "description": "Text showing signed in status"
+  },
+  "settings_sync": {
+    "message": "ஒத்திசை",
+    "description": "Sync button text"
+  },
+  "settings_theme": {
+    "message": "தீம்",
+    "description": "Theme setting label"
+  },
+  "settings_title": {
+    "message": "அமைப்புகள்",
+    "description": "Settings page title"
+  },
+  "settings_trash": {
+    "message": "குப்பை",
+    "description": "Trash section label"
+  },
+  "settings_unlimited": {
+    "message": "வரம்பற்ற",
+    "description": "Text shown for unlimited usage in premium accounts"
+  },
+  "settings_unlockAI": {
+    "message": "பிரீமியம் பெறு",
+    "description": "Get Premium button text"
+  },
+  "settings_unlockAIText": {
+    "message": "AI ஐத் திற",
+    "description": "Unlock AI text label"
+  },
+  "settings_userAvatar": {
+    "message": "பயனர் அவதாரம்",
+    "description": "Alt text for user avatar image"
+  },
+  "share_copied": {
+    "message": "நகலெடுக்கப்பட்டது",
+    "description": "Text shown when content is copied"
+  },
+  "share_copy": {
+    "message": "நகலெடு",
+    "description": "Text for copy button in share modal"
+  },
+  "share_creatingLink": {
+    "message": "பகிர்தல் இணைப்பு உருவாக்கப்படுகிறது...",
+    "description": "Text for share loading overlay"
+  },
+  "share_defaultTitle": {
+    "message": "விரைவுக் குறிப்புகளிலிருந்து இந்தக் குறிப்பைப் பாருங்கள்",
+    "description": "Default title for shared notes"
+  },
+  "share_facebook": {
+    "message": "Facebook இல் பகிரவும்",
+    "description": "Title for Facebook share button"
+  },
+  "share_linkedin": {
+    "message": "LinkedIn இல் பகிரவும்",
+    "description": "Title for LinkedIn share button"
+  },
+  "share_reddit": {
+    "message": "Reddit இல் பகிரவும்",
+    "description": "Title for Reddit share button"
+  },
+  "share_twitter": {
+    "message": "X (Twitter) இல் பகிரவும்",
+    "description": "Title for Twitter share button"
+  },
+  "share_whatsapp": {
+    "message": "WhatsApp இல் பகிரவும்",
+    "description": "Title for WhatsApp share button"
+  },
+  "sync_noteFailed": {
+    "message": "குறிப்பை சர்வரில் ஒத்திசைப்பதில் தோல்வி",
+    "description": "Error message when note sync to server fails"
+  },
+  "themes_hobby": {
+    "message": "பொழுதுபோக்கு",
+    "description": "Hobby theme name"
+  },
+  "themes_ideas": {
+    "message": "யோசனைகள்",
+    "description": "Ideas theme name"
+  },
+  "themes_personal": {
+    "message": "தனிப்பட்ட",
+    "description": "Personal theme name"
+  },
+  "themes_study": {
+    "message": "படிப்பு",
+    "description": "Study theme name"
+  },
+  "themes_travel": {
+    "message": "பயணம்",
+    "description": "Travel theme name"
+  },
+  "themes_work": {
+    "message": "பணி",
+    "description": "Work theme name"
+  },
+  "toast_addedToNewNote": {
+    "message": "✅ புதிய குறிப்பில் சேர்க்கப்பட்டது",
+    "description": "Success message when content is added to new note"
+  },
+  "toast_aiResponseFailed": {
+    "message": "AI தோல்வியுற்றது",
+    "description": "Toast message when AI response fails"
+  },
+  "toast_backgroundSetFailed": {
+    "message": "பின்னணி தோல்வியுற்றது",
+    "description": "Toast message when background setting fails"
+  },
+  "toast_cannotDeleteDefault": {
+    "message": "நீக்க முடியாது",
+    "description": "Toast message when cannot delete default item"
+  },
+  "toast_copiedToClipboard": {
+    "message": "✅ கிளிப்போர்டுக்கு நகலெடுக்கப்பட்டது",
+    "description": "Success message when content is copied to clipboard"
+  },
+  "toast_copyFailed": {
+    "message": "இணைப்பை நகலெடுப்பதில் தோல்வி. தயவுசெய்து மீண்டும் முயற்சிக்கவும்.",
+    "description": "Toast message when copy operation fails"
+  },
+  "toast_exportFailed": {
+    "message": "ஏற்றுமதி தோல்வியுற்றது",
+    "description": "Toast message when export fails"
+  },
+  "toast_failed": {
+    "message": "தோல்வியுற்றது",
+    "description": "Generic failure toast message"
+  },
+  "toast_failedToAddToNote": {
+    "message": "❌ குறிப்பில் சேர்க்க முடியவில்லை",
+    "description": "Error message when adding to note fails"
+  },
+  "toast_failedToCopy": {
+    "message": "❌ நகலெடுக்க முடியவில்லை",
+    "description": "Error message when copy operation fails"
+  },
+  "toast_imageFileRequired": {
+    "message": "படக் கோப்பு தேவை",
+    "description": "Toast message when image file is required"
+  },
+  "toast_imageTooLarge": {
+    "message": "படம் மிகப் பெரியது",
+    "description": "Toast message when image file is too large"
+  },
+  "toast_libraryError": {
+    "message": "நூலகப் பிழை",
+    "description": "Toast message for library errors"
+  },
+  "toast_libraryNotLoaded": {
+    "message": "நூலகம் ஏற்றப்படுகிறது",
+    "description": "Toast message when library is not loaded"
+  },
+  "toast_moveFailed": {
+    "message": "நகர்த்துதல் தோல்வியுற்றது",
+    "description": "Toast message when move operation fails"
+  },
+  "toast_moved": {
+    "message": "நகர்த்தப்பட்டது",
+    "description": "Success message when item is moved"
+  },
+  "toast_noSelection": {
+    "message": "தேர்வு இல்லை",
+    "description": "Toast message when no items are selected"
+  },
+  "toast_operationFailed": {
+    "message": "செயல்பாடு தோல்வியுற்றது",
+    "description": "Toast message for general operation failures"
+  },
+  "toast_restartExtension": {
+    "message": "இடத்தை খালি செய்ய தயவுசெய்து நீட்டிப்பை மறுதொடக்கம் செய்யவும்.",
+    "description": "Toast message asking user to restart extension"
+  },
+  "toast_storageError": {
+    "message": "சேமிப்பகப் பிழை. தயவுசெய்து நீட்டிப்பை மறுதொடக்கம் செய்யவும்.",
+    "description": "Toast message for storage errors"
+  },
+  "toast_storageFullCleaning": {
+    "message": "சேமிப்பகம் நிரம்பியுள்ளது, தற்காலிகச் சேமிப்பை சுத்தம் செய்கிறது...",
+    "description": "Toast message when storage is full and cleaning cache"
+  },
+  "toolbar_aiAssistant": {
+    "message": "AI உதவியாளர்",
+    "description": "Alt text for AI Assistant icon"
+  },
+  "toolbar_alignCenterIcon": {
+    "message": "மையத்தில் சீரமை",
+    "description": "Alt text for Align Center icon"
+  },
+  "toolbar_alignLeftIcon": {
+    "message": "இடதுபுறம் சீரமை",
+    "description": "Alt text for Align Left icon"
+  },
+  "toolbar_alignRightIcon": {
+    "message": "வலதுபுறம் சீரமை",
+    "description": "Alt text for Align Right icon"
+  },
+  "toolbar_backgroundColor": {
+    "message": "பின்னணி நிறம்",
+    "description": "Title for background color button in toolbar"
+  },
+  "toolbar_backgroundColorIcon": {
+    "message": "பின்னணி நிறம்",
+    "description": "Alt text for background color icon"
+  },
+  "toolbar_blockquote": {
+    "message": "மேற்கோள் தொகுதி",
+    "description": "Title for blockquote button in toolbar"
+  },
+  "toolbar_blockquoteIcon": {
+    "message": "மேற்கோள் தொகுதி",
+    "description": "Alt text for blockquote icon"
+  },
+  "toolbar_bold": {
+    "message": "தடிமன்",
+    "description": "Title for bold button in toolbar"
+  },
+  "toolbar_boldIcon": {
+    "message": "தடிமன்",
+    "description": "Alt text for Bold icon"
+  },
+  "toolbar_bulletList": {
+    "message": "புல்லட் பட்டியல்",
+    "description": "Title for bullet list button in toolbar"
+  },
+  "toolbar_bulletListIcon": {
+    "message": "புல்லட் பட்டியல்",
+    "description": "Alt text for Bullet List icon"
+  },
+  "toolbar_checklist": {
+    "message": "சரிபார்ப்புப் பட்டியல்",
+    "description": "Title for checklist button in toolbar"
+  },
+  "toolbar_codeBlock": {
+    "message": "குறியீட்டுத் தொகுதி",
+    "description": "Title for code block button in toolbar"
+  },
+  "toolbar_codeBlockIcon": {
+    "message": "குறியீட்டுத் தொகுதி",
+    "description": "Alt text for code block icon"
+  },
+  "toolbar_fontSize": {
+    "message": "எழுத்துரு அளவு",
+    "description": "Title for font size button in toolbar"
+  },
+  "toolbar_fontSizeIcon": {
+    "message": "எழுத்துரு அளவு",
+    "description": "Alt text for font size icon"
+  },
+  "toolbar_heading3": {
+    "message": "தலைப்பு 3",
+    "description": "Title for heading 3 button in toolbar"
+  },
+  "toolbar_heading3Icon": {
+    "message": "தலைப்பு 3",
+    "description": "Alt text for heading 3 icon"
+  },
+  "toolbar_insertImageIcon": {
+    "message": "படத்தைச் செருகு",
+    "description": "Alt text for Insert Image icon"
+  },
+  "toolbar_insertLink": {
+    "message": "இணைப்பைச் செருகு",
+    "description": "Title for insert link button in toolbar"
+  },
+  "toolbar_insertLinkIcon": {
+    "message": "இணைப்பைச் செருகு",
+    "description": "Alt text for insert link icon"
+  },
+  "toolbar_insertVideo": {
+    "message": "காணொளியைச் செருகு",
+    "description": "Title for insert video button in toolbar"
+  },
+  "toolbar_insertVideoIcon": {
+    "message": "காணொளியைச் செருகு",
+    "description": "Alt text for insert video icon"
+  },
+  "toolbar_italic": {
+    "message": "சாய்வு",
+    "description": "Title for italic button in toolbar"
+  },
+  "toolbar_italicIcon": {
+    "message": "சாய்வு",
+    "description": "Alt text for Italic icon"
+  },
+  "toolbar_justify": {
+    "message": "இருபுறமும் சீரமை",
+    "description": "Title for justify text button in toolbar"
+  },
+  "toolbar_justifyIcon": {
+    "message": "இருபுறமும் சீரமை",
+    "description": "Alt text for justify icon"
+  },
+  "toolbar_numberedListIcon": {
+    "message": "எண்ணிடப்பட்ட பட்டியல்",
+    "description": "Alt text for Numbered List icon"
+  },
+  "toolbar_orderedList": {
+    "message": "எண்ணிடப்பட்ட பட்டியல்",
+    "description": "Title for ordered list button in toolbar"
+  },
+  "toolbar_removeFormatIcon": {
+    "message": "வடிவமைப்பை அகற்று",
+    "description": "Alt text for Remove Format icon"
+  },
+  "toolbar_strikethrough": {
+    "message": "அடித்துவிடு",
+    "description": "Title for strikethrough button in toolbar"
+  },
+  "toolbar_strikethroughIcon": {
+    "message": "அடித்துவிடு",
+    "description": "Alt text for Strikethrough icon"
+  },
+  "toolbar_textColor": {
+    "message": "உரை நிறம்",
+    "description": "Title for text color button in toolbar"
+  },
+  "toolbar_textColorIcon": {
+    "message": "உரை நிறம்",
+    "description": "Alt text for text color icon"
+  },
+  "toolbar_underline": {
+    "message": "அடிக்கோடு",
+    "description": "Title for underline button in toolbar"
+  },
+  "toolbar_underlineIcon": {
+    "message": "அடிக்கோடு",
+    "description": "Alt text for Underline icon"
+  },
+  "trash_deleteForever": {
+    "message": "நிரந்தரமாக நீக்கு",
+    "description": "Button text to permanently delete item"
+  },
+  "trash_empty": {
+    "message": "குப்பை காலியாக உள்ளது.",
+    "description": "Message when trash is empty"
+  },
+  "trash_emptyTrash": {
+    "message": "குப்பையை காலிசெய்",
+    "description": "Button text to empty trash"
+  },
+  "trash_restore": {
+    "message": "மீட்டெடு",
+    "description": "Button text to restore item"
+  },
+  "trash_restoreAll": {
+    "message": "அனைத்தையும் மீட்டெடு",
+    "description": "Button text to restore all items"
+  },
+  "trash_title": {
+    "message": "குப்பை",
+    "description": "Trash page title"
+  },
+  "welcome_collection_description": {
+    "message": "புதிய பயனர்களுக்கான வரவேற்புத் தொகுப்பு",
+    "description": "Description of the default welcome collection"
+  },
+  "welcome_collection_name": {
+    "message": "வரவேற்பு",
+    "description": "Name of the default welcome collection"
+  },
+  "welcome_note_ai_content": {
+    "message": "• புதிய குறிப்பை உருவாக்க <strong>+</strong> பொத்தானைக் கிளிக் செய்யவும்<br>• உள்ளடக்கத்தைச் சுருக்க, மொழிபெயர்க்க அல்லது மேம்படுத்த AI ஐப் பயன்படுத்தவும்<br>• உங்கள் குறிப்புகளை ஒழுங்கமைக்கவும் மேம்படுத்தவும் AI உதவ முடியும்",
+    "description": "AI usage instructions in welcome note"
+  },
+  "welcome_note_ai_title": {
+    "message": "✨ AI ஐப் பயன்படுத்துவது எப்படி",
+    "description": "AI usage section title in welcome note"
+  },
+  "welcome_note_collections_content": {
+    "message": "• ஒரு தொகுப்பை உருவாக்க காலி இடத்தில் வலது கிளிக் செய்யவும்<br>• குறிப்புகளை ஒழுங்கமைக்க தொகுப்புகளில் இழுத்து விடவும்<br>• ஒவ்வொரு தொகுப்பிற்கும் அதன் சொந்த தீம் இருக்கலாம் (பணி, தனிப்பட்ட, யோசனைகள்...)",
+    "description": "Collections usage instructions in welcome note"
+  },
+  "welcome_note_collections_title": {
+    "message": "📂 தொகுப்புகளை உருவாக்குவது எப்படி",
+    "description": "Collections section title in welcome note"
+  },
+  "welcome_note_footer": {
+    "message": "விரைவுக் குறிப்புகளைப் பயன்படுத்தி மகிழுங்கள்! 🎉",
+    "description": "Footer message in welcome note"
+  },
+  "welcome_note_intro": {
+    "message": "இது உங்கள் முதல் குறிப்பு. விரைவுக் குறிப்புகள் விரைவாகவும் திறமையாகவும் குறிப்புகளை எடுக்க உதவுகின்றன.",
+    "description": "Introduction text in welcome note"
+  },
+  "welcome_note_tips_content": {
+    "message": "• குறிப்புகளை வகைப்படுத்த வண்ணங்களைப் பயன்படுத்தவும்<br>• முக்கியமான குறிப்புகளை பட்டியலின் மேலே பின் செய்யவும்<br>• மேலே உள்ள தேடல் பட்டியில் விரைவாகத் தேடவும்<br>• பாதுகாப்பான காப்புப் பிரதிக்கு Google Drive உடன் ஒத்திசைக்கவும்",
+    "description": "Usage tips in welcome note"
+  },
+  "welcome_note_tips_title": {
+    "message": "💡 பயன்பாட்டுக் குறிப்புகள்",
+    "description": "Tips section title in welcome note"
+  },
+  "welcome_note_title": {
+    "message": "விரைவுக் குறிப்புகளுக்கு வரவேற்கிறோம்! 👋",
+    "description": "Title of the welcome note"
+  }
+}
